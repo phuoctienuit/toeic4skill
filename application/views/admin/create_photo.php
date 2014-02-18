@@ -171,7 +171,7 @@
       <table>
         <tbody><tr>
           <td align="center"><a href=""><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="add" width="18" height="17" border="0"></a></td>
-          <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_photo">Photo</a></td> <!--// Add article -->
+          <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_qr">Photo</a></td> <!--// Add article -->
         </tr>
           <tr>
             <td width="18" align="center"><a href=""><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
@@ -179,28 +179,25 @@
         </tr>
           <tr>
             <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
-            <td class="navigation"><a href="#">Short conversation</a></td>
+            <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_short_con">Short conversation</a></td>
         </tr>
           <tr>
             <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
-            <td class="navigation"><a href="#">Short Talk</a></td>
+            <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_short_talk">Short Talk</a></td>
           </tr>
           <tr>
             <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
-            <td class="navigation"><a href="#">Incom Sentences</a></td>
+            <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_incom">Incom Sentences</a></td>
           </tr>
           <tr>
             <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
-            <td class="navigation"><a href="#">Text Complextion</a></td>
+            <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_text_com">Text Complextion</a></td>
           </tr>
           <tr>
             <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
-            <td class="navigation"><a href="#">Single Passage</a></td>
+            <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_reading_compre">Reading Comprehen</a></td>
           </tr>
-          <tr>
-            <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
-            <td class="navigation"><a href="#">Double Passage</a></td> <!--// ...Article #7 -->
-          </tr>
+          
         </tbody></table>
       <br>
     </div>
@@ -220,20 +217,27 @@
 
 <div id="content"> 
  
-	<div id="upload_form">
-		<form action="<?php echo base_url("index.php/admin/upload_file"); ?>" method="post" enctype="multipart/form-data">
-			<select name="level" id="level">
-			<option value="500">500</option>
-			<option value="750">750</option>
-			<option value="900">700</option>
-			</select></br>
-			<div class="file_lable">
-			<label for="file">Filename:</label>
-			<input type="file" name="file[]" id="file" multiple="" ><br>
-			</div>
-			<input type="submit" name="submit" value="Submit" class="submit_file">
-		</form>
-	</div>
+  <div class="title_photo">
+      <p>ADD FILE XML <b>PHOTO, PICTURE AND MP3</b></p>
+
+  </div>
+  <div id="upload_form">
+    <form action="<?php echo base_url("index.php/admin/upload_file_photo"); ?>" method="post" enctype="multipart/form-data">
+      <select name="level" id="level">
+      <option value="500">500</option>
+      <option value="750">750</option>
+      <option value="900">900</option>
+      </select></br>
+      <div class="file_lable">
+      <label for="file">Filename:</label>
+      <input type="file" name="file[]" id="file" multiple="" ><br>
+      </div>
+      <input type="submit" name="submit" value="Submit" class="submit_file">
+    </form>
+  </div>
+  
+  
+ 
 
     
 </div>

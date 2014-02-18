@@ -26,14 +26,18 @@
 <!--// Logo edit starts -->
 
 <div id="logo">
-  <div id="logo_title">TOEIC 4 SKILL</div>
+  <div align="center"><br>
+
+    <img src="http://localhost/toeic4skill/application/template/image/logo.png" alt="logo" width="136" height="30"><br>
+
+  </div>
 </div>
 
 <!--// logo edit ends -->
 <!--// Arrows edit starts -->
 
 <div id="arrows"></div>
-<div class="bodytext" id="hello">Hello <a href="#">Admin</a>, <img src="http://localhost/toeic4skill/application/template/image/user.png" alt="user_icon" width="22" height="25" border="0"><br>
+<div class="bodytext" id="hello">Hello <a href="#">Administrator</a>, <img src="http://localhost/toeic4skill/application/template/image/user.png" alt="user_icon" width="22" height="25" border="0"><br>
 </div>
 
 <!--// arrows edit ends -->
@@ -44,7 +48,7 @@
     <div id="visitsite_icon"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/thongke.jpg" alt="big_visitsite" width="30" height="25" border="0"></a></div>
     <br>
     <br>
-      <a href="#"><span class="toplinks">THỐNG KÊ</span></a></div>
+      <a href="#"><span class="toplinks">STATISTIC</span></a></div>
 </div>
 
 <!--// Visit site edit ends -->
@@ -56,7 +60,7 @@
     <div id="users_icon"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/big_users.png" alt="big_users" width="24" height="26" border="0"></a></div>
 <span class="toplinks"><br>
       <br>
-      <a href="#"><span class="toplinks">NGƯỜI DÙNG</span></a></span></div>
+      <a href="#"><span class="toplinks">USERS</span></a></span></div>
   <br>
 </div>
 
@@ -69,7 +73,7 @@
     <div id="settings_icon"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/big_settings.png" alt="big_settings" width="25" height="26" border="0"></a></div>
       <span class="toplinks"><br>
       <br>
-      <a href="#"><span class="toplinks">CÀI ĐẶT</span></a></span><br>
+      <a href="#"><span class="toplinks">SETTINGS</span></a></span><br>
   </div>
 </div>
 
@@ -81,7 +85,7 @@
     <div id="logout_icon"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/big_logout.png" alt="big_logout" width="25" height="25" border="0"></a></div>
 <span class="toplinks"><br>
       <br>
-      <a href="#"><span class="toplinks">THOÁT</span></a></span><br>
+      <a href="#"><span class="toplinks">LOG OUT</span></a></span><br>
   </div>
 </div>
 
@@ -91,7 +95,7 @@
 
 <div class="bodytext" id="dropdown">
 <ul id="jsddm">
-  <li><a href="">QUẢN LÝ</a><ul style="visibility: hidden;">
+  <li><a href="">Manage your website</a><ul style="visibility: hidden;">
     <li><a href="#">» Write a new Article</a></li>
     <li><a href="#">» Upload Pictures</a></li>
     <li><a href="#">» Add new events to Calendar</a></li>
@@ -117,7 +121,7 @@
       <table width="158" border="0">
         <tbody><tr>
           <td width="18" align="center"><img src="http://localhost/toeic4skill/application/template/image/eye.png" alt="dashboard" width="16" height="13"></td>
-          <td width="130" class="navigation"><a href="<?php echo base_url()?>index.php/admin/list_file_photo">Photo</a></td> <!--// Dashboard -->
+          <td width="130" class="navigation"><a href="#">Photo</a></td> <!--// Dashboard -->
         </tr>
         <tr>
           <td align="center"><img src="http://localhost/toeic4skill/application/template/image/eye.png" alt="articles" width="16" height="13"></td>
@@ -167,7 +171,7 @@
       <table>
         <tbody><tr>
           <td align="center"><a href=""><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="add" width="18" height="17" border="0"></a></td>
-          <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_photo">Photo</a></td> <!--// Add article -->
+          <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_qr">Photo</a></td> <!--// Add article -->
         </tr>
           <tr>
             <td width="18" align="center"><a href=""><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
@@ -213,7 +217,25 @@
 
 <div id="content"> 
  
- <p style="color:orange " align="center" >CHÀO MỪNG BẠN ĐẾN VỚI QUẢN TRỊ WEBSITE TOEIC4SKILL</p>
+  <div class="title_photo">
+      <p>ADD FILE XML <b>QR AND MP3</b></p>
+
+  </div>
+  <div id="upload_form">
+    <form action="<?php echo base_url("index.php/admin/upload_file_qr"); ?>" method="post" enctype="multipart/form-data">
+      <select name="level" id="level">
+      <option value="500">500</option>
+      <option value="750">750</option>
+      <option value="900">900</option>
+      </select></br>
+      <div class="file_lable">
+      <label for="file">Filename:</label>
+      <input type="file" name="file[]" id="file" multiple="" ><br>
+      </div>
+      <input type="submit" name="submit" value="Submit" class="submit_file">
+    </form>
+  </div>
+  
   
  
 
@@ -228,7 +250,7 @@
 
 <div id="searchbox">
   <label>
-  <input name="serach" type="text" class="search" id="search" onfocus="if (value='Tìm kiếm') {value=''}" onblur="if (value=='') {value='Tìm kiếm'}" value="Tìm kiếm" size="30" maxlength="50">
+  <input name="serach" type="text" class="search" id="search" onfocus="if (value='Search') {value=''}" onblur="if (value=='') {value='Search'}" value="Search" size="30" maxlength="50">
   </label>
 </div>
 
