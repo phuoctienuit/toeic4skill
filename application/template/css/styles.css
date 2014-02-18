@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {  /* Body and background image DIV */
-	background-image: url(http://localhost/TOEIC/application/template/image/bg_slice.jpg);
+	background-image: url(http://localhost/toeic4skill/application/template/image/bg_slice.jpg);
 	background-repeat: repeat-x;
 }
 
@@ -19,7 +19,7 @@ body {  /* Body and background image DIV */
 	width:226px;
 	height:69px;
 	z-index:1;
-	background-image: url(http://localhost/TOEIC/application/template/image/logo_bg.jpg);
+	background-image: url(http://localhost/toeic4skill/application/template/image/logo_bg.jpg);
 	top: 0px;
 	left: 0px;
 }
@@ -31,7 +31,7 @@ body {  /* Body and background image DIV */
 	z-index:2;
 	left: 226px;
 	top: 0px;
-	background-image: url(http://localhost/TOEIC/application/template/image/arrows.jpg);
+	background-image: url(http://localhost/toeic4skill/application/template/image/arrows.jpg);
 }
 
 #hello {  /* Hello (user) DIV */
