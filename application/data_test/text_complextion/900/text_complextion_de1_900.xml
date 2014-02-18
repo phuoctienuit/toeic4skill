@@ -1,0 +1,163 @@
+<!-- 3 group * 4 cau =12-->
+<text_complextion>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+	From: Jonathan Wong<br/>
+Sent: Monday, October 27, 2007<br/>
+To: John Devereux; Steve Tracey<br/>
+CC: Alfredo Chen<br/>
+Subject: Visit to Global Logistic<br/><br/>
+ 
+On behalf of Alfredo Chen and Hydetransport Taiwan, I would like to thank you your warm hospitality during our visit to Global Logistic. It was a pleasure meeting all of you and seeing your operations and setup. We were very impressed with your (1)……… facility and your investment in technology.<br/><br/>
+
+As we discussed, we would like to extend our gratitude by inviting you to Taipei when you are available in the (2)……… future. Please let me know when you would like to schedule your (3)………
+As a second step, we would also like further to explore your business ventures with Hydetransport. As part of your plan to expand globally, we see much synergy and advantage for both parties to pursue a business partnership in Taiwan.<br/><br/>
+
+Thank you once again and I’m looking forward to your response.<br/><br/>
+
+Best regards,<br/>
+Jonathan Wong<br/>
+Director/Planning Group<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<optiona>Secure</optiona>
+			<optionb>Secured</optionb>
+			<optionc>Securely</optionc>
+			<optiond>To secure</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<optiona>Prevalent</optiona>
+			<optionb>Surfacing</optionb>
+			<optionc>Foreseeable</optionc>
+			<optiond>Ongoing</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<optiona>Tourism</optiona>
+			<optionb>Trip</optionb>
+			<optionc>Talk</optionc>
+			<optiond>Request</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		An essential element of the transportation system in many of the cities around the world is cycling. The city of Buffalo recognizes this and has developed a 10-year plan to promote more cycling in our city.<br/><br/>
+
+The city’s development plan includes the addition of more cycling (1)……… to our streets.<br/><br/>
+
+This, of course, is with the intention of encouraging greater cycling (2)……… by our citizen in an effort to mimic the benefits other global cities have experienced, such as the reduction of pollution and traffic congestion as well as health and social advantages.<br/><br/>
+
+Other plans include a coordinated network of bicycle lanes to be interconnected to the surrounding towns as well as the setting up of a number of social programs to provide information to the cyclists.<br/><br/>
+
+The city wishes to hear your thoughts about its (3)………. Further information and submission forms are available at our website at: www.cityofbuffalo.gov.us, by visiting your local Neighborhood Service Center, or by calling 755-9333<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>4</cau>
+			<optiona>Admission</optiona>
+			<optionb>Entrance</optionb>
+			<optionc>Access</optionc>
+			<optiond>Pass</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<optiona>Participate</optiona>
+			<optionb>Participation</optionb>
+			<optionc>Participates</optionc>
+			<optiond>Participated</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<optiona>Effects</optiona>
+			<optionb>Operations</optionb>
+			<optionc>Remedies</optionc>
+			<optiond>Proposals</optiond>
+			<key>d</key>
+		</question>
+	</group>
+<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		<b>“A net worth of $2.5 million in just 4 years using London Life’s simple wealth strategy”</b>
+ – Jane Booth and Glenda Jackson – Investment Advisers<br/><br/>
+ 
+If you are looking to get on the (1)……… to financial freedom but aren’t sure of what steps to take or if your exciting investment portfolio is not doing its job and needs a major shake up, then we can help.<br/><br/>
+
+Many middle-income earners have expressed their opinions on how difficult it is to get honest, straightforward, and unbiased advice that supports their financial goals. According to one couple, they were working hard as teachers and never thought that they could get ahead on their (2)……… until they discovered.<br/><br/>
+
+London Life’s simple (3)……… effective investing techniques. By following our simple strategy, we were able to amass a small fortune for the couple. Now, we can show you how you can, too.<br/><br/>
+
+London Life<br/>
+FINANCIAL PLANNING – STOCKBROKING – PROPERTY - FINANCE<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>7</cau>
+			<optiona>Path</optiona>
+			<optionb>Access</optionb>
+			<optionc>Line</optionc>
+			<optiond>Track</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<optiona>Costs</optiona>
+			<optionb>Prices</optionb>
+			<optionc>Charges</optionc>
+			<optiond>Wages</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<optiona>Once</optiona>
+			<optionb>Still</optionb>
+			<optionc>Yet</optionc>
+			<optiond>Ever</optiond>
+			<key>c</key>
+		</question>
+	</group>
+<group>
+		<id>4</id>
+		<group_content><![CDATA[
+		<b>Bank Mortgage Rates Will Fall</b><br/><br/>
+
+Several of Canada’s largest banks (1)……… to decrease their mortgage rates. Royal bank revealed its plan to cut key mortgage rates by a tenth of a percentage point across the board while TD Canada Trust will decrease its rates by the same (2)……… except for its 10-year rate. The Bank of Montreal will also lower its fixed-rate mortgages on four-year terms and longer by a tenth of a percentage point.
+And lastly, Vancouver Trust has also jumped on the wagon by announcing that it is planning to (3)……… its rates, but the exact numbers are still unknown. However, insiders are predicting that the reduction rates will be similar to those of other banks.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>10</cau>
+			<optiona>Decide</optiona>
+			<optionb>Deciding</optionb>
+			<optionc>Was decided</optionc>
+			<optiond>Have decided</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>11</cau>
+			<optiona>Margin</optiona>
+			<optionb>Allowance</optionb>
+			<optionc>Space</optionc>
+			<optiond>Surplus</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<optiona>Turn down</optiona>
+			<optionb>Shorten</optionb>
+			<optionc>Reduce</optionc>
+			<optiond>Narrow</optiond>
+			<key>c</key>
+		</question>
+	</group>	
+</text_complextion>

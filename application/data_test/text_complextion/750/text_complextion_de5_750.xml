@@ -1,0 +1,148 @@
+<!-- 3 group * 4 cau =12-->
+<text_complextion>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		To: Employees<br/>
+From: Palm Eastwood Personnel Manager<br/>
+Subject: Time off from work<br/>
+Date: Dec. 5 2007<br/><br/>
+
+The (1)……….. of this memo is to let the employees know about the policy on sick leave and other absences.<br/><br/>
+
+Time off from work may be authorized for various reasons. Generally, when employees want to be absent for any personal (2)……….., it is subject to approval by their immediate supervisor.<br/><br/>
+
+For excessive tardiness without a valid reason or any unreported leave, even if it’s (3)……….. court leave or military leave, they will receive a written warning. Please be aware that three written warnings will result in dismissal.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<optiona>Advantage</optiona>
+			<optionb>Study</optionb>
+			<optionc>Purpose</optionc>
+			<optiond>Influence</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<optiona>Proximity</optiona>
+			<optionb>Conclusion</optionb>
+			<optionc>Matters</optionc>
+			<optiond>Contents</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<optiona>Because</optiona>
+			<optionb>From</optionb>
+			<optionc>Due to</optionc>
+			<optiond>Yet</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		LaDon Talent has good opportunities for part-time personnel. Position available are part-time, mostly weekends, and typically 5-7 hours a day.<br/><br/>
+
+Earn $8 for a 5 hour event plus bonuses. You will be (1)……….. for promoting brands by distributing brochures and samples or demonstrating products to prospective customers, (2)……….. creating brand awareness of the product features.<br/><br/>
+
+If you apply for this position and it’s not available at the time, please be assured that LaDon Talent will retain you application on our files for 60 days. During this time your application will remain available for (3)……….. until opportunities become open.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>4</cau>
+			<optiona>Aware</optiona>
+			<optionb>Eligible</optionb>
+			<optionc>Responsible</optionc>
+			<optiond>Qualified</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<optiona>If</optiona>
+			<optionb>Given</optionb>
+			<optionc>Within</optionc>
+			<optiond>Besides</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<optiona>Consider</optiona>
+			<optionb>Considering</optionb>
+			<optionc>Considered</optionc>
+			<optiond>Consideration</optiond>
+			<key>d</key>
+		</question>
+	</group>
+<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		Headhunting firms are increasingly a powerful (1)……….. for many companies to find scarce high level professionals.<br/><br/>
+
+Such headhunters secure and justify their fees by searching for the most competent candidate in all areas, including the client’s competitors. When a list of promising candidates is obtained, a headhunter will contact the candidates on the list to (2)……….. career details and make sure he or she is still interested in the job.<br/><br/>
+
+After this lengthy process is completed, the list will be (3)……….. down to a small number of interested candidates with the best capabilities. Only the list of the top candidates will be presented to their client firm, who will then contact you and negotiate terms with you in person.<br/><br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>7</cau>
+			<optiona>Tool</optiona>
+			<optionb>Behavior</optionb>
+			<optionc>Content</optionc>
+			<optiond>Reason</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<optiona>Verify</optiona>
+			<optionb>Feature</optionb>
+			<optionc>Condense</optionc>
+			<optiond>Notify</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<optiona>Short</optiona>
+			<optionb>Shorting</optionb>
+			<optionc>Shortened</optionc>
+			<optiond>Shorten</optiond>
+			<key>c</key>
+		</question>
+	</group>
+<group>
+		<id>4</id>
+		<group_content><![CDATA[
+		Ace Supplies, a Paris-based firm (1)……….. in office supplies, announce its plan to relocate its headquarters.<br/><br/>
+
+After decades of progress and growth, Ace Supplies found itself needing extra facilities. Storage rooms are also filled to capacity. (2)……….., the inadequate number of employees parking space is another concern of the company.<br/><br/>
+ 
+But the most important challenge that lies ahead is (3)……….. to move quickly to the new headquarters without affecting work.<br/><br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>10</cau>
+			<optiona>Is specializing</optiona>
+			<optionb>Specializes</optionb>
+			<optionc>Specialize</optionc>
+			<optiond>Specializing</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>11</cau>
+			<optiona>Thus</optiona>
+			<optionb>To the contrary</optionb>
+			<optionc>Despite the fact</optionc>
+			<optiond>Furthermore</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<optiona>Way</optiona>
+			<optionb>Sent</optionb>
+			<optionc>How</optionc>
+			<optiond>Equal</optiond>
+			<key>c</key>
+		</question>
+	</group>	
+</text_complextion>

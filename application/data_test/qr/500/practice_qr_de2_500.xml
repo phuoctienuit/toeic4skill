@@ -1,0 +1,116 @@
+<!--30 câu-->
+<QR>
+	
+	
+		<question>
+		<cau>11</cau>
+		<audio>qr_de1_500_cau11.mp3</audio>
+		<content>Would you like to go to a movie with us after work?</content>
+		<optiona>Yes, we took a long walk</optiona>
+		<optionb>Yes, that’s a great idea</optionb>
+		<optionc>Yes, I worked all afternoon </optionc>
+		<key>b</key>
+	
+	</question>
+	
+		<question>
+		<cau>12</cau>
+		<audio>qr_de1_500_cau12.mp3</audio>
+		<content>How long do you plan to stay in Tokyo?</content>
+		<optiona>Only about three or four days</optiona>
+		<optionb>I haven’t been there in a long time</optionb>
+		<optionc>At one of the downtown hotels</optionc>
+		<key>a</key>
+	</question>
+	
+		<question>
+		<cau>13</cau>
+		<audio>qr_de1_500_cau13.mp3</audio>
+		<content>How can I make an appointment with Ms. Lee?</content>
+		<optiona>She’s very happy about her new position</optiona>
+		<optionb>You won’t be disappointed</optionb>
+		<optionc>You should speak with her assistant </optionc>
+		<key>c</key>
+
+	</question>
+	
+		<question>
+		<cau>14</cau>
+		<audio>qr_de1_500_cau14.mp3</audio>
+		<content>Were you able to book a hotel for next week?</content>
+		<optiona>I’ve already read that book</optiona>
+		<optionb>Yes, I got a room at a nice place downtown</optionb>
+		<optionc>No, I didn’t  </optionc>
+		<key>b</key>
+		
+	</question>
+	
+		<question>
+		<cau>15</cau>
+		<audio>qr_de1_500_cau15.mp3</audio>
+		<content>Where would you like to eat dinner?</content>
+		<optiona>As soon as I finish typing this document</optiona>
+		<optionb>We could try that restaurant across the street</optionb>
+		<optionc>Yes, I would like that very much</optionc>
+		<key>b</key>
+	
+	</question>
+	
+		<question>
+		<cau>16</cau>
+		<audio>qr_de1_500_cau16.mp3</audio>
+		<content>How long does the bus ride take?</content>
+		<optiona>It’s only about fifteen minutes</optiona>
+		<optionb>It’s not a very big bus</optionb>
+		<optionc>It’s a very pleasant ride</optionc>
+		<key>a</key>
+		
+	</question>
+	
+		<question>
+		<cau>17</cau>
+		<audio>qr_de1_500_cau17.mp3</audio>
+		<content>How often do you have to turn in financial reports?</content>
+		<optiona>Mrs. Gomez is our financial manager</optiona>
+		<optionb>Once every month</optionb>
+		<optionc>He’s a very good reporter</optionc>
+		<key>b</key>
+		
+	</question>
+	<!--End practice 2 - QR mshoa toeic-->
+		<question>
+		<cau>18</cau>
+		<audio>qr_de1_500_cau18.mp3</audio>
+		<content>You aren’t still working for the same company, are you?</content>
+		<optiona>No, I got a new job about a month ago</optiona>
+		<optionb>No, I went there alone</optionb>
+		<optionc>No, it was a different computer</optionc>
+		<key>a</key>
+		
+	</question>
+	
+		<question>
+		<cau>19</cau>
+		<audio>qr_de1_500_cau19.mp3</audio>
+		<content>Why hasn’t Mr. Moreno signed those papers yet?</content>
+		<optiona>He buys the newspaper every morning</optiona>
+		<optionb>Because he hasn’t had a chance to read them</optionb>
+		<optionc>No. he hasn’t</optionc>
+		<key>b</key>
+		
+	</question>
+	
+		<question>
+		<cau>20</cau>
+		<audio>qr_de1_500_cau20.mp3</audio>
+		<content>Is there a discount on this furniture?</content>
+		<optiona>Yes, I can give you twenty-five percent off the regular price</optiona>
+		<optionb>Yes, we counted it last night</optionb>
+		<optionc>Yes, this is furniture</optionc>
+		<key>a</key>
+		
+	</question>
+	
+		
+	
+</QR>

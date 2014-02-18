@@ -1,0 +1,389 @@
+<!-- 10 group * 3 cau =30-->
+
+<short_talk>
+	<group>
+		<group_content>
+		Hello. My name is Claudia and I am happy to be your host and guide this afternoon.
+		It’s currently 12:30 and we will begin our tour of the facilities at 1:00. 
+		But before we get started, I do have a few announcements to make. 
+		Unfortunately, we do not allow any visitors to photograph the equipment or video the baking process. 
+		The first part of the tour will finish at 2 p. m. 
+		However, you will have a couple of unguided hours to visit our labs and tasting rooms before you leave the premises. 
+		Feel free to ask any questions that you may have at anytime throughout the tour. I do hope that you enjoy your visit. 
+		</group_content>
+		<audio>de1_500_group1.mp3</audio>
+		<question>
+			<cau>1</cau>
+			<content>Who most likely are the visitors?</content>
+			<optiona>A semi-conductor plant</optiona>
+			<optionb>A famous museum</optionb>
+			<optionc>A large bakery’s facilities</optionc>
+			<optiond>A supermarket</optiond>
+			<key>c</key>
+		</question>
+		
+		<question>
+			<cau>2</cau>
+			<content>What will happen at 2:00?</content>
+			<optiona>The visitors will ask question</optiona>
+			<optionb>The guided part of the tour will end</optionb>
+			<optionc>The tasting rooms will close</optionc>
+			<optiond>The visitors can take photograph</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<content>How long will the visitors be on their own?</content>
+			<optiona>30 minutes</optiona>
+			<optionb>One hour</optionb>
+			<optionc>Two hours</optionc>
+			<optiond>Three hours</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<group_content>
+		I am pleased announce the grand opening of Atlas Steels Corporation here in Hamilton.
+		As directed operations, I can only try to express how proud I am.
+		We will open the plant doors in early July and will look at hiring an additional 100 staff members, 
+		and then closer to the end of the year we will most likely bring on another 75 people. 
+		We’ve expanded quite a bit since our first production facility in Milton, 
+		to our present day plants in Portland, Rochester, St. Louis, and now here in Hamilton. 
+		We are looking forward to joining the community.
+		</group_content>
+		<audio>de1_500_group2.mp3</audio>
+		<question>
+			<cau>4</cau>
+			<content>Who most likely is the speaker?</content>
+			<optiona>A construction crew member</optiona>
+			<optionb>A steel engineer</optionb>
+			<optionc>A plant supervisor</optionc>
+			<optiond>A company’s director</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>5</cau>
+			<content>How many staff will the company employ when it opens?</content>
+			<optiona>50</optiona>
+			<optionb>75</optionb>
+			<optionc>100</optionc>
+			<optiond>125</optiond>
+			<key>c</key>
+		</question>
+		
+		<question>
+			<cau>6</cau>
+			<content>Where was the first facility?</content>
+			<optiona>Milton</optiona>
+			<optionb>Portland</optionb>
+			<optionc>St. Louis</optionc>
+			<optiond>Rochester</optiond>
+			<key>a</key>
+		</question>
+	</group>
+		
+	<group>
+		<group_content>
+		Hello, this is Katie Burke calling from Cogeco Internet Services Mr. Clifford, 
+		the reason I’m calling is we haven’t received your payment for the installation of the modem and cable. 
+		We need your payment in order to activate your service. 
+		Please contact us at 1-800-222-4503, between 8 a.m. and 6 p.m., Monday through Saturday. 
+		Thank you. We look forward to hearing from you at your earliest convenience. 
+		</group_content>
+		<audio>de1_500_group3.mp3</audio>
+		<question>
+			<cau>7</cau>
+			<content>What is the reason for the call?</content>
+			<optiona>To get Mr. Clifford’s contact information</optiona>
+			<optionb>To set up an installation</optionb>
+			<optionc>To discuss available Internet packages</optionc>
+			<optiond>To receive payment for a service</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>8</cau>
+			<content>What is Mr. Clifford asked to do?</content>
+			<optiona>Send an e-mail</optiona>
+			<optionb>Call the company</optionb>
+			<optionc>Drop by the office</optionc>
+			<optiond>Register for services</optiond>
+			<key>b</key>
+		</question>
+		
+		<question>
+			<cau>9</cau>
+			<content>When does Katie expect to hear from Mr. Clifford?</content>
+			<optiona>On Monday, between 8 and 6 o’clock</optiona>
+			<optionb>As soon as possible</optionb>
+			<optionc>Before the installation date</optionc>
+			<optiond>After the payment due date</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<!--end practice 1 begin 2-->
+	<group>
+		<group_content>
+		Good afternoon. I need to remind you of an upcoming event prior to the beginning of our meeting. 
+		Newport Painters are arriving on Tuesday to paint the offices in the west wing of our building.
+		The painters should be here for three days. If you have an office in the west wing,
+		be sure to contact Ms. Peters in human resources to find out where you will be relocated to. 
+		Furthermore, remove all confidential files by the end of business on Monday. 
+		If you have any further questions, speak to Ms. Peters.
+		</group_content>
+		<audio>de1_500_group4.mp3</audio>
+		<question>
+			<cau>10</cau>
+			<content>What is the announcement about?</content>
+			<optiona>Employment opportunities with human resources</optiona>
+			<optionb>Information regarding interior decorating</optionb>
+			<optionc>Changes in the meeting schedules</optionc>
+			<optiond>Preparations for the board meeting</optiond>
+			<key>b</key>
+		</question>
+		
+		<question>
+			<cau>11</cau>
+			<content>How can employees find out the location of their new offices?</content>
+			<optiona>By phoning the human resources department</optiona>
+			<optionb>By speaking to their manager</optionb>
+			<optionc>By visiting the lobby of the building</optionc>
+			<optiond>By contacting Newport Painters</optiond>
+			<key>a</key>
+		</question>
+		
+		<question>
+			<cau>12</cau>
+			<content>What are staff asked to do on Monday before they leave?</content>
+			<optiona>Clean up their workspace</optiona>
+			<optionb>Turn off their computers</optionb>
+			<optionc>Contact the human resources department</optionc>
+			<optiond>Put away confidential files</optiond>
+			<key>d</key>
+		</question>
+	</group>
+	
+	<group>
+		<group_content>
+		Do you like French food? If so, you will love Chateau Francois, on the corner of John Street and Richardson Avenue. 
+		Stop by for dinner to enjoy traditional French cuisine: escargot, homemade bread, and fine wines. 
+		For dessert, why don’t you try pastries with fresh fruit and rich dark chocolate? 
+		The thing that makes Chateau Francois truly unique is the restaurant’s location. 
+		Our newly-designed chef’s deck overlooks our estate vineyards and the beautiful Potemac  River.
+		Enjoy the view as you relax over a glass of wine. We look forward to seeing you for dinner.
+		</group_content>
+		<audio>de1_500_group5.mp3</audio>
+		<question>
+ 
+			<cau>13</cau>
+			<content>What is being advertised?</content>
+			<optiona>A trip to France</optiona>
+			<optionb>A restaurant</optionb>
+			<optionc>A hotel</optionc>
+			<optiond>A food market</optiond>
+			<key>b</key>
+		</question>
+	
+		<question>
+			<cau>14</cau>
+			<content>What is provided for dessert?</content>
+			<optiona>Fruit juice</optiona>
+			<optionb>Fresh fish</optionb>
+			<optionc>Pastries</optionc>
+			<optiond>A glass of wine</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>15</cau>
+			<content>What does the speaker say about Chateau Francois?</content>
+			<optiona>The chef is world-renowned</optiona>
+			<optionb>It is open on weekends</optionb>
+			<optionc>The view from the deck is impressive</optionc>
+			<optiond>The lunch specials are inexpensive</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<!--practice test 2-->
+	<group>
+		<group_content>
+		Good afternoon. I need to remind you of an upcoming event prior to the beginning of our meeting. Newport Painters are arriving on Tuesday to paint the offices in the west wing of our building. The painters should be here for three days. If you have an office in the west wing, be sure to contact Ms. Peters in human resources to find out where you will be relocated to. Furthermore, remove all confidential files by the end of business on Monday. If you have any further questions, speak to Ms. Peters.
+		</group_content>
+		<audio>de1_500_group6.mp3</audio>
+		<question>
+			<cau>16</cau>
+			<content>What is the announcement about?</content>
+			<optiona>Employment opportunities with human resources</optiona>
+			<optionb>Information regarding interior decorating</optionb>
+			<optionc>Changes in the meeting schedules</optionc>
+			<optiond>Preparations for the board meeting</optiond>
+			<key>b</key>
+		</question>
+
+		<question>
+			<cau>17</cau>
+			<content>How can employees find out the location of their new offices?</content>
+			<optiona>By phoning the human resources department</optiona>
+			<optionb>By speaking to their manager</optionb>
+			<optionc>By visiting the lobby of the building</optionc>
+			<optiond>By contacting Newport Painters</optiond>
+			<key>a</key>
+		</question>
+		
+		<question>
+			<cau>18</cau>
+			<content>What are staff asked to do on Monday before they leave?</content>
+			<optiona>Clean up their workspace</optiona>
+			<optionb>Turn off their computers</optionb>
+			<optionc>Contact the human resources department</optionc>
+			<optiond>Put away confidential files</optiond>
+			<key>d</key>
+		</question>
+	</group>
+	
+	<group>
+		<group_content>
+		Do you like French food? If so, you will love Chateau Francois, on the corner of John Street and Richardson Avenue. Stop by for dinner to enjoy traditional French cuisine: escargot, homemade bread, and fine wines. For dessert, why don’t you try pastries with fresh fruit and rich dark chocolate? The thing that makes Chateau Francois truly unique is the restaurant’s location. Our newly-designed chef’s deck overlooks our estate vineyards and the beautiful Potemac  River. Enjoy the view as you relax over a glass of wine. We look forward to seeing you for dinner.
+		</group_content>
+		<audio>de1_500_group7.mp3</audio>
+		<question> 
+			<cau>19</cau>
+			<content>What is being advertised?</content>
+			<optiona>A trip to France</optiona>
+			<optionb>A restaurant</optionb>
+			<optionc>A hotel</optionc>
+			<optiond>A food market</optiond>
+			<key>b</key>
+		</question>
+
+		<question>
+			<cau>20</cau>
+			<content>What is provided for dessert?</content>
+			<optiona>Fruit juice</optiona>
+			<optionb>Fresh fish</optionb>
+			<optionc>Pastries</optionc>
+			<optiond>A glass of wine</optiond>
+			<key>c</key>
+		</question>
+		
+		<question>
+			<cau>21</cau>
+			<content>What does the speaker say about Chateau Francois?</content>
+			<optiona>The chef is world-renowned</optiona>
+			<optionb>It is open on weekends</optionb>
+			<optionc>The view from the deck is impressive</optionc>
+			<optiond>The lunch specials are inexpensive</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<group_content>
+		Thank you for calling the University of Washington’s library. To access a listing of staff and faculty extensions, please press 1 at anytime. Our library facilities are open from 8 a.m. to 4 p.m., Monday through Friday. If you wish to access our political archives, an appointment can be made with Edward Philips at extension 15. If you would like our reception staff to return your call, please leave a message after the stone. Thank you. 
+		</group_content>
+		<audio>de1_500_group8.mp3</audio>
+		<question>
+			<cau>22</cau>
+			<content>What kind of business is the message for?</content>
+			<optiona>A political candidate’s office</optiona>
+			<optionb>A university registrar’s office</optionb>
+			<optionc>City Hall in Washington, D.C.</optionc>
+			<optiond>A university library</optiond>
+			<key>d</key>
+		</question>
+		 
+		<question>
+			<cau>23</cau>
+			<content>What time does the facility close on Fridays?</content>
+			<optiona>2 p.m.</optiona>
+			<optionb>3 p.m.</optionb>
+			<optionc>4 p.m.</optionc>
+			<optiond>5 p.m.</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>24</cau>
+			<content>How can a caller speak with Edward Philips?</content>
+			<optiona>By accessing the list of faculty members</optiona>
+			<optionb>By speaking with the reception staff</optionb>
+			<optionc>By dialing extension 15</optionc>
+			<optiond>By visiting the library during regular hours</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<group_content>
+		Good afternoon everyone and thank you for coming to this year conference on organizational behavior. My name is Francis Lee and I’ll be chairing the conference for the next three days. Each day we’ll discuss a new area organizational behavior.
+A few of the concepts we’ll be covering include hiring practices, group dynamics and project management. Each of you will be responsible for the responding daily to the lectures and posting your responses on our conference website, which also maintains a chat room for you to discuss ideas with your colleagues. Undoubtedly, during the conference, you will benefit both from the lectures themselves, and by interacting with you colleagues. We wish you good luck over the next three days. 
+		</group_content> 
+		<audio>de1_500_group9.mp3</audio>
+		<question>
+			<cau>25</cau>
+			<content>How long will you conference run?</content>
+			<optiona>A day</optiona>
+			<optionb>Three days</optionb>
+			<optionc>A week</optionc>
+			<optiond>Three weeks</optiond>
+			<key>b</key>
+		</question>
+		
+		<question>
+			<cau>26</cau>
+			<content>What is the main subject of the conference?</content>
+			<optiona>Management techniques</optiona>
+			<optionb>Organizational behavior</optionb>
+			<optionc>Tele-conference</optionc>
+			<optiond>Accounting</optiond>
+			<key>b</key>
+		</question>
+	
+		<question>
+			<cau>27</cau>
+			<content>What must conference participants do following the lectures?</content>
+			<optiona>Raise questions on the lectures they’ve heard</optiona>
+			<optionb>Post their responses on the conference website</optionb>
+			<optionc>Meet with their colleagues</optionc>
+			<optiond>Submit a paper to Francis Lee</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	
+	<group>
+		<group_content>
+		Starting next month we’ll be introducing the company’s new database computer system. The new network will combine a few features that will help us to stay connected more efficiently, especially on group tasks. Please remember that all files from the old database will not be moved to the new one, so it’s essential that all staff back up their files by the end of the month. If you fail to do so. Important data could be lost. The full network will require two weeks to install
+		</group_content>
+		<audio>de1_500_group10.mp3</audio>
+		<question> 
+			<cau>28</cau>
+			<content>When will the new system start?</content>
+			<optiona>This afternoon</optiona>
+			<optionb>In two weeks</optionb>
+			<optionc>At the end of the month</optionc>
+			<optiond>Next month</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>29</cau>
+			<content>What does the speaker say is the benefit to the change?</content>
+			<optiona>More efficient communication</optiona>
+			<optionb>Prevent the loss of files</optionb>
+			<optionc>Better secure important data</optionc>
+			<optiond>Allow staff to work less hours</optiond>
+			<key>a</key>
+		</question>
+	
+		<question>
+			<cau>30</cau>
+			<content>What does the speaker ask staff to do?</content>
+			<optiona>Obtain a new ID card</optiona>
+			<optionb>E-mail group files</optionb>
+			<optionc>Copy existing files</optionc>
+			<optiond>Rewrite files on the new server</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<!--end practice 3-->
+</short_talk>

@@ -1,0 +1,121 @@
+<reading_comprehen>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		<b>OFFICE CENTER TOWERS</b><br/><br/>
+
+This is to inform all tenants that tomorrow morning, October 10th, service work will be performed on the building fire alarm system between the hours of 8:30 and 10:00. As part of this procedure, it will be necessary to test the alarm and you may hear it go off three or four times in the course of the morning. Do not be concerned when you hear the alarm go off. It is part of the normal service routine. If you have any questions, please contact the building superintendents’ office. Thank you for your patience.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>What is the purpose of this notice?</content>
+			<optiona>To let tenants know that the fire alarm system will be repaired</optiona>
+			<optionb>To tell tenants about a fire that occurred in the building</optionb>
+			<optionc>To warn tenants about the danger of fires</optionc>
+			<optiond>To inform tenants about what to do in case of fire</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<content>What should tenants do if they hear the fire alarm during 8:30 and 10:00?</content>
+			<optiona>Leave the building immediately</optiona>
+			<optionb>Contact the building superintendent</optionb>
+			<optionc>Continue with their usual activities</optionc>
+			<optiond>Wait patiently for the fire department to arrive</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		<b>NEW WORLD COMPUTERS, Inc.</b><br/>
+Sep. 12, 20…<br/>
+Mary Matta<br/>
+27 High Road<br/>
+Ipswich, MA 01801<br/><br/>
+
+Dear Ms. Matta:<br/><br/>
+
+According to our records, you recently contacted the New World Computers Technical Support Service and spoke with our representative, Joan Kim. We hope your experience was pleasant and effective. We would appreciate your giving us feedback on your experience with Technical Support by taking a few minutes to fill out the enclosed Customer Survey form. By letting us know about the quality of the support you received, you will help us ensure that we continue to provide you and all our customers with the excellent service that you deserve.<br/><br/>
+
+Please return the form in the enclosed envelop, or you can complete it online by going to our website at www.nwc/customersurvey. if you have any questions, please contact the Customer Support Office at 800 555 8978. Thank you for being a New World Computers’ customer.<br/><br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>3</cau>
+			<content>What is the purpose of this letter?</content>
+			<optiona>To ask for the customer’s opinion</optiona>
+			<optionb>To offer technical support</optionb>
+			<optionc>To sell a new computer</optionc>
+			<optiond>To advertise a website</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>4</cau>
+			<content>How can the customer complete the form?</content>
+			<optiona>By calling the Customer Support Office</optiona>
+			<optionb>By going online</optionb>
+			<optionc>By contacting Ms. Kim</optionc>
+			<optiond>By writing to Mr. Lee</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>Who did the customer speak with?</content>
+			<optiona>To Support Service Manager</optiona>
+			<optionb>A Technical Support representative</optionb>
+			<optionc>Someone in the Customer Support Office</optionc>
+			<optiond>A New World Computers customer</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		<b>CAPITAL MOTEL</b><br/>
+Telephone Instructions<br/><br/>
+ 
+This telephone has been provided for your convenience.<br/>
+·         To reach the front desk, dial 1<br/>
+·         To reach room service, dial 2<br/>
+·         To reach maid service, dial 3<br/>
+·         To make a local call, dial 9 and then the number<br/>
+·         To make a long distance call, dial 1 to ask for assistance<br/><br/>
+
+Local Numbers of Interest<br/>
+Movie Hotline ………… 567 55 2113<br/>
+Tourist information ………567 555 3456<br/>
+Airport Shuttle ……………567 555 5525<br/>
+City Public Transportation.. 567 555 1014<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>6</cau>
+			<content>What should you do to call someone in another city?</content>
+			<optiona>Call Tourist Information</optiona>
+			<optionb>Call room service</optionb>
+			<optionc>Call City Public Transportation</optionc>
+			<optiond>Call the front desk</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>7</cau>
+			<content>If you dial 9 567 555 1014, what information can you find out?</content>
+			<optiona>Which bus to take downtown</optiona>
+			<optionb>Which movies are showing tonight</optionb>
+			<optionc>Where to eat dinner</optionc>
+			<optiond>How to make a local call</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<content>How can you ask someone to clean your room?</content>
+			<optiona>Make a long distance call</optiona>
+			<optionb>Dial 3</optionb>
+			<optionc>Call room service</optionc>
+			<optiond>Ask for Tourist Information</optiond>
+			<key>b</key>
+		</question>
+	</group>
+</reading_comprehen>

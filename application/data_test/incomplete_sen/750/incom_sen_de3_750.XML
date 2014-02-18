@@ -1,0 +1,92 @@
+<questions>
+	<question>
+			<cau>1</cau>
+			<content>There will be a meeting for anyone interested in learning about the new building plans at 5 p.m.</content>
+			<key>d</key>
+			<optiona>On next Friday</optiona>
+			<optionb>At next Friday</optionb>
+			<optionc>In next Friday</optionc>
+			<optiond>Next Friday</optiond>
+	</question>
+	<question>
+			<cau>2</cau>
+			<content>The purchase of a third photocopier has improved efficiency by ……….reducing time wasted waiting in line.</content>
+			<key>b</key>
+			<optiona>Much</optiona>
+			<optionb>Greatly</optionb>
+			<optionc>Over</optionc>
+			<optiond>A lot</optiond>
+	</question>
+	<question>
+			<cau>3</cau>
+			<content>If they renew the account, that company ……….handling their accounts for over fifteen years.</content>
+			<key>d</key>
+			<optiona>Would have been</optiona>
+			<optionb>Was</optionb>
+			<optionc>Will be</optionc>
+			<optiond>Will have been</optiond>
+	</question>
+	<question>
+			<cau>4</cau>
+			<content>Revenue for the current financial year is expected to ……….last year’s profits by as much as 7%.</content>
+			<key>a</key>
+			<optiona>Surpass</optiona>
+			<optionb>Surplus</optionb>
+			<optionc>Surprise</optionc>
+			<optiond>Success</optiond>
+	</question>
+	<question>
+			<cau>5</cau>
+			<content>Despite the introduction of paternity leave for new fathers, very few men are ……….to take advantage of the system.</content>
+			<key>b</key>
+			<optiona>Option</optiona>
+			<optionb>Opting</optionb>
+			<optionc>Opposing</optionc>
+			<optiond>Opposite</optiond>
+	</question>
+	<question>
+			<cau>6</cau>
+			<content>The holiday shopping season has begun and ……….one thing is clear: people are not spending as much as in past years.</content>
+			<key>d</key>
+			<optiona>Actual</optiona>
+			<optionb>Also</optionb>
+			<optionc>For</optionc>
+			<optiond>Already</optiond>
+	</question>
+	<question>
+			<cau>7</cau>
+			<content>If you’ve ever dreamed about ……….around the world, this may be the cruise for you.</content>
+			<key>c</key>
+			<optiona>Sails</optiona>
+			<optionb>To sail</optionb>
+			<optionc>Sailing</optionc>
+			<optiond>Sail</optiond>
+	</question>
+	<question>
+			<cau>8</cau>
+			<content>This year, for the first ………., all new model cars are required to have front seat airbags.</content>
+			<key>d</key>
+			<optiona>Event</optiona>
+			<optionb>Reason</optionb>
+			<optionc>Place</optionc>
+			<optiond>Time</optiond>
+	</question>
+	<question>
+			<cau>9</cau>
+			<content>UDA Airway will no longer participate in joint mileage programs with credit card companies,  ………. January 2006.</content>
+			<key>b</key>
+			<optiona>Effected</optiona>
+			<optionb>Effective</optionb>
+			<optionc>Effects</optionc>
+			<optiond>Effect</optiond>
+	</question>
+	<question>
+			<cau>10</cau>
+			<content>Overall, vacations in the US are expected to ………. a modest 3% more this year, compared to last.</content>
+			<key>a</key>
+			<optiona>Cost</optiona>
+			<optionb>Costing</optionb>
+			<optionc>Costs</optionc>
+			<optiond>Will cost</optiond>
+	</question>
+</questions>

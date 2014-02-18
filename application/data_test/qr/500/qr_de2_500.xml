@@ -1,0 +1,367 @@
+<!--30 câu-->
+<QR>
+	<question>
+		<cau>1</cau>
+		<audio>de2_500_cau1.mp3</audio>
+		<content>Why did Ms. Chen call a meeting today?</content>
+		<optiona>It’s today</optiona>
+		<optionb>At 2:30, I think</optionb>
+		<optionc>Because we have to discuss the budget</optionc>
+		<key>c</key>
+	</question>
+	
+	<question>
+		<cau>2</cau>
+		<audio>de2_500_cau2.mp3</audio>
+		<content>Do you know what time the offices close?</content>
+		<optiona>I think everyone leaves by 5:30</optiona>
+		<optionb>Yes, the offices are closed</optionb>
+		<optionc>You really should buy some new clothes</optionc>
+		<key>a</key>
+	</question>
+	
+	<question>
+		<cau>3</cau>
+		<audio>de2_500_cau3.mp3</audio>
+		<content>Who is going to meet Mr. Continue at the airport?</content>
+		<optiona>He’s at the airport</optiona>
+		<optionb>Mrs. Garcia will pick him up</optionb>
+		<optionc>At ten o’clock</optionc>
+		<key>b</key>
+	</question>
+	
+	<question>
+		<cau>4</cau>
+		<audio>de2_500_cau4.mp3</audio>
+		<content>When can I call you?</content>
+		<optiona>Tomorrow morning is a good time</optiona>
+		<optionb>Most people just call me Maria</optionb>
+		<optionc>My office is the best place to talk</optionc>
+		<key>a</key>
+	</question>
+	
+	<question>
+		<cau>5</cau>
+		<audio>de2_500_cau5.mp3</audio>
+		<content>Where do you usually park your car?</content>
+		<optiona>There’s a beautiful park nearby</optiona>
+		<optionb>In the garage across the street</optionb>
+		<optionc>I had to take it to the mechanic last week</optionc>
+		<key>b</key>
+	</question>
+	
+	<question>
+		<cau>6</cau>
+		<audio>de2_500_cau6.mp3</audio>
+		<content>Are you almost ready for the meeting?</content>
+		<optiona>I met him at the reception last night</optiona>
+		<optionb>No, it’s in the big conference room</optionb>
+		<optionc>Yes, I just have to finish typing these notes</optionc>
+		<key>c</key>
+	</question>
+	
+		<question>
+		<cau>7</cau>
+		<audio>de2_500_cau7.mp3</audio>
+		<content>Where did you put the packages for Ms. Sato?</content>
+		<optiona>Ms. Sato is over there</optiona>
+		<optionb>They’re on her desk</optionb>
+		<optionc>She packed her bags</optionc>
+		<key>b</key>
+	</question>
+	
+		<question>
+		<cau>8</cau>
+		<audio>de2_500_cau8.mp3</audio>
+		<content>Do you know whose keys these are?</content>
+		<optiona>I left them on your desk</optiona>
+		<optionb>I think they’re Mr. Kim’s</optionb>
+		<optionc>They’re the keys to the closet door</optionc>
+		<key>b</key>
+	</question>
+	
+		<question>
+		<cau>9</cau>
+		<audio>de2_500_cau9.mp3</audio>
+		<content>When did the director arrive?</content>
+		<optiona>Since this morning</optiona>
+		<optionb>At the airport</optionb>
+		<optionc>Late last night</optionc>
+		<key>c</key>
+	</question>
+	<!--End practice 1- QR MsHoa toeic-->
+		<question>
+		<cau>10</cau>
+		<audio>de2_500_cau10.mp3</audio>
+		<content>Did you notice whether Ms. Kovacs was at the reception?</content>
+		<optiona>Yes, I took thorough notes</optiona>
+		<optionb>Yes, she was there</optionb>
+		<optionc>Yes, she received it</optionc>
+		<key>b</key>
+		  
+	</question>
+	
+		<question>
+		<cau>11</cau>
+		<audio>de2_500_cau11.mp3</audio>
+		<content>Would you like to go to a movie with us after work?</content>
+		<optiona>Yes, we took a long walk</optiona>
+		<optionb>Yes, that’s a great idea</optionb>
+		<optionc>Yes, I worked all afternoon </optionc>
+		<key>b</key>
+	
+	</question>
+	
+		<question>
+		<cau>12</cau>
+		<audio>de2_500_cau12.mp3</audio>
+		<content>How long do you plan to stay in Tokyo?</content>
+		<optiona>Only about three or four days</optiona>
+		<optionb>I haven’t been there in a long time</optionb>
+		<optionc>At one of the downtown hotels</optionc>
+		<key>a</key>
+	</question>
+	
+		<question>
+		<cau>13</cau>
+		<audio>de2_500_cau13.mp3</audio>
+		<content>How can I make an appointment with Ms. Lee?</content>
+		<optiona>She’s very happy about her new position</optiona>
+		<optionb>You won’t be disappointed</optionb>
+		<optionc>You should speak with her assistant </optionc>
+		<key>c</key>
+
+	</question>
+	
+		<question>
+		<cau>14</cau>
+		<audio>de2_500_cau1.mp3</audio>
+		<content>Were you able to book a hotel for next week?</content>
+		<optiona>I’ve already read that book</optiona>
+		<optionb>Yes, I got a room at a nice place downtown</optionb>
+		<optionc>No, I didn’t  </optionc>
+		<key>b</key>
+		
+	</question>
+	
+		<question>
+		<cau>15</cau>
+		<audio>de2_500_cau15.mp3</audio>
+		<content>Where would you like to eat dinner?</content>
+		<optiona>As soon as I finish typing this document</optiona>
+		<optionb>We could try that restaurant across the street</optionb>
+		<optionc>Yes, I would like that very much</optionc>
+		<key>b</key>
+	
+	</question>
+	
+		<question>
+		<cau>16</cau>
+		<audio>de2_500_cau16.mp3</audio>
+		<content>How long does the bus ride take?</content>
+		<optiona>It’s only about fifteen minutes</optiona>
+		<optionb>It’s not a very big bus</optionb>
+		<optionc>It’s a very pleasant ride</optionc>
+		<key>a</key>
+		
+	</question>
+	
+		<question>
+		<cau>17</cau>
+		<audio>de2_500_cau17.mp3</audio>
+		<content>How often do you have to turn in financial reports?</content>
+		<optiona>Mrs. Gomez is our financial manager</optiona>
+		<optionb>Once every month</optionb>
+		<optionc>He’s a very good reporter</optionc>
+		<key>b</key>
+		
+	</question>
+	<!--End practice 2 - QR mshoa toeic-->
+		<question>
+		<cau>18</cau>
+		<audio>de2_500_cau18.mp3</audio>
+		<content>You aren’t still working for the same company, are you?</content>
+		<optiona>No, I got a new job about a month ago</optiona>
+		<optionb>No, I went there alone</optionb>
+		<optionc>No, it was a different computer</optionc>
+		<key>a</key>
+		
+	</question>
+	
+		<question>
+		<cau>19</cau>
+		<audio>de2_500_cau19.mp3</audio>
+		<content>Why hasn’t Mr. Moreno signed those papers yet?</content>
+		<optiona>He buys the newspaper every morning</optiona>
+		<optionb>Because he hasn’t had a chance to read them</optionb>
+		<optionc>No. he hasn’t</optionc>
+		<key>b</key>
+		
+	</question>
+	
+		<question>
+		<cau>20</cau>
+		<audio>de2_500_cau20.mp3</audio>
+		<content>Is there a discount on this furniture?</content>
+		<optiona>Yes, I can give you twenty-five percent off the regular price</optiona>
+		<optionb>Yes, we counted it last night</optionb>
+		<optionc>Yes, this is furniture</optionc>
+		<key>a</key>
+		
+	</question>
+	
+		<question>
+		<cau>21</cau>
+		<audio>de2_500_cau21.mp3</audio>
+		<content>When will the new assistant manager start work?</content>
+		<optiona>In the office down the hall</optiona>
+		<optionb>Next week, I think</optionb>
+		<optionc>She has a lot of experience</optionc>
+		<key>b</key>
+		
+	</question>
+	
+		<question>
+		<cau>22</cau>
+		<audio>de2_500_cau22.mp3</audio>
+		<content>Did you buy that newspaper downstairs?</content>
+		<optiona>Yes, we’ll need some more paper</optiona>
+		<optionb>Yes, at the newsstand in the lobby</optionb>
+		<optionc>Yes, we said good-bye </optionc>
+		<key>b</key>
+		
+	</question>
+	
+		<question>
+		<cau>23</cau>
+		<audio>de2_500_cau23.mp3</audio>
+		<content>When will you be free to meet for lunch?</content>
+		<optiona>In the cafeteria on the second floor</optiona>
+		<optionb>It doesn’t cost anything</optionb>
+		<optionc>Next Monday is a good time </optionc>
+		<key>c</key>
+		
+	</question>
+	
+		<question>
+		<cau>24</cau>
+		<audio>de2_500_cau24.mp3</audio>
+		<content>How many people work in this department?</content>
+		<optiona>Yes, it’s quite a big department</optiona>
+		<optionb>There are fifteen altogether</optionb>
+		<optionc>I’ve worked here for several years</optionc>
+		<key>b</key>
+		
+	</question>
+	
+		<question>
+		<cau>25</cau>
+		<audio>de2_500_cau25.mp3</audio>
+		<content>Where can I find Mr. Park?</content>
+		<optiona>He should be in his office now</optiona>
+		<optionb>Usually after lunch</optionb>
+		<optionc>At 10:45</optionc>
+		<key>a</key>
+	</question>
+	<!--End practice 3- QR mshoa-->
+	<question>
+		<cau>26</cau>
+		<audio>de2_500_cau26.mp3</audio>
+		<content>Have you checked your email today?</content>
+		<optiona>I can give you a check</optiona>
+		<optionb>Yes, it is a slow connection</optionb>
+		<optionc>No, I’ll check it later </optionc>
+		<key>c</key>
+	</question>
+	.
+	<question>
+		<cau>27</cau>
+		<audio>de2_500_cau27.mp3</audio>
+		<content>Which movie would you like to watch?</content>
+		<optiona>It begins at 2 p.m.</optiona>
+		<optionb>The new one with Sean Connery</optionb>
+		<optionc>I think it costs about $7.00</optionc>
+		<key>b</key>
+	</question>
+	
+	<question>
+		<cau>28</cau>
+		<audio>de2_500_cau28.mp3</audio>
+		<content>How much does the book weigh?</content>
+		<optiona>About two pounds</optiona>
+		<optionb>$60</optionb>
+		<optionc>Biology</optionc>
+		<key>a</key>
+	</question>
+	
+	<question>
+		<cau>29</cau>
+		<audio>de2_500_cau29.mp3</audio>
+		<content>Could I get you something else to eat?</content>
+		<optiona>I’m having a hamburger</optiona>
+		<optionb>No thanks, I’m full</optionb>
+		<optionc>Let’s go to the restaurant</optionc>
+		<key>b</key>
+	</question>
+	
+	<question>
+		<cau>30</cau>
+		<audio>de2_500_cau30.mp3</audio>
+		<content>How many times a week do you play golf?</content>
+		<optiona>At least three times</optiona>
+		<optionb>It’s my favorite sport, too</optionb>
+		<optionc>At the club </optionc>
+		<key>a</key>
+	</question>
+	
+	<question>
+		<cau>31</cau>
+		<audio>de2_500_cau31.mp3</audio>
+		<content>Have you met the new secretary?</content>
+		<optiona>No, not yet</optiona>
+		<optionb>She is in the office today</optionb>
+		<optionc>Her name is Alice</optionc>
+		<key>a</key>
+	</question>
+	
+	<question>
+		<cau>32</cau>
+		<audio>de2_500_cau32.mp3</audio>
+		<content>Which color do you prefer?</content>
+		<optiona>It’s on my computer</optiona>
+		<optionb>The orange one is nice</optionb>
+		<optionc>Can we do it again? </optionc>
+		<key>b</key>
+	</question>
+	
+	<question>
+		<cau>33</cau>
+		<audio>de2_500_cau33.mp3</audio>
+		<content>What time did you start this morning?</content>
+		<optiona>At 7:00 p.m.</optiona>
+		<optionb>In the office</optionb>
+		<optionc>At 8:00 a.m</optionc>
+		<key>c</key>
+	</question>
+	
+	<question>
+		<cau>34</cau>
+		<audio>de2_500_cau34.mp3</audio>
+		<content>Where can I make a phone call?</content>
+		<optiona>There’s a pay phone around the corner</optiona>
+		<optionb>It’s on the bus</optionb>
+		<optionc>Meet me at the library</optionc>
+		<key>a</key>
+	</question>
+	
+		<question>
+		<cau>35</cau>
+		<audio>de2_500_cau35.mp3</audio>
+		<content>What are your hours today?</content>
+		<optiona>Sorry, I don’t have a watch</optiona>
+		<optionb>We’re open from nine to five</optionb>
+		<optionc>In ten minutes </optionc>
+		<key>c</key>
+	</question>
+	
+</QR>

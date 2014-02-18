@@ -1,0 +1,160 @@
+<!-- 3 group * 4 cau =12-->
+<text_complextion>
+<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		<b>Notice</b><br/><br/>
+
+Huntley Village Stores would like to (1)……….. customer’s attention to the information below.<br/>
+During the holiday season, we will be operating according to a (2)………..opening schedule.<br/>
+Please note the following changes to the opening hours:<br/>
+·        On Saturday December 23nd and Sunday December 24th, we will be staying open later than usual, closing at 8 p.m. to give you a chance to finish that last (3)……….. Christmas shopping.<br/>
+·        From Monday December 25th to Wednesday December 27th, the store will be closed.<br/>
+·        The store will revert to (4)……….. opening hours (8 a.m. -7 p.m.) on December 28th, 29th, and 30th, but will be closing at 9 p.m. on December 31st, and will be closed on New year’s day.<br/>
+·        From January 2nd we will be back to our regular hours.<br/><br/>
+
+Thank you for shopping at Huntley Village Stores.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<optiona>Pull</optiona>
+			<optionb>Make</optionb>
+			<optionc>Draw</optionc>
+			<optiond>Have</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<optiona>Revised</optiona>
+			<optionb>Reviewed</optionb>
+			<optionc>Renewed</optionc>
+			<optiond>Returned</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<optiona>Hour</optiona>
+			<optionb>Time</optionb>
+			<optionc>Minute</optionc>
+			<optiond>Day</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>4</cau>
+			<optiona>Regulated</optiona>
+			<optionb>Ordinary</optionb>
+			<optionc>Usually</optionc>
+			<optiond></optiond>
+			<key>Regular</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		Headhunting firms are increasingly a powerful (1)……….. for many companies to find scarce high level professionals.<br/><br/>
+
+Such headhunters secure and justify their fees by searching for the most competent candidate in all areas, including the client’s competitors. When a list of promising candidates is obtained, a headhunter will contact the candidates on the list to (2)……….. career details and make sure he or she is still interested in the job.<br/><br/>
+
+After this lengthy process is completed, the list will be (3)……….. down to a small number of interested candidates with the best capabilities. Only the list of the top candidates will be presented to their client firm, who will then contact you and negotiate terms with you in person.<br/><br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>5</cau>
+			<optiona>Tool</optiona>
+			<optionb>Behavior</optionb>
+			<optionc>Content</optionc>
+			<optiond>Reason</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<optiona>Verify</optiona>
+			<optionb>Feature</optionb>
+			<optionc>Condense</optionc>
+			<optiond>Notify</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>7</cau>
+			<optiona>Short</optiona>
+			<optionb>Shorting</optionb>
+			<optionc>Shortened</optionc>
+			<optiond>Shorten</optiond>
+			<key>c</key>
+		</question>
+	</group>
+<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		Before construction companies are permitted to build new homes, they are required to receive various building permits. There are certain procedures they must follow in order to be (1)……… these permits.<br/>
+Builders must first submit the architect’s design for the new home to the proper authority. Once these plans are approved, the builder must then apply for a number of various licensees and safety permits. Only after all of these have been granted will the builder be given (2)……… to begin.<br/>
+While this process may seem excessive, it ensures that only the safest possible homes are constructed, (3)……… protecting the future owners of these homes.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>8</cau>
+			<optiona>Sold</optiona>
+			<optionb>Purchased</optionb>
+			<optionc>Appropriated</optionc>
+			<optiond>Granted</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<optiona>Allowance</optiona>
+			<optionb>Acceptance</optionb>
+			<optionc>Permission</optionc>
+			<optiond>Land</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>10</cau>
+			<optiona>However</optiona>
+			<optionb>Thereby</optionb>
+			<optionc>Although</optionc>
+			<optiond>Because</optiond>
+			<key>b</key>
+		</question>
+	</group>	
+	<group>
+		<id>4</id>
+		<group_content><![CDATA[
+		To: Employees<br/>
+From: Palm Eastwood Personnel Manager<br/>
+Subject: Time off from work<br/>
+Date: Dec. 5 2007<br/><br/>
+
+The (1)……….. of this memo is to let the employees know about the policy on sick leave and other absences.<br/><br/>
+
+Time off from work may be authorized for various reasons. Generally, when employees want to be absent for any personal (2)……….., it is subject to approval by their immediate supervisor.<br/><br/>
+
+For excessive tardiness without a valid reason or any unreported leave, even if it’s (3)……….. court leave or military leave, they will receive a written warning. Please be aware that three written warnings will result in dismissal.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>11</cau>
+			<optiona>Advantage</optiona>
+			<optionb>Study</optionb>
+			<optionc>Purpose</optionc>
+			<optiond>Influence</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<optiona>Proximity</optiona>
+			<optionb>Conclusion</optionb>
+			<optionc>Matters</optionc>
+			<optiond>Contents</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>13</cau>
+			<optiona>Because</optiona>
+			<optionb>From</optionb>
+			<optionc>Due to</optionc>
+			<optiond>Yet</optiond>
+			<key>c</key>
+		</question>
+	</group>
+</text_complextion>

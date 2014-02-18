@@ -1,0 +1,20 @@
+<w_sentence>
+	<group>
+		<cau>1</cau>
+		<picture>de1_w_sen1.jpg</picture>
+		<hint>People/Walk</hint>
+		<key>Many people are walking up and down the stairs</key>
+	</group>
+	<group>
+		<cau>2</cau>
+		<picture>de1_w_sen2.jpg</picture>
+		<hint>Bag / Hang</hint>
+		<key>There is a bag hanging from the handle</key>
+	</group>
+	<group>
+		<cau>3</cau>
+		<picture>de1_w_sen3.png</picture>
+		<hint>Computer / at</hint>
+		<key> Three women are looking at the computer</key>
+	</group>
+</w_sentence>

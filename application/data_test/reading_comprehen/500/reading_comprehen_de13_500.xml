@@ -1,0 +1,462 @@
+<!-- 7 group * 4 cau =28-->
+<single_passage>
+<group>
+		<id>1</id>
+		<group_content>
+		The CEO of Telcorp, Howard Ballantine, has been accused of using company money to invest in personal real estate deals. 
+		A private committee was hired to investigate Mr Ballantine’s financial activity after Walter Scott,
+		the senior accountant at Telcorp, noticed nearly 2 million dollars was missing from the company’s primary investment account.
+		Mr. Scott discovered the problem three months ago and reported it to Richard Flint, Telcorp’s chief financial advisor. 
+		Howard Ballantine denies any wrongdoing, and is hiring his own team of financial officers to investigate the matter, 
+		a close friend of Ballantine’s said. Telcorp was the nation’s leading producer of cell phones until Softphone Inc. 
+		opened a factory in China six months ago, which enabled it to save nearly 10 million dollars in production costs. 
+		Mr. Ballantine’s alleged actions suggest that the company will face more trouble in the future.
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>According to the article, what mistakes did the CEO of Telcorp make?</content>
+			<optiona>He introduced less attractive products.</optiona>
+			<optionb>He used company funds inappropriately.</optionb>
+			<optionc>He fired an employee without a reason.</optionc>
+			<optiond>He refused to invest in new technology.</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<content>How did Softphone Inc. decrease operation costs drastically?</content>
+			<optiona>By reducing its workforce</optiona>
+			<optionb>By improving technology</optionb>
+			<optionc>By opening a new plant</optionc>
+			<optiond>By outsourcing its projects</optiond>
+			<key>c</key>
+		</question>
+		
+		<question>
+			<cau>3</cau>
+			<content>Which is the most valuable issue of this magazine?</content>
+			<optiona>The premier issue</optiona>
+			<optionb>The ultimate issue</optionb>
+			<optionc>The one with Lucille Ball</optionc>
+			<optiond>The one with Clark Cable</optiond>
+			<key>a</key>
+		</question>
+		
+		
+	</group>
+		<id>2</id>
+		<group_content>
+		18 Pine Hill Rd.
+		Mulberry, MI
+		65489
+		22 October 2007
+
+		Dear Mr. Johnson,
+
+		We received your request to change the dates of your reservation at the Glenwood Resort from April 15-22 to June 20-28.
+		Unfortunately, I have checked the database and there are no rooms available for those dates. I sincerely apologize that 
+		we cannot accommodate your request; unfortunately June, July, and August are our busiest months because we offer special 
+		summer discounts. I understand that your company is relocating you to London in July and therefore you can’t make a reservation
+		for any other date. I would like to mention, however, that Philip D. Humboldt, the owner of Glenwood Resort, recently opened 
+		another luxury resort, Woodshire Retreat, just thirty minutes outside of Mulberry. If you would like to make a reservation 
+		at this resort, the number is 1-800-238-9648. Or you can make a reservation online at www.humboldthotels.com.
+
+		Sincerely,
+		Richard Kent
+		Customer Services
+		</group_content>
+		
+		<question>
+			<cau>4</cau>
+			<content>What is the purpose of this letter?</content>
+			<optiona>To promote seasonal discounts</optiona>
+			<optionb>To suggest an alternative to the customer</optionb>
+			<optionc>To discuss plans to build a new hotel</optionc>
+			<optiond>To provide directions to a resort</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>Who is authorizing the lane closures?</content>
+			<optiona>The city</optiona>
+			<optionb>The county</optionb>
+			<optionc>The state</optionc>
+			<optiond>The district</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<content>Which of the following exits will NOT be in the affected area?</content>
+			<optiona>NE 125th Street</optiona>
+			<optionb>NE 95th Street</optionb>
+			<optionc>NE 151st Street</optionc>
+			<optiond>NE 82nd Street</optiond>
+			<key>b</key>
+		</question>
+		
+	<group>
+		<id>3</id>
+		<group_content>
+		Sim’s Super Sale!
+
+		To commemorate ten years of business, Sim’s is having a giant sale. The sale starts at 8:00 a.m.
+		 on Saturday, July 9th, and ends at midnight on Sunday, July 10th. All sports equipment is 20 percent off. 
+		 * All men’s and women’s sports apparel is 15 percent off, including the exclusive Swish brand running shoes and shorts.
+		 Customers who have a Sim’s Super Savings Card will receive an additional 10 percent off their entire purchase.
+		 (If you want to become a Sim’s member, please fill out the application on our website at www.simssavings.com).
+		 Also, please bring your children: Ron Barkley, the lead scorer for the L.A. Rockets, will be giving a special demonstration
+		 on how to dribble a basketball. All children over the age of 8 are welcome. Entrance is free, but all children must wear sneakers 
+		 and bring their own basketball.
+
+		* Offer does not apply to bikes, treadmills, or golf clubs.
+		</group_content>
+			<question>
+				<cau>7</cau>
+				<content>Why did Sim’s decide to have a sale this weekend?</content>
+				<optiona>To get rid of old merchandise</optiona>
+				<optionb>To promote a new product</optionb>
+				<optionc>To celebrate an anniversary</optionc>
+				<optiond>To advertise an upcoming race</optiond>
+				<key>c</key>
+			</question>
+			<question>
+				<cau>8</cau>
+				<content>Which of the following is NOT true about the sale?</content>
+				<optiona>A famous person will be present.</optiona>
+				<optionb>Brand name products are on sale.</optionb>
+				<optionc>Men’s clothing is 15 percent off.</optionc>
+				<optiond>Golf equipment is 20 percent off.</optiond>
+				<key>d</key>
+			</question>
+			<question>
+				<cau>9</cau>
+				<content>What can be inferred about Ron Barkley from the advertisement?</content>
+				<optiona>He wants to open a sports store.</optiona>
+				<optionb>He is a successful athlete</optionb>
+				<optionc>He works for Swish shoes</optionc>
+				<optiond>He wants to be a college professor</optiond>
+				<key>b</key>
+			</question>
+	</group>
+
+	<group>
+		<id>4</id>
+		<group_content>
+		Attention All Employees!
+		The executives at Juniper Insurance have decided to purchase mobile phones for all employees. 
+		They are hoping that the new phones will improve communication between members of different departments. 
+		The company will be purchasing forty-seven TM-161 cell phones from Globalphone Inc. at the end of July.
+		You will receive your new phone during the first week of August. Each employee will be given 200 minutes free each month. 
+		If you use more than your monthly limit, you will be charged an additional $25 each month. 
+		We understand that this is a new policy that may potentially be problematic, so we welcome any comments or suggestions you may have. 
+		To monitor the new phone system’s effectiveness, we will be asking employees to fill out a survey. 
+		The date for this survey has not been chosen yet. However, it will most likely take place during the third week of August. 
+		Also, employees with other suggestions about how to help employees communicate better should fill out an Employee Comments Form,
+		which can be obtained from Betty Gill in the Human Resources Department.
+		</group_content>
+			<question>
+				<cau>10</cau>
+				<content>What does the company plan to do in July?</content>
+				<optiona>Implement an overtime policy</optiona>
+				<optionb>Hire more office workers</optionb>
+				<optionc>Change insurance companies</optionc>
+				<optiond>Buy phones for better communication</optiond>
+				<key>d</key>
+			</question>
+			<question>
+				<cau>11</cau>
+				<content>How will the company evaluate the effectiveness of the strategy?</content>
+				<optiona>By conducting a poll</optiona>
+				<optionb>By interviewing employees</optionb>
+				<optionc>By calling the customers</optionc>
+				<optiond>By testing the product</optiond>
+				<key>a</key>
+			</question>
+			<question>
+				<cau>12</cau>
+				<content>Why should someone contact Betty Gill?</content>
+				<optiona>To get her e-mail address</optiona>
+				<optionb>To transfer to Human Resources</optionb>
+				<optionc>To obtain the proper form</optionc>
+				<optiond>To write a memo</optiond>
+				<key>c</key>
+			</question>
+	</group>
+	
+	<group>
+		<id>5</id>
+		<group_content>
+		The meeting with Gilman Electronics was rescheduled from Friday, April 22, to Monday, May 25. 
+		I received an e-mail from their CEO, Robert Towney, informing me that Gilman Electronics is not ready to introduce 
+		the new computers due to production delays. Apparently, technicians discovered a serious defect in one of the microchips 
+		and consequently all of the computers have to be re-evaluated. Therefore, we have about a month to work on the advertising campaign. 
+		I recommend that we meet early next week- perhaps Monday or Wednesday – to discuss the current ad campaign and
+		determine whether or not we want to change it now that we have some extra time. Please e-mail me by 4 p.m. 
+		today with your comments or suggestions about the Gilman account. As you know, Gilman is our biggest client
+		so it is critical that we provide the best service possible.
+
+		Sincerely,
+		Mark Johnson
+		Director of Advertising
+		</group_content>
+	
+			<question>
+				<cau>13</cau>
+				<content>What information does the memo provide?</content>
+				<optiona>Suggestions for an ad campaign</optiona>
+				<optionb>A new proposal for a client</optionb>
+				<optionc>Plans to purchase computers</optionc>
+				<optiond>Changes to the dates of a meeting</optiond>
+				<key>d</key>
+			</question>
+			<question>
+				<cau>14</cau>
+				<content>What is the reason for the production delays?</content>
+				<optiona>Some production machinery failed</optiona>
+				<optionb>The company lacks financial resources</optionb>
+				<optionc>Certain parts of the product are faulty</optionc>
+				<optiond>A project manager miscalculated the time</optiond>
+				<key>c</key>
+			</question>
+			<question>
+				<cau>15</cau>
+				<content>Why will the advertising associates meet early next week?</content>
+				<optiona>To have a company dinner for an anniversary</optiona>
+				<optionb>To think about the current proposal</optionb>
+				<optionc>To promote new products to the customers</optionc>
+				<optiond>To make a plan for the company expansion</optiond>
+				<key>a</key>
+			</question>
+	</group>
+	<!--end mini test 3-->
+	<group>
+		<id>6</id>
+		<group_content>
+		Received:    Monday, June 4th, at 8:32 p.m.
+		From:           peter.lasco@allwalls.com
+		Re:               Appointment Cancellation
+
+		Mr. Walker,
+
+		I apologize for having to cancel our appointment last Friday at the last minute.
+		There was some urgent business at another job site, and I had to attend to it personally.
+		I hope that we can reschedule for sometime next week.
+
+		Also, in your last e-mail you asked for some different options with regard to materials and our turn-around time. 
+		The sample books I couriered to you last week are the standard wallpapers that we use – 1.75 meter-wide, printed.
+		But we have also started using a new process with large, floor-to-ceiling rolls that produces a papered wall without seams. 
+		The papers are the highest grade, and most have silk highlights. As your project is a luxury apartment complex,
+		these products may better suit your needs. This is a specialty process, requiring special equipment,
+		and so there would be additional charges on top of our usual labor costs. 
+		Since you would be doing so many units in your building, perhaps we could offer you a discounted rate on the labor. 
+		I will discuss this possibility with our sales manager and let you know when we meet.
+
+		With regard to our turn-around time, using standard-process papers we would be able to complete the 15 units in one week. 
+		The seamless wallpaper application process makes use of a large roller mechanism; 
+		so, potentially, we could complete the work in 3 days. Again, I am sorry to cancel our appointment. 
+		Please let me know at your earliest convenience when you would like to reschedule. Thank you.
+
+		Sincerely,
+		Peter Lasco
+		Sales Rep,
+		All Walls, Inc.
+		</group_content>
+			<question>
+				<cau>16</cau>
+				<content>Why was the appointment with Mr. Walker cancelled?</content>
+				<optiona>Mr. Lasco was not able to bring the samples to the job site.</optiona>
+				<optionb>Mr. Lasco had to attend to another client</optionb>
+				<optionc>Mr. Lasco had to pick up a new roller mechanism</optionc>
+				<optiond>Mr. Lasco was on a business trip</optiond>
+				<key>b</key>
+			</question>
+			<question>
+				<cau>17</cau>
+				<content>What kind of service does this company offer?</content>
+				<optiona>Building construction</optiona>
+				<optionb>Wallpaper manufacturing</optionb>
+				<optionc>Large-scale redecoration</optionc>
+				<optiond>Labor recruitment</optiond>
+				<key>c</key>
+			</question>
+			<question>
+				<cau>18</cau>
+				<content>What did Mr. Lasco do for Mr. Walker the previous week?</content>
+				<optiona>Sent him a book of samples</optiona>
+				<optionb>Visited his construction site</optionb>
+				<optionc>Called him about the turn-around time</optionc>
+				<optiond>Showed him a new papering process</optiond>
+				<key>a</key>
+			</question>
+	</group>
+	
+	<group>
+		<id>7</id>
+		<group_content>
+		Come to the Briars Resort to experience a unique conference center, with everything to make your business meetings 
+		or conferences productive in a beautiful lakeshore and woodland setting. Our facility offers a highly-trained convention 
+		staff and well-appointed rooms, with all of the equipment you’d expect from a state-of-the-art convention art. 
+		But our location in the Gatineau Hills north of the nation’s capital also offers a beautiful and tranquit natural setting. 
+		Within driving distance of Ottawa and Montreal, with easy access to Ottawa International Airport, our 230 acres of golf,
+		marina, lakefront, restaurants, shops, 240 guest rooms and convention facilities are within a few hours drive or flight to Toronto, 
+		Ontario’s financial hub.
+
+		The Briars Staff has years of expertise in planning meetings, conventions, retreats and special events,
+		enabling us to handle the decisions, details and timing involved in all manner of business conferences. 
+		Thus, we are confident that your group will experience a memorable and successful meeting. 
+		Our newly-constructed Thompson Hall adds another 15,500 square feet of meeting and convention space 
+		to over 35,000 sq. ft. of flexible, functional meeting/conference space, meaning we can accommodate 20 to 2,000 attendees.
+		The Briars is the perfect destination for productive conferences, meetings, trade shows, and incentive stays. 
+		Call us at 1-800-2-BRIARS to discuss your particular needs, or visit our website, www.thebriars.com, 
+		to find out more and to see a video tour of our grounds and building.
+
+		Features:
+
+		·   Thompson Hall offers 15,500 sq. ft.
+		·   Seating for up to 2,000 guests
+		·   1,000 sq. ft. of exhibition space
+		·   Seating for 500 for meals
+		·   Conference planning services
+		·   Full-service banquet and dining facilities
+		·   Corporate training and meeting rooms
+		·   Executive board room
+		·   Multimedia presentation capabilities
+		·   On-site audio/visual technicians
+		·   High-speed computer compatibility
+		</group_content>
+			<question>
+				<cau>19</cau>
+				<content>What is the unique about the Briars Resort, according to the advertisement?</content>
+				<optiona>They have space to accommodate 3,000 attendees</optiona>
+				<optionb>They can hold banquets for up to 1,000 at a time</optionb>
+				<optionc>They offer a shuttle service to Ottawa and Montreal</optionc>
+				<optiond>They provide modern facilities in a natural environment</optiond>
+				<key>d</key>
+			</question>
+			<question>
+				<cau>20</cau>
+				<content>What did the Briars recently add?</content>
+				<optiona>A large new conference room</optiona>
+				<optionb>Multimedia presentation equipment</optionb>
+				<optionc>Conference planning services</optionc>
+				<optiond>A new banquet facility</optiond>
+				<key>c</key>
+			</question>
+			<question>
+				<cau>21</cau>
+				<content>What information is NOT discussed in the advertisement?</content>
+				<optiona>The convenient location</optiona>
+				<optionb>The number of attendees that can be accommodated</optionb>
+				<optionc>The competitive rates and special package deals</optionc>
+				<optiond>The range of services provided by the staff</optiond>
+				<key>c</key>
+			</question>
+	</group>
+	
+	<group>
+		<id>8</id>
+		<group_content>
+		INTERNATIONAL TRAVEL EXPO – Shipping Instructions for US Exhibition
+
+		Fastex has been designated the official transportation coordinator of equipment and display materials 
+		for all exhibitors participating in the International Travel Expo. The following information includes shipping dates, 
+		consolidation points, and documentation requirements for the transportation into France of all your material for the exposition.
+		The following air freight cut-off dates have been selected to allow as much time as possible to prepare your 
+		exhibition materials prior to shipment:
+
+		Door-to-door delivery                         No later than June 15th
+		Drop off at consolidation point          No later than June 21st
+
+		Fastex is able to pick up your cargo from your facility and arrange delivery to one of our domestic consolidation points: 
+		Oakland, Denver, New York, Los Angeles, or Houston. Simply call us to schedule the pickup. 
+		If you choose, you may send your goods directly to the consolidation point, prepaid. 
+		Please notify us of your freight’s impending arrival at the consolidation point. 
+		Include the Carrier’s Bill of Landing/ Airway Bill information, the gross weight, total number of pieces sent, 
+		and copies of the commercial invoices for the goods sent. Whether we pick up your freight or it is delivered,
+		we urge exhibitors to use strong, wooden cases that offer protection from the weather for the transportation of exhibition materials. In the event that your cases are secured with a lock of combination, please don’t forget to provide the key or combination number to us for customs examination.
+		</group_content>
+			<question>
+				<cau>22</cau>
+				<content>Who is this information intended for?</content>
+				<optiona>Potential customers of Fastex</optiona>
+				<optionb>People who will be attending the Expo</optionb>
+				<optionc>Exhibitors traveling from the US</optionc>
+				<optiond>Customs officials</optiond>
+				<key>c</key>
+			</question>
+			<question>
+				<cau>23</cau>
+				<content>Where is the International Travel Expo being held?</content>
+				<optiona>France</optiona>
+				<optionb>Denver</optionb>
+				<optionc>New York</optionc>
+				<optiond>Hong Kong</optiond>
+				<key>a</key>
+			</question>
+			<question>
+				<cau>24</cau>
+				<content>If shipments are sent to one of the consolidation points, what must be done?</content>
+				<optiona>Include only one label for all items</optiona>
+				<optionb>Make sure the cases are securely locked</optionb>
+				<optionc>Ensure it arrives there before June 15th</optionc>
+				<optiond>Phone to tell them when it will be arriving</optiond>
+				<key>d</key>
+			</question>
+	</group>
+	
+	<group>
+		<id>9</id>
+		<group_content>
+		The Daily Chronicle, Saturday, April 8
+		Job Listings
+		Global Technical Organization
+		Work with industry leaders on exciting and diverse projects!
+
+		This prestigious organization houses technical specialists and is one of the largest workplace health and
+		safety consultancies in Australia. Due to an ever-expanding workload, this exceptional group is seeking to 
+		recruit talented individuals who are looking to build a solid career within a challenging and rewarding workplace.
+
+		As an international player, this group is dedicated and thrives on being a client-focused organization. 
+		They assist and guide clients in a variety of business sectors to identify and solve workplace health and 
+		safety problems and implement risk management strategies. As an Environmental Health and Safety consultant you 
+		will be joining a fast-paced learning environment where you can and will influence decisions. You will be
+		responsible for environmental risk management, implementing auditing and incident response procedures, 
+		environmental reporting and the development of Environmental Management Systems (EMS).
+
+		To be successful in this role you will have to possess the following: tertiary qualification in environmental
+		science/planning/management or engineering; experience developing EMS; knowledge of environmental industry and
+		statutory requirements, including environmental planning, project/program management, coordination and reporting experience;
+		and excellent communication and presentation skills.
+
+		To be considered please submit your CV and cover letter to resume@globaltr.com.au. 
+		Alternatively, you may contact Bradley Austin for a confidential discussion at 02 9957 1008.
+		</group_content>
+			<question>
+				<cau>25</cau>
+				<content>For whom is this announcement most likely written?</content>
+				<optiona>Recruiting agencies</optiona>
+				<optionb>Human resources professionals</optionb>
+				<optionc>International communications experts</optionc>
+				<optiond>Environmental experts</optiond>
+				<key>d</key>
+			</question>
+			<question>
+				<cau>26</cau>
+				<content>According to the announcement, what is NOT part of the responsibility?</content>
+				<optiona>Risk management</optiona>
+				<optionb>Being a media spokesperson</optionb>
+				<optionc>Environmental system development</optionc>
+				<optiond>Incident report procedure implementation</optiond>
+				<key>b</key>
+			</question>
+			<question>
+				<cau>27</cau>
+				<content>According to the announcement, what must applicants send to be considered for the job?</content>
+				<optiona>A resume and a cover letter</optiona>
+				<optionb>A recommendation letter</optionb>
+				<optionc>A copy of a college transcript</optionc>
+				<optiond>System development certificate</optiond>
+				<key>a</key>
+			</question>
+	</group>
+	<!--end mini test 4-->
+</single_passage>

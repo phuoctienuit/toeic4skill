@@ -1,0 +1,313 @@
+<!-- 4 group * 5 cau =20-->
+<reading_comprehen>
+	<group>
+		<group_content>
+		Passage 1:
+
+		To: Ronald Richard, Peter Kim, Hiro Sachimoto, Giovanna Bertini
+		From: Isabelle Santelli
+		Subject: Meeting reminder
+		 
+		This is a reminder that this month’s department meeting will take place this Thursday at 12:00 in Conference Room 2. Please note location change. The meeting will NOT take place in my office. We will review progress on the Lockerman project and look at the budget for the rest of the year. This is a lunchtime meeting and sandwiches and coffee will be served. Please let me know by Wednesday I f you won’t be able to make the meeting. Thank you.
+
+		Isabelle Santelli
+		 
+		Passage 2: 
+
+		To: I. Santelli
+		From: R. Richards
+		Subject: Re: Meeting reminder
+
+		Isabelle,
+
+		I’m sorry I won’t be able to make the meeting. I’m leaving for Sydney that morning and can’t get a later flight. Before I go, I’ll put on your desk the figures you’ll need for the second item on the meeting agenda. I’ve prepared a thorough report, so you’ll be able to have that part of the discussion without me. Also, Peter worked with me on this and can probably answer any questions.
+
+		I’ll be meeting with Mr. Lockman first thing Friday and will send you the particulars later that day, or by Saturday morning at the latest.
+
+		Ronald
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>Who should attend the meeting on Thursday?</content>
+			<optiona>Conference committee members</optiona>
+			<optionb>All company personnel</optionb>
+			<optionc>Department members</optionc>
+			<optiond>Mr. Lockman</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<content>Where will the meeting take place?</content>
+			<optiona>In a conference room</optiona>
+			<optionb>In a sandwich shop</optionb>
+			<optionc>The anniversary of the hotel</optionc>
+			<optiond>The retirement of a colleague</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<content>When will Mr. Richards go to Sydney?</content>
+			<optiona>Wednesday</optiona>
+			<optionb>Thursday</optionb>
+			<optionc>Friday</optionc>
+			<optiond>Saturday</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>4</cau>
+			<content>Who worked on a report with Mr. Richards?</content>
+			<optiona>Mr. Sachimoto</optiona>
+			<optionb>Ms. Santelli</optionb>
+			<optionc>Ms. Bertini</optionc>
+			<optiond>Mr. Kim</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>What will Mr. Richards leave for Ms. Santelli?</content>
+			<optiona>Information about the budget</optiona>
+			<optionb>Mr. Lockerman’s address</optionb>
+			<optionc>The meeting agenda</optionc>
+			<optiond>His Sydney itinerary</optiond>
+			<key>a</key>
+		</question>
+		<!--end practice 1-->
+	</group>
+	
+	<group>
+		<group_content>
+		Passage 1:
+
+		Hotel Grandiflor
+		WE OFFER:
+
+		·         Table seating for up to 250 guests
+		·         A choice of catered meals prepared by our European-trained chefs
+		·         Two world-class dance floors
+
+		We also provide on request professional assistance in selecting decorations, music, and seating arrangements.
+
+		Rooms are available for both midday and evening banquets.
+		Meal options include buffer, 3-course, and 5-course meals.
+		Impress your clients and reward your employees by inviting them to lunch or dinner at the Hotel Grandiflor.
+
+		Contact Cathy Chang, Events Manager, or Lois Street, Head Manager
+		 
+		 **************
+		 
+		Passage 2: 
+
+		To: Cathy Chang
+		From: Georgette Blanc
+		Subject: Banquet plans
+
+		Dear Ms. Chang,
+
+		I saw you hotel’s ad in the May 23 issue of the Business Gazette. I am planning the annual employee appreciation banquet for my company, Agrix International, and am interested in the possibility of hosting it at the Hotel Grandiflor.
+
+		Our banquet is scheduled for the evening of July 15. We only plan to have half the number of guests mentioned in you ad, so I am sure you can accommodate our numbers. I think a five-course dinner would be too much, but I am interested in discussing with you the other two meal options. Mostly I am concerned about having both vegetarian and meat choices available for our guests.
+
+		I am also interested in your professional assistance in  planning other aspects of the evening. We would need seating arrangements that are conductive to conversation but that will also accommodate the awards ceremony that is the main focus on the evening. We also would like to have dancing after the meal and would appreciate your assistance in selecting a suitable and affordable band.
+
+		Please call me or my assistant, Robert de Luc at 656 555 0987 to discuss arrangements and costs.
+
+		Georgette Blanc.
+		</group_content>
+		<question>
+			<cau>6</cau>
+			<content>What is the name of the hotel’s events manager?</content>
+			<optiona>Cathy Chang</optiona>
+			<optionb>Lois Street</optionb>
+			<optionc>Georgette Blanc</optionc>
+			<optiond>Robert de Luc</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>7</cau>
+			<content>What is the main purpose of the banquet mentioned in the email?</content>
+			<optiona>To celebrate an anniversary</optiona>
+			<optionb>To honor employees</optionb>
+			<optionc>To discuss business</optionc>
+			<optiond>To impress clients</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<content>When will the banquet take place?</content>
+			<optiona>May 3</optiona>
+			<optionb>May 23</optionb>
+			<optionc>July 5</optionc>
+			<optiond>July 15</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<content>How many guests will be invited to the banquet?</content>
+			<optiona>15</optiona>
+			<optionb>125</optionb>
+			<optionc>250</optionc>
+			<optiond>500</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>10</cau>
+			<content>Which type of meal would be of interest to the banquet planner?</content>
+			<optiona>Meat-only three-course meal</optiona>
+			<optionb>Five-course meal</optionb>
+			<optionc>Light lunch</optionc>
+			<optiond>Vegetarian and meal buffer </optiond>
+			<key>d</key>
+		</question>
+		<!--end practice 2-->
+	</group>
+	
+	<group>
+		<group_content>
+		Passage 1:
+
+		You’re invited!
+		What: Farewell party
+		Where: Conference Room 2
+		When: Thursday, 4:30 P.M
+
+		A you all know, Martha Cunningham and her family are moving to another city. Let’s show her much we appreciate all the hard word she’s done for us.
+
+		Please bring a refreshment to share. Call Ted Jones in the accounting office by Tuesday to let him know if you’ll attend and what food you’ll bring. Also, we’re taking up a collection to buy a gift for Martha. If everyone contributes just $15, we’ll have $3000 to buy her something really special.
+
+		Thanks, Susan Billings 
+		 
+		***************
+		 
+		Passage 2: 
+
+		To: Susan Billings
+		From: Tom Williamson
+		Subject: Farewell Party
+
+		Hi Susan,
+
+		I’m sorry I couldn’t attend the party yesterday, as I’d planned, but I had a family emergency. Everything is OK now. I heard that everyone had a great time at the party and that you were able to raise $75 more than you expected. Fantastic. I’m sure Martha loved her gift. I did get a chance to sign the card before I left the office. Did you get the cake I sent over? It was a chocolate one from the Paris Bakery, so I hope it arrived on time for everyone to enjoy.
+
+		See you at the meeting this afternoon.
+
+		Tom
+
+		</group_content>
+		<question>
+			<cau11></cau>
+			<content>Who was the party for?</content>
+			<optiona>Tom</optiona>
+			<optionb>Ted</optionb>
+			<optionc>Susan</optionc>
+			<optiond>Martha</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<content>When did Tom write the email?</content>
+			<optiona>Tuesday</optiona>
+			<optionb>Wednesday</optionb>
+			<optionc>Thursday</optionc>
+			<optiond>Friday</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>13</cau>
+			<content>Why couldn’t Tom attend the party?</content>
+			<optiona>He had an emergency</optiona>
+			<optionb>He had made other plans</optionb>
+			<optionc>He had to attend a meeting</optionc>
+			<optiond>He had to work on the accounts</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>14</cau>
+			<content>How much money was raised for the gift?</content>
+			<optiona>$15</optiona>
+			<optionb>$75</optionb>
+			<optionc>$300</optionc>
+			<optiond>500</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>15</cau>
+			<content>What did Tom send to the party?</content>
+			<optiona>Money</optiona>
+			<optionb>A card</optionb>
+			<optionc>$375</optionc>
+			<optiond>a732</optiond>
+			<key>c</key>
+		</question>
+	
+		<!--end practice 3-->
+	</group>
+	
+	<group_content>
+		Mr. J. Woo
+		Modern Designs, Inc.
+		51 River Street
+		Middletown, California 94945
+
+		Dear Mr. Woo
+
+		I saw your ad in last Sunday’s City Times looking for an office assistant. I am well-qualified for the position you offer.
+		I am very organized and hard working. I have the computer skills and educational level you required. 
+		I am particularly interested in this position since in the future I would like to enter your profession. 
+		In fact, I am taking a night class at the university now, and hope to enter as a full-time student after 
+		I gain a few years of work experience. I am enclosing my resume and you may call my high school if you would like
+		to see a copy of my high school record. I hope to hear from you soon.
+
+		Sincerely,
+		Lu Wang
+		</group_content>
+		<question>
+			<cau>16</cau>
+			<content>According to the ad, what will the new office assistant have to do?</content>
+			<optiona>Photocopy documents</optiona>
+			<optionb>Make a phone call</optionb>
+			<optionc>Maintain computers</optionc>
+			<optiond>Make appointments</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>17</cau>
+			<content>What kind of computer program does Lu Wang know how to use?</content>
+			<optiona>Email</optiona>
+			<optionb>Web browser</optionb>
+			<optionc>Word processing</optionc>
+			<optiond>Architectural software</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>18</cau>
+			<content>What kind of job does Lu Wang want in the future?</content>
+			<optiona>Architect</optiona>
+			<optionb>High school teacher</optionb>
+			<optionc>University professor</optionc>
+			<optiond>Computer programmer</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>19</cau>
+			<content>What is Lu Wang doing now?</content>
+			<optiona>Studying in high school</optiona>
+			<optionb>Taking a university class</optionb>
+			<optionc>Seeking a job as an architect</optionc>
+			<optiond>Working as an office assistant</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>20</cau>
+			<content>What has Lu Wang enclosed with her letter?</content>
+			<optiona>Her resume</optiona>
+			<optionb>Her schedule</optionb>
+			<optionc>Her high school record</optionc>
+			<optiond>Her university’s catalog</optiond>
+			<key>a</key>
+		</question>
+	
+		<!--end practice 3-->
+	</group>
+</reading_comprehen>
+

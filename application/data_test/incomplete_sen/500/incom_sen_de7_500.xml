@@ -1,0 +1,93 @@
+<questions>
+	<question>
+			<cau>1</cau>
+			<content>Why was the soccer game ……… yesterday?</content>
+			<key>d</key>
+			<optiona>To cancel</optiona>
+			<optionb>Canceling</optionb>
+			<optionc>Cancel</optionc>
+			<optiond>Cancelled</optiond>
+	</question>
+	<question>
+			<cau>2</cau>
+			<content>Left alone, the baby ……… into tears</content>
+			<key>b</key>
+			<optiona>Carried</optiona>
+			<optionb>Burst</optionb>
+			<optionc>Poured</optionc>
+			<optiond>Sobbed</optiond>
+	</question>
+	<question>
+			<cau>3</cau>
+			<content>Everybody ……… with the results of the meeting</content>
+			<key>d</key>
+			<optiona>Was satisfy</optiona>
+			<optionb>Satisfied</optionb>
+			<optionc>Was to satisfy</optionc>
+			<optiond>Was satisfied</optiond>
+	</question>
+	<question>
+			<cau>4</cau>
+			<content>……… snow, the mountain looks fantastic</content>
+			<key>c</key>
+			<optiona>Covering</optiona>
+			<optionb>To cover</optionb>
+			<optionc>Covered with</optionc>
+			<optiond>To have covered</optiond>
+	</question>
+	<question>
+			<cau>5</cau>
+			<content>You had ……… have your teeth checked at least once a year</content>
+			<key>c</key>
+			<optiona>Should</optiona>
+			<optionb>Good</optionb>
+			<optionc>Better</optionc>
+			<optiond>Worse</optiond>
+	</question>
+	<question>
+			<cau>6</cau>
+			<content>The instructions ……… precisely</content>
+			<key>d</key>
+			<optiona>Must follow</optiona>
+			<optionb>Must followed</optionb>
+			<optionc>Must to be followed</optionc>
+			<optiond>Must be followed</optiond>
+	</question>
+	<question>
+			<cau>7</cau>
+			<content>The United Nations ……… to begin fund raising for the earthquake victims</content>
+			<key>d</key>
+			<optiona>Are expect</optiona>
+			<optionb>Is expect</optionb>
+			<optionc>Are expected</optionc>
+			<optiond>Is expected</optiond>
+	<question>
+			<cau>8</cau>
+			<content>I’m quite sure you will soon grow ……… to the new work environment</content>
+			<key>c</key>
+			<optiona>Accustom</optiona>
+			<optionb>Accustoming</optionb>
+			<optionc>Accustomed</optionc>
+			<optiond>To be accustomed</optiond>
+	</question>
+	</question>
+	<question>
+			<cau>9</cau>
+			<content>During the experiment, people ……… to use calculators if necessary</content>
+			<key>b</key>
+			<optiona>Were let</optiona>
+			<optionb>Were allowed</optionb>
+			<optionc>Were allowing</optionc>
+			<optiond>Let</optiond>
+	</question>
+	<question>
+			<cau>10</cau>
+			<content>I never see him without being ……… of his grandfather</content>
+			<key>d</key>
+			<optiona>Remember</optiona>
+			<optionb>Memory</optionb>
+			<optionc>Remained</optionc>
+			<optiond>Reminded</optiond>
+	</question>
+
+</questions>

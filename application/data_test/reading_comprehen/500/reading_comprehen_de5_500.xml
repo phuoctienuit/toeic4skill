@@ -1,0 +1,143 @@
+<reading_comprehen>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		Dear Mr. and Mrs. Thomas,<br/><br/>
+
+Thank you for joining the World Travel tour to Emerald Island. We look forward to seeing you at the Ocean Breezes Hotel on April 2nd. At your request we have reserved for you an ocean view room with twin beds. Please notify hotel staff in advance of your arrival if you wish to make any changes in this room arrangement.<br/><br/>
+
+When you check in at hotel, mention that you are a participant in the World Travel tour and the staff will inform the tour leader of your arrival. Tour participants will gather in the Ocean Breezes restaurant at 6:30 for dinner and a chance to meet each other. A complete itinerary for the tour will be distributed at that time. The tour leader will explain the tour activities and you will have the opportunity to ask questions.<br/><br/>
+
+Your hotel room and three meals a day at the hotel restaurant are included in the price of the tour. The cost of transportation between the airport and the hotel will be paid by the individual participants. I have enclosed some informational brochures that may be of interest to you. Please don’t hesitate to contact me if you have any questions.<br/><br/>
+
+Sincerely,<br/>
+George Harris<br/>
+Assistant Director of Tours<br/>
+Encl. Emerald Island Airport shuttle Schedule<br/>
+Your Guide to Emerald Island<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>When should Mr. and Mrs. Thomas tell the hotel if they want to change their room reservation?</content>
+			<optiona>As soon as they arrive at the hotel</optiona>
+			<optionb>When the tour leader arrives at the hotel</optionb>
+			<optionc>Before they arrive at the hotel</optionc>
+			<optiond>After all the tour participants have arrived at the hotel</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<content>When will Mr. and Mrs. Thomas find out the complete tour schedule?</content>
+			<optiona>It is enclosed with the leader</optiona>
+			<optionb>During dinner at the hotel restaurant</optionb>
+			<optionc>When they check in at the hotel</optionc>
+			<optiond>They already know it</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<content>The word “distributed” in paragraph 2, line 4, is closest in meaning to</content>
+			<optiona>Disturbed</optiona>
+			<optionb>Revised</optionb>
+			<optionc>Itemized</optionc>
+			<optiond>Sent around</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>4</cau>
+			<content>Who wrote the letter?</content>
+			<optiona>A tour participant</optiona>
+			<optionb>A travel agency employee</optionb>
+			<optionc>A hotel employee</optionc>
+			<optiond>The tour leader</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		Thank you for buying a product from the Office Ware mail-order catalog. We hope you are satisfied with your purchase of our quality merchandise. Please examine the contents of this package immediately to make sure that your order has arrived complete and in undamaged condition. In the event that you are not totally satisfied with your purchase for any reason, you can return it to us within thirty days for a full refund, no questions asked. Just repack it in the same box you received it in, and apply the enclosed return shipping label to the outside of the box. Return postage will be paid by the customer. If you wish to return a product after thirty days from the purchase date, please call the customer service office at 800 555 1002 and ask to speak with a purchase order representative.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>5</cau>
+			<content>Where would you find these instructions?</content>
+			<optiona>In a catalog</optiona>
+			<optionb>Enclosed in a package</optionb>
+			<optionc>Hanging up in a post office</optionc>
+			<optiond>At a store</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<content>The word “condition” in line 6 is closest in meaning to</content>
+			<optiona>Fitness</optiona>
+			<optionb>Appearance</optionb>
+			<optionc>State</optionc>
+			<optiond>Shipment</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>7</cau>
+			<content>What should you do to return a product the day after receiving it?</content>
+			<optiona>Repack it and mail it back</optiona>
+			<optionb>Wait for thirty days</optionb>
+			<optionc>Call the customer service office</optionc>
+			<optiond>Order a new catalog</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<content>What will happen if you return a product before thirty days have passed?</content>
+			<optiona>The company will ask you some questions</optiona>
+			<optionb>A customer service representative will call you</optionb>
+			<optionc>You will get all your money back</optionc>
+			<optiond>You will have to send in a new purchase order</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		Are you getting ready to put your house on the market?<br/>
+Are you thinking of selling it yourself?<br/>
+Don’t do it on your own!<br/><br/>
+ 
+Research has shown that on the average real estate agents get a 30% higher sales price on single-family homes than owners who try to do the selling themselves.<br/><br/>
+
+Come learn the ins and outs of the real estate market and how to get the best possible price for your house. On Friday, January 20th at 7:30 P.M. Ms. Miranda Ortiz, a real estate agent with over twenty years’ experience in the field, will talk about the current competitive real estate family home or apartment. A question and answer session will follow the talk and refreshments will be served. Admission to this event is free, but because of the high level of interest. Reservations are required.<br/><br/>
+
+Please call Mr. Jones at<br/>
+676 555 0944 to reserve your space<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>9</cau>
+			<content>Who is this notice aimed at?</content>
+			<optiona>Real estate agents</optiona>
+			<optionb>Home owners</optionb>
+			<optionc>Researchers</optionc>
+			<optiond>Marketing experts</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>10</cau>
+			<content>What kind of event does it advertise?</content>
+			<optiona>An estate sale</optiona>
+			<optionb>A party</optionb>
+			<optionc>A lecture</optionc>
+			<optiond>A competition</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>11</cau>
+			<content>What should you do if want to attend the event?</content>
+			<optiona>Put your house on the market</optiona>
+			<optionb>Send in some money</optionb>
+			<optionc>Call Ms. Ortiz</optionc>
+			<optiond>Make a reservation</optiond>
+			<key>d</key>
+		</question>
+	</group>
+</reading_comprehen>

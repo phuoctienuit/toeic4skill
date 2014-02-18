@@ -1,0 +1,123 @@
+<reading_comprehen>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		Those old Movie Goer magazines in the basement may be worth more than you would imagine. A 152 copy featuring Clark Gable can be worth over $750 and an old Lucille Ball is valued at $900. But it’s not just the oldies that are worth so much money. A collection of twenty-five Lost in Space covers form June, 2001 sells for more than $450 online. “The internet has been great for collecting and has made it a lot easier to find things”, says George Boulis, 58, a Boston based collector who has all the Movie Goer Magazine covers. They’re worth about $28000. And what do you think is the most valuable issue? The first one, of course: a mint-condition copy goes for more than $1850.
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>What is this article about?</content>
+			<optiona>The literary value of Movie Goer Magazine</optiona>
+			<optionb>How George Boulis became a very rich man</optionb>
+			<optionc>The monetary value of old issues of Movie Goer Magazine</optionc>
+			<optiond>The monetary value of old covers of Movie Goer Magazine</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<content>Where does the writer assume the readers may have old issues of this magazine?</content>
+			<optiona>In the attic</optiona>
+			<optionb>In the basement</optionb>
+			<optionc>Under their beds</optionc>
+			<optiond>In their garages</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<content>Which is the most valuable issue of this magazine?</content>
+			<optiona>The premier issue</optiona>
+			<optionb>The ultimate issue</optionb>
+			<optionc>The one with Lucille Ball</optionc>
+			<optiond>The one with Clark Cable</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		<b>Miami-Dade County Transit Authority<br/>
+LANE CLOSURES</b><br/><br/>
+
+Due to continued construction on Interstate 95, the two left lanes on the north side will be closed from NE 78th St. to NE 135th St between the hours of midnight and 6:00 A.M. Monday to Friday, and 10:00 P.M. to 7 A.M. weekends.<br/><br/>
+
+Lane closures are scheduled to begin on October 16 and continue until November 6.<br/>
+We regret any inconvenience to motorists.]]>
+		</group_content>
+		<question>
+			<cau>4</cau>
+			<content>Which part of the highway will have lane closures?</content>
+			<optiona>All north side lanes</optiona>
+			<optionb>One lane on each side</optionb>
+			<optionc>The two left lanes on each side</optionc>
+			<optiond>The two left lanes on the north side</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>Who is authorizing the lane closures?</content>
+			<optiona>The city</optiona>
+			<optionb>The county</optionb>
+			<optionc>The state</optionc>
+			<optiond>The district</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<content>Which of the following exits will NOT be in the affected area?</content>
+			<optiona>NE 125th Street</optiona>
+			<optionb>NE 95th Street</optionb>
+			<optionc>NE 151st Street</optionc>
+			<optiond>NE 82nd Street</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		<b>MEMORANDUM</b><br/><br/>
+
+To: All Atlantis Corporation Employees<br/>
+From: Myrtle Sternbridge, Chief Financial Officer<br/>
+Re: Two-day unpaid leave<br/>
+Date: June 3<br/><br/>
+
+It is my unhappy duty to inform you that the Board of Directors has voted to impose a two-day layoff for all employees in order to avoid an operating budget shortfall.<br/><br/>
+
+The company is facing a serious crisis due to poor profits over the past two quarters. The budget is short by about $13 million and according to our bylaw, the budget must be balanced by June 30, the end of this fiscal year.<br/><br/>
+
+It is necessary for all employees to give up  two days’ pay in order to put an end to the budget crisis. Employees are to speak to their supervisors regarding scheduling the two days that they are not to report to work.<br/><br/>
+
+According to the agreement reached between Atlantis Corp. and the union, employees will be reimbursed for the days they lose during the first six months of the next fiscal year if profits improve.<br/><br/>
+
+I sincerely regret the need to take such drastic measures to end the current budget crisis, but with your cooperation, we can see this through.]]>
+		</group_content>
+		<question>
+			<cau>7</cau>
+			<content>Why must employees give up two days’ pay at this time?</content>
+			<optiona>To pay back money they were overpaid</optiona>
+			<optionb>To contribute to company charity</optionb>
+			<optionc>To end a budget crisis in this fiscal year</optionc>
+			<optiond>The bylaws state they have to</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<content>What is causing this budget crisis?</content>
+			<optiona>There is a surplus of $13 million</optiona>
+			<optionb>There is a shortage of $13 million</optionb>
+			<optionc>The CFO did not plan out the operating budget properly</optionc>
+			<optiond>Nobody can pinpoint the reasons for this budget crisis.</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<content>How will the days be taken off?</content>
+			<optiona>Employees will arrange days off with their supervisor</optiona>
+			<optionb>All employees are to stay home starting June 30</optionb>
+			<optionc>A specific plan has not been worked out yet</optionc>
+			<optiond>Employees can arrange to take two days off this or next fiscal year</optiond>
+			<key>a</key>
+		</question>
+	</group>
+</reading_comprehen>

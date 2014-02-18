@@ -1,0 +1,234 @@
+#header{
+	margin:10px;
+	padding: 10px;
+}
+
+#menu .navbar-inverse {
+    background-color: #01478F;
+    border-color: none;   
+}
+
+#menu  .navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #014775;
+}
+
+#sidebar{
+	background-color: #F7F5FA;
+	min-height: 750px;
+}
+
+#content h1, h2{
+	color: #660019;
+}
+#content .title-sharing{
+	color: green;
+}
+.intropic{
+	margin-left: 150px;
+	margin-top: 180px;
+}
+
+
+
+#footer{
+	
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	color: #ffffff;
+  	background-color: #014775;
+}
+.nav-list ul {
+	margin-left: 15px !important;
+}
+.popup {
+	background-color: rgba(200,200,200,0.5);
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: 1010;
+	display: none;
+}
+
+#container_login{
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	background: #f0f0f0;
+	position: absolute;
+	width: 340px;
+	height: 260px;
+	top: 35%;
+	left: 75%;
+	margin-top: -2px;
+	margin-left: -170px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	-webkit-animation-name: bounceIn;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: bounceIn;
+	-moz-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: linear;
+	animation-name: bounceIn;
+	animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+.signup {
+	background-color: rgba(200,200,200,0.5);
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: 1010;
+	display: none;
+}
+
+#container_signup{
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	background: #f0f0f0;
+	position: absolute;
+	width: 340px;
+	height: 380px;
+	top: 25%;
+	left: 85%;
+	margin-top: -2px;
+	margin-left: -170px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	-webkit-animation-name: bounceIn;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: bounceIn;
+	-moz-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: linear;
+	animation-name: bounceIn;
+	animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+.book_share{
+	border-bottom:1px dotted grey;
+	margin: 10px;
+	margin-left: 30px;
+	padding:10px;
+	color: #F7F5FA;
+	width: 750px;
+}
+.book_share img{
+	width: 70px;
+	margin-left: 20px;
+}
+.book_share a{
+	margin-left: 100px;
+	margin-top: 
+}
+.hotro1 {
+	clear: both;
+	margin-top: 20px;
+}
+
+.yahoo1{
+	float: left;
+	height: 500px!;
+	margin-top: 10px;
+}
+.skype1{
+	float: right;
+}
+.hotro2 {
+	clear: both;
+	margin-top: 80px;
+}
+.yahoo2{
+	float: left;
+	margin-top: 10px;
+}
+.skype2{
+	float: right;
+}
+#sharing_listening{
+	margin: 10px;
+}
+.btnclose{
+	float: right;
+	margin-top:-15px;
+	margin-right:-15px;
+}
+.btnclose:hover{
+	cursor: pointer;
+}
+.linkfooter a{
+	color: white;
+	margin-left: 30px;
+	border-right: solid white 3px;
+	padding-right: 30px;	
+	font-size:110%;
+}
+.linkfooter a:last-child{
+	border-right:none;
+}
+.linkfooter a:first-child{
+	
+	margin-left:-30px;
+}
+.linkfooter{
+	text-align:center;
+	margin-bottom: 20px;
+}
+#footer p{
+	text-align: center;
+}
+.level{
+	margin-left: 30px;
+	margin-top: 10px;
+	color: green;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.topuser p{
+	margin-top: 20px;
+	color:#01478f;
+	font-size: 110%;
+	font-weight: bold;
+	margin-bottom:20px;
+}
+.topuser #title_table{
+	background: #01478f;
+	color: white;
+}
+.topuser table tr{
+	background: #FFFFD4;
+	font-weight:bold;
+}
+.topuser table{
+	text-align: center;
+}
+.topuser table th{
+	text-align: center;
+}

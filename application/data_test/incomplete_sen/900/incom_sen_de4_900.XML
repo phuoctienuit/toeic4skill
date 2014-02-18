@@ -1,0 +1,92 @@
+<questions>
+	<question>
+			<cau>1</cau>
+			<content>Please fax us the information immediately because I need to ……… the client right away.</content>
+			<key>a</key>
+			<optiona>Notify</optiona>
+			<optionb>Speak</optionb>
+			<optionc>Report</optionc>
+			<optiond>Attend</optiond>
+	</question>
+	<question>
+			<cau>2</cau>
+			<content>One of the reasons why our sales team has become a leader today is that they are put through a number of vigorous training sessions to keep up with the ……… changes that occur in the market.</content>
+			<key>b</key>
+			<optiona>Prosperous</optiona>
+			<optionb>Continuous</optionb>
+			<optionc>Straight</optionc>
+			<optiond>Mature</optiond>
+	</question>
+	<question>
+			<cau>3</cau>
+			<content>John is a bit nervous because he will give a speech ……… the board members this afternoon.</content>
+			<key>c</key>
+			<optiona>By</optiona>
+			<optionb>On</optionb>
+			<optionc>To</optionc>
+			<optiond>During</optiond>
+	</question>
+	<question>
+			<cau>4</cau>
+			<content>Of the many radio stations in the city, FM 109 is considered to play the ……… listening music.</content>
+			<key>b</key>
+			<optiona>Easy</optiona>
+			<optionb>Easiest</optionb>
+			<optionc>More easily</optionc>
+			<optiond>Most easily</optiond>
+	</question>
+	<question>
+			<cau>5</cau>
+			<content>The new, expensive software was purchased to help keep better ……… of the clients we have here at our company.</content>
+			<key>a</key>
+			<optiona>Records</optiona>
+			<optionb>States</optionb>
+			<optionc>Points</optionc>
+			<optiond>Marks</optiond>
+	</question>
+	<question>
+			<cau>6</cau>
+			<content>Only after ……… requests by the tenants did the superintendent do something about the broken intercoms in some of the apartments.</content>
+			<key>b</key>
+			<optiona>Repeat</optiona>
+			<optionb>Repeated</optionb>
+			<optionc>Repeating</optionc>
+			<optiond>Repetition</optiond>
+	</question>
+	<question>
+			<cau>7</cau>
+			<content>A rain shower ……… by cold winds is expected to reach our region by this evening.</content>
+			<key>b</key>
+			<optiona>Accompany</optiona>
+			<optionb>Accompanied</optionb>
+			<optionc>Accompanying</optionc>
+			<optiond>Will accompany</optiond>
+	</question>
+	<question>
+			<cau>8</cau>
+			<content>The special del offered by our supplier will last only for a ……… time.</content>
+			<key>a</key>
+			<optiona>Limited</optiona>
+			<optionb>Minor</optionb>
+			<optionc>Partial</optionc>
+			<optiond>Lower</optiond>
+	</question>
+	<question>
+			<cau>9</cau>
+			<content>……… something drastic happens before midnight, the postal workers will most likely walk out on their jobs.</content>
+			<key>c</key>
+			<optiona>Also</optiona>
+			<optionb>Except</optionb>
+			<optionc>Unless</optionc>
+			<optiond>Therefore</optiond>
+	</question>
+	<question>
+			<cau>10</cau>
+			<content>The defense attorney contemplated a long time before finally making his decision to ……… the accused in court.</content>
+			<key>b</key>
+			<optiona>Attend</optiona>
+			<optionb>Represent</optionb>
+			<optionc>Express</optionc>
+			<optiond>Perform</optiond>
+	</question>
+</questions>

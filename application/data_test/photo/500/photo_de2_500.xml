@@ -1,0 +1,112 @@
+<!-- 10 cau-->
+<part_picture>
+	<question>
+		<cau>1</cau>
+		<picture>de2_500_cau1.jpg</picture>
+		<audio>de2_500_cau1.mp3</audio>
+		<optiona>He’s playing in a band</optiona>
+		<optionb>He’s adjusting the sound</optionb>
+		<optionc>He’s pressing the elevator button</optionc>
+		<optiond>He’s reading a newspaper</optiond>
+		<key>b</key>
+	</question>	
+	
+	<question>
+		<cau>2</cau>
+		<picture>de2_500_cau2.jpg</picture>
+		<audio>de2_500_cau2.mp3</audio>
+		<optiona>The building is under construction</optiona>
+		<optionb>The man is using a shovel to pick up the dirt</optionb>
+		<optionc>The man is driving a tractor</optionc>
+		<optiond>The man is working on the truck</optiond>
+		<key>b</key>
+	</question>	
+	
+	<question>
+		<cau>3</cau>
+		<picture>de2_500_cau3.jpg</picture>
+		<audio>de2_500_cau3.mp3</audio>
+		<optiona>The police officer is leaning against a car</optiona>
+		<optionb>The man is wearing a vest</optionb>
+		<optionc>The man is putting on his hat</optionc>
+		<optiond>His hands are in the pocket</optiond>
+		<key>b</key>
+	</question>	
+	
+	<question>
+		<cau>4</cau>
+		<picture>de2_500_cau4.jpg</picture>
+		<audio>de2_500_cau4.mp3</audio>
+		<optiona>The man is picking a peach</optiona>
+		<optionb>The man is gesturing</optionb>
+		<optionc>The man is wearing a dark shirt</optionc>
+		<optiond>The man is speaking into the microphone</optiond>
+		<key>d</key>
+	</question>	
+	
+	<question>
+		<cau>5</cau>
+		<picture>de2_500_cau5.jpg</picture>
+		<audio>de2_500_cau5.mp3</audio>
+		<optiona>She’s holding an umbrella</optiona>
+		<optionb>She’s walking down the stairs</optionb>
+		<optionc>She’s wearing a raincoat</optionc>
+		<optiond>She’s running on a track</optiond>
+		<key>a</key>
+	</question>	
+	
+	<question>
+		<cau>6</cau>
+		<picture>de2_500_cau6.jpg</picture>
+		<audio>de2_500_cau6.mp3</audio>
+		<optiona>The men are wearing hats</optiona>
+		<optionb>The men are fixing a table</optionb>
+		<optionc>One man is standing up</optionc>
+		<optiond>One of the chairs is unoccupied</optiond>
+		<key>d</key>
+	</question>	
+	
+	<question>
+		<cau>7</cau>
+		<picture>de2_500_cau7.jpg</picture>
+		<audio>de2_500_cau7.mp3</audio>
+		<optiona>The man is planting a tree</optiona>
+		<optionb>The man is filling the glasses with water</optionb>
+		<optionc>The man is picking flowers from the garden</optionc>
+		<optiond>The man is watering the plants</optiond>
+		<key>d</key>
+	</question>	
+	
+	<question>
+		<cau>8</cau>
+		<picture>de2_500_cau8.jpg</picture>
+		<audio>de2_500_cau8.mp3</audio>
+		<optiona>The man is bending down</optiona>
+		<optionb>The man is putting on a tie</optionb>
+		<optionc>The man is holding a tire</optionc>
+		<optiond>The man is washing a car</optiond>
+		<key>a</key>
+	</question>	
+	
+	<question>
+		<cau>9</cau>
+		<picture>de2_500_cau9.jpg</picture>
+		<audio>de2_500_cau9.mp3</audio>
+		<optiona>They’re working on the building</optiona>
+		<optionb>She is carrying a baby</optionb>
+		<optionc>The man is holding the door for the woman</optionc>
+		<optiond>The woman is placing her luggage in the car</optiond>
+		<key>c</key>
+	</question>	
+		<question>
+		<cau>10</cau>
+		<picture>de2_500_cau10.jpg</picture>
+		<audio>de2_500_cau10.mp3</audio>
+		<optiona>The bird is stretching its wings</optiona>
+		<optionb>The ball is in the pool</optionb>
+		<optionc>The bird is standing in a tree</optionc>
+		<optiond>The board is floating on the water</optiond>
+		<key>a</key>
+	</question>	
+	
+</part_picture>

@@ -1,0 +1,166 @@
+<!-- 3 group * 4 cau =12-->
+<text_complextion>
+<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		LaDon Talent has good opportunities for part-time personnel. Position available are part-time, mostly weekends, and typically 5-7 hours a day.<br/><br/>
+
+Earn $8 for a 5 hour event plus bonuses. You will be (1)……….. for promoting brands by distributing brochures and samples or demonstrating products to prospective customers, (2)……….. creating brand awareness of the product features.<br/><br/>
+
+If you apply for this position and it’s not available at the time, please be assured that LaDon Talent will retain you application on our files for 60 days. During this time your application will remain available for (3)……….. until opportunities become open.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<optiona>Aware</optiona>
+			<optionb>Eligible</optionb>
+			<optionc>Responsible</optionc>
+			<optiond>Qualified</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<optiona>If</optiona>
+			<optionb>Given</optionb>
+			<optionc>Within</optionc>
+			<optiond>Besides</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<optiona>Consider</optiona>
+			<optionb>Considering</optionb>
+			<optionc>Considered</optionc>
+			<optiond>Consideration</optiond>
+			<key>d</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		Thanks to the Internet, the way in which business gets conducted is changing rapidly. Even though the Internet boom of the nineties, which resulted in sky-high stock (1)………, has long ended, most businesses realize that their future lies with the Internet. Ten years ago, a large (2)……… of companies didn’t even have web pages. Now, businesses ignore the Internet at their own peril. They have also realized that the key to increasing profits is establishing a presence on the Internet. Those who (3)……… do so will find themselves the leaders in their fields.
+		]]>
+		</group_content>
+		<question>
+			<cau>4</cau>
+			<optiona>Prices</optiona>
+			<optionb>Sales</optionb>
+			<optionc>Performance</optionc>
+			<optiond>Purchase</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<optiona>Amount</optiona>
+			<optionb>Distribution</optionb>
+			<optionc>Percentage</optionc>
+			<optiond>Ratio</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<optiona>Successfully</optiona>
+			<optionb>Temporarily</optionb>
+			<optionc>Slowly</optionc>
+			<optiond>Eventually</optiond>
+			<key>a</key>
+		</question>
+	</group>
+<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		Beware of pickpockets.<br/><br/>
+ 
+The management of Winona’s would like to (1)……….. all patrons to beware of pickpockets.<br/><br/>
+ 
+A spate of thefts has been taking in (2)……….. week, and in order to avoid a ruined evening, we urge to be extra vigilant with your personal property. We have our suspicions as to who is guilty of these thefts, and would like to make this fact known. Winona’s has a city-wide (3)……….. as a nightclub of the highest quality, and we do not appreciate the efforts of those working to damage this reputation.<br/><br/>
+
+We have notified the police of the current situation and will not hesitate to encourage anyone who falls victim to theft while on our (4)………..to press full charges, should the thief be identified.<br/> 
+		]]>
+		</group_content>
+		<question>
+			<cau>7</cau>
+			<optiona>avert</optiona>
+			<optionb>alert</optionb>
+			<optionc>notice</optionc>
+			<optiond>notify</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<optiona>late</optiona>
+			<optionb>lately</optionb>
+			<optionc>recently</optionc>
+			<optiond>recent</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<optiona>reputedly</optiona>
+			<optionb>reputation</optionb>
+			<optionc>repute</optionc>
+			<optiond>report</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>10</cau>
+			<optiona>building</optiona>
+			<optionb>ground</optionb>
+			<optionc>premises</optionc>
+			<optiond>store</optiond>
+			<key>c</key>
+		</question>
+	</group>
+<group>
+		<id>4</id>
+		<group_content><![CDATA[
+		<b>Memo</b><br/><br/>
+
+To: john Butler, Sandra Oates, Percy Huner & Vivian Westwood<br/>
+From: Alan Best<br/>
+Re: Smoking Policy<br/>
+ Date: January 5th<br/><br/>
+
+I just want to (1) ……….. all department managers that on January 1st , the new company smoking policy was introduced. This policy will be enforced strictly. Please remind all employees in your department of the following:<br/>
+The whole of the company (2) ………..is now a no-smoking are, therefore:<br/>
+·         Smoking is no longer allowed in the break rooms or toilets<br/>
+·         Smoking is not allowed in the factory<br/>
+·         Smoking is not permitted in the parking garage, or any enclosed are<br/>
+·     Any employee who gives up smoking is (3) ………..to a bonus (Subject to the results of mandatory health check (4) ………..six months).<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>11</cau>
+			<optiona>Reminder</optiona>
+			<optionb>Remember</optionb>
+			<optionc>Remind</optionc>
+			<optiond>Remembrance</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<optiona>Promise</optiona>
+			<optionb>Region</optionb>
+			<optionc>Premise</optionc>
+			<optiond>Premises</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>13</cau>
+			<optiona>Held</optiona>
+			<optionb>Blamed</optionb>
+			<optionc>Titled</optionc>
+			<optiond>Entitled</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>14</cau>
+			<optiona>All</optiona>
+			<optionb>Each</optionb>
+			<optionc>Every</optionc>
+			<optiond>Whole</optiond>
+			<key>c</key>
+		</question>
+	</group>
+
+</text_complextion>

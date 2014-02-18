@@ -1,0 +1,127 @@
+<short_con>
+	
+		
+	<group>
+		<id>7</id>
+		<audio>de1_500_group7.mp3</audio>
+		<group_content>
+		M: What would you like to do with your hair today? Would you like some highlights or something dramatic done to it?
+
+		W: I’d like something simple, like the receptionist’s style. Can you add some highlights to make my hair look similar to hers?
+
+		M: Of course. I actually just completed a “what’s hot” seminar last week in  New York, and that style was one that we focused on.
+
+		W: Oh, did you? You make me feel more comfortable and excited about the changes to my hair
+		</group_content>
+		<question>
+			<cau>19</cau>
+			<content>Where most likely does this conversation take place?</content>
+			<optiona>At a shopping mall</optiona>
+			<optionb>At a hair salon</optionb>
+			<optionc>At a fashion boutique</optionc>
+			<optiond>At an art studio</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>20</cau>
+			<content>What would the woman like to do?</content>
+			<optiona>Meet the receptionist</optiona>
+			<optionb>Attend the “what’s hot” seminar</optionb>
+			<optionc>Find a new hair stylist</optionc>
+			<optiond>Change her hair color</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>21</cau>
+			<content>What did the man visit New York?</content>
+			<optiona>To see the sights</optiona>
+			<optionb>To learn about fashion</optionb>
+			<optionc>To buy hair products</optionc>
+			<optiond>To attend a training seminar</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>8</id>
+		<audio>de1_500_group8.mp3</audio>
+		<group_content>
+		W: Richard, have you gotten your new parking pass? I picked mine up on Tuesday.
+
+		M: Tuesday! No, I haven’t even gotten a call for mine. I have to get the parking attendant to lift the gate for me every day.
+
+		W: Maybe, you should contact someone in HR about getting you a card
+
+		M: Good idea. I’ll call them right after the meeting
+		</group_content>
+		<question>
+			<cau>21</cau>
+			<content>What problem is the man faced with?</content>
+			<optiona>He doesn’t know where the HR department is.</optiona>
+			<optionb>He has too much work to prepare for the meeting</optionb>
+			<optionc>He can’t open the garage gate by himself</optionc>
+			<optiond>He wasn’t able to contact the parking attendant. </optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>22</cau>
+			<content>When did the woman receive her parking permit?</content>
+			<optiona>On Thursday</optiona>
+			<optionb>On Friday</optionb>
+			<optionc>On Monday</optionc>
+			<optiond>On Tuesday </optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>23</cau>
+			<content>What does the woman suggest the man do?</content>
+			<optiona>Find the parking attendant</optiona>
+			<optionb>Park in another garage</optionb>
+			<optionc>Arrive at the office early</optionc>
+			<optiond>Contact the HR department</optiond>
+			<key>d</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>9</id>
+		<audio>de1_500_group9.mp3</audio>
+		<group_content>
+		M: Is this monitor available in black or silver?
+
+		W: Currently, we only have the white one in stock, but if you’d like we can order either the black or the silver. You can also get a 21-inch model for an additional 200 dollars.
+
+		M: I’d rather order the 17-inch in black. I heard that silver paint tends to look old quickly.
+
+		W: Great, then let’s go to the customer service counter to fill out the forms. You should have your new monitor within 10 business days.
+		</group_content>
+		<question>
+			<cau>25</cau>
+			<content>What color monitors are available now?</content>
+			<optiona>White</optiona>
+			<optionb>Silver</optionb>
+			<optionc>Black</optionc>
+			<optiond>Red </optiond>
+			<key>A</key>
+		</question>
+		<question>
+			<cau>26</cau>
+			<content>How much does it cost to increase the size of the monitor?</content>
+			<optiona>$ 100</optiona>
+			<optionb>$ 170</optionb>
+			<optionc>$ 200</optionc>
+			<optiond>$ 300</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>27</cau>
+			<content>When can the man expect to receive his monitor?</content>
+			<optiona>In about a week</optiona>
+			<optionb>In about two weeks</optionb>
+			<optionc>In about three weeks</optionc>
+			<optiond>In about four weeks</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<!--end practice 3-->
+</short_con>

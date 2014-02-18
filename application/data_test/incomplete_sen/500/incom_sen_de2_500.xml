@@ -1,0 +1,100 @@
+<!-- 40 cau-->
+<questions>
+	<question>
+			<cau>1</cau>
+			<content>Dave bought ……… lamp for his mother’s birthday</content>	
+			<key>a</key>
+			<optiona>A lovely new </optiona>
+			<optionb>A new lovely</optionb>
+			<optionc>A lovelier new</optionc>
+			<optiond>A new lovelier</optiond>
+	</question>
+	<question>
+			<cau>2</cau>
+			<content>The holiday season is by far the busiest time of year for ……… stores</content>
+			<key>b</key>
+			<optiona>Of the most</optiona>
+			<optionb>Most</optionb>
+			<optionc>The most of</optionc>
+			<optiond>Mostly</optiond>
+	</question>
+	<question>
+			<cau>3</cau>
+			<content>Would you like another ……… tea?</content>
+			<key>c</key>
+			<optiona>Bowl</optiona>
+			<optionb>Cup</optionb>
+			<optionc>Cup of</optionc>
+			<optiond>Serving of</optiond>
+				
+	</question>
+	<question>
+			<cau>4</cau>
+			<content>Could you ………drinks to those guests who just arrived?</content>
+			<key>b</key>
+			<optiona>Pour</optiona>
+			<optionb>Serve</optionb>
+			<optionc>Make</optionc>
+			<optiond>Fill</optiond>
+			
+	</question>
+	<question>
+			<cau>5</cau>
+			<content>I’m sure that I would enjoy ……… one, the red wine or the white wine</content>
+			<key>c</key>
+			<optiona>Others</optiona>
+			<optionb>Both</optionb>
+			<optionc>Either</optionc>
+			<optiond>Some</optiond> 
+	</question>
+	<question>
+			<cau>6</cau>
+			<content>I don’t go to that language school ………</content>
+			<key>c</key>
+			<optiona>No longer</optiona>
+			<optionb>Not longer </optionb>
+			<optionc>Anymore</optionc>
+			<optiond>No more</optiond>
+			
+	</question>
+	<question>
+			<cau>7</cau>
+			<content>Don’t forget to change the oil ……… 3,000 miles</content>
+			<key>b</key>
+			<optiona>Each</optiona>
+			<optionb>Every</optionb>
+			<optionc>Another</optionc>
+			<optiond>Other</optiond>
+	</question>
+	<question>
+			<cau>8</cau>
+			<content>……… in this department was busy preparing for the conference last week</content>
+			<key>a</key>
+			<optiona>Every person</optiona>
+			<optionb>Every people</optionb>
+			<optionc>All people</optionc>
+			<optiond>All the people</optiond>
+			
+	</question>
+	<question>
+			<cau>9</cau>
+			<content>Sorry this is taking so long. Can you wait for ……… ten minutes?</content>
+			<key>c</key>
+			<optiona>Other</optiona>
+			<optionb>An other</optionb>
+			<optionc>Another</optionc>
+			<optiond>Few</optiond>
+			
+	</question>
+	<question>
+			<cau>10</cau>
+			<content>Most ……… work hard</content>
+			<key>b</key>
+			<optiona>Of employees</optiona>
+			<optionb>Employees</optionb>
+			<optionc>Employee</optionc>
+			<optiond>Of employee</optiond>
+	</question>
+		
+	
+</questions>

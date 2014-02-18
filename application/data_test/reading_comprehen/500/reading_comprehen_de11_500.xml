@@ -1,0 +1,436 @@
+<!-- 7 group * 4 cau =28-->
+<reading_comprehen>
+<group>
+		<id>1</id>
+		<group_content>
+		Those old Movie Goer magazines in the basement may be worth more than you would imagine. A 152 copy featuring
+		Clark Gable can be worth over $750 and an old Lucille Ball is valued at $900. But it’s not just the oldies that
+		are worth so much money. A collection of twenty-five Lost in Space covers form June, 2001 sells for more than $450 online.
+		“The internet has been great for collecting and has made it a lot easier to find things”, says George Boulis, 58,
+		a Boston based collector who has all the Movie Goer Magazine covers. They’re worth about $28000. 
+		And what do you think is the most valuable issue? The first one, of course: a mint-condition copy goes for more than $1850.
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>What is this article about?</content>
+			<optiona>The literary value of Movie Goer Magazine</optiona>
+			<optionb>How George Boulis became a very rich man</optionb>
+			<optionc>The monetary value of old issues of Movie Goer Magazine</optionc>
+			<optiond>The monetary value of old covers of Movie Goer Magazine</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>2</cau>
+			<content>Where does the writer assume the readers may have old issues of this magazine?</content>
+			<optiona>In the attic</optiona>
+			<optionb>In the basement</optionb>
+			<optionc>Under their beds</optionc>
+			<optiond>In their garages</optiond>
+			<key>b</key>
+		</question>
+		
+		<question>
+			<cau>3</cau>
+			<content>Which is the most valuable issue of this magazine?</content>
+			<optiona>The premier issue</optiona>
+			<optionb>The ultimate issue</optionb>
+			<optionc>The one with Lucille Ball</optionc>
+			<optiond>The one with Clark Cable</optiond>
+			<key>a</key>
+		</question>
+		
+		
+	</group>
+		<id>2</id>
+		<group_content>
+		Miami-Dade County Transit Authority
+		LANE CLOSURES
+
+		Due to continued construction on Interstate 95, the two left lanes on the north side will be closed from NE 78th St. to NE 135th St between the hours of midnight and 6:00 A.M. Monday to Friday, and 10:00 P.M. to 7 A.M. weekends.
+
+		Lane closures are scheduled to begin on October 16 and continue until November 6.
+		We regret any inconvenience to motorists.
+		</group_content>
+		<question>
+			<cau>4</cau>
+			<content>Which part of the highway will have lane closures?</content>
+			<optiona>All north side lanes</optiona>
+			<optionb>One lane on each side</optionb>
+			<optionc>The two left lanes on each side</optionc>
+			<optiond>The two left lanes on the north side</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>Who is authorizing the lane closures?</content>
+			<optiona>The city</optiona>
+			<optionb>The county</optionb>
+			<optionc>The state</optionc>
+			<optiond>The district</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<content>Which of the following exits will NOT be in the affected area?</content>
+			<optiona>NE 125th Street</optiona>
+			<optionb>NE 95th Street</optionb>
+			<optionc>NE 151st Street</optionc>
+			<optiond>NE 82nd Street</optiond>
+			<key>b</key>
+		</question>
+		
+	<group>
+		<id>3</id>
+		<group_content>
+		To: All Atlantis Corporation Employees
+		From: Myrtle Sternbridge, Chief Financial Officer
+		Re: Two-day unpaid leave
+		Date: June 3
+
+		It is my unhappy duty to inform you that the Board of Directors has voted to impose a two-day layoff for all employees in order to avoid an operating budget shortfall.
+
+		The company is facing a serious crisis due to poor profits over the past two quarters. The budget is short by about $13 million and according to our bylaw, the budget must be balanced by June 30, the end of this fiscal year.
+
+		It is necessary for all employees to give up  two days’ pay in order to put an end to the budget crisis. Employees are to speak to their supervisors regarding scheduling the two days that they are not to report to work.
+
+		According to the agreement reached between Atlantis Corp. and the union, employees will be reimbursed for the days they lose during the first six months of the next fiscal year if profits improve.
+
+		I sincerely regret the need to take such drastic measures to end the current budget crisis, but with your cooperation, we can see this through.
+		</group_content>
+			<question>
+				<cau>7</cau>
+				<content>Why must employees give up two days’ pay at this time?</content>
+				<optiona>To pay back money they were overpaid</optiona>
+				<optionb>To contribute to company charity</optionb>
+				<optionc>To end a budget crisis in this fiscal year</optionc>
+				<optiond>The bylaws state they have to</optiond>
+				<key>c</key>
+			</question>
+			<question>
+				<cau>8</cau>
+				<content>What is causing this budget crisis?</content>
+				<optiona>There is a surplus of $13 million</optiona>
+				<optionb>There is a shortage of $13 million</optionb>
+				<optionc>The CFO did not plan out the operating budget properly</optionc>
+				<optiond>Nobody can pinpoint the reasons for this budget crisis.</optiond>
+				<key>b</key>
+			</question>
+			<question>
+				<cau>9</cau>
+				<content>How will the days be taken off?</content>
+				<optiona>Employees will arrange days off with their supervisor</optiona>
+				<optionb>All employees are to stay home starting June 30</optionb>
+				<optionc>A specific plan has not been worked out yet</optionc>
+				<optiond>Employees can arrange to take two days off this or next fiscal year</optiond>
+				<key>a</key>
+			</question>
+	</group>
+	<!--End practice 1. Bo passage cuoi cung vi co 2 cau hoi-->
+	<!--Mini test-->
+	
+	<group>
+		<id>4</id>
+		<group_content>
+		Richview District Library
+
+		New Address
+		1806 Islington Avenue
+		Richview District
+		(Next to Islington Junior High)
+
+		Hours
+		Monday-Thursday      9:00 a.m.-8:30 p.m.
+		Friday                          9:00 a.m.-6:00 p.m.
+		Saturday                      9:00 a.m.-5:00 p.m.
+		Sunday                        1:30 p.m.-5:00 p.m. (Sep. to Jun.)
+		(Closed on holidays)
+
+		Loan period: Books and audio materials – 3 weeks; Movies – 1 week
+							  (One time renewal is allowed by e-mail)
+
+		Overdue fines (per day per item): Books - $0.50; Audio materials and movies - $1.00
+		Newspapers, reference materials, microfilm- For use in library only
+
+		The library carries a wide selection of books including current bestsellers for both fiction and nonfiction. 
+		There are also many audio books available in CD format. Movies are available in both DVD and VHS format.
+
+		If you have questions or suggestions regarding Circulation, Reserve, Shelving, or other Loan Services functions
+		contact Jennifer Edwins, Loan Service Manager, by e-mail (jedwins@richview.net) or by phone at (507) 222-4259.
+		</group_content>
+			<question>
+				<cau>10</cau>
+				<content>What is NOT mentioned about the library in the notice?</content>
+				<optiona>It serves certain types of customers only</optiona>
+				<optionb>It opens on weekends during certain months.</optionb>
+				<optionc>Its address has changed recently.</optionc>
+				<optiond>It is located next to a school</optiond>
+				<key>a</key>
+			</question>
+			<question>
+				<cau>11</cau>
+				<content>What time is the library open till on Friday?</content>
+				<optiona>1:30 p.m.</optiona>
+				<optionb>5:00 p.m.</optionb>
+				<optionc>6:00 p.m.</optionc>
+				<optiond>8:30 p.m.</optiond>
+				<key>c</key>
+			</question>
+			<question>
+				<cau>12</cau>
+				<content>What is NOT allowed to be taken out of the library?</content>
+				<optiona>Books</optiona>
+				<optionb>Audio materials</optionb>
+				<optionc>Newspapers</optionc>
+				<optiond>Movies</optiond>
+				<key>c</key>
+			</question>
+	</group>
+	
+	<group>
+		<id>5</id>
+		<group_content>
+		Eli Finance, the largest real estate financier in the Middle East by market value and total assets, today proudly 
+		announced that it received the award for the “Best Financial Services Company in the UAE” during the 2008 Liquid 
+		Real Estate Awards ceremony organized by Euromoney. Euromoney Liquid Real Estate Awards honor the world’s leading 
+		institutions for their ability to innovate and develop new products and services to meet the market’s demand in 
+		today’s increasingly challenging financial environment, as well as make the most efficient use of the inherent 
+		strengths within their organization. Speaking on the occasion, Mr. Ismael Alharmi, Chief Executive Officer of Eli 
+		Finance said, “We are honored to receive this prestigious award and I would like to thank our staff at Eli for their efforts.
+		This award will leverage our position as the largest real estate financier in the region”. Eli won this award from a highly 
+		competitive list of contenders for its excellent performance and business expansion over the last ten months. Its half yearly 
+		net profit saw an increase of 155 percent and total assets, as of June 2008, stood at an astounding AED14.2bn, a growth of 133%
+		compared to AED6.1bn as of June 2007. Eli has also set its global footprint in various international markets such as Egypt and
+		Saudi Arabia, and plans to commence operations in Jordan and Qatar.
+		</group_content>
+			<question>
+				<cau>13</cau>
+				<content>What is the main point of this article?</content>
+				<optiona>An investigation is being conducted for a financial company’s fraud scandal.</optiona>
+				<optionb>A firm has been recognized for its remarkable growth.</optionb>
+				<optionc>UAE firms are gaining more influence in the international market.</optionc>
+				<optiond>Eli Finance announces the appointment of a new CEO</optiond>
+				<key>b</key>
+			</question>
+			<question>
+				<cau>14</cau>
+				<content>What seem to be true about Eli Finance?</content>
+				<optiona>It has overtaken its rival company Euromoney</optiona>
+				<optionb>Its main office will relocate to the Middle East region</optionb>
+				<optionc>It received the award because of excellent business performance.</optionc>
+				<optiond>It was disappointed with the award given by Euromoney</optiond>
+				<key>c</key>
+			</question>
+			<question>
+				<cau>15</cau>
+				<content>Where does Eli Finance plan to begin operations?</content>
+				<optiona>In Egypt</optiona>
+				<optionb>In Saudi Arabia</optionb>
+				<optionc>In Iran</optionc>
+				<optiond>In Qatar</optiond>
+				<key>d</key>
+			</question>
+	</group>
+	<group>
+		<id>6</id>
+		<group_content>
+		Art World
+		International contemporary art and style magazine
+		Baltimore’s best art supply store
+		Whether you are a student, a hobbyist, or a serious artist, The Art Store has the best range of supplies 
+		at the consistently lowest price. If you need high-quality paper, paint, brushes, canvas, or more, 
+		The Art Store is the place to go. It is a national chain and carries its own brands of supplies, 
+		along with other brands. Since there is no middleman, The Art Store brand products are very affordable and high quality.
+		Also, there are always specials and sales on different items. Customers can sign up to get coupons and specials in the mail. 
+		The Art Store also has a preferred customer card that helps with getting the best price.
+		This weekend, The Art Store offers special discounts for watercolor paints, paint markers and sketchbooks. 
+		If you need to purchase back-to-school supplies for your child, you do not want to miss this opportunity to save. 
+		They also provide free USP ground shipping on orders over $100, although some supplies may take up to four weeks to arrive. 
+		For more details, check out their website, www.theartstore.com.
+		</group_content>
+			<question>
+				<cau>16</cau>
+				<content>What is offered as a special discount item?</content>
+				<optiona>Two sketchbooks for the price of one</optiona>
+				<optionb>A gift with the purchase of a watercolor set.</optionb>
+				<optionc>50% discount on shipping for all purchases</optionc>
+				<optiond>A free coupon with the purchase of an easel</optiond>
+				<key>b</key>
+			</question>
+			<question>
+				<cau>17</cau>
+				<content>What can be inferred about The Art Store?</content>
+				<optiona>It has a good reputation as an art supply provider</optiona>
+				<optionb>It has recently moved to Baltimore.</optionb>
+				<optionc>It has recently moved to Baltimore.</optionc>
+				<optiond>It offers special sales through the website monthly</optiond>
+				<key>a</key>
+			</question>
+			<question>
+				<cau>18</cau>
+				<content>Which of the following is not included in the Coleman Watercolor Field Box Set?</content>
+				<optiona>Palette</optiona>
+				<optionb>Sponge</optionb>
+				<optionc>Sketchbooks</optionc>
+				<optiond>Watercolors</optiond>
+				<key>c</key>
+			</question>
+	</group>
+	
+	<group>
+		<id>7</id>
+		<group_content>
+		Busy Bee Movers has been proud to service the Saint Louis area for 15 years. We take great pride in moving Missouri
+		and Illinois households and offering professional relocation services. When you move to e neighboring state, across 
+		the city or down the street, you can depend on Busy Bee Movers to take you there. We operate six days a week with our
+		team of fast, courteous, experienced workers. Our trucks and equipment are well maintained and always clean.
+		We’re licensed and insured, and are members in good standing with the Better Business Bureau and the American Moving  
+		Storage Association.
+
+		We’re family-owned business with a strong belief in treating our customers like members of the family. We respect your
+		belongings and take steps to be sure that your property is handled with the utmost care. All of our workers are employed
+		directly by Busy Bee, so there are no last-minute contracted laborers showing up for your important move. Busy Bee Movers 
+		maintains the highest standards for the people we hire, the equipment we operate and the services we provide. 
+		We put everything we have behind every move. We know our reputation depends on it!
+
+		We’ve got flexible pricing programs to make your move more affordable. We have a menu of services available.
+		We’ll even park and/or unpack the boxes for you; it’s your choice to make. Don’t get stung by high prices. 
+		Call Busy Bee today at (212) 555-4314 or visit our website www.busybeemovers.com to get a free quote! 
+		We offer senior and veteran discounts. Cash, check and major credit cards are accepted.
+		</group_content>
+			<question>
+				<cau>19</cau>
+				<content>What kind of service is offered in this advertisement?</content>
+				<optiona>Janitorial service</optiona>
+				<optionb>Real estate sale</optionb>
+				<optionc>Overseas travel</optionc>
+				<optiond>Relocation service</optiond>
+				<key>d</key>
+			</question>
+			<question>
+				<cau>20</cau>
+				<content>What is NOT true about Busy Bee Movers?</content>
+				<optiona>It is licensed to run the moving business in Illinois</optiona>
+				<optionb>It boasts well-maintained equipment and skilled workers.</optionb>
+				<optionc>It provides all customers with senior and veteran discounts</optionc>
+				<optiond>It has been in operation in Saint Louis for more than 10 years</optiond>
+				<key>c</key>
+			</question>
+			<question>
+				<cau>21</cau>
+				<content>According to the advertisement, to which association does this business belong?</content>
+				<optiona>Best Business Association</optiona>
+				<optionb>Wild Life Association</optionb>
+				<optionc>American Moving and Storage Association</optionc>
+				<optiond>Missouri Advertising Association</optiond>
+				<key>c</key>
+			</question>
+	</group>
+	
+	<group>
+		<id>8</id>
+		<group_content>
+		APEA (Ames Professional and Entrepreneur Association)
+
+		The Ames Professional and Entrepreneur Association was founded in 1968 to bring together members of the business community. 
+		The Association provides members with a form to deal with issues affecting Ames Township and enhances the relationship 
+		between members and the residents of the township.
+
+		APEA is celebrating its 40th anniversary in 2008 at Brodeurs on State Street. All current members, past members, 
+		and guest are welcome to help us celebrate at a dinner on October 15. There will be a raffle and an auction that night.
+		Live entertainment for adults and fun activities for children are also included. Food and drinks will be provided by one 
+		of the top caterers in the Ames region. The menu is included in the invitation.
+
+		Tickets are available from the APEA office (1 West State St. / 312-554-5055) or via e-mail (ticket@apea.org).
+		The prices are $30 for adults, $18 for children under 15, and $20 for senior citizens. You can also purchase
+		the tickets directly through our website. Please provide your name, address and telephone number and how many 
+		tickets you would like. Our reservation staff will contact you for confirmation and credit card information, 
+		and mail you the tickets. Tickets will not be sold at the venue on the day of the event.
+		For more information, visit the APEA website at www.apea.org and click on Anniversary Dinner. Please RSVP by October 8.
+		</group_content>
+			<question>
+				<cau>22</cau>
+				<content>To whom are the invitations probably intended?</content>
+				<optiona>Employers of catering businesses</optiona>
+				<optionb>Members of a business organization</optionb>
+				<optionc>Newly-elected city council members</optionc>
+				<optiond>Children and senior citizens</optiond>
+				<key>b</key>
+			</question>
+			<question>
+				<cau>23</cau>
+				<content>What is the purpose of the event?</content>
+				<optiona>To commemorate an anniversary</optiona>
+				<optionb>To celebrate an opening of a new restaurant</optionb>
+				<optionc>To introduce the new president of APEA</optionc>
+				<optiond>To announce the winner of the Entrepreneur of the Year</optiond>
+				<key>a</key>
+			</question>
+			<question>
+				<cau>24</cau>
+				<content>How can people purchase tickets for the event?</content>
+				<optiona>By visiting Brodeurs</optiona>
+				<optionb>By calling the catering company</optionb>
+				<optionc>By visiting the APEA website</optionc>
+				<optiond>By returning the application in the invitation</optiond>
+				<key>c</key>
+			</question>
+	</group>
+	
+	<group>
+		<id>9</id>
+		<group_content>
+		The Daily Chronicle, Saturday, April 8
+		Job Listings
+		Global Technical Organization
+		Work with industry leaders on exciting and diverse projects!
+
+		This prestigious organization houses technical specialists and is one of the largest workplace health and
+		safety consultancies in Australia. Due to an ever-expanding workload, this exceptional group is seeking to 
+		recruit talented individuals who are looking to build a solid career within a challenging and rewarding workplace.
+
+		As an international player, this group is dedicated and thrives on being a client-focused organization. 
+		They assist and guide clients in a variety of business sectors to identify and solve workplace health and 
+		safety problems and implement risk management strategies. As an Environmental Health and Safety consultant you 
+		will be joining a fast-paced learning environment where you can and will influence decisions. You will be
+		responsible for environmental risk management, implementing auditing and incident response procedures, 
+		environmental reporting and the development of Environmental Management Systems (EMS).
+
+		To be successful in this role you will have to possess the following: tertiary qualification in environmental
+		science/planning/management or engineering; experience developing EMS; knowledge of environmental industry and
+		statutory requirements, including environmental planning, project/program management, coordination and reporting experience;
+		and excellent communication and presentation skills.
+
+		To be considered please submit your CV and cover letter to resume@globaltr.com.au. 
+		Alternatively, you may contact Bradley Austin for a confidential discussion at 02 9957 1008.
+		</group_content>
+			<question>
+				<cau>25</cau>
+				<content>For whom is this announcement most likely written?</content>
+				<optiona>Recruiting agencies</optiona>
+				<optionb>Human resources professionals</optionb>
+				<optionc>International communications experts</optionc>
+				<optiond>Environmental experts</optiond>
+				<key>d</key>
+			</question>
+			<question>
+				<cau>26</cau>
+				<content>According to the announcement, what is NOT part of the responsibility?</content>
+				<optiona>Risk management</optiona>
+				<optionb>Being a media spokesperson</optionb>
+				<optionc>Environmental system development</optionc>
+				<optiond>Incident report procedure implementation</optiond>
+				<key>b</key>
+			</question>
+			<question>
+				<cau>27</cau>
+				<content>According to the announcement, what must applicants send to be considered for the job?</content>
+				<optiona>A resume and a cover letter</optiona>
+				<optionb>A recommendation letter</optionb>
+				<optionc>A copy of a college transcript</optionc>
+				<optiond>System development certificate</optiond>
+				<key>a</key>
+			</question>
+	</group>
+	<!--mini test 1,2 -->
+</reading_comprehen>

@@ -1,0 +1,92 @@
+<questions>
+	<question>
+			<cau>1</cau>
+			<content>The new store, ……… is currently undergoing construction, will have its grand opening sometime next spring.</content>
+			<key>d</key>
+			<optiona>Who</optiona>
+			<optionb>Where</optionb>
+			<optionc>When</optionc>
+			<optiond>Which</optiond>
+	</question>
+	<question>
+			<cau>2</cau>
+			<content>In a desperate move to increase their revenues to meet their sales goal, the company is planning to offer a special discount ……… its customers.</content>
+			<key>b</key>
+			<optiona>By</optiona>
+			<optionb>To</optionb>
+			<optionc>With</optionc>
+			<optiond>Upon</optiond>
+	</question>
+	<question>
+			<cau>3</cau>
+			<content>……… in computer technology are allowing users to reach into any part of the world by just clicking a mouse.</content>
+			<key>b</key>
+			<optiona>Advancement</optiona>
+			<optionb>Advances</optionb>
+			<optionc>Advancing</optionc>
+			<optiond>Advance</optiond>
+	</question>
+	<question>
+			<cau>4</cau>
+			<content>The company’s profits are ……… to hit their peak in the next quarter mainly due to the release of its new line of clothing.</content>
+			<key>a</key>
+			<optiona>Forecast</optiona>
+			<optionb>Forecasting</optionb>
+			<optionc>To forecast</optionc>
+			<optiond>Will forecast</optiond>
+	</question>
+	<question>
+			<cau>5</cau>
+			<content>Mr. Gonzales, who has been a ……… member of the country club for over 25 years, has recently been appointed president.</content>
+			<key>b</key>
+			<optiona>First</optiona>
+			<optionb>Valued</optionb>
+			<optionc>Strong</optionc>
+			<optiond>Durable</optiond>
+	</question>
+	<question>
+			<cau>6</cau>
+			<content>The ……… of climbing to the top of the corporate ladder is best defined in the new book published by Scott Thompson, one of the most successful businessmen in history.</content>
+			<key>a</key>
+			<optiona>Challenge</optiona>
+			<optionb>Dimension</optionb>
+			<optionc>Introduction</optionc>
+			<optiond>Compassion</optiond>
+	</question>
+	<question>
+			<cau>7</cau>
+			<content>The ……… tough training given by our company creates strong and able sales representatives who perform well above others in the same field.</content>
+			<key>d</key>
+			<optiona>Indifferently</optiona>
+			<optionb>Presumably</optionb>
+			<optionc>Completely</optionc>
+			<optiond>Unbearably</optiond>
+	</question>
+	<question>
+			<cau>8</cau>
+			<content>The new dome built in the center of town houses many new facilities, including a hotel with rooms that have a spectacular view of the stadium that is ………</content>
+			<key>c</key>
+			<optiona>Impress</optiona>
+			<optionb>Impression</optionb>
+			<optionc>Impressive</optionc>
+			<optiond>Impressing</optiond>
+	</question>
+	<question>
+			<cau>9</cau>
+			<content>Our staff prefers to fly than to use other modes of transportation since it is much more.</content>
+			<key>d</key>
+			<optiona>Optional</optiona>
+			<optionb>Protective</optionb>
+			<optionc>excessive</optionc>
+			<optiond>convenient</optiond>
+	</question>
+	<question>
+			<cau>10</cau>
+			<content>……… the job market is not stable, those who persist will be able to land jobs eventually.</content>
+			<key>c</key>
+			<optiona>Whether</optiona>
+			<optionb>Therefore</optionb>
+			<optionc>Even if</optionc>
+			<optiond>So that</optiond>
+	</question>
+</questions>

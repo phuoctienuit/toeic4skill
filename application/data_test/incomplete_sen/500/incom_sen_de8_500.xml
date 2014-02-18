@@ -1,0 +1,96 @@
+<questions>
+	<question>
+			<cau>1</cau>
+			<content>Ms. Kim is learning Russian ……… she can communicate with her new father-in-law.</content>
+			<key>b</key>
+			<optiona>So that</optiona>
+			<optionb>Because</optionb>
+			<optionc>Although</optionc>
+			<optiond>Then</optiond>
+	</question>
+	<question>
+			<cau>2</cau>
+			<content>In order to get a ………, you must bring in the defective product with a valid receipt</content>
+			<key>d</key>
+			<optiona>Reimbursement</optiona>
+			<optionb>Premium</optionb>
+			<optionc>Duplication</optionc>
+			<optiond>Refund</optiond>
+	</question>
+	<question>
+			<cau>3</cau>
+			<content>I’m surprised ……… how fast customers get served in this restaurant</content>
+			<key>a</key>
+			<optiona>On</optiona>
+			<optionb>At</optionb>
+			<optionc>In</optionc>
+			<optiond>For</optiond>
+	</question>
+	<question>
+			<cau>4</cau>
+			<content>My cousin’s ……… advice about selling our stock saved us thousands</content>
+			<key>a</key>
+			<optiona>Amazingly</optiona>
+			<optionb>Amazed</optionb>
+			<optionc>Amazing</optionc>
+			<optiond>Amazemen</optiond>
+	</question>
+	
+	<!--End chua dien key-->
+	
+	<question>
+			<cau>5</cau>
+			<content>Politicians are said to be the ……… reliable people in the world; nevertheless, there are always some people who seek such a career</content>
+			<key>b</key>
+			<optiona>Less</optiona>
+			<optionb>Least</optionb>
+			<optionc>More</optionc>
+			<optiond>Worst</optiond>
+	</question>
+	<question>
+			<cau>6</cau>
+			<content>Of all the presidential aides, they say he has the ……… powerful voice in decision-making</content>
+			<key>c</key>
+			<optiona>Much more</optiona>
+			<optionb>More than</optionb>
+			<optionc>Most</optionc>
+			<optiond>Best</optiond>
+	</question>
+	<question>
+			<cau>7</cau>
+			<content>Though he was ……… handsome man she had ever met, Caroline wouldn’t go out with him on a date</content>
+			<key>d</key>
+			<optiona>The more</optiona>
+			<optionb>More</optionb>
+			<optionc>Best</optionc>
+			<optiond>The most</optiond>
+	</question>
+	<question>
+			<cau>8</cau>
+			<content>Of the two games, no one thought the previous one was ……… exciting game</content>
+			<key>d</key>
+			<optiona>More</optiona>
+			<optionb>The best</optionb>
+			<optionc>Most</optionc>
+			<optiond>The more </optiond>
+	</question>
+	<question>
+			<cau>9</cau>
+			<content>The director is not as particular about the project ……… he used to be</content>
+			<key>c</key>
+			<optiona>So</optiona>
+			<optionb>Than</optionb>
+			<optionc>As</optionc>
+			<optiond>That</optiond>
+	</question>
+	<question>
+			<cau>10</cau>
+			<content>The situation is likely to become ……… than we expected it would be</content>
+			<key>b</key>
+			<optiona>Much bad</optiona>
+			<optionb>Much worse</optionb>
+			<optionc>Very bad</optionc>
+			<optiond>Very worse</optiond>
+	</question>
+
+</questions>

@@ -1,0 +1,106 @@
+<!--30 câu-->
+<QR>
+	<question>
+		<cau>1</cau>
+		<audio>qr_de1_500_cau1.mp3</audio>
+		<content>Why did Ms. Chen call a meeting today?</content>
+		<optiona>It’s today</optiona>
+		<optionb>At 2:30, I think</optionb>
+		<optionc>Because we have to discuss the budget</optionc>
+		<key>c</key>
+	</question>
+	
+	<question>
+		<cau>2</cau>
+		<audio>qr_de1_500_cau2.mp3</audio>
+		<content>Do you know what time the offices close?</content>
+		<optiona>I think everyone leaves by 5:30</optiona>
+		<optionb>Yes, the offices are closed</optionb>
+		<optionc>You really should buy some new clothes</optionc>
+		<key>a</key>
+	</question>
+	
+	<question>
+		<cau>3</cau>
+		<audio>qr_de1_500_cau3.mp3</audio>
+		<content>Who is going to meet Mr. Continue at the airport?</content>
+		<optiona>He’s at the airport</optiona>
+		<optionb>Mrs. Garcia will pick him up</optionb>
+		<optionc>At ten o’clock</optionc>
+		<key>b</key>
+	</question>
+	
+	<question>
+		<cau>4</cau>
+		<audio>qr_de1_500_cau4.mp3</audio>
+		<content>When can I call you?</content>
+		<optiona>Tomorrow morning is a good time</optiona>
+		<optionb>Most people just call me Maria</optionb>
+		<optionc>My office is the best place to talk</optionc>
+		<key>a</key>
+	</question>
+	
+	<question>
+		<cau>5</cau>
+		<audio>qr_de1_500_cau5.mp3</audio>
+		<content>Where do you usually park your car?</content>
+		<optiona>There’s a beautiful park nearby</optiona>
+		<optionb>In the garage across the street</optionb>
+		<optionc>I had to take it to the mechanic last week</optionc>
+		<key>b</key>
+	</question>
+	
+	<question>
+		<cau>6</cau>
+		<audio>qr_de1_500_cau6.mp3</audio>
+		<content>Are you almost ready for the meeting?</content>
+		<optiona>I met him at the reception last night</optiona>
+		<optionb>No, it’s in the big conference room</optionb>
+		<optionc>Yes, I just have to finish typing these notes</optionc>
+		<key>c</key>
+	</question>
+	
+		<question>
+		<cau>7</cau>
+		<audio>qr_de1_500_cau7.mp3</audio>
+		<content>Where did you put the packages for Ms. Sato?</content>
+		<optiona>Ms. Sato is over there</optiona>
+		<optionb>They’re on her desk</optionb>
+		<optionc>She packed her bags</optionc>
+		<key>b</key>
+	</question>
+	
+		<question>
+		<cau>8</cau>
+		<audio>qr_de1_500_cau8.mp3</audio>
+		<content>Do you know whose keys these are?</content>
+		<optiona>I left them on your desk</optiona>
+		<optionb>I think they’re Mr. Kim’s</optionb>
+		<optionc>They’re the keys to the closet door</optionc>
+		<key>b</key>
+	</question>
+	
+		<question>
+		<cau>9</cau>
+		<audio>qr_de1_500_cau9.mp3</audio>
+		<content>When did the director arrive?</content>
+		<optiona>Since this morning</optiona>
+		<optionb>At the airport</optionb>
+		<optionc>Late last night</optionc>
+		<key>c</key>
+	</question>
+	<!--End practice 1- QR MsHoa toeic-->
+		<question>
+		<cau>10</cau>
+		<audio>qr_de1_500_cau10.mp3</audio>
+		<content>Did you notice whether Ms. Kovacs was at the reception?</content>
+		<optiona>Yes, I took thorough notes</optiona>
+		<optionb>Yes, she was there</optionb>
+		<optionc>Yes, she received it</optionc>
+		<key>b</key>
+		  
+	</question>
+	
+		
+	
+</QR>

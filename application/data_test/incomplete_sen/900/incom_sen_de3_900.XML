@@ -1,0 +1,92 @@
+<questions>
+	<question>
+			<cau>1</cau>
+			<content>Should there be any requests for schedule changes, please notify us ………</content>
+			<key>b</key>
+			<optiona>Prompt</optiona>
+			<optionb>Prompted</optionb>
+			<optionc>Promptly</optionc>
+			<optiond>Prompting</optiond>
+	</question>
+	<question>
+			<cau>2</cau>
+			<content>For this weekend only, Bad Boys Electronics Store is celebrating its first year in business with up to thirty percent ……… on all items in the store.</content>
+			<key>d</key>
+			<optiona>Retail</optiona>
+			<optionb>Market</optionb>
+			<optionc>Economy</optionc>
+			<optiond>Discounts</optiond>
+	</question>
+	<question>
+			<cau>3</cau>
+			<content>The automobile parts we requested for our customer got here on ………</content>
+			<key>c</key>
+			<optiona>Authority</optiona>
+			<optionb>Condition</optionb>
+			<optionc>Schedule</optionc>
+			<optiond>Appointment</optiond>
+	</question>
+	<question>
+			<cau>4</cau>
+			<content>The advertisements printed in this magazine do not ………imply endorsement by the management.</content>
+			<key>d</key>
+			<optiona>Highly</optiona>
+			<optionb>Barely</optionb>
+			<optionc>Gradually</optionc>
+			<optiond>Necessarily</optiond>
+	</question>
+	<question>
+			<cau>5</cau>
+			<content>The newly installed alarm system, which is directly connected to the police, will go off if the correct security code is not entered ……… 60 seconds of touching the keypad.</content>
+			<key>c</key>
+			<optiona>Only</optiona>
+			<optionb>Under</optionb>
+			<optionc>Within</optionc>
+			<optiond>Directly</optiond>
+	</question>
+	<question>
+			<cau>6</cau>
+			<content>The airline requested a ……… call to ensure a seat on my flight back home.</content>
+			<key>d</key>
+			<optiona>Confirm</optiona>
+			<optionb>Confirmed</optionb>
+			<optionc>Confirming</optionc>
+			<optiond>Confirmation</optiond>
+	</question>
+	<question>
+			<cau>7</cau>
+			<content>If the task is too complicated to figure out on ……… own, please don’t hesitate to ask one of our representatives, who are here to help.</content>
+			<key>b</key>
+			<optiona>You</optiona>
+			<optionb>Your</optionb>
+			<optionc>Yours</optionc>
+			<optiond>Yourself</optiond>
+	</question>
+	<question>
+			<cau>8</cau>
+			<content>The hard work put in during his younger years made him become ……… sound in his later years.</content>
+			<key>d</key>
+			<optiona>Finance</optiona>
+			<optionb>Finances</optionb>
+			<optionc>Financial</optionc>
+			<optiond>Financially</optiond>
+	</question>
+	<question>
+			<cau>9</cau>
+			<content>Ms. Taylor has called the managers to ……… her in the main conference room to discuss next year’s budget.</content>
+			<key>b</key>
+			<optiona>Met</optiona>
+			<optionb>Meet</optionb>
+			<optionc>Have met</optionc>
+			<optiond>Will meet</optiond>
+	</question>
+	<question>
+			<cau>10</cau>
+			<content>……… announcing his retirement, Mr. Kinsley has been busy trying to train his replacement.</content>
+			<key>c</key>
+			<optiona>Because</optiona>
+			<optionb>Once</optionb>
+			<optionc></optionc>
+			<optiond></optiond>
+	</question>
+</questions>

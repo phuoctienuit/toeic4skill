@@ -1,0 +1,114 @@
+<!-- 10 group * 3 cau =30-->
+
+<short_talk>
+
+	
+	<group>
+		<group_content>
+		Thank you for calling the University of Washington’s library. To access a listing of staff and faculty extensions, please press 1 at anytime. Our library facilities are open from 8 a.m. to 4 p.m., Monday through Friday. If you wish to access our political archives, an appointment can be made with Edward Philips at extension 15. If you would like our reception staff to return your call, please leave a message after the stone. Thank you. 
+		</group_content>
+		<audio>de1_500_group8.mp3</audio>
+		<question>
+			<cau>22</cau>
+			<content>What kind of business is the message for?</content>
+			<optiona>A political candidate’s office</optiona>
+			<optionb>A university registrar’s office</optionb>
+			<optionc>City Hall in Washington, D.C.</optionc>
+			<optiond>A university library</optiond>
+			<key>d</key>
+		</question>
+		 
+		<question>
+			<cau>23</cau>
+			<content>What time does the facility close on Fridays?</content>
+			<optiona>2 p.m.</optiona>
+			<optionb>3 p.m.</optionb>
+			<optionc>4 p.m.</optionc>
+			<optiond>5 p.m.</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>24</cau>
+			<content>How can a caller speak with Edward Philips?</content>
+			<optiona>By accessing the list of faculty members</optiona>
+			<optionb>By speaking with the reception staff</optionb>
+			<optionc>By dialing extension 15</optionc>
+			<optiond>By visiting the library during regular hours</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<group_content>
+		Good afternoon everyone and thank you for coming to this year conference on organizational behavior. My name is Francis Lee and I’ll be chairing the conference for the next three days. Each day we’ll discuss a new area organizational behavior.
+A few of the concepts we’ll be covering include hiring practices, group dynamics and project management. Each of you will be responsible for the responding daily to the lectures and posting your responses on our conference website, which also maintains a chat room for you to discuss ideas with your colleagues. Undoubtedly, during the conference, you will benefit both from the lectures themselves, and by interacting with you colleagues. We wish you good luck over the next three days. 
+		</group_content> 
+		<audio>de1_500_group9.mp3</audio>
+		<question>
+			<cau>25</cau>
+			<content>How long will you conference run?</content>
+			<optiona>A day</optiona>
+			<optionb>Three days</optionb>
+			<optionc>A week</optionc>
+			<optiond>Three weeks</optiond>
+			<key>b</key>
+		</question>
+		
+		<question>
+			<cau>26</cau>
+			<content>What is the main subject of the conference?</content>
+			<optiona>Management techniques</optiona>
+			<optionb>Organizational behavior</optionb>
+			<optionc>Tele-conference</optionc>
+			<optiond>Accounting</optiond>
+			<key>b</key>
+		</question>
+	
+		<question>
+			<cau>27</cau>
+			<content>What must conference participants do following the lectures?</content>
+			<optiona>Raise questions on the lectures they’ve heard</optiona>
+			<optionb>Post their responses on the conference website</optionb>
+			<optionc>Meet with their colleagues</optionc>
+			<optiond>Submit a paper to Francis Lee</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	
+	<group>
+		<group_content>
+		Starting next month we’ll be introducing the company’s new database computer system. The new network will combine a few features that will help us to stay connected more efficiently, especially on group tasks. Please remember that all files from the old database will not be moved to the new one, so it’s essential that all staff back up their files by the end of the month. If you fail to do so. Important data could be lost. The full network will require two weeks to install
+		</group_content>
+		<audio>de1_500_group10.mp3</audio>
+		<question> 
+			<cau>28</cau>
+			<content>When will the new system start?</content>
+			<optiona>This afternoon</optiona>
+			<optionb>In two weeks</optionb>
+			<optionc>At the end of the month</optionc>
+			<optiond>Next month</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>29</cau>
+			<content>What does the speaker say is the benefit to the change?</content>
+			<optiona>More efficient communication</optiona>
+			<optionb>Prevent the loss of files</optionb>
+			<optionc>Better secure important data</optionc>
+			<optiond>Allow staff to work less hours</optiond>
+			<key>a</key>
+		</question>
+	
+		<question>
+			<cau>30</cau>
+			<content>What does the speaker ask staff to do?</content>
+			<optiona>Obtain a new ID card</optiona>
+			<optionb>E-mail group files</optionb>
+			<optionc>Copy existing files</optionc>
+			<optiond>Rewrite files on the new server</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<!--end practice 3-->
+</short_talk>

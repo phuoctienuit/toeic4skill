@@ -1,0 +1,153 @@
+<!-- 3 group * 4 cau =12-->
+<text_complextion>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		<b>Notice</b><br/><br/>
+ 
+We regret (1) ………..you that the Beach Front Promenade is currently closed for renovations.<br/>
+There has been substantial damage as a result of the hurricane last month, and the stretch from Dawson’s Peak to Green Bay is unsafe. The footpath has been severely eroded and cannot be accessed. This also means that the Beach Front Swimming Pool will be closed until (2) ………..notice.<br/><br/>
+
+Anyone who has already paid for swimming lesson is (3) ………..for a refund of their tuition fee.<br/>
+Please take your receipt to the City Center leisure where all refunds are being handled. Alternately, you may sign up for a course at the City Center if there is a vacancy. The city is working to reopen the promenade at the (4) ……….. possible dat.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<optiona>Inform</optiona>
+			<optionb>Information</optionb>
+			<optionc>To be information</optionc>
+			<optiond>To inform</optiond>
+			<key>d</key>
+		</question>		
+		<question>
+			<cau>2</cau>
+			<optiona>More</optiona>
+			<optionb>Farther</optionb>
+			<optionc>Further</optionc>
+			<optiond>Next</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<optiona>Allowable</optiona>
+			<optionb>Permitted</optionb>
+			<optionc>Legalized</optionc>
+			<optiond>Eligible</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>4</cau>
+			<optiona>Sooner</optiona>
+			<optionb>Earlier</optionb>
+			<optionc>Earliest</optionc>
+			<optiond>Fastest</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		To: Frank Mills, Bayview Hotel (bayview@bynet.co)<br/>
+From: bfrench@conet.com<br/>
+Subject: Reservation<br/>
+Date: April 12th<br/><br/>
+
+Dear Mr. Mill,<br/><br/>
+
+I would like to (1) ……….. a reservation for one double and one twin room for the week of June 1st, for six night. I will be traveling with my wife and two twelve-year-old daughters.<br/><br/>
+
+I would be most (2) ………..if the two rooms could be next to each other so that we can be near to our children. Also, if possible, we would like to have rooms with a view of the bay.<br/><br/>
+
+I understand that rooms on this side of the hotel are, of course, charged at a slightly higher (3) ………..<br/>
+We would like to take advantage of the daily breakfast buffet, but will not be requiring an evening meal. Please let me know if you have a (4) ………..vacancy.<br/><br/>
+
+Sincerely,<br/>
+Barry French<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>5</cau>
+			<optiona>Take</optiona>
+			<optionb>Reach</optionb>
+			<optionc>Effect</optionc>
+			<optiond>Make</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<optiona>Eternal</optiona>
+			<optionb>Grated</optionb>
+			<optionc>Grateful</optionc>
+			<optiond>Satisfied</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>7</cau>
+			<optiona>Cost</optiona>
+			<optionb>Rent</optionb>
+			<optionc>Fare</optionc>
+			<optiond>Rate</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<optiona>Great</optiona>
+			<optionb>Necessary</optionb>
+			<optionc>Suitable</optionc>
+			<optiond>Good</optiond>
+			<key>c</key>
+		</question>
+	</group>
+<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		<b>Memo</b><br/><br/>
+
+To: john Butler, Sandra Oates, Percy Huner & Vivian Westwood<br/>
+From: Alan Best<br/>
+Re: Smoking Policy<br/>
+ Date: January 5th<br/><br/>
+
+I just want to (1) ……….. all department managers that on January 1st , the new company smoking policy was introduced. This policy will be enforced strictly. Please remind all employees in your department of the following:<br/>
+The whole of the company (2) ………..is now a no-smoking are, therefore:<br/>
+·         Smoking is no longer allowed in the break rooms or toilets<br/>
+·         Smoking is not allowed in the factory<br/>
+·         Smoking is not permitted in the parking garage, or any enclosed are<br/>
+·     Any employee who gives up smoking is (3) ………..to a bonus (Subject to the results of mandatory health check (4) ………..six months).<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>9</cau>
+			<optiona>Reminder</optiona>
+			<optionb>Remember</optionb>
+			<optionc>Remind</optionc>
+			<optiond>Remembrance</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>10</cau>
+			<optiona>Promise</optiona>
+			<optionb>Region</optionb>
+			<optionc>Premise</optionc>
+			<optiond>Premises</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>11</cau>
+			<optiona>Held</optiona>
+			<optionb>Blamed</optionb>
+			<optionc>Titled</optionc>
+			<optiond>Entitled</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<optiona>All</optiona>
+			<optionb>Each</optionb>
+			<optionc>Every</optionc>
+			<optiond>Whole</optiond>
+			<key>c</key>
+		</question>
+	</group>
+</text_complextion>

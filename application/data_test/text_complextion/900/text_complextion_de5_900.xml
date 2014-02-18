@@ -1,0 +1,171 @@
+<!-- 3 group * 4 cau =12-->
+<text_complextion>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		Date: Mon, 12 June 08:23:01<br/>
+To: Sharon Parker <sparker@ww2.org><br/>
+From: Patrick Spitz <pspitz@ww2.org><br/>
+Subject: Update on Germany trip<br/><br/>
+
+Sharon,<br/>
+
+Thank you for your patience over the last week as I have worked to (1) ……… the dates of your upcoming trip to Germany. In order to make your trip more enjoyable, I have been working closely with staff members here and abroad. You can be assured that your trip will be an enjoyable and productive one. By this Thursday I will be able to provide you with a complete itinerary. This itinerary will include flight, ground transportation, and hotel information. For the time being, you can review the tentative (2) ……… below and let me know if you have any questions.<br/><br/>
+
+·   June 27: Your flight arrives in Berlin at 8 p.m.; you will be picked up at the airport by a    staff member from the Berlin office.<br/><br/>
+
+·   June 28: You will meet representatives from the Berlin office and tour their facilities<br/><br/>
+
+·   June 29: A Berlin staff member will accompany you to the airport for your flight to<br/><br/>
+
+Frankfurt. The executive director in Frankfurt, Mr. Kissel, is in charge of your stay there and will send you information about your Frankfurt itinerary at a (3) ……… time.<br/><br/>
+
+·   June 30: Return home<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<optiona>terminate</optiona>
+			<optionb>close</optionb>
+			<optionc>finalize</optionc>
+			<optiond>discontinue</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<optiona>schedule</optiona>
+			<optionb>date</optionb>
+			<optionc>ticket</optionc>
+			<optiond>procedure</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<optiona>latest</optiona>
+			<optionb>lateness</optionb>
+			<optionc>lately</optionc>
+			<optiond>later</optiond>
+			<key>d</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		<b>MEMO</b><br/>
+To: All staff<br/>
+From: Charles Beretti<br/>
+Date: January 2<br/>
+Re: Lockers<br/><br/>
+
+You may remember that staff voted last fall to have lockers installed in the lounge area. After a few months searching for the right company to help us with this project, we have good news. We would like to announce that we have (1) ……… LockSmart to complete the installation within the next week. All staff should be able to utilize these new lockers to store personal items by next Friday, January 8th.<br/><br/>
+
+Each staff member will given a key; please get yours from Marleen in the main office. The lockers will be available (2) ……… all times for your security. We hope that this will make our environment a secure and happy one. By Monday, LockSmart will begin installation and you may need to stay clear of the lounge area. We are sorry for any inconvenience that (3) ……… by this project, but believe that any short-term inconvenience will be outweighed by the long-term benefits.<br/><br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>4</cau>
+			<optiona>collaborated</optiona>
+			<optionb>contracted</optionb>
+			<optionc>decided</optionc>
+			<optiond>discounted</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<optiona>at</optiona>
+			<optionb>in</optionb>
+			<optionc>by</optionc>
+			<optiond>on</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<optiona>is caused</optiona>
+			<optionb>causes</optionb>
+			<optionc>caused</optionc>
+			<optiond>has been caused</optiond>
+			<key>a</key>
+		</question>
+	</group>
+<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		Patagonia Treks<br/>
+130 Calle San Martin<br/>
+Rio Gallegos, Argentina<br/>
+
+Welcome to Patagonia Treks! By (1) ……… our company, you are guaranteed to get the most out of your experience in the wild lands of Patagonia. No other company offers the high-quality tours that we do into the back country of Argentina. With Patagonia Treks, your experience is guaranteed to be a memorable one.<br/><br/>
+
+The following tour information has been confirmed: Your flight from Miami will (2) ……… at 6 a.m. on February 11. A representative from Patagonia Treks will then meet you at the airport when you arrive in Argentina and transport you to our offices so that you can fill out any (3) ……… forms prior to the start of the trip.<br/><br/>
+
+It is important that you read the enclosed information, as it contains your itinerary and some suggestions about how to prepare for your trip to Patagonia. Please let us know if you have any questions.<br/><br/>
+
+We appreciate your business and look forward to your visit.<br/><br/>
+
+Sincerely,<br/>
+Patagonia Treks<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>7</cau>
+			<optiona>choose</optiona>
+			<optionb>chooses</optionb>
+			<optionc>choice</optionc>
+			<optiond>choosing</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<optiona>arrive</optiona>
+			<optionb>depart</optionb>
+			<optionc>resume</optionc>
+			<optiond>start</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<optiona>remaining</optiona>
+			<optionb>remained</optionb>
+			<optionc>remains</optionc>
+			<optiond>remain</optiond>
+			<key>a</key>
+		</question>
+	</group>
+<group>
+		<id>4</id>
+		<group_content><![CDATA[
+		Dear Ms. Salvador,<br/><br/>
+
+We received your request for a current catalogue on March 25. Thank you for your continued interest in out product line. We are continually striving to improve the quality of our parts, and hope that you will find the items included in this year’s catalogue to be satisfactory. Along with the catalogue, we are including in this shipment an order form and directions for ordering online.<br/><br/>
+
+Some significant changes are (1) ……… in this year’s catalogue. More price-saving packages have been inserted, and a new index will guide you to the section that you need. In addition, all prices have been updated. You may also be interested to know that ABC Tech has opened another factory in Delaware. (2) ……… this new facility, we will be able to grow our company’s line of electronics. In the coming years, you will see even more additions to our catalogue.<br/><br/>
+
+Thank you once again for your business. Please feel (3) ……… to contact me if you need further assistance. I can be reached at 302-232-3900 (direct line) or at liamr@tech.com.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>10</cau>
+			<optiona>produced</optiona>
+			<optionb>included</optionb>
+			<optionc>wished</optionc>
+			<optiond>decided</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>11</cau>
+			<optiona>During</optiona>
+			<optionb>Before</optionb>
+			<optionc>Among</optionc>
+			<optiond>With</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<optiona>free</optiona>
+			<optionb>freely</optionb>
+			<optionc>freedom</optionc>
+			<optiond>freeing</optiond>
+			<key>a</key>
+		</question>
+	</group>	
+</text_complextion>

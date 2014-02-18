@@ -1,0 +1,150 @@
+<!-- 3 group * 4 cau =12-->
+<text_complextion>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		<b>NOTICE</b><br/><br/>
+ 
+Sungreen Supermarket regrets to inform you that until (1)………..notice, we are unable to (2)……….. certain items due to labor disputes among the supply warehouse staff and delivery company drivers.<br/><br/>
+ 
+The items (3)……….. are as follows:<br/>
+·         Super Sparkle dish soap (liquid, 500ml)<br/>
+·         Super Sparkle dish soap (liquid, 750ml)<br/>
+·         Super Sparkle dish soap  refill (liquid, 500ml)<br/><br/>
+ 
+·         All McMarty’s dairy products (milk, yogurt, and cheese)<br/>
+·         All Country Clover dairy products (Milk and butter)<br/>
+·         All Dairy Heart products (milk, butter, yogurt, and cheese)<br/><br/>
+ 
+·         We ARE able to supply Dave’s Dairy products including milk, cheese, butter and butter spreads, and yogurt.<br/><br/>
+ 
+We hope that the dispute will be over by the end of the week. In the mean time, we are very sorry for any (4)……….. this dispute may cause.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<optiona>later</optiona>
+			<optionb>next</optionb>
+			<optionc>over</optionc>
+			<optiond>further</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<optiona>stack</optiona>
+			<optionb>stock</optionb>
+			<optionc>stick</optionc>
+			<optiond>store</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<optiona>at risk</optiona>
+			<optionb>affected</optionb>
+			<optionc>effected</optionc>
+			<optiond>damaged</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>4</cau>
+			<optiona>unrest</optiona>
+			<optionb>convenience</optionb>
+			<optionc>inconvenience</optionc>
+			<optiond>despair</optiond>
+			<key>c</key>
+		</question>		
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		Dear Sirs,<br/><br/>
+
+Although I am sure you are used to receiving letters from dissatisfied (1)……….., I am writing to thank you for you the kind treatment I received from two of your store (2)………..earlier this week. I was doing my weekly shopping when I began to feel dizzy. It appears that I passed out.<br/><br/>
+
+When I came to, a very nice young woman took me to the (3)……….. break room. She gave mea glass of water, and taking my shopping list, asked one of the packing staff (a middle-aged gentleman) to gather up all the items on the list.<br/><br/>
+ 
+This kind man then drove me home with the grocery items which he had kindly picked up for me. I am most grateful to both these people. Please (4)………..my thanks to them.<br/><br/>
+ 
+Sincerely,<br/>
+Brenda Bishop<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>5</cau>
+			<optiona>users</optiona>
+			<optionb>consumers</optionb>
+			<optionc>visitors</optionc>
+			<optiond>customers</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<optiona>users</optiona>
+			<optionb>employers</optionb>
+			<optionc>clerks</optionc>
+			<optiond>customers</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>7</cau>
+			<optiona>staff</optiona>
+			<optionb>members</optionb>
+			<optionc>employers</optionc>
+			<optiond>rest</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<optiona>assert</optiona>
+			<optionb>convey</optionb>
+			<optionc>converge</optionc>
+			<optiond> tell</optiond>
+			<key>b</key>
+		</question>
+	</group>
+<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		Beware of pickpockets.<br/><br/>
+ 
+The management of Winona’s would like to (1)……….. all patrons to beware of pickpockets.<br/><br/>
+ 
+A spate of thefts has been taking in (2)……….. week, and in order to avoid a ruined evening, we urge to be extra vigilant with your personal property. We have our suspicions as to who is guilty of these thefts, and would like to make this fact known. Winona’s has a city-wide (3)……….. as a nightclub of the highest quality, and we do not appreciate the efforts of those working to damage this reputation.<br/><br/>
+
+We have notified the police of the current situation and will not hesitate to encourage anyone who falls victim to theft while on our (4)………..to press full charges, should the thief be identified.<br/> 
+		]]>
+		</group_content>
+		<question>
+			<cau>9</cau>
+			<optiona>avert</optiona>
+			<optionb>alert</optionb>
+			<optionc>notice</optionc>
+			<optiond>notify</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>10</cau>
+			<optiona>late</optiona>
+			<optionb>lately</optionb>
+			<optionc>recently</optionc>
+			<optiond>recent</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>11</cau>
+			<optiona>reputedly</optiona>
+			<optionb>reputation</optionb>
+			<optionc>repute</optionc>
+			<optiond>report</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<optiona>building</optiona>
+			<optionb>ground</optionb>
+			<optionc>premises</optionc>
+			<optiond>store</optiond>
+			<key>c</key>
+		</question>
+	</group>
+</text_complextion>

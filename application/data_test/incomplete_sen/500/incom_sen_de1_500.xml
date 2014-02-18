@@ -1,0 +1,93 @@
+<questions>
+	<question>
+			<cau>1</cau>
+			<content>They were heard ……… goodbye to their friends</content>	
+			<key>b</key>
+			<optiona>Say </optiona>
+			<optionb>Saying</optionb>
+			<optionc>Said</optionc>
+			<optiond>Be saying</optiond>
+	</question>
+	<question>
+			<cau>2</cau>
+			<content>My son is not very good at ……… yet.</content>
+			<key>c</key>
+			<optiona>Drive</optiona>
+			<optionb>To drive</optionb>
+			<optionc>Driving</optionc>
+			<optiond>Will drive</optiond>			
+	</question>
+	<question>
+			<cau>3</cau>
+			<content>We think ……… him to have access to the Internet is a bad idea</content>
+			<key>c</key>
+			<optiona>Allow</optiona>
+			<optionb>To allow</optionb>
+			<optionc>Allowing</optionc>
+			<optiond>Allowance</optiond>				
+	</question>
+	<question>
+			<cau>4</cau>
+			<content>Since we live by an airport, we can easily watch the airplanes ……… off</content>
+			<key>a</key>
+			<optiona>Take</optiona>
+			<optionb>To take</optionb>
+			<optionc>Be taking</optionc>
+			<optiond>Will take</optiond>			
+	</question>
+	<question>
+			<cau>5</cau>
+			<content>They politely asked me ……… in another place</content>
+			<key>b</key>
+			<optiona>Stand</optiona>
+			<optionb>To stand</optionb>
+			<optionc>Standing</optionc>
+			<optiond>Stood</optiond>
+	</question>
+	<question>
+			<cau>6</cau>
+			<content>I seldom forget ……… my teeth before going to bed</content>
+			<key>b</key>
+			<optiona>Brush</optiona>
+			<optionb>To brush </optionb>
+			<optionc>Brushing</optionc>
+			<optiond>Brushed</optiond>
+			
+	</question>
+	<question>
+			<cau>7</cau>
+			<content>I would like ……… by your office on my way home</content>
+			<key>b</key>
+			<optiona>Drop</optiona>
+			<optionb>To drop </optionb>
+			<optionc>Dropping</optionc>
+			<optiond>Will drop</optiond>			
+	</question>
+	<question>
+			<cau>8</cau>
+			<content>They are considering ……… to Atlana</content>
+			<key>c</key>
+			<optiona>Move</optiona>
+			<optionb>To move</optionb>
+			<optionc>Moving</optionc>
+			<optiond>Will move </optiond>			
+	</question>
+	<question>
+			<cau>9</cau>
+			<content>I can’t afford……… a new car</content>
+			<key>b</key>
+			<optiona>Buy</optiona>
+			<optionb>To buy</optionb>
+			<optionc>Buying</optionc>
+			<optiond>Bought</optiond>			
+	</question>
+	<question>
+			<cau>10</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+</questions>

@@ -1,0 +1,168 @@
+<!-- 3 group * 4 cau =12-->
+<text_complextion>
+<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		<b>MEMO</b><br/>
+To: All staff<br/>
+From: Charles Beretti<br/>
+Date: January 2<br/>
+Re: Lockers<br/><br/>
+
+You may remember that staff voted last fall to have lockers installed in the lounge area. After a few months searching for the right company to help us with this project, we have good news. We would like to announce that we have (1) ……… LockSmart to complete the installation within the next week. All staff should be able to utilize these new lockers to store personal items by next Friday, January 8th.<br/><br/>
+
+Each staff member will given a key; please get yours from Marleen in the main office. The lockers will be available (2) ……… all times for your security. We hope that this will make our environment a secure and happy one. By Monday, LockSmart will begin installation and you may need to stay clear of the lounge area. We are sorry for any inconvenience that (3) ……… by this project, but believe that any short-term inconvenience will be outweighed by the long-term benefits.<br/><br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<optiona>collaborated</optiona>
+			<optionb>contracted</optionb>
+			<optionc>decided</optionc>
+			<optiond>discounted</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<optiona>at</optiona>
+			<optionb>in</optionb>
+			<optionc>by</optionc>
+			<optiond>on</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<optiona>is caused</optiona>
+			<optionb>causes</optionb>
+			<optionc>caused</optionc>
+			<optiond>has been caused</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		<b>“A net worth of $2.5 million in just 4 years using London Life’s simple wealth strategy”</b>
+ – Jane Booth and Glenda Jackson – Investment Advisers<br/><br/>
+ 
+If you are looking to get on the (1)……… to financial freedom but aren’t sure of what steps to take or if your exciting investment portfolio is not doing its job and needs a major shake up, then we can help.<br/><br/>
+
+Many middle-income earners have expressed their opinions on how difficult it is to get honest, straightforward, and unbiased advice that supports their financial goals. According to one couple, they were working hard as teachers and never thought that they could get ahead on their (2)……… until they discovered.<br/><br/>
+
+London Life’s simple (3)……… effective investing techniques. By following our simple strategy, we were able to amass a small fortune for the couple. Now, we can show you how you can, too.<br/><br/>
+
+London Life<br/>
+FINANCIAL PLANNING – STOCKBROKING – PROPERTY - FINANCE<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>4</cau>
+			<optiona>Path</optiona>
+			<optionb>Access</optionb>
+			<optionc>Line</optionc>
+			<optiond>Track</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<optiona>Costs</optiona>
+			<optionb>Prices</optionb>
+			<optionc>Charges</optionc>
+			<optiond>Wages</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<optiona>Once</optiona>
+			<optionb>Still</optionb>
+			<optionc>Yet</optionc>
+			<optiond>Ever</optiond>
+			<key>c</key>
+		</question>
+	</group>
+<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		<b>WANTED</b></br>
+<b>DESIGNER FOR 3D SYMPHONY MAGAZINE</b></br></br>
+
+London’s premier classical music magazine, 3D Symphony, is seeking a designer to join our team.</br>
+The ideal candidate is someone (1)……… qualifications must include a working knowledge of Adobe Creative Suite 2 (In design, Adobe Acrobat, Photoshop and illustration) on a MAC OS X platform. An understanding of magazine layout, press ad design, and pre-press will be highly (2)………</br></br>
+
+The position is part-time form Wednesday to Friday, and the person must be able to work to the pressure of strict deadlines. The candidate must also be reliable and possess a keen eye for detail. If selected, you’ll have the advantage of working within a young and dynamic team (3)………</br></br>
+Expressions of interest can be emailed to Joan@threedsynphony.com</br>
+		]]>
+		</group_content>
+		<question>
+			<cau>7</cau>
+			<optiona>Who</optiona>
+			<optionb>Whom</optionb>
+			<optionc>Whose</optionc>
+			<optiond>Which</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<optiona>Regard</optiona>
+			<optionb>Regards</optionb>
+			<optionc>Regarded</optionc>
+			<optiond>Regarding</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<optiona>Circumstances</optiona>
+			<optionb>Environment</optionb>
+			<optionc>Background</optionc>
+			<optiond>Incident</optiond>
+			<key>b</key>
+		</question>
+	</group>
+<group>
+		<id>4</id>
+		<group_content><![CDATA[
+		Dear Mr. Ronald,<br/><br/>
+
+On September 3, you asked me to make hotel reservations for your guests. As per your instruction, 2 rooms (double-bed requested) have been booked at the Marco Polo Hong Kong Hotel (1)……… details as shown:<br/><br/>
+
+<i>Guest names: Mr. John Simpson & Mr. Mark Fritzler</i><br>
+<i>Check in date: Sept. 25, 2006</i><br>
+<i>Hotel address: 3 Canton Road, Harbour City</i><br>
+<i>Hotel telephone: 852 2113 0088</i><br>
+<i>Room rate: HK$1,250 net per room per night</i><br>
+<i>Total room rate: HK$1,250x3 nightsx2rooms=HK$7,500</i><br/><br/>
+
+There is a hotel shuttle bus that can take the guests to the hotel. Simply proceed to counters A16 or B16 (Parklane Counter) at the Arrival Hall and pay HK$130 per person for the shuttle bus fare. The shuttle bus will take you to the hotel.<br/><br/>
+
+Apex/HKG will (2)……… the room rate for the guests first. Thus, the guests are not required to pay the room rate when checking out. Apex/HKG will (3)……… them later. However, if room service such as the minibar is used, the guests will need to settle them when checking out.<br/><br/>
+
+Sincerely,<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>10</cau>
+			<optiona>With</optiona>
+			<optionb>By</optionb>
+			<optionc>For</optionc>
+			<optiond>Along</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>11</cau>
+			<optiona>Decide</optiona>
+			<optionb>Select</optionb>
+			<optionc>Settle</optionc>
+			<optiond>Detour</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<optiona>Accuse</optiona>
+			<optionb>Loan</optionb>
+			<optionc>Credit</optionc>
+			<optiond>Charge</optiond>
+			<key>d</key>
+		</question>
+	</group>
+
+</text_complextion>

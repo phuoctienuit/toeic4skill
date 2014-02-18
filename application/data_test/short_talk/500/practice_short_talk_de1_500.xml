@@ -1,0 +1,131 @@
+<!-- 10 group * 3 cau =30-->
+
+<short_talk>
+	<group>
+		<id>1</id>
+		<group_content>
+		Hello. My name is Claudia and I am happy to be your host and guide this afternoon.
+		It’s currently 12:30 and we will begin our tour of the facilities at 1:00. 
+		But before we get started, I do have a few announcements to make. 
+		Unfortunately, we do not allow any visitors to photograph the equipment or video the baking process. 
+		The first part of the tour will finish at 2 p. m. 
+		However, you will have a couple of unguided hours to visit our labs and tasting rooms before you leave the premises. 
+		Feel free to ask any questions that you may have at anytime throughout the tour. I do hope that you enjoy your visit. 
+		</group_content>
+		<audio>de1_500_group1.mp3</audio>
+		<question>
+			<cau>1</cau>
+			<content>Who most likely are the visitors?</content>
+			<optiona>A semi-conductor plant</optiona>
+			<optionb>A famous museum</optionb>
+			<optionc>A large bakery’s facilities</optionc>
+			<optiond>A supermarket</optiond>
+			<key>c</key>
+		</question>
+		
+		<question>
+			<cau>2</cau>
+			<content>What will happen at 2:00?</content>
+			<optiona>The visitors will ask question</optiona>
+			<optionb>The guided part of the tour will end</optionb>
+			<optionc>The tasting rooms will close</optionc>
+			<optiond>The visitors can take photograph</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<content>How long will the visitors be on their own?</content>
+			<optiona>30 minutes</optiona>
+			<optionb>One hour</optionb>
+			<optionc>Two hours</optionc>
+			<optiond>Three hours</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>2</id>
+		<group_content>
+		I am pleased announce the grand opening of Atlas Steels Corporation here in Hamilton.
+		As directed operations, I can only try to express how proud I am.
+		We will open the plant doors in early July and will look at hiring an additional 100 staff members, 
+		and then closer to the end of the year we will most likely bring on another 75 people. 
+		We’ve expanded quite a bit since our first production facility in Milton, 
+		to our present day plants in Portland, Rochester, St. Louis, and now here in Hamilton. 
+		We are looking forward to joining the community.
+		</group_content>
+		<audio>de1_500_group2.mp3</audio>
+		<question>
+			<cau>4</cau>
+			<content>Who most likely is the speaker?</content>
+			<optiona>A construction crew member</optiona>
+			<optionb>A steel engineer</optionb>
+			<optionc>A plant supervisor</optionc>
+			<optiond>A company’s director</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>5</cau>
+			<content>How many staff will the company employ when it opens?</content>
+			<optiona>50</optiona>
+			<optionb>75</optionb>
+			<optionc>100</optionc>
+			<optiond>125</optiond>
+			<key>c</key>
+		</question>
+		
+		<question>
+			<cau>6</cau>
+			<content>Where was the first facility?</content>
+			<optiona>Milton</optiona>
+			<optionb>Portland</optionb>
+			<optionc>St. Louis</optionc>
+			<optiond>Rochester</optiond>
+			<key>a</key>
+		</question>
+	</group>
+		
+	<group>
+		<id>3</id>
+		<group_content>
+		Hello, this is Katie Burke calling from Cogeco Internet Services Mr. Clifford, 
+		the reason I’m calling is we haven’t received your payment for the installation of the modem and cable. 
+		We need your payment in order to activate your service. 
+		Please contact us at 1-800-222-4503, between 8 a.m. and 6 p.m., Monday through Saturday. 
+		Thank you. We look forward to hearing from you at your earliest convenience. 
+		</group_content>
+		<audio>de1_500_group3.mp3</audio>
+		<question>
+			<cau>7</cau>
+			<content>What is the reason for the call?</content>
+			<optiona>To get Mr. Clifford’s contact information</optiona>
+			<optionb>To set up an installation</optionb>
+			<optionc>To discuss available Internet packages</optionc>
+			<optiond>To receive payment for a service</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>8</cau>
+			<content>What is Mr. Clifford asked to do?</content>
+			<optiona>Send an e-mail</optiona>
+			<optionb>Call the company</optionb>
+			<optionc>Drop by the office</optionc>
+			<optiond>Register for services</optiond>
+			<key>b</key>
+		</question>
+		
+		<question>
+			<cau>9</cau>
+			<content>When does Katie expect to hear from Mr. Clifford?</content>
+			<optiona>On Monday, between 8 and 6 o’clock</optiona>
+			<optionb>As soon as possible</optionb>
+			<optionc>Before the installation date</optionc>
+			<optiond>After the payment due date</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<!--end practice 1 begin 2-->
+	
+</short_talk>

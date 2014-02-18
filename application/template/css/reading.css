@@ -1,0 +1,105 @@
+.share_ex
+{
+	margin:10px;
+	color: red;
+	width:700px;
+	padding:10px;
+	background: #F7F5FA;
+	margin-left:30px;
+}
+.questionphoto{
+	margin: 50px;
+}
+.question.even{
+	margin-bottom:20px;
+	background: #d4dfff;
+}
+.question.odd{
+	margin-bottom:20px;
+}
+.question.odd #option, .question.even #option{
+	margin-left:30px;
+}
+
+div.option div{
+}
+
+div.option div.status{
+	float: left;
+	width: 25px;
+	height: 13px;
+	margin-top: -2px;
+}
+
+.incom_test, .text_complextion_test, .reading_comprehen_test
+{
+	margin:10px;
+	color: red;
+	width:700px;
+	padding:10px;
+	background: #F7F5FA;
+	margin-left:30px;
+}
+.photo_test
+{
+	margin:10px;
+	color: red;
+	width:700px;
+	padding:10px;
+	background: #F7F5FA;
+	margin-left:30px;
+}
+.btnans_sub{
+	margin-left: 300px;
+}
+.btnans_sub button{
+	margin-left:5px;
+}
+.link_pag{
+	margin-top: 30px;
+	margin-left:30px;
+	margin-bottom:10px;
+	font-size: 150%;
+}
+
+.show_answer{
+	display:none;
+	float: left;
+	margin-left: 10px;
+	}
+.option .selection{
+	clear:both;
+}
+.option .selection .status{
+	float: left;
+}
+.option .selection input{
+	float: left;
+}
+.option .selection span{
+	float: left;
+	
+}
+.request{
+	color: green;
+	font-weight: bold;
+	margin:10px;
+	font-size:110%;
+	margin-bottom:30px;
+}
+.group_content{
+	margin-left: 10px;
+	background: #FEF2FA;
+	height: 200px;
+	overflow-y: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	margin-top:20px;
+}
+
+.title_video
+{
+	background-color: #339966;
+	width: 420px;
+	height: auto;
+}

@@ -1,0 +1,132 @@
+<reading_comprehen>
+<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		<b>NEW WORLD COMPUTERS, Inc.</b><br/>
+Sep. 12, 20…<br/>
+Mary Matta<br/>
+27 High Road<br/>
+Ipswich, MA 01801<br/><br/>
+
+Dear Ms. Matta:<br/><br/>
+
+According to our records, you recently contacted the New World Computers Technical Support Service and spoke with our representative, Joan Kim. We hope your experience was pleasant and effective. We would appreciate your giving us feedback on your experience with Technical Support by taking a few minutes to fill out the enclosed Customer Survey form. By letting us know about the quality of the support you received, you will help us ensure that we continue to provide you and all our customers with the excellent service that you deserve.<br/><br/>
+
+Please return the form in the enclosed envelop, or you can complete it online by going to our website at www.nwc/customersurvey. if you have any questions, please contact the Customer Support Office at 800 555 8978. Thank you for being a New World Computers’ customer.<br/><br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>What is the purpose of this letter?</content>
+			<optiona>To ask for the customer’s opinion</optiona>
+			<optionb>To offer technical support</optionb>
+			<optionc>To sell a new computer</optionc>
+			<optiond>To advertise a website</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<content>How can the customer complete the form?</content>
+			<optiona>By calling the Customer Support Office</optiona>
+			<optionb>By going online</optionb>
+			<optionc>By contacting Ms. Kim</optionc>
+			<optiond>By writing to Mr. Lee</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<content>Who did the customer speak with?</content>
+			<optiona>To Support Service Manager</optiona>
+			<optionb>A Technical Support representative</optionb>
+			<optionc>Someone in the Customer Support Office</optionc>
+			<optiond>A New World Computers customer</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		Thank you for buying a product from the Office Ware mail-order catalog. We hope you are satisfied with your purchase of our quality merchandise. Please examine the contents of this package immediately to make sure that your order has arrived complete and in undamaged condition. In the event that you are not totally satisfied with your purchase for any reason, you can return it to us within thirty days for a full refund, no questions asked. Just repack it in the same box you received it in, and apply the enclosed return shipping label to the outside of the box. Return postage will be paid by the customer. If you wish to return a product after thirty days from the purchase date, please call the customer service office at 800 555 1002 and ask to speak with a purchase order representative.<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>4</cau>
+			<content>Where would you find these instructions?</content>
+			<optiona>In a catalog</optiona>
+			<optionb>Enclosed in a package</optionb>
+			<optionc>Hanging up in a post office</optionc>
+			<optiond>At a store</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>The word “condition” in line 6 is closest in meaning to</content>
+			<optiona>Fitness</optiona>
+			<optionb>Appearance</optionb>
+			<optionc>State</optionc>
+			<optiond>Shipment</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<content>What should you do to return a product the day after receiving it?</content>
+			<optiona>Repack it and mail it back</optiona>
+			<optionb>Wait for thirty days</optionb>
+			<optionc>Call the customer service office</optionc>
+			<optiond>Order a new catalog</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>7</cau>
+			<content>What will happen if you return a product before thirty days have passed?</content>
+			<optiona>The company will ask you some questions</optiona>
+			<optionb>A customer service representative will call you</optionb>
+			<optionc>You will get all your money back</optionc>
+			<optiond>You will have to send in a new purchase order</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		LONDON – In May, Great Britain’s Home Office, deciding on compensation for a man who served four years in prison for industrial espionage that he did not commit, ruled that he was entitled to about $1.1 million. They sais, however, that he would have to reimburse the prison about $23.000 for four years’ room and board. The outraged Michael O’Brien, age 34, was freed by a Court of Appeal. He said, “They don’t charge guilty people for bed and board. They only charge innocent people!”
+		]]>
+		</group_content>
+		<question>
+			<cau>8</cau>
+			<content>Who decided that Michael O’Brien should be released from prison?</content>
+			<optiona>The Queen</optiona>
+			<optionb>A group of judges</optionb>
+			<optionc>A government agency</optionc>
+			<optiond>Popular opinion</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<content>What has Mr. O’Brien been convicted of?</content>
+			<optiona>Robbing a bank</optiona>
+			<optionb>Forging documents</optionb>
+			<optionc>Spying on other companies</optionc>
+			<optiond>Embezzling thousands from his company</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>10</cau>
+			<content>The word “commit” in line 5 is closest in meaning to</content>
+			<optiona>Believe in</optiona>
+			<optionb>Profit from</optionb>
+			<optionc>Condone</optionc>
+			<optiond>Carry out</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>11</cau>
+			<content>What is upsetting Mr. O’Brien?</content>
+			<optiona>He has to pay back money to the prison</optiona>
+			<optionb>He has to pay money to the Home Office</optionb>
+			<optionc>He will have more money than he ever dreamed of</optionc>
+			<optiond>The authorities never caught the real spy</optiond>
+			<key>a</key>
+		</question>
+	</group>
+</reading_comprehen>

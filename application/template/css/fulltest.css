@@ -1,0 +1,103 @@
+.test_content{
+    margin-top: 20px;
+    //border: 1px solid red;
+    float: left;
+    width: 550px;
+    height: 600px;
+    overflow-y: auto;
+    box-shadow:0px 0px 10px #567180;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:30px;
+    padding-top: 0px;
+}
+.test_answer{
+    margin-top: 20px;
+    //border: 1px solid blue;
+    float: right;
+    width: 270px;
+    margin-right:20px;
+    height: 600px;
+    overflow-y: auto;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+box-shadow:0px 0px 10px #567180;
+}
+.next_pre{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 140px;
+}
+.next_pre button{
+    margin-left: 15px;
+    width: 100px;
+}
+.ans_score{
+    position: absolute;
+    margin-top: 640px;
+    margin-left: 570px;
+   
+}
+.ans_score button{
+    margin-left:20px;
+     width: 80px;
+}
+.ans_score p{
+    color: red;
+    font-weight:bold;
+    font-size: 120%;
+}
+.test_answer{
+    padding: 10px;
+}
+.option_ans {
+    float: left;
+    margin-left: 25px;
+    margin-bottom:5px;
+}
+.option_ans div{
+    float: left;
+}
+.option_ans input{
+   margin-left:2px
+}
+div.option_ans div.status{
+    float: left;
+    width: 15px;
+    height: 13px;
+    margin-left:5px;
+}
+
+.question{
+    clear:both;
+    margin-left: 10px;
+}
+.order{
+    width:1px;
+    float: left;
+    font-weight:bold;
+    
+}
+.content_question{
+    margin-top:30px;
+}
+#part3 p, #part4 p, #part5 p, #part1 p, #part2 p, #part6 p, #part7 p{
+    margin-top: 30px;
+    color: #014787;
+    font-size: 120%;
+    
+}
+#part3 .group, , #part4 .group{
+    margin-top:30px;
+}
+#part5 .option{
+    margin-top: 30px;
+}
+.option{
+    margin-top: 30px; 
+}
+.group{
+    margin-top: 20px;
+}

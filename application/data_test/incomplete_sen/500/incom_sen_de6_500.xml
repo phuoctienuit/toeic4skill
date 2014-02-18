@@ -1,0 +1,94 @@
+<questions>
+	<question>
+			<cau>1</cau>
+			<content>The boy didn’t want to say ………</content>
+			<key>c</key>
+			<optiona>What did he do</optiona>
+			<optionb>What had he done</optionb>
+			<optionc>What he had done</optionc>
+			<optiond>What he was done</optiond>
+	</question>
+	<question>
+			<cau>2</cau>
+			<content>……… I don’t get back tonight, my wife will certainly be upset</content>
+			<key>a</key>
+			<optiona>If</optiona>
+			<optionb>Unless</optionb>
+			<optionc>Although</optionc>
+			<optiond>So</optiond>
+	</question>
+	<question>
+			<cau>3</cau>
+			<content>……… moving, or your feet will be come frozen in the extreme cold</content>
+			<key>a</key>
+			<optiona>Keep</optiona>
+			<optionb>Keeps</optionb>
+			<optionc>Keeping</optionc>
+			<optiond>Kept</optiond>
+	</question>
+	<question>
+			<cau>4</cau>
+			<content>Leave the office right away, ……… you will miss the train because of the traffic</content>
+			<key>c</key>
+			<optiona>So</optiona>
+			<optionb>And</optionb>
+			<optionc>Or</optionc>
+			<optiond>But</optiond>
+	</question>
+	<question>
+			<cau>5</cau>
+			<content>It’s time we ……… the store. It’s already ten o’clock</content>
+			<key>b</key>
+			<optiona>Have closed</optiona>
+			<optionb>Closed</optionb>
+			<optionc>Closing</optionc>
+			<optiond>Are closing</optiond>
+	</question>
+	<question>
+			<cau>6</cau>
+			<content>As ……… as he keeps silent, there will be no danger of the information being disclosed</content>
+			<key>a</key>
+			<optiona>Long</optiona>
+			<optionb>Fast</optionb>
+			<optionc>Soon</optionc>
+			<optiond>Far</optiond>
+		
+	</question>
+	<question>
+			<cau>7</cau>
+			<content>Anyone is welcome ……… they act respectfully the ceremony</content>
+			<key>b</key>
+			<optiona>Provide that</optiona>
+			<optionb>Providing that</optionb>
+			<optionc>Provided if</optionc>
+			<optiond>Providing if</optiond>
+	</question>
+	<question>
+			<cau>8</cau>
+			<content>I wish I ……… that she was sick. I would have gone to see her</content>
+			<key>b</key>
+			<optiona>Knew</optiona>
+			<optionb>Had known</optionb>
+			<optionc>Know</optionc>
+			<optiond>Have known</optiond>
+		
+	</question>
+	<question>
+			<cau>9</cau>
+			<content>I wish my father ……… here with me now, he passed away three years ago</content>
+			<key>c</key>
+			<optiona>Is</optiona>
+			<optionb>Was</optionb>
+			<optionc>Were</optionc>
+			<optiond>Are</optiond>
+	</question>
+	<question>
+			<cau>10</cau>
+			<content>You didn’t ask me, otherwise, I would ……… you the whole story</content>
+			<key>c</key>
+			<optiona>Told</optiona>
+			<optionb>Tell</optionb>
+			<optionc>Have told</optionc>
+			<optiond>Have been told</optiond>		
+	</question>
+</questions>

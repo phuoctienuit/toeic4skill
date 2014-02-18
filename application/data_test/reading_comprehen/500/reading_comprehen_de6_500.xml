@@ -1,0 +1,370 @@
+<reading_comprehen>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		<b>Miami-Dade County Transit Authority<br/>
+LANE CLOSURES</b><br/><br/>
+
+Due to continued construction on Interstate 95, the two left lanes on the north side will be closed from NE 78th St. to NE 135th St between the hours of midnight and 6:00 A.M. Monday to Friday, and 10:00 P.M. to 7 A.M. weekends.<br/><br/>
+
+Lane closures are scheduled to begin on October 16 and continue until November 6.<br/>
+We regret any inconvenience to motorists.]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>Which part of the highway will have lane closures?</content>
+			<optiona>All north side lanes</optiona>
+			<optionb>One lane on each side</optionb>
+			<optionc>The two left lanes on each side</optionc>
+			<optiond>The two left lanes on the north side</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<content>Who is authorizing the lane closures?</content>
+			<optiona>The city</optiona>
+			<optionb>The county</optionb>
+			<optionc>The state</optionc>
+			<optiond>The district</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<content>Which of the following exits will NOT be in the affected area?</content>
+			<optiona>NE 125th Street</optiona>
+			<optionb>NE 95th Street</optionb>
+			<optionc>NE 151st Street</optionc>
+			<optiond>NE 82nd Street</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		<table border="1" cellpadding="1" cellspacing="1" style="width: 500px; ">
+ <tbody>
+  <tr>
+   <td>
+    <table align="center" border="1" cellpadding="0" cellspacing="0" style="width:684px;" width="684">
+     <tbody>
+      <tr>
+       <td style="width:55px;">
+        <strong>BCAST</strong></td>
+       <td style="width:185px;">
+        <strong>8:00</strong></td>
+       <td style="width:70px;">
+        <strong>8:30</strong></td>
+       <td style="width:168px;">
+        <strong>9:00</strong></td>
+       <td style="width:48px;">
+        <strong>9:30</strong></td>
+       <td style="width:65px;">
+        <strong>10:00</strong></td>
+       <td style="width:91px;">
+        <strong>10:30</strong></td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>2</strong><br />
+         </td>
+       <td style="width:185px;">
+        Washington week</td>
+       <td style="width:70px;">
+        Wall Street Week (B)</td>
+       <td style="width:168px;">
+        McLaughlin Report</td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+        Hurrucane Watch</td>
+       <td style="width:91px;">
+         </td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>4</strong></td>
+       <td style="width:185px;">
+        48 hours</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+        Diagnosis Murder. Town Without Pity (2006)</td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+         </td>
+       <td style="width:91px;">
+         </td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>5</strong></td>
+       <td style="width:185px;">
+        Dateline NBC</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+         </td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+         </td>
+       <td style="width:91px;">
+        Law and Order: Special Victims Unit</td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>6</strong></td>
+       <td style="width:185px;">
+        Dateline NBC</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+         </td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+         </td>
+       <td style="width:91px;">
+        Law and Order: Special Victims Unit</td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>7</strong></td>
+       <td style="width:185px;">
+        Sports Extra</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+        X-file</td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+        News</td>
+       <td style="width:91px;">
+         </td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>10</strong></td>
+       <td style="width:185px;">
+        Financial Success with Sonya Ozman (B)</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+        Lilo & Stitch: Aloha from Hollywood</td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+        20/20</td>
+       <td style="width:91px;">
+         </td>
+      </tr>
+      <tr>
+       <td style="width:55px;height:30px;">
+        <strong>CABLE</strong></td>
+       <td style="width:185px;height:30px;">
+         </td>
+       <td style="width:70px;height:30px;">
+         </td>
+       <td style="width:168px;height:30px;">
+         </td>
+       <td style="width:48px;height:30px;">
+         </td>
+       <td style="width:65px;height:30px;">
+         </td>
+       <td style="width:91px;height:30px;">
+         </td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>A&E</strong></td>
+       <td style="width:185px;">
+        Biography</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+        Tea with Mussonlini (1999) (M)</td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+         </td>
+       <td style="width:91px;">
+         </td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>AMC</strong></td>
+       <td style="width:185px;">
+        Working Girl (1988) (M)</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+         </td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+         </td>
+       <td style="width:91px;">
+        Working Girl (1988) (M)</td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>BPL</strong></td>
+       <td style="width:185px;">
+        Business week in Review (B)</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+        Business week in Review (B)</td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+         </td>
+       <td style="width:91px;">
+        It’s your money (B)</td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>CNN</strong></td>
+       <td style="width:185px;">
+        Live from..</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+        Larry King Live</td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+         </td>
+       <td style="width:91px;">
+        NewsNight with Aaron Brown</td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>DSC</strong></td>
+       <td style="width:185px;">
+        U.S. Mint (B)</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+        Inside the World’s Mightiest Bank (B)</td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+         </td>
+       <td style="width:91px;">
+        Three Gorge</td>
+      </tr>
+      <tr>
+       <td style="width:55px;">
+        <strong>MTV</strong></td>
+       <td style="width:185px;">
+        To be Announced</td>
+       <td style="width:70px;">
+         </td>
+       <td style="width:168px;">
+         </td>
+       <td style="width:48px;">
+         </td>
+       <td style="width:65px;">
+         </td>
+       <td style="width:91px;">
+         </td>
+      </tr>
+     </tbody>
+    </table>
+    <div style="clear:both;">
+      </div>
+   </td>
+  </tr>
+ </tbody>
+</table>
+(B) = Business;<br /> (M) = Movies<br />
+		]]>
+		</group_content>
+		<question>
+			<cau>3</cau>
+			<content>How long is Financial Success with Sonya Ozman on the air?</content>
+			<optiona>Thirty minutes</optiona>
+			<optionb>One hour</optionb>
+			<optionc>Two hours</optionc>
+			<optiond>Three hours</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>How many different shows about business are being televised in this schedule?</content>
+			<optiona>Two</optiona>
+			<optionb>Four</optionb>
+			<optionc>Six</optionc>
+			<optiond>Eight</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<content>Which financial show is replaced on the same station?</content>
+			<optiona>Business week in Review</optiona>
+			<optionb>Law and Order: special victims Unit</optionb>
+			<optionc>Working Girl</optionc>
+			<optiond>Dateline NBC</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>7</cau>
+			<content>Which station shows only business programs?</content>
+			<optiona>DSC</optiona>
+			<optionb>BPL</optionb>
+			<optionc>2</optionc>
+			<optiond>AMC</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<content>The word “Unit” in line 3 of the first box is closest in meaning to</content>
+			<optiona>Apartment</optiona>
+			<optionb>Individual</optionb>
+			<optionc>Department</optionc>
+			<optiond>Investigation</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		Connect the lead from the charger to be bottom of your cellular phone or to a charging stand. The plug the charger into a standard wall outlet. When the battery is charging, the battery strength indicator on the right side of the display scrolls.<br/><br/>
+
+Note: when you charge the battery for the first time, the battery strength indicator will not scroll the entire time; this is normal.<br/><br/>
+
+If your phone displays NOT CHARGING, charging is suspended. Check that the battery is connected to an approved charging device. If the battery is very hot or cold, wait for a while; charging will automatically resume after the battery is restored to its normal operating state. If charging still fails, contact your dealer.<br/><br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>9</cau>
+			<content>What device are these instructions for?</content>
+			<optiona>A portable phone</optiona>
+			<optionb>A palm pilot</optionb>
+			<optionc>A cell phone</optionc>
+			<optiond>A laptop computer</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>10</cau>
+			<content>What should you do if the battery is not charging?</content>
+			<optiona>Check that the battery is connected to the charger</optiona>
+			<optionb>Call the factory</optionb>
+			<optionc>Call your dealer immediately</optionc>
+			<optiond>Check the normal operating time</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>11</cau>
+			<content>What should you do if the device fails to charge properly?</content>
+			<optiona>Return it to the company</optiona>
+			<optionb>Get in touch with the place you bought it from</optionb>
+			<optionc>Send it back to the factory</optionc>
+			<optiond>Throw it away and buy another one</optiond>
+			<key>b</key>
+		</question>
+	</group>
+</reading_comprehen>

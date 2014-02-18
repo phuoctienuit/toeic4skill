@@ -1,0 +1,126 @@
+<short_con>
+											<!--Practice 1-->
+	<group>
+		<id>1</id>
+		<audio>de1_500_group1.mp3</audio>
+		<group_content> W: Kevin, when is everyone meeting to commemorate Jim’s retirement?
+
+						M: The invitation said 7 o’clock. Do you know where the banquet hall is?
+
+						W: Yes, it’s in the Westbotten Harborfront Hotel, next to the supermarket. But I need t stopby the bakery first, so I probably won’t arrive until 7.30.
+
+						M: OK, I see, but don’t be too late because I will be waiting for you.
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>What is the celebration for?</content>
+			<optiona>The promotion of a coworker</optiona>
+			<optionb>The opening of a new banquet facility</optionb>
+			<optionc>The anniversary of the hotel</optionc>
+			<optiond>The retirement of a colleague</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<content>When will the celebration start?</content>
+			<optiona>At 6.00 </optiona>
+			<optionb>At 6.30 </optionb>
+			<optionc>At 7.00 </optionc>
+			<optiond>At 7.30 </optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<content>Where will the woman go before the party?</content>
+			<optiona>To the banquet hall </optiona>
+			<optionb>To the hotel lobby </optionb>
+			<optionc>To a bakery </optionc>
+			<optiond>To a supermarket </optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>2</id>
+		<audio>de1_500_group2.mp3</audio>
+		<group_content>
+		M: Good afternoon Telus Mobility. What can I do for you?
+
+		W: Hello. I was wondering if you can help me with my cell phone bill. I haven’t used my cell phone any more than usual , however the total this month seems to be much more than in the past.
+
+		M: It could be that the monthly service charge has increased, but let me look over your invoice. What’s your telephone number?
+
+		W: It’s 555-9328. My last name is Hawk.
+		</group_content>
+		<question>
+			<cau>4</cau>
+			<content>What kind of company does the man work for?</content>
+			<optiona>A delivery service company </optiona>
+			<optionb>An Internet provider </optionb>
+			<optionc>A mobile phone company </optionc>
+			<optiond>An accountant’s office </optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>How does the man explain the change in the women’s bill?</content>
+			<optiona>The price may have risen </optiona>
+			<optionb>The woman has two cell phones </optionb>
+			<optionc>There was an accounting error </optionc>
+			<optiond>The woman may have used her cell phone more than usual. </optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<content>What information does the man ask the woman for?</content>
+			<optiona>Her invoice number</optiona>
+			<optionb>Her telephone number</optionb>
+			<optionc>Her monthly balance</optionc>
+			<optiond>Her identification number</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>3</id>
+		<audio>de1_500_group3.mp3</audio>
+		<group_content>
+		M: Julie, would you please push back my 1:00 appointment this afternoon? I have an emergency meeting with the president.
+
+		W: Of course, Mr. Laurie. When would you like to reschedule?
+
+		M: Well, the president informed me that some clients will be arriving at 2, so let’s say 4 o’clock. I should be back in my office by then.
+
+		W: Great, I’ll see if he can be here at 4.
+		</group_content>
+		<question>
+			<cau>7</cau>
+			<content>What would the man like Julie to do?</content>
+			<optiona>Meet with the president</optiona>
+			<optionb>Change an appointment time</optionb>
+			<optionc>Come to the office later</optionc>
+			<optiond>Contact some clients </optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<content>What will the man do this afternoon?</content>
+			<optiona>Meet with some clients</optiona>
+			<optionb>Call the president’s office</optionb>
+			<optionc>Go to the emergency room</optionc>
+			<optiond>Relocate his office </optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>9</cau>
+			<content>What time the man will start his appointment this afternoon?</content>
+			<optiona>At 1 o’clock</optiona>
+			<optionb>At 2 o’clock</optionb>
+			<optionc>At 3 o’clock</optionc>
+			<optiond>At 4 o’clock</optiond>
+			<key>d</key>
+		</question>
+	</group>
+	
+	
+</short_con>

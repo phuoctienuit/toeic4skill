@@ -1,0 +1,160 @@
+<reading_comprehen>
+	<group>
+		<id>1</id>
+		<group_content><![CDATA[
+		<b>Prepare for a NEW CAREER<br/>
+Or get your H.S. Diploma at home</b><br/><br/>
+
+You’ve always wanted to start a new career, but could never find the time to get the training you need. Until now. The Learning Center can help you study at home in your spare time to get the skills you need to succeed!<br/><br/>
+
+Get your career diploma as a private investigator or medical transcriptionist in as little as six months! Earn your high school diploma in as little as nice months. In as little as two years, you could even have your degree in accounting!<br/><br/>
+
+Join the 8 million men and women who enrolled with The Learning Center to change their lives for the better. Call, write, or visit our website today for FREE information!<br/><br/>
+
+For fastest service, call toll free: 1 800 555 9878 ext. 834<br/><br/>
+
+Visit our website: www.thelearningcenter.com<br/>
+Choose ONE of the programs below:<br/>
+06 High School<br/>
+86 Accounting<br/>	 57 Private Investigator<br/>
+21 Medical Transcriptionist<br/><br/>
+ 
+Dept. LV168R<br/>
+456 Elm Road<br/>
+Boynton Cove, FL 31245<br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>When does the ad say you would be able to study for a career?</content>
+			<optiona>In the mornings</optiona>
+			<optionb>In the evenings</optionb>
+			<optionc>On the weekends</optionc>
+			<optiond>Whenever you had free time</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>2</cau>
+			<content>How long would it take you to get a degree in accounting?</content>
+			<optiona>Six months</optiona>
+			<optionb>Nine months</optionb>
+			<optionc>Eighteen months</optionc>
+			<optiond>Two years</optiond>
+			<key>d</key>
+		</question>
+	</group>
+	<group>
+		<id>2</id>
+		<group_content><![CDATA[
+		Connect the lead from the charger to be bottom of your cellular phone or to a charging stand. The plug the charger into a standard wall outlet. When the battery is charging, the battery strength indicator on the right side of the display scrolls.<br/><br/>
+
+Note: when you charge the battery for the first time, the battery strength indicator will not scroll the entire time; this is normal.<br/><br/>
+
+If your phone displays NOT CHARGING, charging is suspended. Check that the battery is connected to an approved charging device. If the battery is very hot or cold, wait for a while; charging will automatically resume after the battery is restored to its normal operating state. If charging still fails, contact your dealer.<br/><br/>
+		]]>
+		</group_content>
+		<question>
+			<cau>3</cau>
+			<content>What device are these instructions for?</content>
+			<optiona>A portable phone</optiona>
+			<optionb>A palm pilot</optionb>
+			<optionc>A cell phone</optionc>
+			<optiond>A laptop computer</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>4</cau>
+			<content>What should you do if the battery is not charging?</content>
+			<optiona>Check that the battery is connected to the charger</optiona>
+			<optionb>Call the factory</optionb>
+			<optionc>Call your dealer immediately</optionc>
+			<optiond>Check the normal operating time</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>What should you do if the device fails to charge properly?</content>
+			<optiona>Return it to the company</optiona>
+			<optionb>Get in touch with the place you bought it from</optionb>
+			<optionc>Send it back to the factory</optionc>
+			<optiond>Throw it away and buy another one</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<group>
+		<id>3</id>
+		<group_content><![CDATA[
+		<table border="1" cellpadding="0" cellspacing="0">
+     <tbody>
+      <tr>
+       <td style="width:213px;">
+        Easy ways to<br />
+        <strong>Shop</strong><br />
+        Shop over 350 stores<br />
+        Call by mail<br />
+        Call 1 800 555 8183<br />
+        Shop online<br />
+        Trendymale.com<br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+        3181 River Road<br />
+        Rockville, NM 13579<br />
+        909 555 5208</td>
+       <td style="width:213px;">
+        <strong>Buy one sale or </strong><br />
+        <strong>Clearance item, get one</strong><br />
+        <strong>50% OFF</strong><br />
+         <br />
+        (2<sup>nd</sup> item must be of equal or lesser value. Applies to sale and clearance merchandise only. May not be combined with any other coupon offer, promotion or previous purchase. Excludes fragrance, gift certificate, catalogue or online purchases. Not valid on designer merchandise. Not valid on Trendy Male Outlets. Sale Monday, June 17 through Sunday, July 7.)<br />
+         <br />
+        <strong>TRENDY MALE</strong></td>
+       <td style="width:213px;">
+        <strong>Save</strong><br />
+        <strong>Up to 60%</strong><br />
+        <strong>Or more off</strong><br />
+        <strong>Original prices</strong><br />
+         </td>
+      </tr>
+     </tbody>
+    </table>
+
+		]]>
+		</group_content>
+		<question>
+			<cau>6</cau>
+			<content>How many ways can you buy merchandise at “Trendy Male”</content>
+			<optiona>One</optiona>
+			<optionb>Two</optionb>
+			<optionc>Three</optionc>
+			<optiond>Four</optiond>
+			<key></key>
+		</question>
+		<question>
+			<cau>7</cau>
+			<content>If you buy a shirt on sale for $46.00 how much will you pay for another, similar shirt?</content>
+			<optiona>$15.00</optiona>
+			<optionb>$23.00</optionb>
+			<optionc>$27.60</optionc>
+			<optiond>$46.00</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>8</cau>
+			<content>How long will this offer last?</content>
+			<optiona>Eleven days</optiona>
+			<optionb>Sixteen days</optionb>
+			<optionc>Twenty-one days</optionc>
+			<optiond>Twenty-six days</optiond>
+			<key>c</key>
+		</question>
+	</group>
+</reading_comprehen>
