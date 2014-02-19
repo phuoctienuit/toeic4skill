@@ -38,6 +38,20 @@ class Admin extends CI_Controller{
 				$data['fileArray1'][]=$dirArray1[$i1];
 			}
 		}
+
+		$path2="application/data_test/photo/750/";
+		$dir2=opendir($path2);
+		while($entryName2=readdir($dir2)){
+			$dirArray2[]=$entryName2;
+		}
+		closedir($dir2);
+		$indexCount2=count($dirArray2);
+		for($i2=0;$i2<$indexCount2;$i2++){
+			if($dirArray2[$i2]!="." && !is_dir($dirArray2[$i2])){
+				$data['fileArray2'][]=$dirArray2[$i2];
+			}
+		}
+		
 		
 
 		
@@ -51,7 +65,6 @@ class Admin extends CI_Controller{
 		$fn2 = "application/data_test/photo/750/$filename";
 		$fn3 = "application/data_test/photo/900/$filename";
 		$fn = "";
-		var_dump($fn);die();
 		if(is_file($fn1))
 			$fn=$fn1;
 		else if(is_file($fn2))
@@ -88,8 +101,36 @@ public function list_file_qr()
 				$data['fileArray'][]=$dirArray[$i];
 			}
 		}
+
+		$path1="application/data_test/qr/750/";
+		$dir1=opendir($path1);
+		while($entryName1=readdir($dir1)){
+			$dirArray1[]=$entryName1;
+		}
+		closedir($dir1);
+		$indexCount1=count($dirArray1);
+		for($i1=0;$i1<$indexCount1;$i1++){
+			if($dirArray1[$i1]!="." && !is_dir($dirArray1[$i1])){
+				$data['fileArray1'][]=$dirArray1[$i1];
+			}
+		}
+
+		$path2="application/data_test/qr/750/";
+		$dir2=opendir($path2);
+		while($entryName2=readdir($dir2)){
+			$dirArray2[]=$entryName2;
+		}
+		closedir($dir2);
+		$indexCount2=count($dirArray2);
+		for($i2=0;$i2<$indexCount2;$i2++){
+			if($dirArray2[$i2]!="." && !is_dir($dirArray2[$i2])){
+				$data['fileArray2'][]=$dirArray2[$i2];
+			}
+		}
+
 		$data['link_image']=base_url().'application/template/image/';
 		$this->load->view("admin/list_file_qr",$data);
+
 		
 	}
 	public function view_file_qr($filename){
@@ -132,6 +173,33 @@ public function list_file_short_con()
 				$data['fileArray'][]=$dirArray[$i];
 			}
 		}
+
+		$path1="application/data_test/short_con/750/";
+		$dir1=opendir($path1);
+		while($entryName1=readdir($dir1)){
+			$dirArray1[]=$entryName1;
+		}
+		closedir($dir1);
+		$indexCount1=count($dirArray1);
+		for($i1=0;$i1<$indexCount1;$i1++){
+			if($dirArray1[$i1]!="." && !is_dir($dirArray1[$i1])){
+				$data['fileArray1'][]=$dirArray1[$i1];
+			}
+		}
+
+		$path2="application/data_test/short_con/750/";
+		$dir2=opendir($path2);
+		while($entryName2=readdir($dir2)){
+			$dirArray2[]=$entryName2;
+		}
+		closedir($dir2);
+		$indexCount2=count($dirArray2);
+		for($i2=0;$i2<$indexCount2;$i2++){
+			if($dirArray2[$i2]!="." && !is_dir($dirArray2[$i2])){
+				$data['fileArray2'][]=$dirArray2[$i2];
+			}
+		}
+
 		$data['link_image']=base_url().'application/template/image/';
 		$this->load->view("admin/list_file_short_con",$data);
 		
@@ -176,8 +244,35 @@ public function list_file_short_con()
 				$data['fileArray'][]=$dirArray[$i];
 			}
 		}
+
+		$path1="application/data_test/short_talk/750/";
+		$dir1=opendir($path1);
+		while($entryName1=readdir($dir1)){
+			$dirArray1[]=$entryName1;
+		}
+		closedir($dir1);
+		$indexCount1=count($dirArray1);
+		for($i1=0;$i1<$indexCount1;$i1++){
+			if($dirArray1[$i1]!="." && !is_dir($dirArray1[$i1])){
+				$data['fileArray1'][]=$dirArray1[$i1];
+			}
+		}
+
+		$path2="application/data_test/short_talk/750/";
+		$dir2=opendir($path2);
+		while($entryName2=readdir($dir2)){
+			$dirArray2[]=$entryName2;
+		}
+		closedir($dir2);
+		$indexCount2=count($dirArray2);
+		for($i2=0;$i2<$indexCount2;$i2++){
+			if($dirArray2[$i2]!="." && !is_dir($dirArray2[$i2])){
+				$data['fileArray2'][]=$dirArray2[$i2];
+			}
+		}
+
 		$data['link_image']=base_url().'application/template/image/';
-		$this->load->view("admin/list_file_short_con",$data);
+		$this->load->view("admin/list_file_short_talk",$data);
 		
 	}
 	public function view_file_short_talk($filename){
@@ -221,6 +316,33 @@ public function list_file_short_con()
 				$data['fileArray'][]=$dirArray[$i];
 			}
 		}
+
+		$path1="application/data_test/incomplete_sen/750/";
+		$dir1=opendir($path1);
+		while($entryName1=readdir($dir1)){
+			$dirArray1[]=$entryName1;
+		}
+		closedir($dir1);
+		$indexCount1=count($dirArray1);
+		for($i1=0;$i1<$indexCount1;$i1++){
+			if($dirArray1[$i1]!="." && !is_dir($dirArray1[$i1])){
+				$data['fileArray1'][]=$dirArray1[$i1];
+			}
+		}
+
+		$path2="application/data_test/incomplete_sen/750/";
+		$dir2=opendir($path2);
+		while($entryName2=readdir($dir2)){
+			$dirArray2[]=$entryName2;
+		}
+		closedir($dir2);
+		$indexCount2=count($dirArray2);
+		for($i2=0;$i2<$indexCount2;$i2++){
+			if($dirArray2[$i2]!="." && !is_dir($dirArray2[$i2])){
+				$data['fileArray2'][]=$dirArray2[$i2];
+			}
+		}
+
 		$data['link_image']=base_url().'application/template/image/';
 		$this->load->view("admin/list_file_incom",$data);
 		
@@ -266,6 +388,33 @@ public function list_file_short_con()
 				$data['fileArray'][]=$dirArray[$i];
 			}
 		}
+
+		$path1="application/data_test/text_complextion/750/";
+		$dir1=opendir($path1);
+		while($entryName1=readdir($dir1)){
+			$dirArray1[]=$entryName1;
+		}
+		closedir($dir1);
+		$indexCount1=count($dirArray1);
+		for($i1=0;$i1<$indexCount1;$i1++){
+			if($dirArray1[$i1]!="." && !is_dir($dirArray1[$i1])){
+				$data['fileArray1'][]=$dirArray1[$i1];
+			}
+		}
+
+		$path2="application/data_test/text_complextion/750/";
+		$dir2=opendir($path2);
+		while($entryName2=readdir($dir2)){
+			$dirArray2[]=$entryName2;
+		}
+		closedir($dir2);
+		$indexCount2=count($dirArray2);
+		for($i2=0;$i2<$indexCount2;$i2++){
+			if($dirArray2[$i2]!="." && !is_dir($dirArray2[$i2])){
+				$data['fileArray2'][]=$dirArray2[$i2];
+			}
+		}
+
 		$data['link_image']=base_url().'application/template/image/';
 		$this->load->view("admin/list_file_text_com",$data);
 		
@@ -310,6 +459,33 @@ public function list_file_short_con()
 				$data['fileArray'][]=$dirArray[$i];
 			}
 		}
+
+		$path1="application/data_test/reading_comprehen/750/";
+		$dir1=opendir($path1);
+		while($entryName1=readdir($dir1)){
+			$dirArray1[]=$entryName1;
+		}
+		closedir($dir1);
+		$indexCount1=count($dirArray1);
+		for($i1=0;$i1<$indexCount1;$i1++){
+			if($dirArray1[$i1]!="." && !is_dir($dirArray1[$i1])){
+				$data['fileArray1'][]=$dirArray1[$i1];
+			}
+		}
+
+		$path2="application/data_test/reading_comprehen/750/";
+		$dir2=opendir($path2);
+		while($entryName2=readdir($dir2)){
+			$dirArray2[]=$entryName2;
+		}
+		closedir($dir2);
+		$indexCount2=count($dirArray2);
+		for($i2=0;$i2<$indexCount2;$i2++){
+			if($dirArray2[$i2]!="." && !is_dir($dirArray2[$i2])){
+				$data['fileArray2'][]=$dirArray2[$i2];
+			}
+		}
+
 		$data['link_image']=base_url().'application/template/image/';
 		$this->load->view("admin/list_file_reading",$data);
 		

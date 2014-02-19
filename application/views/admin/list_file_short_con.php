@@ -8,28 +8,105 @@
 
 <div id="content"> 
  
-  <div class="content_file"> 
-    <p>DANH SÁCH CÁC ĐỀ THI</p>
-    <?php 
-        foreach($fileArray as $file)
-        {
+  <div class="title_file">DANH SÁCH CÁC ĐỀ THI</div>
+    <div class="content_file"> 
+    
+        <div id="file_500">
+            <div>LEVEL 500</div>
+            <?php 
+                foreach($fileArray as $file)
+                {
 
-    ?>
-        <div class='list_file'>
+            ?>
+
             <div class='image'>
                 <img src='<?php echo $link_image;?>file.png' width='25' height='25'>
             </div>
-        </div>
             
-        <div class='filename'> 
-               <a target = '_blank' href="<?php echo base_url() ;?>index.php/admin/view_file_short_con/<?php echo $file; ?>"> <?php echo $file; ?><a/> 
-        </div>
+            <div class='filename'> 
+                   <a target = '_blank' href="<?php echo base_url() ;?>index.php/admin/view_file_short_con/<?php echo $file; ?>"> <?php echo $file; ?></a>
+            </div>
+            <div class='image_edit'>
+                    <img src='<?php echo $link_image;?>edit.png' width='25' height='25'>
 
-    <?php
-        }
-     ?>
-        
-    </div>     
+            </div>
+            <div class='image_delete'>
+
+                    
+            </div>
+    
+            <?php
+                }
+             ?>
+        </div> <!--End file 500-->
+    
+      <div id="file_750">
+        <div>LEVEL 750</div>
+            <?php 
+             foreach($fileArray1 as $file1)
+            {
+
+            ?>
+               
+                    <div class='list_file'>
+                        <div class='image'>
+                            <img src='<?php echo $link_image;?>file.png' width='25' height='25'>
+                        </div>
+                    </div>
+                        
+                    <div class='filename'> 
+                           <a target = '_blank' href="<?php echo base_url() ;?>index.php/admin/view_file_short_con/<?php echo $file1; ?>"> <?php echo $file1; ?><a/>
+                    </div>
+                    <div class='image_edit'>
+                            <img src='<?php echo $link_image;?>edit.png' width='25' height='25'>
+
+                    </div>
+                    <div class='image_delete'>
+
+                            
+                    </div>
+
+            <?php
+                }
+             ?>
+    </div><!--end file 750-->
+
+    
+      <div id="file_900">
+         <div>LEVEL 900</div>
+            <?php 
+             foreach($fileArray2 as $file2)
+            {
+
+            ?>
+               
+                    <div class='list_file'>
+                        <div class='image'>
+                            <img src='<?php echo $link_image;?>file.png' width='25' height='25'>
+                        </div>
+                    </div>
+                        
+                    <div class='filename'> 
+                           <a target = '_blank' href="<?php echo base_url() ;?>index.php/admin/view_file_short_con/<?php echo $file2; ?>"> <?php echo $file2; ?><a/>
+                    </div>
+                    <div class='image_edit'>
+                            <img src='<?php echo $link_image;?>edit.png' width='25' height='25'>
+
+                    </div>
+                    <div class='image_delete'>
+
+                            
+                    </div>
+
+            <?php
+                }
+             ?>
+    </div><!--end file 900-->
+
+
+    </div>    
+  
+    
   
  
 

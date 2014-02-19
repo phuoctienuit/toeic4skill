@@ -616,3 +616,15 @@ font-style: italic;
 font-weight: bold;
 font-size: 20;
 }
+.content_file {
+margin: 20 40;
+}
+.title_file {
+margin: 10 20;
+}
+#file_750 {
+margin-top: 10;
+}
+#file_900 {
+margin-top: 10;
+}
