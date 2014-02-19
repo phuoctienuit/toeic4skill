@@ -628,3 +628,16 @@ margin-top: 10;
 #file_900 {
 margin-top: 10;
 }
+
+.list_score #title_table{
+	background-color: burlywood;
+}
+.list_score {
+width: 600;
+}
+.list_video {
+width: 700;
+}
+.list_video #title_table{
+	background-color: darkseagreen;
+}

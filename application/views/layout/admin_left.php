@@ -31,6 +31,10 @@
           <td align="center"><img src="http://localhost/toeic4skill/application/template/image/eye.png" alt="settings" width="14" height="14"></td>
           <td class="navigation"><a href="<?php echo base_url()?>index.php/admin/list_file_reading">Reading</a></td> <!--// Settings -->
         </tr>
+        <tr>
+          <td align="center"><img src="http://localhost/toeic4skill/application/template/image/eye.png" alt="settings" width="14" height="14"></td>
+          <td class="navigation"><a href="<?php echo base_url()?>index.php/admin/list_file_writing">Writing</a></td> <!--// Settings -->
+        </tr>
         
       </tbody></table>
       <br>

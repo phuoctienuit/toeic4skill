@@ -8,8 +8,43 @@ class Admin extends CI_Controller{
 		$data['link_image']=base_url().'application/template/image';
 		$this->load->view("admin/view_admin",$data);
 	}
+	
+	public function view_score(){
+		$data['array_score']=$this->madmin->get_score();
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/view_score",$data);
+	}
 
-
+	public function sharing_post(){
+		$data['array_post']=$this->madmin->get_post();
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/view_post",$data);
+	}
+	public function sharing_video(){
+		$data['array_video']=$this->madmin->get_video();
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/view_list_video",$data);
+	}
+	
+	public function list_file_fulltest()
+	{
+		$path="application/data_test/fulltest/";
+		$dir=opendir($path);
+		while($entryName=readdir($dir)){
+			$dirArray[]=$entryName;
+		}
+		closedir($dir);
+		$indexCount=count($dirArray);
+		for($i=0;$i<$indexCount;$i++){ 
+			if(is_file($path."$dirArray[$i]")){
+				$data['fileArray'][]=$dirArray[$i];
+			}
+		}
+	
+		$data['link_image']=base_url().'application/template/image/';
+		$this->load->view("admin/list_file_fulltest",$data);
+		
+	}
 	public function list_file_photo()
 	{
 		$path="application/data_test/photo/500/";
@@ -39,7 +74,7 @@ class Admin extends CI_Controller{
 			}
 		}
 
-		$path2="application/data_test/photo/750/";
+		$path2="application/data_test/photo/900/";
 		$dir2=opendir($path2);
 		while($entryName2=readdir($dir2)){
 			$dirArray2[]=$entryName2;
@@ -115,7 +150,7 @@ public function list_file_qr()
 			}
 		}
 
-		$path2="application/data_test/qr/750/";
+		$path2="application/data_test/qr/900/";
 		$dir2=opendir($path2);
 		while($entryName2=readdir($dir2)){
 			$dirArray2[]=$entryName2;
@@ -187,7 +222,7 @@ public function list_file_short_con()
 			}
 		}
 
-		$path2="application/data_test/short_con/750/";
+		$path2="application/data_test/short_con/900/";
 		$dir2=opendir($path2);
 		while($entryName2=readdir($dir2)){
 			$dirArray2[]=$entryName2;
@@ -258,7 +293,7 @@ public function list_file_short_con()
 			}
 		}
 
-		$path2="application/data_test/short_talk/750/";
+		$path2="application/data_test/short_talk/900/";
 		$dir2=opendir($path2);
 		while($entryName2=readdir($dir2)){
 			$dirArray2[]=$entryName2;
@@ -330,7 +365,7 @@ public function list_file_short_con()
 			}
 		}
 
-		$path2="application/data_test/incomplete_sen/750/";
+		$path2="application/data_test/incomplete_sen/900/";
 		$dir2=opendir($path2);
 		while($entryName2=readdir($dir2)){
 			$dirArray2[]=$entryName2;
@@ -402,7 +437,7 @@ public function list_file_short_con()
 			}
 		}
 
-		$path2="application/data_test/text_complextion/750/";
+		$path2="application/data_test/text_complextion/900/";
 		$dir2=opendir($path2);
 		while($entryName2=readdir($dir2)){
 			$dirArray2[]=$entryName2;
@@ -473,7 +508,7 @@ public function list_file_short_con()
 			}
 		}
 
-		$path2="application/data_test/reading_comprehen/750/";
+		$path2="application/data_test/reading_comprehen/900/";
 		$dir2=opendir($path2);
 		while($entryName2=readdir($dir2)){
 			$dirArray2[]=$entryName2;

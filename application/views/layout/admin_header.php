@@ -3,7 +3,7 @@
 <title>TOEIC 4 SKILL</title>
 
 <link href="<?php echo base_url();?>application/template/css/styles.css" rel="stylesheet" type="text/css">
-
+<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/bootstrap/css/bootstrap.css">
 </head>
 <body>
 
@@ -11,11 +11,11 @@
 <div class="bodytext" id="submenu"> 
   <table width="493" border="0" class="class2">
     <tbody><tr>
-      <td valign="middle"><a href="">Điểm Thi</a></td>
-      <td valign="middle"><a href="">Bài Viết</a></td>
-      <td valign="middle"><a href="#">Video</a></td>
+      <td valign="middle"><a href="view_score">Điểm Thi</a></td>
+      <td valign="middle"><a href="sharing_post">Bài Viết</a></td>
+      <td valign="middle"><a href="sharing_video">Video</a></td>
       <td valign="middle"><a href="#">Funny English</a></td>
-      <td valign="middle"><a href="#">Full Test</a></td>
+      <td valign="middle"><a href="list_file_fulltest">Full Test</a></td>
     
     </tr>
   </tbody></table>

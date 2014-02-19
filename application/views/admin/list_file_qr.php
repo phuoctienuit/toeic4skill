@@ -110,6 +110,6 @@
  
 
     
-</div>
+</div><!--end content-->
 
 <?php $this->load->view("layout/admin_searchbox_footer");?>

@@ -1,0 +1,390 @@
+<short_con>
+											<!--Practice 4 chưa có file mp3-->
+	<group>
+		<id>1</id>
+		<audio>1.mp3</audio>
+		<group_content> M: Angela, I’ve just confirmed the departure times and it looks like our train will be delayed a couple of hours. It’s now expected to leave at 7.00.
+
+						W: That’s big problem. We won’t arrive in London in order to make our 9.00 meeting with our partners.
+
+						M: It will be okay. I was going to contact them anyway to confirm that they received the documents I couriered earlier today.
+
+						W: Alright, so you can let them know our situation.
+		</group_content>
+		<question>
+			<cau>1</cau>
+			<content>When is the train supposed to leave the station?</content>
+			<optiona>At 3 o’clock</optiona>
+			<optionb>At 5 o’clock</optionb>
+			<optionc>At 7 o’clock</optionc>
+			<optiond>At 9 o’clock</optiond>
+			<key>c</key>
+		</question> 
+		<question>
+			<cau>2</cau>
+			<content> What the woman concerned about?</content>
+			<optiona>She can’t confirm departure times online</optiona>
+			<optionb>She will be late for an appointment</optionb>
+			<optionc>She has misplaced the contact information</optionc>
+			<optiond>She has lost some important documents</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>3</cau>
+			<content>Why was the man planning to contact the partners?</content>
+			<optiona>To discuss the presentation</optiona>
+			<optionb>To arrange accommodation</optionb>
+			<optionc>To ensure that they received the files</optionc>
+			<optiond>To obtain directions to the office</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>2</id>
+		<audio>2.mp3</audio>
+		<group_content>
+		M: Maria, were you able to ship the product for the customer’s order in time for the delivery?
+
+W: No, the shipping office was closed this morning. I’ve already faxed them twice this afternoon to remind them.
+
+M: Would you please try calling them? I have to contact the customer this evening, and I’d like to let him know when the delivery will arrive.
+
+W: OK, I will do it right away.
+		</group_content>
+ 
+		<question>
+			<cau>4</cau>
+			<content>What did Maria do this afternoon?</content>
+			<optiona>Called the shipping company</optiona>
+			<optionb>Sent a couple of faxes</optionb>
+			<optionc>Photocopied records</optionc>
+			<optiond>Drafted a proposal</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>5</cau>
+			<content>Why are the speakers concerned?</content>
+			<optiona>They need to deliver an order</optiona>
+			<optionb>To complain about a customer</optionb>
+			<optionc>They need more customer information</optionc>
+			<optiond>They need to fix their fax machine</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>6</cau>
+			<content>What information does the man ask the woman for?</content>
+			<optiona>Her invoice number</optiona>
+			<optionb>Her telephone number</optionb>
+			<optionc>Her monthly balance</optionc>
+			<optiond>Her identification number</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>3</id>
+		<audio>3.mp3</audio>
+		<group_content>
+		M: My Internet service is so slow. It’s really affecting my work. I think it’s time that I changed Internet providers
+
+W: You should contact Roger’s Inc. That the company that I use. They have great service staff, and their technical support is the best in the industry.
+
+M: Thank you for the suggestion. I’ll keep that in mind.
+
+W: And when you call, don’t forget to mention my name. They’ll give you a new contract discount and credit my account for referring a friend.
+		</group_content>
+		<question>
+			<cau>7</cau>
+			<content>What is the man’s problem?</content>
+			<optiona>His computer is broken</optiona>
+			<optionb>His Internet provider closed down</optionb>
+			<optionc>He cannot contact technical support</optionc>
+			<optiond>His Internet is slow</optiond>
+			<key>d</key>
+		</question>. 
+
+		<question>
+			<cau>8</cau>
+			<content>Why does the woman recommend Roger’s Inc.?</content>
+			<optiona>They offer great technical assistance</optiona>
+			<optionb>They provide a money-back guarantee</optionb>
+			<optionc>They give discounts on used computers</optionc>
+			<optiond>They repair computers free of charge</optiond>
+			<key>a</key>
+		</question> 
+ 
+		<question>
+			<cau>9</cau>
+			<content>What does the woman ask the man to do?</content>
+			<optiona>Go to a nearby computer shop</optiona>
+			<optionb>Give her name when ordering a service</optionb>
+			<optionc>Talk to a service staff member</optionc>
+			<optiond>E-mail the company his details</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<!--end practice 4-->
+	<!--practice 6-->
+	<group>
+		<id>4</id>
+		<audio>4.mp3</audio>
+		<group_content>
+		M: Ms. Dias, we’d like to introduce the Spanish edition of Marketing a Successful Product by the end of the quarter
+
+W: That would mean I would have less than a month to complete the translation. That won’t be enough time to translate a 75- page article.
+
+M: Well, we may be able to delay the publishers a couple of extra weeks. Would that be better for you?
+
+W: If I dedicate myself exclusively o the project, five weeks could be possible
+		</group_content>. 
+ 
+		<question>
+			<cau>10</cau>
+			<content>Who most likely is Ms. Dias?</content>
+			<optiona>A Spanish diplomat</optiona>
+			<optionb>A translator</optionb>
+			<optionc>A publisher</optionc>
+			<optiond>A marketer</optiond>
+			<key>b</key>
+			
+		</question>
+ 
+		<question>
+			<cau>11</cau>
+			<content>What would Ms. Dias like from the man?</content>
+			<optiona>A new publisher</optiona>
+			<optionb>A higher salary</optionb>
+			<optionc>A new deadline</optionc>
+			<optiond>An assistant</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>12</cau>
+			<content>How will Ms. Dias make the due date?</content>
+			<optiona>By focusing only on the translation of the book</optiona>
+			<optionb>By delaying a business trip</optionb>
+			<optionc>By hiring an assistant</optionc>
+			<optiond>By shorting the article</optiond>
+			<key>a</key>
+			
+		</question>
+	</group>
+	
+	<group>
+		<id>5</id>
+		<audio>5.mp3</audio>
+		<group_content>
+		M: Ms. Jeffrey, I won’t be able to attend the seminar on Friday, so could you take notes for me?
+
+W:  No problem, Mr. Pauls. Are you finally going on that vacation you’ve been talking about?
+
+M: No, unfortunately not. I have to leave for New York tomorrow morning to meet with our new client. We’ll be discussing negotiations for the contract at his office, so I’ll need a few extra days to finalize things.
+
+W: Wow, good luck with the talks. I heard that the Johnson and Johnson contract would bring in a lot of revenue. I’ll let you know if they discuss anything important at the seminar on Friday.
+		</group_content>
+
+		<question>
+			<cau>13</cau>
+			<content>What would the man like the woman to do?</content>
+			<optiona>Schedule a meeting</optiona>
+			<optionb>Contact a client in New York</optionb>
+			<optionc>Get information at a seminar</optionc>
+			<optiond>Make travel arrangements</optiond>
+			<key>c</key>
+			
+		</question>
+ 
+		<question>
+			<cau>14</cau>
+			<content>Where is the Mr. Pauls going tomorrow?</content>
+			<optiona>To a business lunch</optiona>
+			<optionb>To a marketing presentation</optionb>
+			<optionc>To a training workshop</optionc>
+			<optiond>To a client’s office</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>15</cau>
+			<content>What does the woman infer about Johnson and Johnson?</content>
+			<optiona>They will increase the company’s profits</optiona>
+			<optionb>The company isn’t very successful</optionb>
+			<optionc>The company wishes to relocate</optionc>
+			<optiond>They will introduce new company policies</optiond>
+			<key>a</key>
+		
+		</question>
+	</group>
+	
+	<group>
+		<id>6</id>
+		<audio>6.mp3</audio>
+		<group_content>
+		M: So, Sarah, Has the bank contacted you since your interview with them?
+
+W: Yes, they phoned this morning. They want me to meet with the vice-president of the company next Monday.
+
+M: That’s wonderful news! What time is the interview?
+
+W: They wanted to meet in the afternoon, right after lunch. But I asked if I could have the interview in the morning instead.
+		</group_content>
+		<question>
+
+			<cau>16</cau>
+			<content>What’s the main topic of the conversation?</content>
+			<optiona>A restaurant reservation</optiona>
+			<optionb>A business meeting</optionb>
+			<optionc>A conference</optionc>
+			<optiond>A job interview</optiond>
+			<key>d</key>
+		</question>
+
+		<question>
+			<cau>17</cau>
+			<content>When will Sarah meet with the vice-president?</content>
+			<optiona>Tomorrow</optiona>
+			<optionb>At the end of the week</optionb>
+			<optionc>At the beginning of next week</optionc>
+			<optiond>At the beginning of next month</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>18</cau>
+			<content>What request did Sarah make regarding her second interview?</content>
+			<optiona>To alter the location</optiona>
+			<optionb>To modify the time</optionb>
+			<optionc>To change the person interviewing her</optionc>
+			<optiond>To reschedule the day of the interview</optiond>
+			<key>b</key>
+		</question>
+	</group>
+		<!--end practice 6-->
+		
+	<group>
+		<id>7</id>
+		<audio>7.mp3</audio>
+		<group_content>
+		W: Excuse me! I think you’ve made a mistake on my check
+
+M: Oh? Is there something there you didn’t order?
+
+W: No. Actually, you forgot to add in our desserts. We had cake but it isn’t listed.
+
+M: Yes, you’re right. Thank you for being so honest
+		</group_content>
+
+		<question>
+			<cau>19</cau>
+			<content>Where are the man and woman?</content>
+			<optiona>In a taxi</optiona>
+			<optionb>In a restaurant</optionb>
+			<optionc>At a hospital</optionc>
+			<optiond>At a school</optiond>
+			<key>b</key>
+		</question> 
+ 
+		<question>
+			<cau>20</cau>
+			<content>What is the problem?</content>
+			<optiona>The woman has been overcharged</optiona>
+			<optionb>The man has undercharged the woman</optionb>
+			<optionc>The woman has undercharged the man</optionc>
+			<optiond>The woman has overcharged the man</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>21</cau>
+			<content>Why does the man thank the woman?</content>
+			<optiona>She was honest</optiona>
+			<optionb>She bought him a nice dinner</optionb>
+			<optionc>She did him a favor</optionc>
+			<optiond>She made a list for him</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	<!--7-->
+	<group>
+		<id>8</id>
+		<audio>8.mp3</audio>
+		<group_content>
+		W: How many weeks of vacation do you get per year?
+
+M: I’m allowed three, but I usually only take one or two.
+
+W: If I were you, I would use all three
+
+M: Yeah, but I get a bonus for the days I don’t take. I can make a lot of extra money.
+		</group_content>. 
+		<question>
+			<cau>21</cau>
+			<content>How much vacation does the man usually take?</content>
+			<optiona>About three weeks per year</optiona>
+			<optionb>Less than three weeks a year</optionb>
+			<optionc>All he is allowed</optionc>
+			<optiond>More than the woman</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>22</cau>
+			<content>How much vacation would the woman take?</content>
+			<optiona>One week</optiona>
+			<optionb>Half the entitlement</optionb>
+			<optionc>As much as she could</optionc>
+			<optiond>Two weeks</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>23</cau>
+			<content>Why doesn’t the man use all his vacation?</content>
+			<optiona>He has too much work to do</optiona>
+			<optionb>He has no vacation plans</optionb>
+			<optionc>He can receive extra money</optionc>
+			<optiond>He doesn’t like vacations</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>9</id>
+		<audio>9.mp3</audio>
+		<group_content>
+		M: are you being helped madam?
+
+W: No, I’m not, I’d like to speak to a loan officer
+
+M: Certainly. Just have a seat in the lobby, and one will be with you shortly
+
+W: Well, I’ve already been waiting for over twenty minutes. I can’t wait much longer.
+ 
+		</group_content>
+		<question> 
+
+			<cau>25</cau>
+			<content>Where is this conversation taking place?</content>
+			<optiona>In a hotel lobby</optiona>
+			<optionb>In a department store</optionb>
+			<optionc>In a bank</optionc>
+			<optiond>In a school</optiond>
+			<key>c</key>
+		</question> 
+		<question>
+			<cau>26</cau>
+			<content>What does the man tell the woman to do?</content>
+			<optiona>Apply for a loan</optiona>
+			<optionb>Stand in the line</optionb>
+			<optionc>Speak to an officer</optionc>
+			<optiond>Wait in the lobby</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>27</cau>
+			<content>How long has the woman been waiting?</content>
+			<optiona>Less than twenty minutes</optiona>
+			<optionb>Twenty minutes</optionb>
+			<optionc>More than twenty minutes</optionc>
+			<optiond>In the lobby</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	<!--end practice 3-->
+</short_con>

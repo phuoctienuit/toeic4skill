@@ -108,7 +108,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('mmain','files_model');
+$autoload['model'] = array('mmain','files_model','madmin');
 
 
 /* End of file autoload.php */
