@@ -76,10 +76,7 @@ div.option div.status{
 .option .selection input{
 	float: left;
 }
-.option .selection span{
-	float: left;
-	
-}
+
 .request{
 	color: green;
 	font-weight: bold;

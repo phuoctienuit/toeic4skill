@@ -5,12 +5,14 @@ $(document).ready(function(){
     $("input:radio").attr("checked", false);
     $("div.status").html("");
     $(".show_answer").css("display","none");
+    $(".group_content").css("display","none");
   });
   
   $(document.body).on("click", "#btnanswer", function(event)
   {
   	$("div.status").html("");
     $(".show_answer").css("display","block");
+    $(".group_content").css("display","block");
   	$('div.option').each(function() {
     	var cur = $(this);
     	var stt = cur.attr("id");
