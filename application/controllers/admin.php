@@ -24,6 +24,24 @@ class Admin extends CI_Controller{
 				$data['fileArray'][]=$dirArray[$i];
 			}
 		}
+
+
+		$path1="application/data_test/photo/750/";
+		$dir1=opendir($path1);
+		while($entryName1=readdir($dir1)){
+			$dirArray1[]=$entryName1;
+		}
+		closedir($dir1);
+		$indexCount1=count($dirArray1);
+		for($i1=0;$i1<$indexCount1;$i1++){
+			if($dirArray1[$i1]!="." && !is_dir($dirArray1[$i1])){
+				$data['fileArray1'][]=$dirArray1[$i1];
+			}
+		}
+		
+
+		
+		
 		$data['link_image']=base_url().'application/template/image/';
 		$this->load->view("admin/list_file_photo",$data);
 		
@@ -33,6 +51,7 @@ class Admin extends CI_Controller{
 		$fn2 = "application/data_test/photo/750/$filename";
 		$fn3 = "application/data_test/photo/900/$filename";
 		$fn = "";
+		var_dump($fn);die();
 		if(is_file($fn1))
 			$fn=$fn1;
 		else if(is_file($fn2))
@@ -55,8 +74,272 @@ class Admin extends CI_Controller{
 		$this->load->view("admin/view_file_photo",$data);
 	}
 
+public function list_file_qr()
+	{
+		$path="application/data_test/qr/500/";
+		$dir=opendir($path);
+		while($entryName=readdir($dir)){
+			$dirArray[]=$entryName;
+		}
+		closedir($dir);
+		$indexCount=count($dirArray);
+		for($i=0;$i<$indexCount;$i++){
+			if($dirArray[$i]!="." && !is_dir($dirArray[$i])){
+				$data['fileArray'][]=$dirArray[$i];
+			}
+		}
+		$data['link_image']=base_url().'application/template/image/';
+		$this->load->view("admin/list_file_qr",$data);
+		
+	}
+	public function view_file_qr($filename){
+		$fn1 = "application/data_test/qr/500/$filename";
+		$fn2 = "application/data_test/qr/750/$filename";
+		$fn3 = "application/data_test/qr/900/$filename";
+		$fn = "";
+		if(is_file($fn1))
+			$fn=$fn1;
+		else if(is_file($fn2))
+			$fn=$fn2;
+		else if(is_file($fn3))
+			$fn=$fn3;
 
+		if (isset($_POST['content']))
+		{
+		    $content = stripslashes($_POST['content']);
 
+		    $fp = fopen($fn,"w") or die ("Error opening file in write mode!");
+
+		    fputs($fp,$content);
+
+		    fclose($fp) or die ("Error closing file!");
+		}
+		$data['fn']=$fn;
+
+		$this->load->view("admin/view_file_qr",$data);
+	}
+public function list_file_short_con()
+	{
+		$path="application/data_test/short_con/500/";
+		$dir=opendir($path);
+		while($entryName=readdir($dir)){
+			$dirArray[]=$entryName;
+		}
+		closedir($dir);
+		$indexCount=count($dirArray);
+		for($i=0;$i<$indexCount;$i++){
+			if($dirArray[$i]!="." && !is_dir($dirArray[$i])){
+				$data['fileArray'][]=$dirArray[$i];
+			}
+		}
+		$data['link_image']=base_url().'application/template/image/';
+		$this->load->view("admin/list_file_short_con",$data);
+		
+	}
+	public function view_file_short_con($filename){
+		$fn1 = "application/data_test/short_con/500/$filename";
+		$fn2 = "application/data_test/short_con/750/$filename";
+		$fn3 = "application/data_test/short_con/900/$filename";
+		$fn = "";
+		if(is_file($fn1))
+			$fn=$fn1;
+		else if(is_file($fn2))
+			$fn=$fn2;
+		else if(is_file($fn3))
+			$fn=$fn3;
+
+		if (isset($_POST['content']))
+		{
+		    $content = stripslashes($_POST['content']);
+
+		    $fp = fopen($fn,"w") or die ("Error opening file in write mode!");
+
+		    fputs($fp,$content);
+
+		    fclose($fp) or die ("Error closing file!");
+		}
+		$data['fn']=$fn;
+
+		$this->load->view("admin/view_file_short_con",$data);
+	}
+	public function list_file_short_talk()
+	{
+		$path="application/data_test/short_talk/500/";
+		$dir=opendir($path);
+		while($entryName=readdir($dir)){
+			$dirArray[]=$entryName;
+		}
+		closedir($dir);
+		$indexCount=count($dirArray);
+		for($i=0;$i<$indexCount;$i++){
+			if($dirArray[$i]!="." && !is_dir($dirArray[$i])){
+				$data['fileArray'][]=$dirArray[$i];
+			}
+		}
+		$data['link_image']=base_url().'application/template/image/';
+		$this->load->view("admin/list_file_short_con",$data);
+		
+	}
+	public function view_file_short_talk($filename){
+		$fn1 = "application/data_test/short_talk/500/$filename";
+		$fn2 = "application/data_test/short_talk/750/$filename";
+		$fn3 = "application/data_test/short_talk/900/$filename";
+		$fn = "";
+		if(is_file($fn1))
+			$fn=$fn1;
+		else if(is_file($fn2))
+			$fn=$fn2;
+		else if(is_file($fn3))
+			$fn=$fn3;
+
+		if (isset($_POST['content']))
+		{
+		    $content = stripslashes($_POST['content']);
+
+		    $fp = fopen($fn,"w") or die ("Error opening file in write mode!");
+
+		    fputs($fp,$content);
+
+		    fclose($fp) or die ("Error closing file!");
+		}
+		$data['fn']=$fn;
+
+		$this->load->view("admin/view_file_short_talk",$data);
+	}
+
+	public function list_file_incom()
+	{
+		$path="application/data_test/incomplete_sen/500/";
+		$dir=opendir($path);
+		while($entryName=readdir($dir)){
+			$dirArray[]=$entryName;
+		}
+		closedir($dir);
+		$indexCount=count($dirArray);
+		for($i=0;$i<$indexCount;$i++){
+			if($dirArray[$i]!="." && !is_dir($dirArray[$i])){
+				$data['fileArray'][]=$dirArray[$i];
+			}
+		}
+		$data['link_image']=base_url().'application/template/image/';
+		$this->load->view("admin/list_file_incom",$data);
+		
+	}
+	public function view_file_incom($filename){
+		$fn1 = "application/data_test/incomplete_sen/500/$filename";
+		$fn2 = "application/data_test/incomplete_sen/750/$filename";
+		$fn3 = "application/data_test/incomplete_sen/900/$filename";
+		$fn = "";
+		if(is_file($fn1))
+			$fn=$fn1;
+		else if(is_file($fn2))
+			$fn=$fn2;
+		else if(is_file($fn3))
+			$fn=$fn3;
+
+		if (isset($_POST['content']))
+		{
+		    $content = stripslashes($_POST['content']);
+
+		    $fp = fopen($fn,"w") or die ("Error opening file in write mode!");
+
+		    fputs($fp,$content);
+
+		    fclose($fp) or die ("Error closing file!");
+		}
+		$data['fn']=$fn;
+
+		$this->load->view("admin/view_file_short_talk",$data);
+	}
+
+	public function list_file_text_com()
+	{
+		$path="application/data_test/text_complextion/500/";
+		$dir=opendir($path);
+		while($entryName=readdir($dir)){
+			$dirArray[]=$entryName;
+		}
+		closedir($dir);
+		$indexCount=count($dirArray);
+		for($i=0;$i<$indexCount;$i++){
+			if($dirArray[$i]!="." && !is_dir($dirArray[$i])){
+				$data['fileArray'][]=$dirArray[$i];
+			}
+		}
+		$data['link_image']=base_url().'application/template/image/';
+		$this->load->view("admin/list_file_text_com",$data);
+		
+	}
+	public function view_file_text_com($filename){
+		$fn1 = "application/data_test/text_complextion/500/$filename";
+		$fn2 = "application/data_test/text_complextion/750/$filename";
+		$fn3 = "application/data_test/text_complextion/900/$filename";
+		$fn = "";
+		if(is_file($fn1))
+			$fn=$fn1;
+		else if(is_file($fn2))
+			$fn=$fn2;
+		else if(is_file($fn3))
+			$fn=$fn3;
+
+		if (isset($_POST['content']))
+		{
+		    $content = stripslashes($_POST['content']);
+
+		    $fp = fopen($fn,"w") or die ("Error opening file in write mode!");
+
+		    fputs($fp,$content);
+
+		    fclose($fp) or die ("Error closing file!");
+		}
+		$data['fn']=$fn;
+
+		$this->load->view("admin/view_file_short_talk",$data);
+	}
+	public function list_file_reading()
+	{
+		$path="application/data_test/reading_comprehen/500/";
+		$dir=opendir($path);
+		while($entryName=readdir($dir)){
+			$dirArray[]=$entryName;
+		}
+		closedir($dir);
+		$indexCount=count($dirArray);
+		for($i=0;$i<$indexCount;$i++){
+			if($dirArray[$i]!="." && !is_dir($dirArray[$i])){
+				$data['fileArray'][]=$dirArray[$i];
+			}
+		}
+		$data['link_image']=base_url().'application/template/image/';
+		$this->load->view("admin/list_file_reading",$data);
+		
+	}
+	public function view_file_reading($filename){
+		$fn1 = "application/data_test/reading_comprehen/500/$filename";
+		$fn2 = "application/data_test/reading_comprehen/750/$filename";
+		$fn3 = "application/data_test/reading_comprehen/900/$filename";
+		$fn = "";
+		if(is_file($fn1))
+			$fn=$fn1;
+		else if(is_file($fn2))
+			$fn=$fn2;
+		else if(is_file($fn3))
+			$fn=$fn3;
+
+		if (isset($_POST['content']))
+		{
+		    $content = stripslashes($_POST['content']);
+
+		    $fp = fopen($fn,"w") or die ("Error opening file in write mode!");
+
+		    fputs($fp,$content);
+
+		    fclose($fp) or die ("Error closing file!");
+		}
+		$data['fn']=$fn;
+
+		$this->load->view("admin/view_file_short_talk",$data);
+	}
 	public function create_photo(){
 		$this->load->view("admin/create_photo");
 		
