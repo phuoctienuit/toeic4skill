@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php $this->load->view('layout/header');?>
 <script src="<?php echo base_url(); ?>application/template/js/photo.js"></script>
 
@@ -17,15 +15,30 @@
 								$group_content=$group->group_content;
 								$audio=$group->audio;
 								echo "<div class='group $group_id'>";
+			
+								echo "<div class='content_short_con'>";
+									echo $group_content;
+								echo "</div>";
+
 								echo "<div class='audio_question'>";
 									echo "<audio controls>";
 										echo "<source src=$link_audio$audio type='audio/mpeg'>";
 									echo "</audio>";
 								echo "</div>";
 
+
 								echo "<div class='group_content' style='display:none;'>";
 									echo $group_content;
 								echo "</div>";
+
+								echo "<div class='group_content' style='display:none;'>";
+									echo $group_content;
+								echo "</div>";
+
+								echo "<div class='group_content' style='display:none;'>";
+									echo $group_content;
+								echo "</div>";
+
 								$i=0;
 								foreach ($group->question as $question) {
 									if((++$i)%2)
@@ -81,4 +94,3 @@
 				</div>
 			</div><!--/main-->
 			<?php $this->load->view('layout/footer');?>			
->>>>>>> b89c9f140cb178b2931683c75113b8585f7cf441
