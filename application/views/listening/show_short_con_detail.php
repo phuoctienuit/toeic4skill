@@ -1,5 +1,5 @@
 <?php $this->load->view('layout/header');?>
-<script src="<?php echo base_url(); ?>application/template/js/incom.js"></script>
+<script src="<?php echo base_url(); ?>application/template/js/photo.js"></script>
 
 			<div id="main">
 				<div class="container">
@@ -9,25 +9,33 @@
 						</div>
 						<div id="content" class="col-xs-6 col-md-9">
 						<div class='request'>Listen to the dialogue. Then read each question and choose the best answer:</div>
-						<?php 
-							
+						<?php
 							foreach ($feed as $group) {
 								$group_id=$group->id;
 								$group_content=$group->group_content;
 								$audio=$group->audio;
 								echo "<div class='group $group_id'>";
+<<<<<<< HEAD
 								
 								echo "<div class='content_short_con'>";
 									echo $group_content;
 								echo "</div>";
+=======
+>>>>>>> b89c9f140cb178b2931683c75113b8585f7cf441
 								echo "<div class='audio_question'>";
 									echo "<audio controls>";
 										echo "<source src=$link_audio$audio type='audio/mpeg'>";
 									echo "</audio>";
 								echo "</div>";
 
+<<<<<<< HEAD
 								
 								
+=======
+								echo "<div class='group_content' style='display:none;'>";
+									echo $group_content;
+								echo "</div>";
+>>>>>>> b89c9f140cb178b2931683c75113b8585f7cf441
 								$i=0;
 								foreach ($group->question as $question) {
 									if((++$i)%2)
