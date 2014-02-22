@@ -5,13 +5,15 @@
 		<id>7</id>
 		<audio>de1_500_group7.mp3</audio>
 		<group_content>
-		M: What would you like to do with your hair today? Would you like some highlights or something dramatic done to it?
+		<![CDATA[
+		M: What would you like to do with your hair today? Would you like some highlights or something dramatic done to it?<br>
 
-		W: I’d like something simple, like the receptionist’s style. Can you add some highlights to make my hair look similar to hers?
+		W: I’d like something simple, like the receptionist’s style. Can you add some highlights to make my hair look similar to hers?<br>
 
-		M: Of course. I actually just completed a “what’s hot” seminar last week in  New York, and that style was one that we focused on.
+		M: Of course. I actually just completed a “what’s hot” seminar last week in  New York, and that style was one that we focused on.<br>
 
 		W: Oh, did you? You make me feel more comfortable and excited about the changes to my hair
+		]]>
 		</group_content>
 		<question>
 			<cau>19</cau>
@@ -46,13 +48,15 @@
 		<id>8</id>
 		<audio>de1_500_group8.mp3</audio>
 		<group_content>
-		W: Richard, have you gotten your new parking pass? I picked mine up on Tuesday.
+		<![CDATA[
+		W: Richard, have you gotten your new parking pass? I picked mine up on Tuesday.<br>
 
-		M: Tuesday! No, I haven’t even gotten a call for mine. I have to get the parking attendant to lift the gate for me every day.
+		M: Tuesday! No, I haven’t even gotten a call for mine. I have to get the parking attendant to lift the gate for me every day.<br>
 
-		W: Maybe, you should contact someone in HR about getting you a card
+		W: Maybe, you should contact someone in HR about getting you a card<br>
 
 		M: Good idea. I’ll call them right after the meeting
+		]]>
 		</group_content>
 		<question>
 			<cau>21</cau>
@@ -87,13 +91,15 @@
 		<id>9</id>
 		<audio>de1_500_group9.mp3</audio>
 		<group_content>
-		M: Is this monitor available in black or silver?
+		<![CDATA[
+		M: Is this monitor available in black or silver?<br>
 
-		W: Currently, we only have the white one in stock, but if you’d like we can order either the black or the silver. You can also get a 21-inch model for an additional 200 dollars.
+		W: Currently, we only have the white one in stock, but if you’d like we can order either the black or the silver. You can also get a 21-inch model for an additional 200 dollars.<br>
 
-		M: I’d rather order the 17-inch in black. I heard that silver paint tends to look old quickly.
+		M: I’d rather order the 17-inch in black. I heard that silver paint tends to look old quickly.<br>
 
 		W: Great, then let’s go to the customer service counter to fill out the forms. You should have your new monitor within 10 business days.
+		]]>
 		</group_content>
 		<question>
 			<cau>25</cau>

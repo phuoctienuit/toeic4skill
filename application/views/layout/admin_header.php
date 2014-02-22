@@ -4,18 +4,20 @@
 
 <link href="<?php echo base_url();?>application/template/css/styles.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="<?php echo base_url(); ?>application/template/bootstrap/css/bootstrap.css">
-</head>
-<body>
+
+
+
 
 
 <div class="bodytext" id="submenu"> 
   <table width="493" border="0" class="class2">
     <tbody><tr>
-      <td valign="middle"><a href="view_score">Điểm Thi</a></td>
-      <td valign="middle"><a href="sharing_post">Bài Viết</a></td>
-      <td valign="middle"><a href="sharing_video">Video</a></td>
+      <td valign="middle"><a href="<?php echo base_url()?>index.php/admin/view_score">Điểm Thi</a></td>
+      <td valign="middle"><a href="<?php echo base_url()?>index.php/admin/post_listening">Bài Viết</a></td>
+      
+      <td valign="middle"><a href="<?php echo base_url()?>index.php/admin/sharing_video">Video</a></td>
       <td valign="middle"><a href="#">Funny English</a></td>
-      <td valign="middle"><a href="list_file_fulltest">Full Test</a></td>
+      <td valign="middle"><a href="<?php echo base_url()?>index.php/admin/list_file_fulltest">Full Test</a></td>
     
     </tr>
   </tbody></table>
@@ -84,18 +86,3 @@
 <!--// Dropdown edit starts -->
 
 
-<div class="bodytext" id="dropdown">
-<ul id="jsddm">
-  <li><a href="">QUẢN LÝ</a><ul style="visibility: hidden;">
-    <li><a href="#">» Write a new Article</a></li>
-    <li><a href="#">» Upload Pictures</a></li>
-    <li><a href="#">» Add new events to Calendar</a></li>
-    <li><a href="#">» Edit my Profile</a></li>
-        <li><a href="#">» View User's Comments</a></li>
-        <li><a href="#">» View Statistics</a></li>
-        <li><a href="#">» Manage Homepage</a></li>
-    </ul>
-  </li>
-  </ul>
-<div class="clear"> </div>
-</div>

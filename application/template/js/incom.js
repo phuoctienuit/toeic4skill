@@ -3,12 +3,14 @@ $(document).ready(function(){
   $(document.body).on("click", "#btnagain", function(event)
   {
     $("input:radio").attr("checked", false);
+    $(".content_short_con").css("display","none");// for short con listening
     $("div.status").html("");
   });
   
   $(document.body).on("click", "#btnanswer", function(event)
   {
   	$("div.status").html("");
+    $(".content_short_con").css("display","block");// for short con listening
   	$('div.option').each(function() {
     	var cur = $(this);
     	var stt = cur.attr("id");

@@ -17,17 +17,16 @@
 								$audio=$group->audio;
 								echo "<div class='group $group_id'>";
 								
-								
+								echo "<div class='content_short_con'>";
+									echo $group_content;
+								echo "</div>";
 								echo "<div class='audio_question'>";
 									echo "<audio controls>";
 										echo "<source src=$link_audio$audio type='audio/mpeg'>";
 									echo "</audio>";
 								echo "</div>";
 
-								echo "<div class='group_content'>";
-
-									echo $group_content;
-								echo "</div>";
+								
 								
 								$i=0;
 								foreach ($group->question as $question) {

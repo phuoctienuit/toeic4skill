@@ -5,14 +5,15 @@
 	<group>
 		<id>4</id>
 		<audio>de1_500_group4.mp3</audio>
-		<group_content>
-		W: Excuse me, how much is the entrance fee?
+		<group_content><![CDATA[
+		W: Excuse me, how much is the entrance fee?<br>
 
-		M: It’s ix dollars for adults and four dollars for seniors and children under 12.
+		M: It’s ix dollars for adults and four dollars for seniors and children under 12.<br>
 
-		W: That’s a lot more than I expected. We only wanted to go to the gift shop. They just called about some posters that I had ordered. It’ll only be about 20 minutes.
+		W: That’s a lot more than I expected. We only wanted to go to the gift shop. They just called about some posters that I had ordered. It’ll only be about 20 minutes.<br>
 
 		M: Well, I can offer you a half price coupon. Would you like to use it?
+		]]>
 		</group_content>
 		<question>
 			<cau>10</cau>
@@ -49,13 +50,15 @@
 		<id>5</id>
 		<audio>de1_500_group5.mp3</audio>
 		<group_content>
-		M: I’m here with a delivery. Some office supplies, a filing cabinet, and a bookshelf, I believe. I’m going to have to get someone to sign for them. Is there a manager available?
+		<![CDATA[
+		M: I’m here with a delivery. Some office supplies, a filing cabinet, and a bookshelf, I believe. I’m going to have to get someone to sign for them. Is there a manager available?<br>
 
-		W: She’s out of the office this afternoon. I’m her assistant, I can sign for them.
+		W: She’s out of the office this afternoon. I’m her assistant, I can sign for them.<br>
 
-		M: Thank you, that’s great. Where should I leave the supplies?
+		M: Thank you, that’s great. Where should I leave the supplies?<br>
 
 		W: The filing cabinet can go in the conference room and the bookshelf and the boxes of supplies can be left right here.
+		]]>
 		</group_content>
 		<question>
 			<cau>13</cau>
@@ -92,14 +95,15 @@
 		<id>6</id>
 		<audio>de1_500_group6.mp3</audio>
 		<group_content>
-		M: William, I just found out that you won an award for a piece of your
-		artwork. Congratulations!
+		<![CDATA[
+		M: William, I just found out that you won an award for a piece of your artwork. Congratulations!<br>
 
-		W: Thank you. I’m so thrilled that the Kennedy Association has recognized my work.
+		W: Thank you. I’m so thrilled that the Kennedy Association has recognized my work.<br>
 
-		M: You should feel honored. Are you painting any new pieces now?
+		M: You should feel honored. Are you painting any new pieces now?<br>
 
 		W: Well, I started work on a new oil painting this week and  join hope to a sculpture workshop in the fall.
+		]]>
 		</group_content>
 		<question>
 			<cau>16</cau>

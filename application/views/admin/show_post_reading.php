@@ -5,8 +5,19 @@
 
 
 <div id="content"> 
+	<div id="menu_ngang">
+	   <ul>
+	   	 <li><a target="_blank" href="<?php echo base_url()?>index.php/admin/post">Post</a></li>
+	     <li><a href="<?php echo base_url()?>index.php/admin/post_listening">Listening</a></li>
+	     <li><a href="<?php echo base_url()?>index.php/admin/post_reading">Reading</a></li>
+	     <li><a href="#">Speaking</a></li>
+	     <li><a href="<?php echo base_url()?>index.php/admin/post_writing">Writing</a></li>
+	 
+	   </ul>
+	</div>
+	
 	<div class="list_score">
-			<div align="center">DANH SÁCH CÁC BÀI VIẾT CHIA SẼ KINH NGHIỆM</div>
+			<div align="center"><br>DANH SÁCH CÁC BÀI VIẾT CHIA SẺ KINH NGHIỆM READING</div>
 			<table class="table table-bordered">
 			<tbody>
 				<tr id="title_table">
@@ -30,6 +41,7 @@
 			 </tbody>
 			</table>
  	</div><!--end list score-->
+ 	
     
 </div>
 

@@ -8,7 +8,7 @@
 
 <div id="content"> 
  
-  <p style="color:orange " align="center" >CHÀO MỪNG BẠN ĐẾN VỚI QUẢN TRỊ WEBSITE TOEIC4SKILL</p>
+  
     <div class="title_photo">
       <p>ADD FILE XML <b>INCOMPLETE SENTENCES</b></p>
 

@@ -3,13 +3,15 @@
 	<group>
 		<id>1</id>
 		<audio>de1_500_group1.mp3</audio>
-		<group_content> W: Kevin, when is everyone meeting to commemorate Jim’s retirement?
+		<group_content> <![CDATA[
+						W: Kevin, when is everyone meeting to commemorate Jim’s retirement?<br>
 
-						M: The invitation said 7 o’clock. Do you know where the banquet hall is?
+						M: The invitation said 7 o’clock. Do you know where the banquet hall is?<br>
 
-						W: Yes, it’s in the Westbotten Harborfront Hotel, next to the supermarket. But I need t stopby the bakery first, so I probably won’t arrive until 7.30.
+						W: Yes, it’s in the Westbotten Harborfront Hotel, next to the supermarket. But I need t stopby the bakery first, so I probably won’t arrive until 7.30.</br>
 
 						M: OK, I see, but don’t be too late because I will be waiting for you.
+						]]>
 		</group_content>
 		<question>
 			<cau>1</cau>
@@ -44,13 +46,15 @@
 		<id>2</id>
 		<audio>de1_500_group2.mp3</audio>
 		<group_content>
-		M: Good afternoon Telus Mobility. What can I do for you?
+		 <![CDATA[
+		M: Good afternoon Telus Mobility. What can I do for you?<br>
 
-		W: Hello. I was wondering if you can help me with my cell phone bill. I haven’t used my cell phone any more than usual , however the total this month seems to be much more than in the past.
+		W: Hello. I was wondering if you can help me with my cell phone bill. I haven’t used my cell phone any more than usual , however the total this month seems to be much more than in the past.<br>
 
-		M: It could be that the monthly service charge has increased, but let me look over your invoice. What’s your telephone number?
+		M: It could be that the monthly service charge has increased, but let me look over your invoice. What’s your telephone number?<br>
 
 		W: It’s 555-9328. My last name is Hawk.
+		]]>
 		</group_content>
 		<question>
 			<cau>4</cau>
@@ -85,13 +89,15 @@
 		<id>3</id>
 		<audio>de1_500_group3.mp3</audio>
 		<group_content>
-		M: Julie, would you please push back my 1:00 appointment this afternoon? I have an emergency meeting with the president.
+		<![CDATA[
+		M: Julie, would you please push back my 1:00 appointment this afternoon? I have an emergency meeting with the president.<br>
 
-		W: Of course, Mr. Laurie. When would you like to reschedule?
+		W: Of course, Mr. Laurie. When would you like to reschedule?<br>
 
-		M: Well, the president informed me that some clients will be arriving at 2, so let’s say 4 o’clock. I should be back in my office by then.
+		M: Well, the president informed me that some clients will be arriving at 2, so let’s say 4 o’clock. I should be back in my office by then.<br>
 
 		W: Great, I’ll see if he can be here at 4.
+		]]>
 		</group_content>
 		<question>
 			<cau>7</cau>

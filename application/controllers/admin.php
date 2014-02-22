@@ -4,21 +4,84 @@ class Admin extends CI_Controller{
 		parrent::__contruct();
 
 	}
+	
+	
 	public function index(){
 		$data['link_image']=base_url().'application/template/image';
 		$this->load->view("admin/view_admin",$data);
 	}
-	
+	public function edit_score($id){
+		$data['array_score']=$this->madmin->get_score_id($id);
+		$this->load->view("admin/edit_score",$data);
+	}
+	public function update_score(){
+		
+		$q=$this->madmin->update_score();
+		print_r($q);die();
+		$this->load->view("admin/update_score");
+	}
+	public function save_score(){
+		$id=$this->input->post("id");
+		$user=$this->input->post("user");
+		$score=$this->input->post("score");
+		$date=$this->input->post("date");
+		print_r($id);die();
+		$data['array_score']=$this->madmin->get_score_id($id);
+		$this->load->view("admin/edit_score",$data);
+	}
+
 	public function view_score(){
 		$data['array_score']=$this->madmin->get_score();
 		$data['link_image']=base_url().'application/template/image';
 		$this->load->view("admin/view_score",$data);
 	}
-
-	public function sharing_post(){
-		$data['array_post']=$this->madmin->get_post();
+	public function post(){
+		
 		$data['link_image']=base_url().'application/template/image';
-		$this->load->view("admin/view_post",$data);
+		$this->load->view("admin/post",$data);
+	}
+	
+	public function insert_post(){
+		
+		$k=$this->madmin->insert_post();
+		$this->load->view("admin/post");
+	}
+	public function update_post(){
+	  
+      
+		$k=$this->madmin->update_post();
+		if($k)
+			echo "thanh cong";
+	}
+	public function post_listening(){
+		$data['array_post']=$this->madmin->get_post_listening();
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/show_post_listening",$data);
+	}
+	public function post_reading(){
+		$data['array_post']=$this->madmin->get_post_reading();
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/show_post_reading",$data);
+	}
+	/*
+	public function post_speaking(){
+		$data['array_post']=$this->madmin->get_post_speaking();
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/post_speaking",$data);
+	}
+	*/
+	public function post_writing(){
+		$data['array_post']=$this->madmin->get_post_writing();
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/show_post_writing",$data);
+	}
+
+	
+	public function edit_listening($id){
+		$data['array_post']=$this->madmin->get_post_listen($id);
+		$data['sharing_listening']="sharing_listening";
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/edit_listening",$data);
 	}
 	public function sharing_video(){
 		$data['array_video']=$this->madmin->get_video();

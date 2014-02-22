@@ -232,3 +232,13 @@
 .topuser table th{
 	text-align: center;
 }
+.content_short_con{
+	margin-left: 10px;
+	background: #FEF2FA;
+	height: 200px;
+	overflow-y: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	margin-top:20px;
+	display: none;
+}

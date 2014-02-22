@@ -3,13 +3,16 @@
 	<group>
 		<id>1</id>
 		<audio>1.mp3</audio>
-		<group_content> M: Angela, I’ve just confirmed the departure times and it looks like our train will be delayed a couple of hours. It’s now expected to leave at 7.00.
+		<group_content> 
+		<![CDATA[
+			M: Angela, I’ve just confirmed the departure times and it looks like our train will be delayed a couple of hours. It’s now expected to leave at 7.00.<br>
 
-						W: That’s big problem. We won’t arrive in London in order to make our 9.00 meeting with our partners.
+			W: That’s big problem. We won’t arrive in London in order to make our 9.00 meeting with our partners.<br>
 
-						M: It will be okay. I was going to contact them anyway to confirm that they received the documents I couriered earlier today.
+			M: It will be okay. I was going to contact them anyway to confirm that they received the documents I couriered earlier today.<br>
 
-						W: Alright, so you can let them know our situation.
+			W: Alright, so you can let them know our situation.
+		]]>
 		</group_content>
 		<question>
 			<cau>1</cau>
@@ -44,13 +47,15 @@
 		<id>2</id>
 		<audio>2.mp3</audio>
 		<group_content>
-		M: Maria, were you able to ship the product for the customer’s order in time for the delivery?
+		<![CDATA[
+		M: Maria, were you able to ship the product for the customer’s order in time for the delivery?<br>
 
-W: No, the shipping office was closed this morning. I’ve already faxed them twice this afternoon to remind them.
+		W: No, the shipping office was closed this morning. I’ve already faxed them twice this afternoon to remind them.<br>
 
-M: Would you please try calling them? I have to contact the customer this evening, and I’d like to let him know when the delivery will arrive.
+		M: Would you please try calling them? I have to contact the customer this evening, and I’d like to let him know when the delivery will arrive.<br>
 
-W: OK, I will do it right away.
+		W: OK, I will do it right away.
+		]]>
 		</group_content>
  
 		<question>
@@ -86,13 +91,15 @@ W: OK, I will do it right away.
 		<id>3</id>
 		<audio>3.mp3</audio>
 		<group_content>
-		M: My Internet service is so slow. It’s really affecting my work. I think it’s time that I changed Internet providers
+		<![CDATA[
+		M: My Internet service is so slow. It’s really affecting my work. I think it’s time that I changed Internet providers<br>
 
-W: You should contact Roger’s Inc. That the company that I use. They have great service staff, and their technical support is the best in the industry.
+		W: You should contact Roger’s Inc. That the company that I use. They have great service staff, and their technical support is the best in the industry.<br>
 
-M: Thank you for the suggestion. I’ll keep that in mind.
+		M: Thank you for the suggestion. I’ll keep that in mind.<br>
 
-W: And when you call, don’t forget to mention my name. They’ll give you a new contract discount and credit my account for referring a friend.
+		W: And when you call, don’t forget to mention my name. They’ll give you a new contract discount and credit my account for referring a friend.
+		]]>
 		</group_content>
 		<question>
 			<cau>7</cau>
@@ -130,13 +137,15 @@ W: And when you call, don’t forget to mention my name. They’ll give you a ne
 		<id>4</id>
 		<audio>4.mp3</audio>
 		<group_content>
-		M: Ms. Dias, we’d like to introduce the Spanish edition of Marketing a Successful Product by the end of the quarter
+		<![CDATA[
+		M: Ms. Dias, we’d like to introduce the Spanish edition of Marketing a Successful Product by the end of the quarter<br>
 
-W: That would mean I would have less than a month to complete the translation. That won’t be enough time to translate a 75- page article.
+		W: That would mean I would have less than a month to complete the translation. That won’t be enough time to translate a 75- page article.<br>
 
-M: Well, we may be able to delay the publishers a couple of extra weeks. Would that be better for you?
+		M: Well, we may be able to delay the publishers a couple of extra weeks. Would that be better for you?<br>
 
-W: If I dedicate myself exclusively o the project, five weeks could be possible
+		W: If I dedicate myself exclusively o the project, five weeks could be possible<br>
+		]]>
 		</group_content>. 
  
 		<question>
@@ -174,14 +183,15 @@ W: If I dedicate myself exclusively o the project, five weeks could be possible
 	<group>
 		<id>5</id>
 		<audio>5.mp3</audio>
-		<group_content>
-		M: Ms. Jeffrey, I won’t be able to attend the seminar on Friday, so could you take notes for me?
+		<group_content><![CDATA[
+		M: Ms. Jeffrey, I won’t be able to attend the seminar on Friday, so could you take notes for me?<br>
 
-W:  No problem, Mr. Pauls. Are you finally going on that vacation you’ve been talking about?
+		W:  No problem, Mr. Pauls. Are you finally going on that vacation you’ve been talking about?<br>
 
-M: No, unfortunately not. I have to leave for New York tomorrow morning to meet with our new client. We’ll be discussing negotiations for the contract at his office, so I’ll need a few extra days to finalize things.
+		M: No, unfortunately not. I have to leave for New York tomorrow morning to meet with our new client. We’ll be discussing negotiations for the contract at his office, so I’ll need a few extra days to finalize things.<br>
 
-W: Wow, good luck with the talks. I heard that the Johnson and Johnson contract would bring in a lot of revenue. I’ll let you know if they discuss anything important at the seminar on Friday.
+		W: Wow, good luck with the talks. I heard that the Johnson and Johnson contract would bring in a lot of revenue. I’ll let you know if they discuss anything important at the seminar on Friday.
+		]]>
 		</group_content>
 
 		<question>
@@ -220,13 +230,16 @@ W: Wow, good luck with the talks. I heard that the Johnson and Johnson contract 
 		<id>6</id>
 		<audio>6.mp3</audio>
 		<group_content>
-		M: So, Sarah, Has the bank contacted you since your interview with them?
+		<![CDATA[
+		M: So, Sarah, Has the bank contacted you since your interview with them?<br>
 
-W: Yes, they phoned this morning. They want me to meet with the vice-president of the company next Monday.
+		W: Yes, they phoned this morning. They want me to meet with the vice-president of the company next Monday.<br>
 
-M: That’s wonderful news! What time is the interview?
+		M: That’s wonderful news! What time is the interview?<br>
 
-W: They wanted to meet in the afternoon, right after lunch. But I asked if I could have the interview in the morning instead.
+		W: They wanted to meet in the afternoon, right after lunch. But I asked if I could have the interview in the morning instead.
+		
+		]]>
 		</group_content>
 		<question>
 
@@ -264,13 +277,15 @@ W: They wanted to meet in the afternoon, right after lunch. But I asked if I cou
 		<id>7</id>
 		<audio>7.mp3</audio>
 		<group_content>
-		W: Excuse me! I think you’ve made a mistake on my check
+		<![CDATA[
+		W: Excuse me! I think you’ve made a mistake on my check<br>
 
-M: Oh? Is there something there you didn’t order?
+		M: Oh? Is there something there you didn’t order?<br>
 
-W: No. Actually, you forgot to add in our desserts. We had cake but it isn’t listed.
+		W: No. Actually, you forgot to add in our desserts. We had cake but it isn’t listed.<br>
 
-M: Yes, you’re right. Thank you for being so honest
+		M: Yes, you’re right. Thank you for being so honest
+		]]>
 		</group_content>
 
 		<question>
@@ -307,13 +322,15 @@ M: Yes, you’re right. Thank you for being so honest
 		<id>8</id>
 		<audio>8.mp3</audio>
 		<group_content>
-		W: How many weeks of vacation do you get per year?
+		<![CDATA[
+		W: How many weeks of vacation do you get per year?<br>
 
-M: I’m allowed three, but I usually only take one or two.
+		M: I’m allowed three, but I usually only take one or two.<br>
 
-W: If I were you, I would use all three
+		W: If I were you, I would use all three<br>
 
-M: Yeah, but I get a bonus for the days I don’t take. I can make a lot of extra money.
+		M: Yeah, but I get a bonus for the days I don’t take. I can make a lot of extra money.
+		]]>
 		</group_content>. 
 		<question>
 			<cau>21</cau>
@@ -348,13 +365,15 @@ M: Yeah, but I get a bonus for the days I don’t take. I can make a lot of extr
 		<id>9</id>
 		<audio>9.mp3</audio>
 		<group_content>
-		M: are you being helped madam?
+		<![CDATA[
+		M: are you being helped madam?<br>
 
-W: No, I’m not, I’d like to speak to a loan officer
+		W: No, I’m not, I’d like to speak to a loan officer<br>
 
-M: Certainly. Just have a seat in the lobby, and one will be with you shortly
+		M: Certainly. Just have a seat in the lobby, and one will be with you shortly<br>
 
-W: Well, I’ve already been waiting for over twenty minutes. I can’t wait much longer.
+		W: Well, I’ve already been waiting for over twenty minutes. I can’t wait much longer.
+		]]>
  
 		</group_content>
 		<question> 
