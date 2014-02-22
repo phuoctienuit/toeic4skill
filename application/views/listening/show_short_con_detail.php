@@ -16,10 +16,13 @@
 								$audio=$group->audio;
 								echo "<div class='group $group_id'>";
 <<<<<<< HEAD
+<<<<<<< HEAD
 								
 								echo "<div class='content_short_con'>";
 									echo $group_content;
 								echo "</div>";
+=======
+>>>>>>> b89c9f140cb178b2931683c75113b8585f7cf441
 =======
 >>>>>>> b89c9f140cb178b2931683c75113b8585f7cf441
 								echo "<div class='audio_question'>";
@@ -29,8 +32,14 @@
 								echo "</div>";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 								
 								
+=======
+								echo "<div class='group_content' style='display:none;'>";
+									echo $group_content;
+								echo "</div>";
+>>>>>>> b89c9f140cb178b2931683c75113b8585f7cf441
 =======
 								echo "<div class='group_content' style='display:none;'>";
 									echo $group_content;
