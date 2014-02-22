@@ -1,4 +1,5 @@
 <?php $this->load->view('layout/header');?>
+<script src="<?php echo base_url(); ?>application/template/js/writing.js"></script>
 			<div id="main">
 				<div class="container">
 					<div class="row">
@@ -7,9 +8,6 @@
 						</div>
 
 						<div id="content" class="col-xs-6 col-md-9">
-
-						
-
 
 						<?php
 							$i=0;
@@ -22,32 +20,25 @@
 								$hint=$group->hint;
 								$picture=$group->picture;
 								$key=$group->key;
-								echo "<div id='' class='$t'>";
+								echo "<div id='' class='question'>";
 									echo $cau.".";
-
-									
 									echo "<div class='w_picture'><img src=$link_image$picture /></div>";
 									echo "<div class='hint'>";
 										echo $hint;
 									echo "</div>";
 									echo "<textarea rows='2' cols='50'></textarea>";
-									echo "<div class='w_key'>";
+									echo "<div class='w_key' ";
 										echo $key;
 									echo "</div>";
-									
-									
 								echo "</div>";
-								
-
 							}
-
-							
-								echo "<div class='link_pag'";	
+								echo "<div class='link_pag'>";	
 								echo $this->pagination->create_links(); // tạo link phân trang 
 								echo "</div>";	
-						?>			
+						?>
+						<button type="button" class="btn btn-primary" id="btnshow">SHOW ANSWER</button>
 						</div>
 					</div>
 				</div>
 			</div><!--/main-->
-			<?php $this->load->view('layout/footer');?>		
+			<?php $this->load->view('layout/footer');?>
