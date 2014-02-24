@@ -14,24 +14,23 @@ class Madmin extends CI_Model {
       return $query->result_array();
    }
    
-   public function update_score(){
-      $id=$this->input->post("id");
-      $user=$this->input->post("user");
-      $score=$this->input->post("score");
-      $date=$this->input->post("date");
-
-      $data=array('user'=>$user,'score'=>$score,'date'=>$date);
+   public function update_score($id,$user,$score,$date){
       
-      $this->db->where("id",$id);
-      $this->db->update('score',$data);
+
+      //$data=array('user'=>$user,'score'=>$score,'date'=>$date);
+      
+      //$this->db->where("id",$id);
+      //$this->db->update('score',$data);
+      $this->db->query("UPDATE score SET user='$user',score=$score,date='$date' WHERE id=$id");
       return true;
    }
    public function update_post(){
       $id=$this->input->post("id");
       $content=$this->input->post("thread");
-      $query="update sharing_listening set content=$content where id=$id";
-      $this->db->query($query);
-      /*$id=$this->input->post("id");
+      //$query="update sharing_listening set content='$content' where id='$id'";
+
+      //$this->db->query($query);
+      $id=$this->input->post("id");
       $name=$this->input->post("name");
       $level=$this->input->post("level");
      // $skill=$this->input->post("skill");
@@ -43,7 +42,7 @@ class Madmin extends CI_Model {
                   'content'=>'1');
       $this->db->where("id",$id);
       $this->db->update('sharing_listening',$data);
-      */
+      
       return true;
    }
    public function insert_post(){

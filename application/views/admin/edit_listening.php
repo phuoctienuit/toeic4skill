@@ -28,35 +28,35 @@
 	<div id="content_sharing" style="background-color: rgb(245, 231, 231)" >
         <form action="<?php echo base_url();?>index.php/admin/update_post" method="post" >
         
-		<div class="form-group">
-		  	<label>ID</label>
-		  <input id="id" name="id" value="<?php echo $post['id']; ?>" disabled="disabled" type="text" class="textbox1">
-		    
-		 </div>
-		<div class="form-group">
-		  	<label>Name</label>
-		  <input id="name" name="name" value="<?php echo $post['name']; ?>" type="text" class="textbox1">
-		    
-		 </div>
-	
-		<div class="form-group">
-		  	<label>Level</label>
-		  <input id="level" name="level" value="<?php echo $post['level']; ?>" type="text" class="textbox1">
-		    
-		 </div>
-		 <div class="form-group">
-		  	<label>Chuyên mục</label>
-		  <input id="skill" name="skill" disabled="disabled" value="<?php echo $sharing_listening; ?>" type="text" class="textbox1">
-		    
-		 </div>
+			<div class="form-group">
+			  	<label>ID</label>
+			  <input id="id" name="id" value="<?php echo $post['id']; ?>" disabled="disabled" type="text" class="textbox1">
+			    
+			 </div>
+			<div class="form-group">
+			  	<label>Name</label>
+			  <input id="name" name="name" value="<?php echo $post['name']; ?>" type="text" class="textbox1">
+			    
+			 </div>
 		
-	   <textarea name="thread" rows="10" cols="10" class="ckeditor">
-        	<?php echo $post['content'];?>
-        </textarea>
-         <script type="text/javascript">CKEDITOR.replace('editor')</script>
-                   
-        <input type="submit" name="submit" class="button_1" style="width:120px; height:auto" value="Lưu thông tin" />
-         <input type="reset" class="button_1" style="width:120px; height:auto" value="Nhập lại" />
+			<div class="form-group">
+			  	<label>Level</label>
+			  <input id="level" name="level" value="<?php echo $post['level']; ?>" type="text" class="textbox1">
+			    
+			 </div>
+			 <div class="form-group">
+			  	<label>Chuyên mục</label>
+			  <input id="skill" name="skill" disabled="disabled" value="<?php echo $sharing_listening; ?>" type="text" class="textbox1">
+			    
+			 </div>
+			
+		   <textarea name="thread" rows="10" cols="10" class="ckeditor">
+	        	<?php echo $post['content'];?>
+	        </textarea>
+	         <script type="text/javascript">CKEDITOR.replace('editor')</script>
+	                   
+	        <input type="submit" name="submit" class="button_1" style="width:120px; height:auto" value="Lưu thông tin" />
+	         <input type="reset" class="button_1" style="width:120px; height:auto" value="Nhập lại" />
                    
          </form>
      

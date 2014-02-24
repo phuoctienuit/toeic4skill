@@ -19,7 +19,7 @@
 					<tr>
 						<td><?php echo $score['user'];?></td><td><?php echo $score['score'];?></td>
 						<td><?php echo $score['date'];?></td>
-						<td><a href="edit_score/<?php echo $score['id']?>"><img src="<?php echo $link_image?>/edit.png"/></a></td>
+						<td><a href="<?php echo base_url();?>index.php/admin/edit_score/<?php echo $score['id']?>"><img src="<?php echo $link_image?>/edit.png"/></a></td>
 						<td><a href=""><img src="<?php echo $link_image?>/delete.png"/></a></td>
 					</tr>
 	

@@ -20,7 +20,7 @@ foreach($array_score as $a)
 		<div class="form-group">
 		  <label class="col-md-4 control-label" for="id">ID</label>  
 		  <div class="col-md-2">
-		  <input id="id" disabled="disabled" name="id" value="<?php echo $a['id'];?>" type="text" placeholder="" class="form-control input-md">
+		  <input id="id" name="id" value="<?php echo $a['id'];?>" type="hidden" placeholder="" class="form-control input-md">
 		  </div>
 		</div>
 

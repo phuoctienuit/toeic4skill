@@ -15,9 +15,12 @@ class Admin extends CI_Controller{
 		$this->load->view("admin/edit_score",$data);
 	}
 	public function update_score(){
-		
-		$q=$this->madmin->update_score();
-		print_r($q);die();
+		$id=$this->input->post("id");
+      	$user=$this->input->post("user");
+      	$score=$this->input->post("score");
+      	$date=$this->input->post("date");
+		$q=$this->madmin->update_score($id,$user,$score,$date);
+	
 		$this->load->view("admin/update_score");
 	}
 	public function save_score(){
@@ -50,8 +53,7 @@ class Admin extends CI_Controller{
 	  
       
 		$k=$this->madmin->update_post();
-		if($k)
-			echo "thanh cong";
+		//print_r($k);die();
 	}
 	public function post_listening(){
 		$data['array_post']=$this->madmin->get_post_listening();
