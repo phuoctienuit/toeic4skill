@@ -6,7 +6,7 @@
 
 <div id="content"> 
  
-  Chỉnh sửa thành công!
+ Bạn đã xóa thành công!
  
     
 </div>

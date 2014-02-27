@@ -31,7 +31,7 @@
 						<td><?php echo $post['id'];?></td><td><?php echo $post['name'];?></td>
 						<td><?php echo $post['level'];?></td>
 						<td><a href="<?php echo base_url();?>index.php/admin/edit_listening/<?php echo $post['id'];?>"><img src="<?php echo $link_image?>/edit.png"/></a></td>
-						<td><a href=""><img src="<?php echo $link_image?>/delete.png"/></a></td>
+						<td><a href="<?php echo base_url();?>index.php/admin/confirm_delete_listening/<?php echo $post['id'];?>"><img src="<?php echo $link_image?>/delete.png"/></a></td>
 					</tr>
 	
 

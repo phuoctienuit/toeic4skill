@@ -13,7 +13,28 @@ class Madmin extends CI_Model {
       $query=$this->db->get("score");
       return $query->result_array();
    }
+    public function delete_score($id){
    
+      $this->db->where("id",$id);
+      $this->db->delete('score');
+      
+      return true;
+   }
+   
+   public function delete_listening($id){
+   
+      $this->db->where("id",$id);
+      $this->db->delete('sharing_listening');
+      
+      return true;
+   }
+   public function delete_reading($id){
+   
+      $this->db->where("id",$id);
+      $this->db->delete('sharing_reading');
+      
+      return true;
+   }
    public function update_score($id,$user,$score,$date){
       
 
@@ -26,22 +47,30 @@ class Madmin extends CI_Model {
    }
    public function update_post(){
       $id=$this->input->post("id");
-      $content=$this->input->post("thread");
-      //$query="update sharing_listening set content='$content' where id='$id'";
-
-      //$this->db->query($query);
-      $id=$this->input->post("id");
       $name=$this->input->post("name");
       $level=$this->input->post("level");
      // $skill=$this->input->post("skill");
       $content=$this->input->post("thread");
-
       $data=array(
-                  'name'=>'1',
-                  'level'=>'1',
-                  'content'=>'1');
+                  'name'=>$name,
+                  'level'=>$level,
+                  'content'=>$content);
       $this->db->where("id",$id);
       $this->db->update('sharing_listening',$data);
+      
+      return true;
+   }
+    public function update_post_reading(){
+      $id=$this->input->post("id");
+      $name=$this->input->post("name");
+      $level=$this->input->post("level");
+      $content=$this->input->post("thread");
+      $data=array(
+                  'name'=>$name,
+                  'level'=>$level,
+                  'content'=>$content);
+      $this->db->where("id",$id);
+      $this->db->update('sharing_reading',$data);
       
       return true;
    }
@@ -72,6 +101,14 @@ class Madmin extends CI_Model {
       $query=$this->db->get("sharing_listening");
       return $query->result_array();
    }
+    public function get_post_read($id){
+      $this->db->select("id,name,content,level");
+      $this->db->where("id",$id);
+      $query=$this->db->get("sharing_reading");
+      return $query->result_array();
+   }
+   
+
    public function get_post_reading(){
       $this->db->select("id,name,level");
       $this->db->order_by("level","DESC");

@@ -20,13 +20,13 @@
 <body style="background-color: antiquewhite">
 
 	<div id="title" style="background-color: rgb(236, 229, 229)">
-		CHỈNH SỬA BÀI CHIA SẺ KINH NGHIỆM lISTENING
+		CHỈNH SỬA BÀI CHIA SẺ KINH NGHIỆM READING
 	</div>
 		<?php
 		foreach($array_post as $post)
 		?>
 	<div id="content_sharing" style="background-color: rgb(245, 231, 231)" >
-        <form action="<?php echo base_url();?>index.php/admin/update_listening" method="post" >
+        <form action="<?php echo base_url();?>index.php/admin/update_reading" method="post" >
         
 			<div class="form-group">
 			  	
@@ -46,7 +46,7 @@
 			 </div>
 			 <div class="form-group">
 			  	<label>Chuyên mục</label>
-			  <input id="skill" name="skill" disabled="disabled" value="<?php echo $sharing_listening; ?>" type="text" class="textbox1">
+			  <input id="skill" name="skill" disabled="disabled" value="<?php echo $sharing_reading; ?>" type="text" class="textbox1">
 			    
 			 </div>
 			

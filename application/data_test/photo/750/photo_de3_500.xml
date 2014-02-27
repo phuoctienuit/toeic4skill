@@ -1,0 +1,57 @@
+<!-- 10 cau-->
+<part_picture>
+	<question>
+		<cau>1</cau>
+		<picture>de3_500_cau1.jpg</picture>
+		<audio>de3_500_cau1.mp3</audio>
+		<optiona>The men are wearing hats</optiona>
+		<optionb>The men are fixing a table</optionb>
+		<optionc>One man is standing up</optionc>
+		<optiond>One of the chairs is unoccupied</optiond>
+		<key>d</key>
+	</question>	
+	
+	<question>
+		<cau>2</cau>
+		<picture>de3_500_cau2.jpg</picture>
+		<audio>de3_500_cau2.mp3</audio>
+		<optiona>The man is planting a tree</optiona>
+		<optionb>The man is filling the glasses with water</optionb>
+		<optionc>The man is picking flowers from the garden</optionc>
+		<optiond>The man is watering the plants</optiond>
+		<key>d</key>
+	</question>	
+	
+	<question>
+		<cau>3</cau>
+		<picture>de3_500_cau3.jpg</picture>
+		<audio>de3_500_cau3.mp3</audio>
+		<optiona>The man is bending down</optiona>
+		<optionb>The man is putting on a tie</optionb>
+		<optionc>The man is holding a tire</optionc>
+		<optiond>The man is washing a car</optiond>
+		<key>a</key>
+	</question>	
+	
+	<question>
+		<cau>4</cau>
+		<picture>de3_500_cau4.jpg</picture>
+		<audio>de3_500_cau4.mp3</audio>
+		<optiona>They’re working on the building</optiona>
+		<optionb>She is carrying a baby</optionb>
+		<optionc>The man is holding the door for the woman</optionc>
+		<optiond>The woman is placing her luggage in the car</optiond>
+		<key>c</key>
+	</question>	
+		<question>
+		<cau>5</cau>
+		<picture>de3_500_cau5.jpg</picture>
+		<audio>de3_500_cau5.mp3</audio>
+		<optiona>The bird is stretching its wings</optiona>
+		<optionb>The ball is in the pool</optionb>
+		<optionc>The bird is standing in a tree</optionc>
+		<optiond>The board is floating on the water</optiond>
+		<key>a</key>
+	</question>	
+	
+</part_picture>

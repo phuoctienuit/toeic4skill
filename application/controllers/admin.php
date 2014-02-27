@@ -5,7 +5,6 @@ class Admin extends CI_Controller{
 
 	}
 	
-	
 	public function index(){
 		$data['link_image']=base_url().'application/template/image';
 		$this->load->view("admin/view_admin",$data);
@@ -14,25 +13,18 @@ class Admin extends CI_Controller{
 		$data['array_score']=$this->madmin->get_score_id($id);
 		$this->load->view("admin/edit_score",$data);
 	}
-	public function update_score(){
-		$id=$this->input->post("id");
-      	$user=$this->input->post("user");
-      	$score=$this->input->post("score");
-      	$date=$this->input->post("date");
-		$q=$this->madmin->update_score($id,$user,$score,$date);
-	
-		$this->load->view("admin/update_score");
-	}
-	public function save_score(){
-		$id=$this->input->post("id");
-		$user=$this->input->post("user");
-		$score=$this->input->post("score");
-		$date=$this->input->post("date");
-		print_r($id);die();
+	public function confirm_delete_score($id){
 		$data['array_score']=$this->madmin->get_score_id($id);
-		$this->load->view("admin/edit_score",$data);
+		$this->load->view("admin/confirm_delete_score",$data);
 	}
 
+	public function delete_score($id){
+		$query=$this->madmin->delete_score($id);
+		if($query){
+			$this->load->view("admin/success_delete");
+
+		}
+	}
 	public function view_score(){
 		$data['array_score']=$this->madmin->get_score();
 		$data['link_image']=base_url().'application/template/image';
@@ -49,12 +41,7 @@ class Admin extends CI_Controller{
 		$k=$this->madmin->insert_post();
 		$this->load->view("admin/post");
 	}
-	public function update_post(){
-	  
-      
-		$k=$this->madmin->update_post();
-		//print_r($k);die();
-	}
+	
 	public function post_listening(){
 		$data['array_post']=$this->madmin->get_post_listening();
 		$data['link_image']=base_url().'application/template/image';
@@ -84,6 +71,50 @@ class Admin extends CI_Controller{
 		$data['sharing_listening']="sharing_listening";
 		$data['link_image']=base_url().'application/template/image';
 		$this->load->view("admin/edit_listening",$data);
+	}
+	public function confirm_delete_listening($id){
+		$data['array_post']=$this->madmin->get_post_listen($id);
+		$this->load->view("admin/confirm_delete_listening",$data);
+	}
+	public function confirm_delete_reading($id){
+		$data['array_post']=$this->madmin->get_post_read($id);
+		$this->load->view("admin/confirm_delete_reading",$data);
+	}
+	public function delete_listening($id){
+		$query=$this->madmin->delete_listening($id);
+		if($query){
+			$this->load->view("admin/success_delete");
+
+		}
+	}
+	
+	public function delete_reading($id){
+		$query=$this->madmin->delete_reading($id);
+		if($query){
+			$this->load->view("admin/success_delete");
+
+		}
+	}
+
+	public function update_listening(){
+		$k=$this->madmin->update_post();
+		if($k){
+			$this->load->view("admin/success_update");
+		}
+		
+	}
+	public function edit_reading($id){
+		$data['array_post']=$this->madmin->get_post_read($id);
+		$data['sharing_reading']="sharing_reading";
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/edit_reading",$data);
+	}
+	public function update_reading(){
+		$k=$this->madmin->update_post_reading();
+		if($k){
+			$this->load->view("admin/success_update");
+		}
+		
 	}
 	public function sharing_video(){
 		$data['array_video']=$this->madmin->get_video();
@@ -553,6 +584,7 @@ public function list_file_short_con()
 			$dirArray[]=$entryName;
 		}
 		closedir($dir);
+		//print_r($dirArray);
 		$indexCount=count($dirArray);
 		for($i=0;$i<$indexCount;$i++){
 			if($dirArray[$i]!="." && !is_dir($dirArray[$i])){
@@ -588,6 +620,27 @@ public function list_file_short_con()
 
 		$data['link_image']=base_url().'application/template/image/';
 		$this->load->view("admin/list_file_reading",$data);
+		
+	}
+	public function list_file_writing()
+	{
+		$path="application/data_test/writing/";
+		$dir=opendir($path);
+		while($entryName=readdir($dir)){
+			$dirArray[]=$entryName;
+		}
+		closedir($dir);
+		//print_r($dirArray);die();
+		$indexCount=count($dirArray);
+		for($i=0;$i<$indexCount;$i++){
+			if($dirArray[$i]!="." && !is_dir($dirArray[$i])){
+				$data['fileArray'][]=$dirArray[$i];
+			}
+		}
+
+
+		$data['link_image']=base_url().'application/template/image/';
+		$this->load->view("admin/list_file_writing",$data);
 		
 	}
 	public function view_file_reading($filename){
