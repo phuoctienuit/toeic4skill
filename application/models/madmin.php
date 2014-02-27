@@ -28,6 +28,13 @@ class Madmin extends CI_Model {
       
       return true;
    }
+    public function delete_writing($id){
+   
+      $this->db->where("id",$id);
+      $this->db->delete('sharing_writing');
+      
+      return true;
+   }
    public function delete_reading($id){
    
       $this->db->where("id",$id);
@@ -74,13 +81,38 @@ class Madmin extends CI_Model {
       
       return true;
    }
+   
+    public function update_post_writing(){
+      $id=$this->input->post("id");
+      $name=$this->input->post("name");
+      $type=$this->input->post("type");
+      $content=$this->input->post("thread");
+      $data=array(
+                  'name'=>$name,
+                  'type'=>$type,
+                  'content'=>$content);
+      $this->db->where("id",$id);
+      $this->db->update('sharing_writing',$data);
+      
+      return true;
+   }
    public function insert_post(){
       $name=$this->input->post("name");
-      $level=$this->input->post("level");
       $skill=$this->input->post("skill");
       $content=$this->input->post("thread");
-      if($skill=="sharing_writing"){
-         $data=array('name'=>$name,'type'=>'1','content'=>$content);
+      $level=$this->input->post("level");
+   
+      if($level=="picture" || $level=="phat_am")
+         {
+            $type=1;
+         }
+      if($level=="essay" || $level=="dung_tu")
+         {
+            $type=2;
+         }
+     
+      if($skill=="sharing_writing" || $skill=="sharing_speaking"){
+         $data=array('name'=>$name,'type'=>$type,'content'=>$content);
       }
       else{
           $data=array('name'=>$name,'level'=>$level,'content'=>$content);
@@ -99,6 +131,12 @@ class Madmin extends CI_Model {
       $this->db->select("id,name,content,level");
       $this->db->where("id",$id);
       $query=$this->db->get("sharing_listening");
+      return $query->result_array();
+   }
+   public function get_post_write($id){
+      $this->db->select("id,name,content,type");
+      $this->db->where("id",$id);
+      $query=$this->db->get("sharing_writing");
       return $query->result_array();
    }
     public function get_post_read($id){

@@ -114,6 +114,11 @@ class Main extends CI_Controller{
 		$data['topscore'] = $this->mmain->topscore();
 		$this->load->view('show_detail_sharing_listening',$data);
 	}
+	public function show_detail_sharing_writing($id){
+		$data['sharing_content']=$this->mmain->get_sharing_writing($id);
+		$data['topscore'] = $this->mmain->topscore();
+		$this->load->view('writing/show_detail_sharing_writing',$data);
+	}
 	
 	public function list_sharing_reading($level, $start=0){
 		$limit=8;
@@ -313,7 +318,7 @@ class Main extends CI_Controller{
         $config['uri_segment'] = 4; 
         $this->pagination->initialize($config); 
 		$data['sharing_id']=$this->mmain->get_id_name_sharing_writing($type,$start,$limit);
-		$this-> load-> view("/listening/sharing_writing",$data);
+		$this-> load-> view("/writing/sharing_writing",$data);
 
 	}
 	public function list_w_sentence(){

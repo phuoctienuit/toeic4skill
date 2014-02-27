@@ -33,13 +33,29 @@ class Admin extends CI_Controller{
 	public function post(){
 		
 		$data['link_image']=base_url().'application/template/image';
-		$this->load->view("admin/post",$data);
+		$this->load->view("admin/post_listening",$data);
 	}
+	public function add_post_reading(){
+		
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/post_reading",$data);
+	}
+	public function add_post_speaking(){
+		
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/post_speaking",$data);
+	}
+	public function add_post_writing(){
+		
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/post_writing",$data);
+	}
+
 	
 	public function insert_post(){
 		
 		$k=$this->madmin->insert_post();
-		$this->load->view("admin/post");
+
 	}
 	
 	public function post_listening(){
@@ -80,12 +96,29 @@ class Admin extends CI_Controller{
 		$data['array_post']=$this->madmin->get_post_read($id);
 		$this->load->view("admin/confirm_delete_reading",$data);
 	}
+	public function confirm_delete_writing($id){
+		$data['array_post']=$this->madmin->get_post_write($id);
+		$this->load->view("admin/confirm_delete_writing",$data);
+	}
 	public function delete_listening($id){
 		$query=$this->madmin->delete_listening($id);
 		if($query){
 			$this->load->view("admin/success_delete");
 
 		}
+	}
+	public function delete_writing($id){
+		$query=$this->madmin->delete_writing($id);
+		if($query){
+			$this->load->view("admin/success_delete");
+
+		}
+	}
+	public function edit_writing($id){
+		$data['array_post']=$this->madmin->get_post_write($id);
+		$data['sharing_writing']="sharing_writing";
+		$data['link_image']=base_url().'application/template/image';
+		$this->load->view("admin/edit_writing",$data);
 	}
 	
 	public function delete_reading($id){
@@ -103,6 +136,14 @@ class Admin extends CI_Controller{
 		}
 		
 	}
+	public function update_writing(){
+		$k=$this->madmin->update_post_writing();
+		if($k){
+			$this->load->view("admin/success_update");
+		}
+		
+	}
+
 	public function edit_reading($id){
 		$data['array_post']=$this->madmin->get_post_read($id);
 		$data['sharing_reading']="sharing_reading";

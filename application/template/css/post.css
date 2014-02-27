@@ -1,0 +1,24 @@
+#menu_ngang ul{
+list-style-type:none;
+padding:0px;
+margin:0px;
+}
+ 
+#menu_ngang ul li{
+display:inline;
+}
+ 
+#menu_ngang ul a{
+text-decoration:none;
+width:129px;
+float:left;
+background:#BEB4B4;
+color:#926767;
+font-weight:bold;
+text-align:center;
+line-height:20px;
+border-left:1px solid #fff;
+}
+#title {
+clear: both;
+}

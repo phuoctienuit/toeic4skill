@@ -21,11 +21,10 @@
 <body style="background-color: antiquewhite">
 	<div id="menu_ngang">
 	   <ul>
-	   	 <li><a target="_blank" href="<?php echo base_url()?>index.php/admin/post">Post</a></li>
-	     <li><a href="<?php echo base_url()?>index.php/admin/post_listening">Listening</a></li>
-	     <li><a href="<?php echo base_url()?>index.php/admin/post_reading">Reading</a></li>
-	     <li><a href="#">Speaking</a></li>
-	     <li><a href="<?php echo base_url()?>index.php/admin/post_writing">Writing</a></li>
+	     <li><a href="<?php echo base_url()?>index.php/admin/post">Listening</a></li>
+	     <li><a href="<?php echo base_url()?>index.php/admin/add_post_reading">Reading</a></li>
+	     <li><a href="<?php echo base_url()?>index.php/admin/add_post_speaking">Speaking</a></li>
+	     <li><a href="<?php echo base_url()?>index.php/admin/add_post_writing">Writing</a></li>
 	 
 	   </ul>
 	</div>
@@ -43,11 +42,11 @@
 		  </div>
 	
 		<div class="form-group">
-		 <label class="col-md-4 control-label" for="level">Level</label>  
+		 <label class="col-md-4 control-label" for="level">Mục</label>  
 			<select name="level" id="level">
-				<option value="500">500</option>
-				<option value="750">750</option>
-				<option value="900">900</option>
+				<option value="picture">picture</option>
+				<option value="essay">essay</option>
+				
 
 			</select>
 
@@ -55,11 +54,7 @@
 		<div class="form-group">
 		 <label class="col-md-4 control-label" for="skill">Chuyên mục</label>  
 			<select name="skill" id="skill">
-				<option value="sharing_listening">sharing_listening</option>
-				<option value="sharing_reading">sharing_reading</option>
 				<option value="sharing_writing">sharing_writing</option>
-				<option value="sharing_speaking">sharing_speaking</option>
-
 			</select>
 
 		</div>

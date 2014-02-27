@@ -15,7 +15,7 @@
 
 						
 							<div class="share_ex">
-								<a href="<?php echo base_url(); ?>index.php/main/show_detail_sharing_listening/<?php echo $a['id'];?>"><?php echo $a['name'];?></a>
+								<a href="<?php echo base_url(); ?>index.php/main/show_detail_sharing_writing/<?php echo $a['id'];?>"><?php echo $a['name'];?></a>
 							
 							</div>
 

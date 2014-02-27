@@ -10,6 +10,13 @@ class Mmain extends CI_Model{
 		$query=$this->db->get("sharing_listening");
 		return $query->result_array();
 	}
+	function get_sharing_writing($id){
+		$this->db->select("content");
+		$this->db->where("id",$id);
+		//$this->db->order_by("id","ASC");
+		$query=$this->db->get("sharing_writing");
+		return $query->result_array();
+	}
 	function get_id_name_sharing_ex($level,$start,$limit){
 		$this->db->select("id,name");
 		$this->db->where("level",$level);
