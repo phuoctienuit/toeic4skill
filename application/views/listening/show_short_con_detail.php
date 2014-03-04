@@ -31,14 +31,6 @@
 									echo $group_content;
 								echo "</div>";
 
-								echo "<div class='group_content' style='display:none;'>";
-									echo $group_content;
-								echo "</div>";
-
-								echo "<div class='group_content' style='display:none;'>";
-									echo $group_content;
-								echo "</div>";
-
 								$i=0;
 								foreach ($group->question as $question) {
 									if((++$i)%2)

@@ -119,7 +119,11 @@ class Main extends CI_Controller{
 		$data['topscore'] = $this->mmain->topscore();
 		$this->load->view('writing/show_detail_sharing_writing',$data);
 	}
-	
+	public function show_detail_sharing_speaking($id){
+		$data['sharing_content']=$this->mmain->get_sharing_speaking($id);
+		$data['topscore'] = $this->mmain->topscore();
+		$this->load->view('speaking/show_detail_sharing_speaking',$data);
+	}
 	public function list_sharing_reading($level, $start=0){
 		$limit=8;
 		$config['base_url'] = base_url("index.php/main/list_sharing_reading/$level");
@@ -321,6 +325,17 @@ class Main extends CI_Controller{
 		$this-> load-> view("/writing/sharing_writing",$data);
 
 	}
+	public function sharing_speaking($type, $start=0){
+		$limit=6;
+		$config['base_url'] = base_url("index.php/main/sharing_writing/$type");
+        $config['total_rows'] = $this->mmain->count_all_sharing_speaking($type); 
+        $config['per_page'] = $limit; 
+        $config['uri_segment'] = 4; 
+        $this->pagination->initialize($config); 
+		$data['sharing_id']=$this->mmain->get_id_name_sharing_speaking($type,$start,$limit);
+		$this-> load-> view("/speaking/sharing_speaking",$data);
+
+	}
 	public function list_w_sentence(){
 		$data['w_sen_id']=$this->mmain->get_id_w_sentence();
 		$this-> load-> view("/writing/show_list_w_sentence",$data);
@@ -332,7 +347,7 @@ class Main extends CI_Controller{
 		$items = $feeds->xpath('/w_sentence/group');
 		$config['base_url'] = base_url("index.php/main/show_w_sentence_detail/$id");
 		$config['uri_segment'] = 4;
-		$config['per_page'] = 2; // number of items per page
+		$config['per_page'] = 1; // number of items per page
 		$config['total_rows'] = count($items); // count total items
 		$this->pagination->initialize($config); // initialise pagination
 		$data['feed'] = array_slice($items, $this->uri->segment(4), $config['per_page']);

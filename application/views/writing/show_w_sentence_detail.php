@@ -8,7 +8,7 @@
 						</div>
 
 						<div id="content" class="col-xs-6 col-md-9">
-
+						<div class='request'>Viết lại câu sử dụng từ cho trước</div>
 						<?php
 							$i=0;
 							foreach ($feed as $group) {
@@ -26,17 +26,20 @@
 									echo "<div class='hint'>";
 										echo $hint;
 									echo "</div>";
-									echo "<textarea rows='2' cols='50'></textarea>";
-									echo "<div class='w_key' ";
+									echo "<textarea rows='2' cols='50' id='output'></textarea>";
+									echo "<div class='w_key'>";
 										echo $key;
 									echo "</div>";
 								echo "</div>";
 							}
+								echo "<div class='same_question'>";
 								echo "<div class='link_pag'>";	
 								echo $this->pagination->create_links(); // tạo link phân trang 
 								echo "</div>";	
 						?>
 						<button type="button" class="btn btn-primary" id="btnshow">SHOW ANSWER</button>
+						<button type="button" class="btn btn-primary" id="btnagain" onclick="javascript:eraseText();">AGAIN</button>
+						</div>
 						</div>
 					</div>
 				</div>

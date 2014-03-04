@@ -1,9 +1,9 @@
 <ul class="nav nav-list">
 								<li class="active"><a href="#">Chia sẻ kinh nghiệm</a>
 									<ul class="nav">
-										<li><a href="">Phát âm</a></li>
-										<li><a href="">Dùng từ</a></li>
-										<li><a href="">Khác</a></li>
+										<li><a href="<?php echo base_url()?>index.php/main/sharing_speaking/1">Phát âm</a></li>
+										<li><a href="<?php echo base_url()?>index.php/main/sharing_speaking/2">Dùng từ</a></li>
+										<li><a href="<?php echo base_url()?>index.php/main/sharing_speaking/3">Khác</a></li>
 									</ul>
 								</li>
 								<li><a href="#">Luyện tập</a>

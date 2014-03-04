@@ -55,6 +55,7 @@ class Admin extends CI_Controller{
 	public function insert_post(){
 		
 		$k=$this->madmin->insert_post();
+		$this->load->view("admin/success_post");
 
 	}
 	
@@ -256,9 +257,43 @@ class Admin extends CI_Controller{
 		}
 		$data['fn']=$fn;
 
-		$this->load->view("admin/view_file_photo",$data);
+		$this->load->view("admin/view_file_xml",$data);
 	}
+	public function view_file_writing($filename){
+		$fn = "application/data_test/writing/$filename";
+	
+		if (isset($_POST['content']))
+		{
+		    $content = stripslashes($_POST['content']);
 
+		    $fp = fopen($fn,"w") or die ("Error opening file in write mode!");
+
+		    fputs($fp,$content);
+
+		    fclose($fp) or die ("Error closing file!");
+		}
+		$data['fn']=$fn;
+
+		$this->load->view("admin/view_file_xml",$data);
+	}
+	public function view_file_fulltest($filename){
+		$fn = "application/data_test/fulltest/$filename";
+	
+		if (isset($_POST['content']))
+		{
+		    $content = stripslashes($_POST['content']);
+
+		    $fp = fopen($fn,"w") or die ("Error opening file in write mode!");
+
+		    fputs($fp,$content);
+
+		    fclose($fp) or die ("Error closing file!");
+		}
+		$data['fn']=$fn;
+
+		$this->load->view("admin/view_file_xml",$data);
+	}
+	
 public function list_file_qr()
 	{
 		$path="application/data_test/qr/500/";
@@ -329,7 +364,7 @@ public function list_file_qr()
 		}
 		$data['fn']=$fn;
 
-		$this->load->view("admin/view_file_qr",$data);
+		$this->load->view("admin/view_file_xml",$data);
 	}
 public function list_file_short_con()
 	{
@@ -400,7 +435,7 @@ public function list_file_short_con()
 		}
 		$data['fn']=$fn;
 
-		$this->load->view("admin/view_file_short_con",$data);
+		$this->load->view("admin/view_file_xml",$data);
 	}
 	public function list_file_short_talk()
 	{
@@ -471,7 +506,7 @@ public function list_file_short_con()
 		}
 		$data['fn']=$fn;
 
-		$this->load->view("admin/view_file_short_talk",$data);
+		$this->load->view("admin/view_file_xml",$data);
 	}
 
 	public function list_file_incom()
@@ -543,7 +578,7 @@ public function list_file_short_con()
 		}
 		$data['fn']=$fn;
 
-		$this->load->view("admin/view_file_short_talk",$data);
+		$this->load->view("admin/view_file_xml",$data);
 	}
 
 	public function list_file_text_com()
@@ -615,7 +650,7 @@ public function list_file_short_con()
 		}
 		$data['fn']=$fn;
 
-		$this->load->view("admin/view_file_short_talk",$data);
+		$this->load->view("admin/view_file_xml",$data);
 	}
 	public function list_file_reading()
 	{
@@ -708,7 +743,7 @@ public function list_file_short_con()
 		}
 		$data['fn']=$fn;
 
-		$this->load->view("admin/view_file_short_talk",$data);
+		$this->load->view("admin/view_file_xml",$data);
 	}
 	public function create_photo(){
 		$this->load->view("admin/create_photo");

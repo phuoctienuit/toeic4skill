@@ -1,3 +1,7 @@
+body {  /* Body and background image DIV */
+	background-image: url(http://localhost/toeic4skill/application/template/image/cloud.png);
+	background-repeat: repeat-x;
+}
 #menu_ngang ul{
 list-style-type:none;
 padding:0px;

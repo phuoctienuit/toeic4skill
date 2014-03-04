@@ -1,0 +1,10 @@
+body {  /* Body and background image DIV */
+	background-color: lightgoldenrodyellow;
+}
+#content_xml {
+position: relative;
+left: 22%;
+}
+.title{
+	color: red;
+}

@@ -17,6 +17,13 @@ class Mmain extends CI_Model{
 		$query=$this->db->get("sharing_writing");
 		return $query->result_array();
 	}
+	function get_sharing_speaking($id){
+		$this->db->select("content");
+		$this->db->where("id",$id);
+		//$this->db->order_by("id","ASC");
+		$query=$this->db->get("sharing_speaking");
+		return $query->result_array();
+	}
 	function get_id_name_sharing_ex($level,$start,$limit){
 		$this->db->select("id,name");
 		$this->db->where("level",$level);
@@ -29,6 +36,13 @@ class Mmain extends CI_Model{
 		$this->db->where("type",$type);
 		$this->db->order_by("id","ASC");
 		$query=$this->db->get("sharing_writing",$limit,$start);
+		return $query->result_array();
+	}
+	function get_id_name_sharing_speaking($type,$start,$limit){
+		$this->db->select("id,name");
+		$this->db->where("type",$type);
+		$this->db->order_by("id","ASC");
+		$query=$this->db->get("sharing_speaking",$limit,$start);
 		return $query->result_array();
 	}
 
@@ -61,6 +75,12 @@ class Mmain extends CI_Model{
 		$this->db->from('sharing_writing');
 		return $this->db->count_all_results();	
 	}
+	function count_all_sharing_speaking($type){
+		$this->db->where("type",$type);
+		$this->db->from('sharing_speaking');
+		return $this->db->count_all_results();	
+	}
+
 
 	function count_all_video(){
 		$this->db->from('video');
