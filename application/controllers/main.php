@@ -341,6 +341,12 @@ class Main extends CI_Controller{
 		$this-> load-> view("/writing/show_list_w_sentence",$data);
 
 	}
+	
+	public function list_w_essay(){
+		$data['w_sen_id']=$this->mmain->get_id_w_essay();
+		$this-> load-> view("/writing/show_list_w_essay",$data);
+
+	}
 	public function show_w_sentence_detail($id, $start=0){
 		$data['w_sen_pathxml']=$this->mmain->get_w_sentence_pathxml($id);
 		$feeds = simplexml_load_file($data['w_sen_pathxml']);
@@ -356,6 +362,20 @@ class Main extends CI_Controller{
 		$this->load->view('/writing/show_w_sentence_detail',$data);
 	}
 	
+	public function show_w_essay_detail($id, $start=0){
+		$data['w_ess_pathxml']=$this->mmain->get_w_essay_pathxml($id);
+		$feeds = simplexml_load_file($data['w_ess_pathxml']);
+		$items = $feeds->xpath('/w_essay/group');
+		$config['base_url'] = base_url("index.php/main/show_w_essay_detail/$id");
+		$config['uri_segment'] = 4;
+		$config['per_page'] = 1; // number of items per page
+		$config['total_rows'] = count($items); // count total items
+		$this->pagination->initialize($config); // initialise pagination
+		$data['feed'] = array_slice($items, $this->uri->segment(4), $config['per_page']);
+		$data['image']=base_url().'application/data_test/short_con/audio/';
+		$data['link_image']=base_url().'application/template/image/';
+		$this->load->view('/writing/show_w_essay_detail',$data);
+	}
 	public function w_response($start=0){
 		$limit=1;
 		$config['base_url'] = base_url("index.php/main/w_response/$type");

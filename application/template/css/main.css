@@ -257,9 +257,42 @@
 	width: 320px;
 
 }
-.question{
-	margin-left: 30px;
-}
 .same_question{
 	margin-left: 30px;
+	clear:both;
+}
+.question {
+margin-left: 30px;
+width: 800px;
+height: 454px;
+background-color: rgb(250, 244, 237);
+box-shadow: 0px 0px 10px peru;
+}
+.question_main{
+margin-left: 15px;
+}
+.w_request{
+width: 800px;
+padding: 10px;
+height: 85px;
+background-color: aliceblue;
+}
+.textarea{
+width: 400px;
+background-color: burlywood;
+height: 406px;
+float: left;
+box-shadow: 0px 0px 10px green;
+}
+.essay_key{
+width: 400px;
+height: 406px;
+padding: 10px;
+background-color: beige;
+float: left;
+overflow-y: auto;
+box-shadow: 0px 0px 10px green;
+}
+.hidden_key{
+	display: none;
 }

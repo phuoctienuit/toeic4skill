@@ -7,7 +7,7 @@
 						</div>
 
 						<div id="content" class="col-xs-6 col-md-9">
-						<div class="request">Viết lại câu dựa vào hình và từ gợi ý</div>
+						<div class="request">Viết 1 đoạn văn ngắn</div>
 							<?php 
 							foreach($w_sen_id as $a)
 							{
@@ -15,7 +15,7 @@
 
 						
 							<div class="photo_test">								
-								<a href="<?php echo base_url(); ?>index.php/main/show_w_sentence_detail/<?php echo $a['id'];?>"><?php echo 'Đề luyện tập số '.$a['id']?></a>
+								<a href="<?php echo base_url(); ?>index.php/main/show_w_essay_detail/<?php echo $a['id'];?>"><?php echo 'Đề luyện tập số '.$a['id']?></a>
 							
 							</div>
 

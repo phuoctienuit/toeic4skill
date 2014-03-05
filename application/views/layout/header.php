@@ -58,7 +58,7 @@
 									<a href="<?php echo base_url(); ?>index.php/main/speaking">Speaking</a>
 								</li>
 								<li>
-									<a href="<?php echo base_url(); ?>index.php/main/writting">Writting</a>
+									<a href="<?php echo base_url(); ?>index.php/main/list_w_sentence">Writting</a>
 								</li>
 								<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Test<span class="caret"></span></a>
 									<ul class="dropdown-menu">

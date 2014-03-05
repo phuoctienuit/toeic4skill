@@ -7,6 +7,15 @@ $(document).ready(function(){
   {
     $(".w_key").css("display","none");
   });
+  $(document.body).on("click", "#btnshow_es", function(event)
+  {
+    $(".hidden_key").css("display","block");
+  });
+  $(document.body).on("click", "#btnagain_es", function(event)
+  {
+    $(".hidden_key").css("display","none");
+  });
+  
 
 });
 function eraseText() {

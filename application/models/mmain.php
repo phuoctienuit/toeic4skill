@@ -280,7 +280,12 @@ class Mmain extends CI_Model{
 		$this->db->order_by("id","ASC");
 		$query=$this->db->get("w_sentence");
 		return $query->result_array();
-
+	}
+	function get_id_w_essay(){
+		$this->db->select("id");
+		$this->db->order_by("id","ASC");
+		$query=$this->db->get("w_essay");
+		return $query->result_array();
 	}
 
 	function get_w_sentence_pathxml($id){
@@ -288,6 +293,14 @@ class Mmain extends CI_Model{
 		$this->db->where("id",$id);
 		//$this->db->order_by("id","ASC");
 		$query=$this->db->get("w_sentence");
+		return $query->row()->pathxml;
+
+	}
+	function get_w_essay_pathxml($id){
+		$this->db->select("pathxml");
+		$this->db->where("id",$id);
+		//$this->db->order_by("id","ASC");
+		$query=$this->db->get("w_essay");
 		return $query->row()->pathxml;
 
 	}

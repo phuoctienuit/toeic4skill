@@ -8,7 +8,7 @@
 						</div>
 
 						<div id="content" class="col-xs-6 col-md-9">
-						<div class='request'>Viết lại câu sử dụng từ cho trước</div>
+						<div class='request'>Viết 1 đoạn văn khoảng 300 từ theo yêu cầu sau:</div>
 						<?php
 							$i=0;
 							foreach ($feed as $group) {
@@ -17,20 +17,21 @@
 								else
 									$t = "question odd";
 								$cau=$group->cau;
-								$hint=$group->hint;
-								$picture=$group->picture;
+								$request=$group->request;
 								$key=$group->key;
 								echo "<div id='' class='question'>";
-									echo "<div class='question_main'>";
-									echo $cau.".";
-									echo "<div class='w_picture'><img src=$link_image$picture /></div>";
-									echo "<div class='hint'>";
-										echo $hint;
+
+									echo "<div class='w_request'>";
+										echo $request;
 									echo "</div>";
-									echo "<textarea rows='2' cols='50' id='output'></textarea>";
-									echo "<div class='w_key'>";
-										echo $key;
+									
+									echo "<div class='textarea'>";
+										echo "<textarea rows='20' cols='63' id='output'></textarea>";
 									echo "</div>";
+									echo "<div class='essay_key'>";
+										echo "<div class='hidden_key'>";
+											echo $key;
+										echo "</div>";
 									echo "</div>";
 								echo "</div>";
 							}
@@ -39,11 +40,11 @@
 								echo $this->pagination->create_links(); // tạo link phân trang 
 								echo "</div>";	
 						?>
-						<button type="button" class="btn btn-primary" id="btnshow">SHOW ANSWER</button>
-						<button type="button" class="btn btn-primary" id="btnagain" onclick="javascript:eraseText();">AGAIN</button>
+						<button type="button" class="btn btn-primary" id="btnshow_es">SHOW ANSWER</button>
+						<button type="button" class="btn btn-primary" id="btnagain_es" onclick="javascript:eraseText();">AGAIN</button>
 						</div>
 						</div>
-					</div>
+				</div><!--end content-->
 				</div>
 			</div><!--/main-->
 			<?php $this->load->view('layout/footer');?>

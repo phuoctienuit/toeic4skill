@@ -10,7 +10,7 @@
 									<ul class="nav">
 										<li><a href="<?php echo base_url()?>index.php/main/list_w_sentence">Write a sentence based on a picture</a></li>
 										<li><a href="<?php echo base_url()?>index.php/main/w_response">Response a written request</a></li>
-										<li><a href="">Write an oppion essay</a></li>						
+										<li><a href="<?php echo base_url()?>index.php/main/list_w_essay">Write an oppion essay</a></li>						
 									</ul>
 								</li>
 								<li><a href="#">Full Test</a>
