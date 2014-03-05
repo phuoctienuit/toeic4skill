@@ -1,112 +1,112 @@
-<de1>
+<de2>
 <picture>
 	<question>
 		<cau>1</cau>
-		<picture>de1_cau1.jpg</picture>
-		<audio>de1_cau1.mp3</audio>
-		<optiona>They are brushing their teeth</optiona>
-		<optionb>The man is shaving</optionb>
-		<optionc>They are washing their hands</optionc>
-		<optiond>The man is adjusting his tie</optiond>
-		<key>d</key>
+		<picture>de2_fulltest_cau1.jpg</picture>
+		<audio>de2_fulltest_cau1.mp3</audio>
+		<optiona>He’s playing in a band</optiona>
+		<optionb>He’s adjusting the sound</optionb>
+		<optionc>He’s pressing the elevator button</optionc>
+		<optiond>He’s reading a newspaper</optiond>
+		<key>b</key>
 	</question>	
 	
 	<question>
 		<cau>2</cau>
-		<picture>de1_cau2.jpg</picture>
-		<audio>de1_cau2.mp3</audio>
-		<optiona>People are going into an amusement park</optiona>
-		<optionb>People are working on the building</optionb>
-		<optionc>People are riding a roller coaster</optionc>
-		<optiond>People are roller skating</optiond>
-		<key>c</key>
+		<picture>de2_fulltest_cau2.jpg</picture>
+		<audio>de2_fulltest_cau2.mp3</audio>
+		<optiona>The building is under construction</optiona>
+		<optionb>The man is using a shovel to pick up the dirt</optionb>
+		<optionc>The man is driving a tractor</optionc>
+		<optiond>The man is working on the truck</optiond>
+		<key>b</key>
 	</question>	
 	
 	<question>
 		<cau>3</cau>
-		<picture>de1_cau3.jpg</picture>
-		<audio>de1_cau3.mp3</audio>
-		<optiona>She’s reading a book on the bench</optiona>
-		<optionb>She’s reaching for a book</optionb>
-		<optionc>She’s looking for a seat</optionc>
-		<optiond>She’s drinking from a cup</optiond>
-		<key>a</key>
+		<picture>de2_fulltest_cau3.jpg</picture>
+		<audio>de2_fulltest_cau3.mp3</audio>
+		<optiona>The police officer is leaning against a car</optiona>
+		<optionb>The man is wearing a vest</optionb>
+		<optionc>The man is putting on his hat</optionc>
+		<optiond>His hands are in the pocket</optiond>
+		<key>b</key>
 	</question>	
 	
 	<question>
 		<cau>4</cau>
-		<picture>de1_cau4.jpg</picture>
-		<audio>de1_cau4.mp3</audio>
-		<optiona>The men are fishing</optiona>
-		<optionb>The man is rowing the boat</optionb>
-		<optionc>The water is very calm</optionc>
-		<optiond>The people are in the sailboat</optiond>
-		<key>c</key>
+		<picture>de2_fulltest_cau4.jpg</picture>
+		<audio>de2_fulltest_cau4.mp3</audio>
+		<optiona>The man is picking a peach</optiona>
+		<optionb>The man is gesturing</optionb>
+		<optionc>The man is wearing a dark shirt</optionc>
+		<optiond>The man is speaking into the microphone</optiond>
+		<key>d</key>
 	</question>	
 	
 	<question>
 		<cau>5</cau>
-		<picture>de1_cau5.jpg</picture>
-		<audio>de1_cau5.mp3</audio>
-		<optiona>He’s climbing a tree</optiona>
-		<optionb>He’s wearing short pants</optionb>
-		<optionc>He’s painting a picture</optionc>
-		<optiond>He’s brushing his hair</optiond>
-		<key>c</key>
-	</question>	
-	
-	<question>
-		<cau>6</cau>
-		<picture>de1_cau6.jpg</picture>
-		<audio>de1_cau6.mp3</audio>
-		<optiona>People are walking down the steps</optiona>
-		<optionb>People are working downtown</optionb>
-		<optionc>People are sitting on the stairs</optionc>
-		<optiond>People are going down the escalator</optiond>
+		<picture>de2_fulltest_cau5.jpg</picture>
+		<audio>de2_fulltest_cau5.mp3</audio>
+		<optiona>She’s holding an umbrella</optiona>
+		<optionb>She’s walking down the stairs</optionb>
+		<optionc>She’s wearing a raincoat</optionc>
+		<optiond>She’s running on a track</optiond>
 		<key>a</key>
 	</question>	
 	
 	<question>
+		<cau>6</cau>
+		<picture>de2_fulltest_cau6.jpg</picture>
+		<audio>de2_fulltest_cau6.mp3</audio>
+		<optiona>The men are wearing hats</optiona>
+		<optionb>The men are fixing a table</optionb>
+		<optionc>One man is standing up</optionc>
+		<optiond>One of the chairs is unoccupied</optiond>
+		<key>d</key>
+	</question>	
+	
+	<question>
 		<cau>7</cau>
-		<picture>de1_cau7.jpg</picture>
-		<audio>de1_cau7.mp3</audio>
-		<optiona>There are two dishes in the sink</optiona>
-		<optionb>There is fork on the plate</optionb>
-		<optionc>There are menus on the table</optionc>
-		<optiond>There is food on the plates</optiond>
+		<picture>de2_fulltest_cau7.jpg</picture>
+		<audio>de2_fulltest_cau7.mp3</audio>
+		<optiona>The man is planting a tree</optiona>
+		<optionb>The man is filling the glasses with water</optionb>
+		<optionc>The man is picking flowers from the garden</optionc>
+		<optiond>The man is watering the plants</optiond>
 		<key>d</key>
 	</question>	
 	
 	<question>
 		<cau>8</cau>
-		<picture>de1_cau8.jpg</picture>
-		<audio>de1_cau8.mp3</audio>
-		<optiona>The stadium is closed for repairs</optiona>
-		<optionb>The stadium is full of fans</optionb>
-		<optionc>The fans are lined up outside the stadium</optionc>
-		<optiond>The people are leaving the stadium</optiond>
-		<key>b</key>
+		<picture>de2_fulltest_cau8.jpg</picture>
+		<audio>de2_fulltest_cau8.mp3</audio>
+		<optiona>The man is bending down</optiona>
+		<optionb>The man is putting on a tie</optionb>
+		<optionc>The man is holding a tire</optionc>
+		<optiond>The man is washing a car</optiond>
+		<key>a</key>
 	</question>	
 	
 	<question>
 		<cau>9</cau>
-		<picture>de1_cau9.jpg</picture>
-		<audio>de1_cau9.mp3</audio>
-		<optiona>They’re parking the car</optiona>
-		<optionb>They’re paying their taxes</optionb>
-		<optionc>They’re changing a tire</optionc>
-		<optiond>They’re getting into car</optiond>
-		<key>d</key>
-	</question>	
-	<question>
-		<cau>10</cau>
-		<picture>de1_cau4.jpg</picture>
-		<audio>de1_cau4.mp3</audio>
-		<optiona>The men are fishing</optiona>
-		<optionb>The man is rowing the boat</optionb>
-		<optionc>The water is very calm</optionc>
-		<optiond>The people are in the sailboat</optiond>
+		<picture>de2_fulltest_cau9.jpg</picture>
+		<audio>de2_fulltest_cau9.mp3</audio>
+		<optiona>They’re working on the building</optiona>
+		<optionb>She is carrying a baby</optionb>
+		<optionc>The man is holding the door for the woman</optionc>
+		<optiond>The woman is placing her luggage in the car</optiond>
 		<key>c</key>
+	</question>	
+		<question>
+		<cau>10</cau>
+		<picture>de2_fulltest_cau10.jpg</picture>
+		<audio>de2_fulltest_cau10.mp3</audio>
+		<optiona>The bird is stretching its wings</optiona>
+		<optionb>The ball is in the pool</optionb>
+		<optionc>The bird is standing in a tree</optionc>
+		<optiond>The board is floating on the water</optiond>
+		<key>a</key>
 	</question>	
 </picture>
 
@@ -854,7 +854,7 @@
 		However, you will have a couple of unguided hours to visit our labs and tasting rooms before you leave the premises. 
 		Feel free to ask any questions that you may have at anytime throughout the tour. I do hope that you enjoy your visit. 
 		</group_content>
-		<audio>de1_cau71.mp3</audio>
+		<audio>de1_71.mp3</audio>
 		<question>
 			<cau>71</cau>
 			<content>Who most likely are the visitors?</content>
@@ -2496,4 +2496,5 @@ I sincerely regret the need to take such drastic measures to end the current bud
 		</question>
 	</group>
 </reading_comprehen>
-</de1>
+
+</de2>
