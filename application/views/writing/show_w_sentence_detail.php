@@ -20,7 +20,7 @@
 								$hint=$group->hint;
 								$picture=$group->picture;
 								$key=$group->key;
-								echo "<div id='' class='question'>";
+								echo "<div id='' class='w_question'>";
 									echo "<div class='question_main'>";
 									echo $cau.".";
 									echo "<div class='w_picture'><img src=$link_image$picture /></div>";
