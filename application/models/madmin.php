@@ -7,6 +7,12 @@ class Madmin extends CI_Model {
       $query=$this->db->get("score");
       return $query->result_array();
    }
+   
+    public function get_link_video($id){
+      $this->db->select("id,link,title");
+      $query=$this->db->get("video");
+      return $query->result_array();
+   }
    public function get_score_id($id){
       $this->db->select("id,user,score,date");
       $this->db->where("id",$id);
@@ -17,6 +23,13 @@ class Madmin extends CI_Model {
    
       $this->db->where("id",$id);
       $this->db->delete('score');
+      
+      return true;
+   }
+   public function delete_link_video($id){
+   
+      $this->db->where("id",$id);
+      $this->db->delete('video');
       
       return true;
    }
@@ -64,6 +77,19 @@ class Madmin extends CI_Model {
                   'content'=>$content);
       $this->db->where("id",$id);
       $this->db->update('sharing_listening',$data);
+      
+      return true;
+   }
+    public function update_link_video(){
+      $id=$this->input->post("id");
+      $title=$this->input->post("title");
+      $link=$this->input->post("link");
+      $data=array(
+                  'title'=>$title,
+                  'link'=>$link
+                  );
+      $this->db->where("id",$id);
+      $this->db->update('video',$data);
       
       return true;
    }

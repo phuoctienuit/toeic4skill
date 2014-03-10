@@ -17,6 +17,18 @@ class Admin extends CI_Controller{
 		$data['array_score']=$this->madmin->get_score_id($id);
 		$this->load->view("admin/confirm_delete_score",$data);
 	}
+	public function confirm_link_video($id){
+		$data['array_video']=$this->madmin->get_link_video($id);
+		$this->load->view("admin/confirm_delete_link",$data);
+	}
+	
+	public function delete_link_video($id){
+		$query=$this->madmin->delete_link_video($id);
+		if($query){
+			$this->load->view("admin/success_delete");
+
+		}
+	}
 
 	public function delete_score($id){
 		$query=$this->madmin->delete_score($id);
@@ -145,6 +157,13 @@ class Admin extends CI_Controller{
 		
 	}
 
+	public function update_link_video(){
+		$k=$this->madmin->update_link_video();
+		if($k){
+			$this->load->view("admin/success_update");
+		}
+		
+	}
 	public function edit_reading($id){
 		$data['array_post']=$this->madmin->get_post_read($id);
 		$data['sharing_reading']="sharing_reading";
@@ -158,6 +177,12 @@ class Admin extends CI_Controller{
 		}
 		
 	}
+	
+	public function edit_link_video($id){
+		$data['array_video']=$this->madmin->get_link_video($id);
+		$this->load->view("admin/edit_link_video",$data);
+	}
+
 	public function sharing_video(){
 		$data['array_video']=$this->madmin->get_video();
 		$data['link_image']=base_url().'application/template/image';
@@ -749,6 +774,94 @@ public function list_file_short_con()
 		$this->load->view("admin/create_photo");
 		
 	}
+	public function create_fulltest(){
+		$this->load->view("admin/create_fulltest");
+		
+	}
+	public function upload_file_fulltest(){
+	
+	
+	
+	/*$allowedExts = array("gif", "jpeg", "jpg", "png", "xml","mp3");
+	$temp = explode(".", $_FILES["file"]["name"][$i]);
+	$extension = end($temp);
+	*/
+	
+	$file_ary = array();
+    $file_count = count($_FILES["file"]['name']);
+    $file_keys = array_keys($_FILES["file"]);
+
+    for ($i=0; $i<$file_count; $i++) {
+	
+			$allowedExts = array("gif", "jpeg", "jpg", "png", "xml","mp3");
+			$temp = explode(".", $_FILES["file"]["name"][$i]);
+			$extension = end($temp);
+			
+			$upload_folder="";
+			if(($_FILES["file"]["type"][$i] == "image/jpeg")
+			|| ($_FILES["file"]["type"][$i] == "image/jpg")
+			|| ($_FILES["file"]["type"][$i] == "image/pjpeg")
+			|| ($_FILES["file"]["type"][$i] == "image/x-png"))
+			{
+				$upload_folder.="application/data_test/fulltest/picture/";
+			}
+			else if($_FILES["file"]["type"][$i] == "audio/mp3"){
+				$upload_folder.="application/data_test/fulltest/audio/";
+			}
+			else if(($_FILES["file"]["type"][$i] == "text/xml"))
+			{
+				$upload_folder.="application/data_test/fulltest/";
+			}
+			
+            //$file_ary[$i][$key] = $file_post[$key][$i];
+			if ((($_FILES["file"]["type"][$i] == "image/gif")
+			|| ($_FILES["file"]["type"][$i] == "image/jpeg")
+			|| ($_FILES["file"]["type"][$i] == "image/jpg")
+			|| ($_FILES["file"]["type"][$i] == "image/pjpeg")
+			|| ($_FILES["file"]["type"][$i] == "image/x-png")
+			|| ($_FILES["file"]["type"][$i] == "text/xml")
+			|| ($_FILES["file"]["type"][$i] == "audio/mp3")
+			)
+			&& in_array($extension, $allowedExts))
+			  {
+			  if ($_FILES["file"]["error"][$i] > 0)
+				{
+				echo "Return Code: " . $_FILES["file"]["error"][$i] . "<br>";
+				}
+			  else
+				{
+				
+				echo "Upload: " . $_FILES["file"]["name"][$i] . "<br>";
+				echo "Type: " . $_FILES["file"]["type"][$i] . "<br>";
+				echo "Size: " . ($_FILES["file"]["size"][$i] / 1024) . " kB<br>";
+				echo "Temp file: " . $_FILES["file"]["tmp_name"][$i] . "<br>";
+
+				if (file_exists("$upload_folder" . $_FILES["file"]["name"][$i]))
+				  {
+				  echo $_FILES["file"]["name"][$i] . " already exists. ";
+				  }
+				else
+				  {
+					  move_uploaded_file($_FILES["file"]["tmp_name"][$i], "$upload_folder" . $_FILES["file"]["name"][$i]);
+					  
+						  if($_FILES["file"]["type"][$i] == "text/xml")
+						  {	
+							$insert=$this->files_model->insert_file_fulltest("http://localhost/toeic4skill/application/data_test/fulltest/".$_FILES["file"]["name"][$i]);
+						  }
+						
+				  echo "UPLOAD SUCCESS"."<br>";
+				  echo "Stored in: " . "$upload_folder" . $_FILES["file"]["name"][$i];
+				  }
+				}
+			  }
+			else
+			  {
+			  echo "Invalid file";
+			  }
+			
+			
+    }        }
+
 	public function upload_file_photo(){
 	
 	$level=$this->input->post("level");
@@ -801,11 +914,8 @@ public function list_file_short_con()
 				}
 			  else
 				{
-				echo "UPLOAD SUCCESS"."<br>";
-				echo "Upload: " . $_FILES["file"]["name"][$i] . "<br>";
-				echo "Type: " . $_FILES["file"]["type"][$i] . "<br>";
-				echo "Size: " . ($_FILES["file"]["size"][$i] / 1024) . " kB<br>";
-				echo "Temp file: " . $_FILES["file"]["tmp_name"][$i] . "<br>";
+				
+				
 
 				if (file_exists("$upload_folder" . $_FILES["file"]["name"][$i]))
 				  {
@@ -813,15 +923,16 @@ public function list_file_short_con()
 				  }
 				else
 				  {
+
 					  move_uploaded_file($_FILES["file"]["tmp_name"][$i], "$upload_folder" . $_FILES["file"]["name"][$i]);
 					  
 						  if($_FILES["file"]["type"][$i] == "text/xml")
 						  {	
 							$insert=$this->files_model->insert_file_photo("http://localhost/toeic4skill/application/data_test/photo/".$level.'/'.$_FILES["file"]["name"][$i],$level);
 						  }
-						
+					$this->load->view("admin/success_upload");
 				  
-				  echo "Stored in: " . "$upload_folder" . $_FILES["file"]["name"][$i];
+				 
 				  }
 				}
 			  }
@@ -837,6 +948,135 @@ public function list_file_short_con()
 		$this->load->view("admin/create_qr");
 		
 	}
+	public function create_w_sen(){
+		$this->load->view("admin/create_w_sen");
+		
+	}
+	
+	public function create_w_ess(){
+		$this->load->view("admin/create_w_ess");
+		
+	}
+	
+	public function upload_file_w_ess(){
+	
+	$file_ary = array();
+    $file_count = count($_FILES["file"]['name']);
+    $file_keys = array_keys($_FILES["file"]);
+
+    for ($i=0; $i<$file_count; $i++) {
+	
+			$allowedExts = array("xml");
+			$temp = explode(".", $_FILES["file"]["name"][$i]);
+
+			$extension = end($temp);
+			
+			
+				$upload_folder.="application/data_test/writing/";
+			
+			
+            //$file_ary[$i][$key] = $file_post[$key][$i];
+			if ((($_FILES["file"]["type"][$i] == "text/xml"))
+			&& in_array($extension, $allowedExts))
+			  {
+			  if ($_FILES["file"]["error"][$i] > 0)
+				{
+				echo "Return Code: " . $_FILES["file"]["error"][$i] . "<br>";
+				}
+			  else
+				{
+				echo "UPLOAD SUCCESS"."<br>";
+				echo "Upload: " . $_FILES["file"]["name"][$i] . "<br>";
+				echo "Type: " . $_FILES["file"]["type"][$i] . "<br>";
+				echo "Size: " . ($_FILES["file"]["size"][$i] / 1024) . " kB<br>";
+				echo "Temp file: " . $_FILES["file"]["tmp_name"][$i] . "<br>";
+
+				if (file_exists("$upload_folder" . $_FILES["file"]["name"][$i]))
+				  {
+				  echo $_FILES["file"]["name"][$i] . " already exists. ";
+				  }
+				else
+				  {
+					  move_uploaded_file($_FILES["file"]["tmp_name"][$i], "$upload_folder" . $_FILES["file"]["name"][$i]);
+					  
+						  
+							$insert=$this->files_model->insert_file_w_ess("http://localhost/toeic4skill/application/data_test/writing/".$_FILES["file"]["name"][$i]);
+						  
+						
+				  
+				  echo "Stored in: " . "$upload_folder" . $_FILES["file"]["name"][$i];
+				  }
+				}
+			  }
+			else
+			  {
+			  echo "Invalid file";
+			  }
+			
+			
+        }
+    }
+
+
+	public function upload_file_w_sen(){
+	
+	$file_ary = array();
+    $file_count = count($_FILES["file"]['name']);
+    $file_keys = array_keys($_FILES["file"]);
+
+    for ($i=0; $i<$file_count; $i++) {
+	
+			$allowedExts = array("xml");
+			$temp = explode(".", $_FILES["file"]["name"][$i]);
+
+			$extension = end($temp);
+			
+			
+				$upload_folder.="application/data_test/writing/";
+			
+			
+            //$file_ary[$i][$key] = $file_post[$key][$i];
+			if ((($_FILES["file"]["type"][$i] == "text/xml"))
+			&& in_array($extension, $allowedExts))
+			  {
+			  if ($_FILES["file"]["error"][$i] > 0)
+				{
+				echo "Return Code: " . $_FILES["file"]["error"][$i] . "<br>";
+				}
+			  else
+				{
+				echo "UPLOAD SUCCESS"."<br>";
+				echo "Upload: " . $_FILES["file"]["name"][$i] . "<br>";
+				echo "Type: " . $_FILES["file"]["type"][$i] . "<br>";
+				echo "Size: " . ($_FILES["file"]["size"][$i] / 1024) . " kB<br>";
+				echo "Temp file: " . $_FILES["file"]["tmp_name"][$i] . "<br>";
+
+				if (file_exists("$upload_folder" . $_FILES["file"]["name"][$i]))
+				  {
+				  echo $_FILES["file"]["name"][$i] . " already exists. ";
+				  }
+				else
+				  {
+					  move_uploaded_file($_FILES["file"]["tmp_name"][$i], "$upload_folder" . $_FILES["file"]["name"][$i]);
+					  
+						  
+							$insert=$this->files_model->insert_file_w_sen("http://localhost/toeic4skill/application/data_test/writing/".$_FILES["file"]["name"][$i]);
+						  
+						
+				  
+				  echo "Stored in: " . "$upload_folder" . $_FILES["file"]["name"][$i];
+				  }
+				}
+			  }
+			else
+			  {
+			  echo "Invalid file";
+			  }
+			
+			
+        }
+    }
+
 
 	public function upload_file_qr(){
 	

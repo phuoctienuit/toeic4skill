@@ -82,6 +82,19 @@
             <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
             <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_reading_compre">Reading Comprehen</a></td>
           </tr>
+          <tr>
+            <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
+            <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_fulltest">Fulltest</a></td>
+          </tr>
+          <tr>
+            <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
+            <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_w_sen">Writing sen</a></td>
+          </tr>
+          <tr>
+            <td align="center"><a href="#"><img src="http://localhost/toeic4skill/application/template/image/add.png" alt="edit" width="18" height="18" border="0"></a></td>
+            <td class="navigation"><a href="<?php echo base_url(); ?>index.php/admin/create_w_ess">Writing essay</a></td>
+          </tr>
+
           
         </tbody></table>
       <br>

@@ -5,7 +5,7 @@
 <link href="<?php echo base_url();?>application/template/css/styles.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="<?php echo base_url(); ?>application/template/bootstrap/css/bootstrap.css">
 
-
+<script src="<?php echo base_url(); ?>application/template/js/admin.js"></script>
 
 
 

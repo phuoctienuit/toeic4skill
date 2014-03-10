@@ -1,6 +1,33 @@
 <?php
 class Files_Model extends CI_Model {
  
+ public function insert_file_w_ess($pathxml)
+   {
+      $data = array(
+         'pathxml'      => $pathxml,
+         
+      );
+      $this->db->insert('w_essay', $data);
+      return $this->db->insert_id();
+   }
+ public function insert_file_w_sen($pathxml)
+   {
+      $data = array(
+         'pathxml'      => $pathxml,
+         
+      );
+      $this->db->insert('w_sentence', $data);
+      return $this->db->insert_id();
+   }
+    public function insert_file_fulltest($pathxml)
+   {
+      $data = array(
+         'path'      => $pathxml,
+         
+      );
+      $this->db->insert('fulltest', $data);
+      return $this->db->insert_id();
+   }
    public function insert_file_photo($pathxml, $level)
    {
       $data = array(
