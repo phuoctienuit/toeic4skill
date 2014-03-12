@@ -3,6 +3,86 @@ class Mmain extends CI_Model{
 	public function __construct(){
         parent::__construct();
     }
+    function ghi_diem($user, $score, $causai, $ma_de, $time)
+    {
+    	$sql = "INSERT INTO score (user, score, time, MaDe, CauSai) VALUES ('$user',$score,$time,$ma_de,'$causai')";
+    	$this->db->query($sql);
+    }
+    function get_ma_de($id)
+    {
+        $this->db->select("MaDe");
+        $this->db->where("id",$id);
+        $query=$this->db->get("score");
+        return $query->first_row()->MaDe;
+    }
+    function get_score($id)
+    {
+        $this->db->select("*");
+        $this->db->where("id",$id);
+        $query=$this->db->get("score");
+        return $query->first_row()->score;
+    }
+    function get_causai($id)
+    {
+        $this->db->select("*");
+        $this->db->where("id",$id);
+        $query=$this->db->get("score");
+        $temp = $query->first_row()->CauSai;
+        $arr = explode("|", $temp);
+        $res = array();
+        foreach($arr as $item)
+        {
+        	$t = explode(":",$item);
+        	if(isset($t[1]))
+        		$res[$t[0]] = $t[1];
+        }
+        return $res;
+    }
+    function getHistory($user)
+    {
+        $this->db->select("*");
+        $this->db->where("user",$user);
+        $query=$this->db->get("score");
+        return $query->result_array();
+    }
+        function get_all_paragraph()
+        {
+            $this->db->select("id");
+            $query=$this->db->get("paragraph");
+            return $query->result_array();
+        }
+        function get_paragraph_content($id)
+        {
+            $this->db->select("content");
+            $this->db->where("id",$id);
+            $query=$this->db->get("paragraph");
+            $res = "";
+            foreach($query->result() as $row)
+            {
+                $res = $row->content;
+            }
+            return $res;
+        }
+        function get_paragraph_video($id)
+        {
+            $this->db->select("videoid");
+            $this->db->where("id",$id);
+            $query=$this->db->get("paragraph");
+            $res = "";
+            foreach($query->result() as $row)
+            {
+                $res = $row->videoid;
+            }
+            return $res;
+        }
+        function get_paragraph_missing($id)
+        {
+            $this->db->select("*");
+            $this->db->where("paragraphid",$id);
+            $this->db->order_by("stt");
+            $query=$this->db->get("missing");
+            return $query->result_array();
+        }
 	function get_sharing_ex($id){
 		$this->db->select("content");
 		$this->db->where("id",$id);

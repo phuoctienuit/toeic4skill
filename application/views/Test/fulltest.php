@@ -8,6 +8,7 @@
 						</div>
 
 						<div id="content" class="col-xs-6 col-md-9">
+							<div class="level">Đề luyện tập</div>
 							<?php 
 							if($this->session->userdata('username'))
 							{
