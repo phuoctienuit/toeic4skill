@@ -7,7 +7,12 @@ class Madmin extends CI_Model {
       $query=$this->db->get("score");
       return $query->result_array();
    }
-   
+
+   public function add_xml_to_mysql($link){
+      $data=array('pathxml'=>$link,'level'=>'500');
+      $this->db->insert('photo',$data);
+      return true;
+   }
     public function get_link_video($id){
       $this->db->select("id,link,title");
       $query=$this->db->get("video");

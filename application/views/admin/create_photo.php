@@ -8,24 +8,11 @@
 
 <div id="content"> 
  
-  <div class="title_photo">
-      <p>ADD FILE XML <b>PHOTO, PICTURE AND MP3</b></p>
-
-  </div>
-  <div id="upload_form">
-    <form action="<?php echo base_url("index.php/admin/upload_file_photo"); ?>" method="post" enctype="multipart/form-data">
-      <select name="level" id="level">
-      <option value="500">500</option>
-      <option value="750">750</option>
-      <option value="900">900</option>
-      </select></br>
-      <div class="file_lable">
-      <label for="file">Filename:</label>
-      <input type="file" name="file[]" id="file" multiple="" ><br>
-      </div>
-      <input type="submit" name="submit" value="Submit" class="submit_file">
-    </form>
-  </div>
+  <ul>
+    <li><a href="<?php echo base_url();?>index.php/admin/create_photo_upload">UPLOAD</a></li>
+    <li><a href="<?php echo base_url();?>index.php/admin/create_photo_interface">GIAO DIỆN</a></li>
+  </ul>
+  
  
 
     

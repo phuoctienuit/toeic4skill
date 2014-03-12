@@ -18,7 +18,7 @@ foreach($array_score as $a)
 
 		<!-- Text input-->
 		<div class="form-group">
-		  <label class="col-md-4 control-label" for="id">ID</label>  
+		  <label class="col-md-2 control-label" for="id">ID</label>  
 		  <div class="col-md-2">
 		  <input id="id" name="id" value="<?php echo $a['id'];?>" type="hidden" placeholder="" class="form-control input-md">
 		  </div>
@@ -26,7 +26,7 @@ foreach($array_score as $a)
 
 		<!-- Text input-->
 		<div class="form-group">
-		  <label class="col-md-4 control-label" for="user">User</label>  
+		  <label class="col-md-2 control-label" for="user">User</label>  
 		  <div class="col-md-4">
 		  <input id="user" name="user" value="<?php echo $a['user'];?>" type="text" placeholder="" class="form-control input-md">
 		    
@@ -35,7 +35,7 @@ foreach($array_score as $a)
 
 		<!-- Text input-->
 		<div class="form-group">
-		  <label class="col-md-4 control-label" for="score">Score</label>  
+		  <label class="col-md-2 control-label" for="score">Score</label>  
 		  <div class="col-md-2">
 		  <input id="score" name="score" value="<?php echo $a['score'];?>" type="text" placeholder="" class="form-control input-md">
 		    
@@ -44,7 +44,7 @@ foreach($array_score as $a)
 
 		<!-- Text input-->
 		<div class="form-group">
-		  <label class="col-md-4 control-label" for="date">Date</label>  
+		  <label class="col-md-2 control-label" for="date">Date</label>  
 		  <div class="col-md-4">
 		  <input id="date" name="date" value="<?php echo $a['date'];?>" type="text" placeholder="" class="form-control input-md">
 		    

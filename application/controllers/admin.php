@@ -774,6 +774,15 @@ public function list_file_short_con()
 		$this->load->view("admin/create_photo");
 		
 	}
+	public function create_photo_upload(){
+		$this->load->view("admin/create_photo_upload");
+		
+	}
+	public function create_photo_interface(){
+		
+		$this->load->view("admin/create_photo_interface");
+		
+	}
 	public function create_fulltest(){
 		$this->load->view("admin/create_fulltest");
 		
@@ -862,6 +871,115 @@ public function list_file_short_con()
 			
     }        }
 
+
+    
+    public function add_content_xml(){
+    	$cau=$this->input->post("cau");
+    	$noidung=$this->input->post("noidung");
+    	$a=$this->input->post("optiona");
+    	$b=$this->input->post("optionb");
+    	$c=$this->input->post("optionc");
+    	$d=$this->input->post("optiond");
+    	$key=$this->input->post("dapan");
+
+    	
+    	$file_ary = array();
+	    $file_count = count($_FILES["file"]['name']);
+	    $file_keys = array_keys($_FILES["file"]);
+
+	    if($file_count==2)
+	    {
+
+	    	for ($i=0; $i<$file_count; $i++) {
+	
+			$allowedExts = array("gif", "jpeg", "jpg", "png", "xml","mp3");
+			$temp = explode(".", $_FILES["file"]["name"][$i]);
+			$extension = end($temp);
+			
+			$upload_folder="";
+			if(($_FILES["file"]["type"][$i] == "image/jpeg")
+			|| ($_FILES["file"]["type"][$i] == "image/jpg")
+			|| ($_FILES["file"]["type"][$i] == "image/pjpeg")
+			|| ($_FILES["file"]["type"][$i] == "image/x-png"))
+			{
+				$upload_folder.="application/data_test/photo/picture/";
+			}
+			else if($_FILES["file"]["type"][$i] == "audio/mp3"){
+				$upload_folder.="application/data_test/photo/audio/";
+			}
+			
+			
+            //$file_ary[$i][$key] = $file_post[$key][$i];
+			if ((($_FILES["file"]["type"][$i] == "image/gif")
+			|| ($_FILES["file"]["type"][$i] == "image/jpeg")
+			|| ($_FILES["file"]["type"][$i] == "image/jpg")
+			|| ($_FILES["file"]["type"][$i] == "image/pjpeg")
+			|| ($_FILES["file"]["type"][$i] == "image/x-png")
+			|| ($_FILES["file"]["type"][$i] == "text/xml")
+			|| ($_FILES["file"]["type"][$i] == "audio/mp3")
+			)
+			&& in_array($extension, $allowedExts))
+			  {
+			  if ($_FILES["file"]["error"][$i] > 0)
+				{
+				echo "Return Code: " . $_FILES["file"]["error"][$i] . "<br>";
+				}
+			  else
+				{
+				
+				
+
+				if (file_exists("$upload_folder" . $_FILES["file"]["name"][$i]))
+				  {
+				  echo $_FILES["file"]["name"][$i] . " already exists. ";
+				  }
+				else
+				  {
+
+					  move_uploaded_file($_FILES["file"]["tmp_name"][$i], "$upload_folder" . $_FILES["file"]["name"][$i]);
+					  if($_FILES["file"]["type"][$i] == "audio/mp3"){
+					  	$file_mp3=$_FILES["file"]["name"][$i];
+					  }
+					  else{
+					  	$file_pic=$_FILES["file"]["name"][$i];
+					  }
+				 
+				  }
+				}
+			  }
+			else
+			  {
+			  echo "Invalid file";
+			  }
+			
+			
+       		 }
+
+	    }
+	    else
+	    {
+	    	echo "Số lượng file không đúng!";
+	    }
+
+	    
+    $xml = simplexml_load_file('application/data_test/photo/500/demo.xml');
+    
+    
+    	if($cau==1)
+    		$this->madmin->add_xml_to_mysql("http://localhost/toeic4skill/application/data_test/photo/500/demo.xml");
+		$question = $xml->addChild('question');
+		$question->addChild('cau', $cau);
+		$question->addChild('picture',$file_pic);
+		$question->addChild('audio', $file_mp3);
+		$question->addChild('optiona',$a);
+		$question->addChild('optionb',$b);
+		$question->addChild('optionc',$c);
+		$question->addChild('optiond',$d);
+		$question->addChild('key',$key);
+
+		file_put_contents('application/data_test/photo/500/demo.xml', $xml->asXML());
+	
+    }
 	public function upload_file_photo(){
 	
 	$level=$this->input->post("level");
