@@ -14,8 +14,9 @@ class Madmin extends CI_Model {
       $query=$this->db->get("photo");
       
       $quantity = $query->first_row()->quantity;
+      $quantity++;
       
-      $sql = "INSERT INTO photo(pathxml, level) VALUES ('http://localhost/toeic4skill/application/data_test/photo/$level/practice_photo_de".$quantity."_500.xml',$level)";
+      $sql = "INSERT INTO photo(pathxml, level) VALUES ('http://localhost/toeic4skill/application/data_test/photo/$level/practice_photo_de".$quantity."_$level.xml',$level)";
       $this->db->query($sql);
       return $quantity;
    }

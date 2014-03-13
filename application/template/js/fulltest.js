@@ -91,7 +91,7 @@ $(document).ready(function(){
       type: 'POST',
       data: {causai: causai,ma_de:ma_de,score:total},
       success: function(data){
-        alert(data);
+        //alert(data);
       },
       error: function(err){
         alert(err);
@@ -154,16 +154,6 @@ $(document).ready(function(){
   {
     var total=chamdiem();
     var username = $("#cur_user").html();
-    $.ajax({
-      url:base_url + 'index.php/main/rank',
-      type: 'POST',
-      data: {username: username, score: total},
-      success: function(data){
-      },
-      error: function(err){
-        alert(err);
-      }
-    });
   });
   
   $(document.body).on("click", "#btnagain", function(event)

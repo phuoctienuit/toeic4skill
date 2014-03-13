@@ -4,12 +4,19 @@
 <title>TOEIC 4 SKILL</title>
 
 <link href="<?php echo base_url();?>application/template/css/styles.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/bootstrap/css/bootstrap1.css">
 <link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/createphoto.css">
+<script src="<?php echo base_url(); ?>application/template/js/jquery-1.10.2.min.js"></script>
 
 <script src="<?php echo base_url(); ?>application/template/js/admin.js"></script>
 
-
+<script>
+      $(document).ready(function(){
+        var base_url = "<?php echo base_url(); ?>";
+        var h = document.getElementById("form_add").offsetHeight;
+        h=h+50;
+        document.getElementById("leftcolumn").style.height = h + "px";
+    </script>
 
 <div class="bodytext" id="submenu"> 
   <table width="493" border="0" class="class2">
@@ -27,7 +34,7 @@
 
 
 <div id="logo">
-  <div id="logo_title">TOEIC 4 SKILL</div>
+  <img style="height:69px;" src="<?php echo base_url(); ?>application/template/image/headeradmin.png">
 </div>
 
 

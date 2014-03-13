@@ -43,7 +43,7 @@
   
   <!--// leftcolumn edit ends -->
   
-  <img src="http://localhost/toeic4skill/application/template/image/navi_bg.jpg" alt="navi_bg" width="225" height="323"><img src="http://localhost/toeic4skill/application/template/image/navi_bg.jpg" alt="navi_bg" width="225" height="323"><br>
+  
   
     <!--// articles edit starts -->
   
@@ -106,5 +106,5 @@
   
   
   
-  <img src="http://localhost/toeic4skill/application/template/image/navi_bg.jpg" alt="navi_bg" width="225" height="323"><br>
+ 
 </div>

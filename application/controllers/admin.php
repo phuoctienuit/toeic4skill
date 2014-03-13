@@ -259,29 +259,62 @@ class Admin extends CI_Controller{
 		
 	}
 	public function view_file_photo($filename){
+
 		$fn1 = "application/data_test/photo/500/$filename";
 		$fn2 = "application/data_test/photo/750/$filename";
 		$fn3 = "application/data_test/photo/900/$filename";
 		$fn = "";
 		if(is_file($fn1))
+                {
 			$fn=$fn1;
+                        $level = 500;
+                }
 		else if(is_file($fn2))
 			$fn=$fn2;
 		else if(is_file($fn3))
 			$fn=$fn3;
-
-		if (isset($_POST['content']))
+                
+                $part_picture =simplexml_load_file($fn);
+		if ($_SERVER['REQUEST_METHOD']=="POST")
 		{
-		    $content = stripslashes($_POST['content']);
+                    $n = count($part_picture);
+                    //copy img & audio
+                    //copy image & audio
+                    $imgFolder = "application/data_test/photo/picture/";
+                    $audioFolder = "application/data_test/photo/audio/";
+                    
+                    
+		    // load the document
+                    // the root node is <info/> so we load it into $info
+                    $part_picture = simplexml_load_file($fn);
+                    
+                    foreach($part_picture as $question)
+                    {
+                        
+                        /*
+                        
+                            <picture>de2_500_cau6.jpg</picture>
+                            <audio>de2_500_cau6.mp3</audio>
+                        
+                         * 
+                         */
+                        $i = $question->cau;
+                        $question->optiona = $this->input->post("optiona$i");
+                        $question->optionb = $this->input->post("optionb$i");
+                        $question->optionc = $this->input->post("optionc$i");
+                        $question->optiond = $this->input->post("optiond$i");
+                        $question->key = $this->input->post("key$i");
+                        if($_FILES['image'.$i]['error'] == 0)
+                            move_uploaded_file($_FILES["image".$i]["tmp_name"], $imgFolder.$question->picture);
+                        if($_FILES['audio'.$i]['error'] == 0)
+                            move_uploaded_file($_FILES["audio".$i]["tmp_name"], $audioFolder.$question->audio);
+                    }
 
-		    $fp = fopen($fn,"w") or die ("Error opening file in write mode!");
-
-		    fputs($fp,$content);
-
-		    fclose($fp) or die ("Error closing file!");
+                    // save the updated document
+                    $part_picture->asXML($fn);
 		}
-		$data['fn']=$fn;
 
+		$data['part_picture']=$part_picture;
 		$this->load->view("admin/view_file_xml",$data);
 	}
 	public function view_file_writing($filename){
@@ -875,25 +908,33 @@ public function list_file_short_con()
     
     public function add_content_xml()
     {
-        var_dump($_FILES);
-        exit();
+        $n = 11;
         $level = $_POST['level'];
         //Ghi vào CSDL
-        $quantity = add_xml_photo_to_mysql($level);
+        $quantity = $this->madmin->add_xml_photo_to_mysql($level);
+        
+        //copy image & audio
+        $imgFolder = "application/data_test/photo/picture/";
+        $audioFolder = "application/data_test/photo/audio/";
+        for($i=1; $i<$n; $i++)
+        {
+            move_uploaded_file($_FILES["image".$i]["tmp_name"], $imgFolder."de".$quantity."_".$level."_cau$i.jpg");
+            move_uploaded_file($_FILES["audio".$i]["tmp_name"], $audioFolder."de".$quantity."_".$level."_cau$i.mp3");
+        }
+        
         
         //Ghi vào XML
         $xml = new DOMDocument();
         $part_picture = $xml->createElement("part_picture");
-        
-        for($i=1;$i<11;$i++)
+        for($i=1;$i<$n;$i++)
         {
             $question = $xml->createElement("question");
             $cau = $xml->createElement("cau");
             $cau->nodeValue = $i;
             $picture = $xml->createElement("picture");
-            $picture->nodeValue = "de".$quantity."1_".$level."_cau$i.jpg";
+            $picture->nodeValue = "de".$quantity."_".$level."_cau$i.jpg";
             $audio = $xml->createElement("audio");
-            $audio->nodeValue = "de".$quantity."1_".$level."_cau$i.mp3";
+            $audio->nodeValue = "de".$quantity."_".$level."_cau$i.mp3";
             $optiona = $xml->createElement("optiona");
             $optiona->nodeValue = $this->input->post("optiona$i");
             $optionb = $xml->createElement("optionb");
@@ -916,110 +957,10 @@ public function list_file_short_con()
             
             $part_picture->appendChild($question);
         }
-        
         $xml->appendChild($part_picture);
-
-        $xml->save(base_url()."application/data_test/photo500/practice_photo_de".$quantity."_$level.xml");
-    	
-    	$file_ary = array();
-        $file_count = count($_FILES["file"]['name']);
-	$file_keys = array_keys($_FILES["file"]);
-
-	if($file_count==2)
-	{
-
-	    	for ($i=0; $i<$file_count; $i++) {
-	
-			$allowedExts = array("gif", "jpeg", "jpg", "png", "xml","mp3");
-			$temp = explode(".", $_FILES["file"]["name"][$i]);
-			$extension = end($temp);
-			
-			$upload_folder="";
-			if(($_FILES["file"]["type"][$i] == "image/jpeg")
-			|| ($_FILES["file"]["type"][$i] == "image/jpg")
-			|| ($_FILES["file"]["type"][$i] == "image/pjpeg")
-			|| ($_FILES["file"]["type"][$i] == "image/x-png"))
-			{
-				$upload_folder.="application/data_test/photo/picture/";
-			}
-			else if($_FILES["file"]["type"][$i] == "audio/mp3"){
-				$upload_folder.="application/data_test/photo/audio/";
-			}
-			
-			
-            //$file_ary[$i][$key] = $file_post[$key][$i];
-			if ((($_FILES["file"]["type"][$i] == "image/gif")
-			|| ($_FILES["file"]["type"][$i] == "image/jpeg")
-			|| ($_FILES["file"]["type"][$i] == "image/jpg")
-			|| ($_FILES["file"]["type"][$i] == "image/pjpeg")
-			|| ($_FILES["file"]["type"][$i] == "image/x-png")
-			|| ($_FILES["file"]["type"][$i] == "text/xml")
-			|| ($_FILES["file"]["type"][$i] == "audio/mp3")
-			)
-			&& in_array($extension, $allowedExts))
-			  {
-			  if ($_FILES["file"]["error"][$i] > 0)
-				{
-				echo "Return Code: " . $_FILES["file"]["error"][$i] . "<br>";
-				}
-			  else
-				{
-				
-				
-
-				if (file_exists("$upload_folder" . $_FILES["file"]["name"][$i]))
-				  {
-				  echo $_FILES["file"]["name"][$i] . " already exists. ";
-				  }
-				else
-				  {
-
-					  move_uploaded_file($_FILES["file"]["tmp_name"][$i], "$upload_folder" . $_FILES["file"]["name"][$i]);
-					  if($_FILES["file"]["type"][$i] == "audio/mp3"){
-					  	$file_mp3=$_FILES["file"]["name"][$i];
-					  }
-					  else{
-					  	$file_pic=$_FILES["file"]["name"][$i];
-					  }
-				 
-				  }
-				}
-			  }
-			else
-			  {
-			  echo "Invalid file";
-			  }
-			
-			
-       		 }
-
-	    }
-	else
-	{
-            echo "Số lượng file không đúng!";
-	}
-
-	
+        $xml->save("application/data_test/photo/$level/practice_photo_de".$quantity."_$level.xml");
         
-        
-        
-        $xml = simplexml_load_file('application/data_test/photo/500/demo.xml');
-    
-    
-    	
-    		$this->madmin->add_xml_to_mysql("http://localhost/toeic4skill/application/data_test/photo/500/demo.xml");
-	$question = $xml->addChild('question');
-	$question->addChild('cau', $cau);
-	$question->addChild('picture',$file_pic);
-	$question->addChild('audio', $file_mp3);
-	$question->addChild('optiona',$a);
-	$question->addChild('optionb',$b);
-	$question->addChild('optionc',$c);
-	$question->addChild('optiond',$d);
-	$question->addChild('key',$key);
-
-        file_put_contents('application/data_test/photo/500/demo.xml', $xml->asXML());
-	
+    	header("Location: ".base_url()."index.php/admin/view_file_photo/practice_photo_de".$quantity."_$level.xml");
     }
 	public function upload_file_photo(){
 	

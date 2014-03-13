@@ -11,5 +11,43 @@
     border-radius:7px;
     padding:10px 10px;
     background-color:#eee;
+    margin-top:
+}
+#levelde{
+    margin-top:10px;
+    font-size:150%;
+    color:red;
+    
+}
+.level{
+}
+.sttcauhoi{
+    margin-top:20px;
+    color: red;
+    font-weight:bold;
+}
+.submit_file{
+    padding: 10px;
+    width: 100px;
+    font-weight:bold;
+}
+#content{
+    margin-left: 40px;
 }
 
+.class{
+    width: 300px;
+    margin-left: 10px;
+}
+#dapan{
+    margin-left:43px;
+}
+.title{
+    color: red;
+    margin-top: 10px;
+    font-size: 150%;
+    font-weight:bold;
+}
+#form_add{
+    margin-bottom: 50px;
+}

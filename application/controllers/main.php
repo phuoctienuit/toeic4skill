@@ -19,7 +19,7 @@ class Main extends CI_Controller{
 		$causai = $_POST['causai'];
 		$score = $_POST['score'];
 		$ma_de = $_POST['ma_de'];
-		date_default_timezone_set("Asia/Saigon"); 
+		date_default_timezone_set('Asia/Ho_Chi_Minh'); 
 		$time = time();
 		$this->mmain->ghi_diem($user, $score, $causai, $ma_de, $time);
 

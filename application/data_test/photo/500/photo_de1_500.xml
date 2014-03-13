@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!-- 10 cau-->
 <part_picture>
 	<question>
@@ -26,10 +27,10 @@
 		<cau>3</cau>
 		<picture>de1_500_cau3.jpg</picture>
 		<audio>de1_500_cau3.mp3</audio>
-		<optiona>She’s reading a book on the bench</optiona>
-		<optionb>She’s reaching for a book</optionb>
-		<optionc>She’s looking for a seat</optionc>
-		<optiond>She’s drinking from a cup</optiond>
+		<optiona>She&#x2019;s reading a book on the bench</optiona>
+		<optionb>She&#x2019;s reaching for a book</optionb>
+		<optionc>She&#x2019;s looking for a seat</optionc>
+		<optiond>She&#x2019;s drinking from a cup</optiond>
 		<key>a</key>
 	</question>	
 	
@@ -48,10 +49,10 @@
 		<cau>5</cau>
 		<picture>de1_500_cau5.jpg</picture>
 		<audio>de1_500_cau5.mp3</audio>
-		<optiona>He’s climbing a tree</optiona>
-		<optionb>He’s wearing short pants</optionb>
-		<optionc>He’s painting a picture</optionc>
-		<optiond>He’s brushing his hair</optiond>
+		<optiona>He&#x2019;s climbing a tree</optiona>
+		<optionb>He&#x2019;s wearing short pants</optionb>
+		<optionc>He&#x2019;s painting a picture</optionc>
+		<optiond>He&#x2019;s brushing his hair</optiond>
 		<key>c</key>
 	</question>	
 	
@@ -92,10 +93,10 @@
 		<cau>9</cau>
 		<picture>de1_500_cau9.jpg</picture>
 		<audio>de1_500_cau9.mp3</audio>
-		<optiona>They’re parking the car</optiona>
-		<optionb>They’re paying their taxes</optionb>
-		<optionc>They’re changing a tire</optionc>
-		<optiond>They’re getting into car</optiond>
+		<optiona>They&#x2019;re parking the car</optiona>
+		<optionb>They&#x2019;re paying their taxes</optionb>
+		<optionc>They&#x2019;re changing a tire</optionc>
+		<optiond>They&#x2019;re getting into car</optiond>
 		<key>d</key>
 	</question>	
 	<question>
