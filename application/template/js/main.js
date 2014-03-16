@@ -22,6 +22,9 @@ $(document).ready(function(){
                 signup.attr('id', 'currentuser');
                 signup.html("Hello, "+ username);
             }
+            else if(data=="admin"){
+                window.location.assign(base_url+"index.php/main/indexadmin")
+            }
             else
             {
                 alert("Username hoac password sai!");

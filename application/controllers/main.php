@@ -8,6 +8,19 @@ class Main extends CI_Controller{
 		$this->load->view("main_view",$data);
 		
 	}
+	public function indexadmin(){
+		if(!$this->session->userdata('username')||$this->session->userdata('username')!="admin"){
+			header('Location: ' .base_url().'index.php/main/index');
+			exit();
+		}
+		$data['topscore'] = $this->mmain->topscore();
+		$this->load->view("admin_view",$data);
+		
+	}
+	public function admin(){
+		$this->load->view("admin/view_admin");
+		
+	}
 	public function speakingformat(){
 		$data['topscore'] = $this->mmain->topscore();
 		$this-> load-> view("speakingformat",$data);
@@ -58,9 +71,13 @@ class Main extends CI_Controller{
 			$infocheck=$this->mmain->check_login($info);
 			if($infocheck)
 			{
-
-				echo "ok";
 				$this->session->set_userdata('username', $info['username']);
+				if($info['username']=="admin"){
+					echo "admin";
+				}
+				else
+					echo "ok";
+
 			}
 			else
 				echo "err";
