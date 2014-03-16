@@ -66,8 +66,8 @@ div.option div.status{
 
 .show_answer{
 	display:none;
-	float: left;
-	margin-left: 20px;
+	//float: left;
+	margin-left: 70px;
 	}
 .option .selection{
 	clear:both;
@@ -78,8 +78,8 @@ div.option div.status{
 .option .selection input{
 	float: left;
 }
-.option .letter{
-	//float: left;
+.option span{
+	float: left!important;
 	margin-left:10px;
 }
 .request{

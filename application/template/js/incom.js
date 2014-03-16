@@ -9,7 +9,8 @@ $(document).ready(function(){
   
   $(document.body).on("click", "#btnanswer", function(event)
   {
-  	$("div.status").html("");
+  	$("div.status").html("");    
+    $("div.letter").css("border","solid");
     $(".content_short_con").css("display","block");// for short con listening
   	$('div.option').each(function() {
     	var cur = $(this);

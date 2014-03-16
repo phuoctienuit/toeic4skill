@@ -11,6 +11,7 @@ $(document).ready(function(){
   $(document.body).on("click", "#btnanswer", function(event)
   {
   	$("div.status").html("");
+    $("div.letter").css("float","left");
     $(".show_answer").css("display","block");
     $(".group_content").css("display","block");
   	$('div.option').each(function() {

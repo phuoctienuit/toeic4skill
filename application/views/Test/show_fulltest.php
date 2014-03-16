@@ -697,3 +697,11 @@
 				</div>
 			</div><!--/main-->
 <?php $this->load->view('layout/footer');?>
+<?php
+	if($username)
+	{
+?>
+	<div id="cur_user" style="display:none"><?php echo $username;?></div>
+<?php
+	}
+?>

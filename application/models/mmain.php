@@ -330,5 +330,10 @@ class Mmain extends CI_Model{
 		$query=$this->db->get("score");
 		return $query->result_array();
 	}
+	function rank($username, $score){
+		$sql = "INSERT INTO  score (user, score) VALUES ('$username', $score)";
+		echo "INSERT INTO  score (user, score) VALUES ('$username', $score)";
+    	$this->db->query($sql);
+	}
 }
 ?>

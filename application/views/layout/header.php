@@ -101,6 +101,7 @@
 					</nav>
 			</div>
 
+
 <div class="popup">
 	<div id="container_login">
 		<img class="btnclose" src="<?php echo base_url(); ?>application/template/image/close-icon.png" width="32" height="32"alt="">

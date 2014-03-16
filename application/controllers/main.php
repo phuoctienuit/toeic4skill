@@ -419,5 +419,10 @@ class Main extends CI_Controller{
 		$data['topscore'] = $this->mmain->topscore();
 		$this->load->view('test/show_minitest');
 	}
+	public function rank(){
+			$username=$this->input->post('username');
+			$score=$this->input->post('score');
+			$this->mmain->rank($username,$score);
+	}
 }
 ?>

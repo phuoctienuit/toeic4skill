@@ -82,7 +82,8 @@ $(document).ready(function(){
     read_result=read_score[numlis-1];
     var total=parseInt(list_result)+parseInt(read_result);
     alert("Kết quả bài thi:\n Bạn được:\n"+list_result+" điểm phần listening.\n"+read_result+" điểm phần reading.\nTổng cộng: "+total+" điểm.\nHệ thống sẽ ghi nhận số điểm của bạn");
-  $("#btnanswer").hide();
+    $("#btnanswer").hide();
+    return total;
    }
 
   $(document.body).on("click", "#btnnext", function(event)
@@ -133,7 +134,19 @@ $(document).ready(function(){
 
    $(document.body).on("click", "#btnanswer", function(event)
   {
-    chamdiem();
+    var total=chamdiem();
+    var username = $("#cur_user").html();
+    $.ajax({
+        url:base_url + 'index.php/main/rank',
+        type: 'POST',
+        data: {username: username, score: total},
+        success: function(data){
+          alert(data);
+        },
+        error: function(err){
+          alert(err);
+        }
+    });
   });
    $(document.body).on("click", "#btnagain", function(event)
     {

@@ -1,6 +1,5 @@
 <?php $this->load->view('layout/header');?>
 <script src="<?php echo base_url(); ?>application/template/js/photo.js"></script>
-
 			<div id="main">
 				<div class="container">
 					<div class="row">

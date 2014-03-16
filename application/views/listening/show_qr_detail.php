@@ -35,15 +35,15 @@
 									<div class='option' id="<?php echo $cau;?>">
 										<div class="selection">
 											<div class="status a"></div>
-											<input type="radio" name="radioquestion<?php echo $cau;?>" value="a"/><span> A.</span><?php echo "<p class='show_answer'>"." ".$optiona."</p>";?>
+											<input type="radio" name="radioquestion<?php echo $cau;?>" value="a"/><span class="letter"> A.</span><?php echo "<p class='show_answer'>"." ".$optiona."</p>";?>
 										</div>
 										<div class="selection">
 											<div class="status b "></div>
-											<input type="radio" name="radioquestion<?php echo $cau;?>" value="b"/><span> B.</span><?php echo "<p class='show_answer'>"." ".$optionb."</p>";?>
+											<input type="radio" name="radioquestion<?php echo $cau;?>" value="b"/><span class="letter"> B.</span><?php echo "<p class='show_answer'>"." ".$optionb."</p>";?>
 										</div>
 										<div class="selection">
 											<div class="status c"></div>
-											<input type="radio" name="radioquestion<?php echo $cau;?>" value="c"/><span> C.</span><?php echo "<p class='show_answer'>"." ".$optionc."</p>";?>
+											<input type="radio" name="radioquestion<?php echo $cau;?>" value="c"/><span class="letter"> C.</span><?php echo "<p class='show_answer'>"." ".$optionc."</p>";?>
 										</div>
 										
 										<input type="hidden" class="key" value="<?php echo $answer; ?>"/>
