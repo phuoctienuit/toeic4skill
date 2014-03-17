@@ -339,6 +339,7 @@ class Main extends CI_Controller{
         $config['uri_segment'] = 4; 
         $this->pagination->initialize($config); 
 		$data['sharing_id']=$this->mmain->get_id_name_sharing_writing($type,$start,$limit);
+		$data['topscore'] = $this->mmain->topscore();
 		$this-> load-> view("/writing/sharing_writing",$data);
 
 	}
@@ -354,12 +355,14 @@ class Main extends CI_Controller{
 
 	}
 	public function list_w_sentence(){
+		$data['topscore'] = $this->mmain->topscore();
 		$data['w_sen_id']=$this->mmain->get_id_w_sentence();
 		$this-> load-> view("/writing/show_list_w_sentence",$data);
 
 	}
 	
 	public function list_w_essay(){
+		$data['topscore'] = $this->mmain->topscore();
 		$data['w_sen_id']=$this->mmain->get_id_w_essay();
 		$this-> load-> view("/writing/show_list_w_essay",$data);
 
@@ -376,6 +379,7 @@ class Main extends CI_Controller{
 		$data['feed'] = array_slice($items, $this->uri->segment(4), $config['per_page']);
 		$data['image']=base_url().'application/data_test/short_con/audio/';
 		$data['link_image']=base_url().'application/template/image/';
+		$data['topscore'] = $this->mmain->topscore();
 		$this->load->view('/writing/show_w_sentence_detail',$data);
 	}
 	
@@ -391,6 +395,7 @@ class Main extends CI_Controller{
 		$data['feed'] = array_slice($items, $this->uri->segment(4), $config['per_page']);
 		$data['image']=base_url().'application/data_test/short_con/audio/';
 		$data['link_image']=base_url().'application/template/image/';
+		$data['topscore'] = $this->mmain->topscore();
 		$this->load->view('/writing/show_w_essay_detail',$data);
 	}
 	public function w_response($start=0){
@@ -401,6 +406,7 @@ class Main extends CI_Controller{
         $config['uri_segment'] = 3; 
         $this->pagination->initialize($config); 
 		$data['resp']=$this->mmain->get_data_w_response();
+		$data['topscore'] = $this->mmain->topscore();
 		$this->load->view("/writing/show_w_response",$data);
 
 	}
@@ -433,8 +439,11 @@ class Main extends CI_Controller{
 		$this-> load-> view("test/minitest",$data);
 	}
 	public function show_minitest($id){
+		$data['minitest_path']=$this->mmain->get_minitest_pathxml($id);
+		$data['link_image']=base_url().'application/data_test/minitest/picture/';
+		$data['link_audio']=base_url().'application/data_test/minitest/audio/';
 		$data['topscore'] = $this->mmain->topscore();
-		$this->load->view('test/show_minitest');
+		$this->load->view('test/show_minitest',$data);
 	}
 	public function rank(){
 			$username=$this->input->post('username');

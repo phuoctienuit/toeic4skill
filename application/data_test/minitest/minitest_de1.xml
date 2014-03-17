@@ -1,0 +1,1268 @@
+<de1>
+<picture>
+	<question>
+		<cau>1</cau>
+		<picture>de1_cau1.jpg</picture>
+		<audio>de1_cau1.mp3</audio>
+		<optiona>They are brushing their teeth</optiona>
+		<optionb>The man is shaving</optionb>
+		<optionc>They are washing their hands</optionc>
+		<optiond>The man is adjusting his tie</optiond>
+		<key>d</key>
+	</question>	
+	
+	<question>
+		<cau>2</cau>
+		<picture>de1_cau2.jpg</picture>
+		<audio>de1_cau2.mp3</audio>
+		<optiona>People are going into an amusement park</optiona>
+		<optionb>People are working on the building</optionb>
+		<optionc>People are riding a roller coaster</optionc>
+		<optiond>People are roller skating</optiond>
+		<key>c</key>
+	</question>	
+	
+	<question>
+		<cau>3</cau>
+		<picture>de1_cau3.jpg</picture>
+		<audio>de1_cau3.mp3</audio>
+		<optiona>She’s reading a book on the bench</optiona>
+		<optionb>She’s reaching for a book</optionb>
+		<optionc>She’s looking for a seat</optionc>
+		<optiond>She’s drinking from a cup</optiond>
+		<key>a</key>
+	</question>	
+	
+	<question>
+		<cau>4</cau>
+		<picture>de1_cau4.jpg</picture>
+		<audio>de1_cau4.mp3</audio>
+		<optiona>The men are fishing</optiona>
+		<optionb>The man is rowing the boat</optionb>
+		<optionc>The water is very calm</optionc>
+		<optiond>The people are in the sailboat</optiond>
+		<key>c</key>
+	</question>	
+	
+	<question>
+		<cau>5</cau>
+		<picture>de1_cau5.jpg</picture>
+		<audio>de1_cau5.mp3</audio>
+		<optiona>He’s climbing a tree</optiona>
+		<optionb>He’s wearing short pants</optionb>
+		<optionc>He’s painting a picture</optionc>
+		<optiond>He’s brushing his hair</optiond>
+		<key>c</key>
+	</question>			
+</picture>
+
+<QR>
+	<question>
+		<cau>6</cau>
+		<audio>de1_cau6.mp3</audio>
+		<content>Why did Ms. Chen call a meeting today?</content>
+		<optiona>It’s today</optiona>
+		<optionb>At 2:30, I think</optionb>
+		<optionc>Because we have to discuss the budget</optionc>
+		<key>c</key>
+	</question>
+	
+	<question>
+		<cau>7</cau>
+		<audio>de1_cau7.mp3</audio>
+		<content>Do you know what time the offices close?</content>
+		<optiona>I think everyone leaves by 5:30</optiona>
+		<optionb>Yes, the offices are closed</optionb>
+		<optionc>You really should buy some new clothes</optionc>
+		<key>a</key>
+	</question>
+	
+	<question>
+		<cau>8</cau>
+		<audio>de1_cau8.mp3</audio>
+		<content>Who is going to meet Mr. Continue at the airport?</content>
+		<optiona>He’s at the airport</optiona>
+		<optionb>Mrs. Garcia will pick him up</optionb>
+		<optionc>At ten o’clock</optionc>
+		<key>b</key>
+	</question>
+	
+	<question>
+		<cau>9</cau>
+		<audio>de1_cau9.mp3</audio>
+		<content>When can I call you?</content>
+		<optiona>Tomorrow morning is a good time</optiona>
+		<optionb>Most people just call me Maria</optionb>
+		<optionc>My office is the best place to talk</optionc>
+		<key>a</key>
+	</question>
+	
+	<question>
+		<cau>10</cau>
+		<audio>de1_cau10.mp3</audio>
+		<content>Where do you usually park your car?</content>
+		<optiona>There’s a beautiful park nearby</optiona>
+		<optionb>In the garage across the street</optionb>
+		<optionc>I had to take it to the mechanic last week</optionc>
+		<key>b</key>
+	</question>
+	
+	<question>
+		<cau>11</cau>
+		<audio>de1_cau11.mp3</audio>
+		<content>Are you almost ready for the meeting?</content>
+		<optiona>I met him at the reception last night</optiona>
+		<optionb>No, it’s in the big conference room</optionb>
+		<optionc>Yes, I just have to finish typing these notes</optionc>
+		<key>c</key>
+	</question>
+	
+		<question>
+		<cau>12</cau>
+		<audio>de1_cau12.mp3</audio>
+		<content>Where did you put the packages for Ms. Sato?</content>
+		<optiona>Ms. Sato is over there</optiona>
+		<optionb>They’re on her desk</optionb>
+		<optionc>She packed her bags</optionc>
+		<key>b</key>
+	</question>
+	
+		<question>
+		<cau>13</cau>
+		<audio>de1_cau13.mp3</audio>
+		<content>Do you know whose keys these are?</content>
+		<optiona>I left them on your desk</optiona>
+		<optionb>I think they’re Mr. Kim’s</optionb>
+		<optionc>They’re the keys to the closet door</optionc>
+		<key>b</key>
+	</question>
+	
+		<question>
+		<cau>14</cau>
+		<audio>de1_cau14.mp3</audio>
+		<content>When did the director arrive?</content>
+		<optiona>Since this morning</optiona>
+		<optionb>At the airport</optionb>
+		<optionc>Late last night</optionc>
+		<key>c</key>
+	</question>
+	<!--End practice 1- QR MsHoa toeic-->
+		<question>
+		<cau>15</cau>
+		<audio>de1_cau15.mp3</audio>
+		<content>Did you notice whether Ms. Kovacs was at the reception?</content>
+		<optiona>Yes, I took thorough notes</optiona>
+		<optionb>Yes, she was there</optionb>
+		<optionc>Yes, she received it</optionc>
+		<key>b</key>
+		  
+	</question>
+	
+		<question>
+		<cau>16</cau>
+		<audio>de1_cau16.mp3</audio>
+		<content>Would you like to go to a movie with us after work?</content>
+		<optiona>Yes, we took a long walk</optiona>
+		<optionb>Yes, that’s a great idea</optionb>
+		<optionc>Yes, I worked all afternoon </optionc>
+		<key>b</key>
+	
+	</question>
+	
+		<question>
+		<cau>17</cau>
+		<audio>de1_cau17.mp3</audio>
+		<content>How long do you plan to stay in Tokyo?</content>
+		<optiona>Only about three or four days</optiona>
+		<optionb>I haven’t been there in a long time</optionb>
+		<optionc>At one of the downtown hotels</optionc>
+		<key>a</key>
+	</question>
+	
+		<question>
+		<cau>18</cau>
+		<audio>de1_cau18.mp3</audio>
+		<content>How can I make an appointment with Ms. Lee?</content>
+		<optiona>She’s very happy about her new position</optiona>
+		<optionb>You won’t be disappointed</optionb>
+		<optionc>You should speak with her assistant </optionc>
+		<key>c</key>
+
+	</question>
+	
+		<question>
+		<cau>19</cau>
+		<audio>de1_cau19.mp3</audio>
+		<content>Were you able to book a hotel for next week?</content>
+		<optiona>I’ve already read that book</optiona>
+		<optionb>Yes, I got a room at a nice place downtown</optionb>
+		<optionc>No, I didn’t  </optionc>
+		<key>b</key>
+		
+	</question>
+	
+		<question>
+		<cau>20</cau>
+		<audio>de1_cau20.mp3</audio>
+		<content>Where would you like to eat dinner?</content>
+		<optiona>As soon as I finish typing this document</optiona>
+		<optionb>We could try that restaurant across the street</optionb>
+		<optionc>Yes, I would like that very much</optionc>
+		<key>b</key>
+	
+	</question>
+	
+		
+</QR>
+
+<short_con>
+	<group>
+		<id>21</id>
+		<audio>de1_cau21.mp3</audio>
+		<group_content> W: Kevin, when is everyone meeting to commemorate Jim’s retirement?
+
+						M: The invitation said 7 o’clock. Do you know where the banquet hall is?
+
+						W: Yes, it’s in the Westbotten Harborfront Hotel, next to the supermarket. But I need t stopby the bakery first, so I probably won’t arrive until 7.30.
+
+						M: OK, I see, but don’t be too late because I will be waiting for you.
+		</group_content>
+		<question>
+			<cau>21</cau>
+			<content>What is the celebration for?</content>
+			<optiona>The promotion of a coworker</optiona>
+			<optionb>The opening of a new banquet facility</optionb>
+			<optionc>The anniversary of the hotel</optionc>
+			<optiond>The retirement of a colleague</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>22</cau>
+			<content>When will the celebration start?</content>
+			<optiona>At 6.00 </optiona>
+			<optionb>At 6.30 </optionb>
+			<optionc>At 7.00 </optionc>
+			<optiond>At 7.30 </optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>23</cau>
+			<content>Where will the woman go before the party?</content>
+			<optiona>To the banquet hall </optiona>
+			<optionb>To the hotel lobby </optionb>
+			<optionc>To a bakery </optionc>
+			<optiond>To a supermarket </optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>24</id>
+		<audio>de1_cau24.mp3</audio>
+		<group_content>
+		M: Good afternoon Telus Mobility. What can I do for you?
+
+		W: Hello. I was wondering if you can help me with my cell phone bill. I haven’t used my cell phone any more than usual , however the total this month seems to be much more than in the past.
+
+		M: It could be that the monthly service charge has increased, but let me look over your invoice. What’s your telephone number?
+
+		W: It’s 555-9328. My last name is Hawk.
+		</group_content>
+		<question>
+			<cau>24</cau>
+			<content>What kind of company does the man work for?</content>
+			<optiona>A delivery service company </optiona>
+			<optionb>An Internet provider </optionb>
+			<optionc>A mobile phone company </optionc>
+			<optiond>An accountant’s office </optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>25</cau>
+			<content>How does the man explain the change in the women’s bill?</content>
+			<optiona>The price may have risen </optiona>
+			<optionb>The woman has two cell phones </optionb>
+			<optionc>There was an accounting error </optionc>
+			<optiond>The woman may have used her cell phone more than usual. </optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>26</cau>
+			<content>What information does the man ask the woman for?</content>
+			<optiona>Her invoice number</optiona>
+			<optionb>Her telephone number</optionb>
+			<optionc>Her monthly balance</optionc>
+			<optiond>Her identification number</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>27</id>
+		<audio>de1_cau27.mp3</audio>
+		<group_content>
+		M: Julie, would you please push back my 1:00 appointment this afternoon? I have an emergency meeting with the president.
+
+		W: Of course, Mr. Laurie. When would you like to reschedule?
+
+		M: Well, the president informed me that some clients will be arriving at 2, so let’s say 4 o’clock. I should be back in my office by then.
+
+		W: Great, I’ll see if he can be here at 4.
+		</group_content>
+		<question>
+			<cau>27</cau>
+			<content>What would the man like Julie to do?</content>
+			<optiona>Meet with the president</optiona>
+			<optionb>Change an appointment time</optionb>
+			<optionc>Come to the office later</optionc>
+			<optiond>Contact some clients </optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>28</cau>
+			<content>What will the man do this afternoon?</content>
+			<optiona>Meet with some clients</optiona>
+			<optionb>Call the president’s office</optionb>
+			<optionc>Go to the emergency room</optionc>
+			<optiond>Relocate his office </optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>29</cau>
+			<content>What time the man will start his appointment this afternoon?</content>
+			<optiona>At 1 o’clock</optiona>
+			<optionb>At 2 o’clock</optionb>
+			<optionc>At 3 o’clock</optionc>
+			<optiond>At 4 o’clock</optiond>
+			<key>d</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>30</id>
+		<audio>de1_cau30.mp3</audio>
+		<group_content>
+		W: Excuse me, how much is the entrance fee?
+
+		M: It’s ix dollars for adults and four dollars for seniors and children under 12.
+
+		W: That’s a lot more than I expected. We only wanted to go to the gift shop. They just called about some posters that I had ordered. It’ll only be about 20 minutes.
+
+		M: Well, I can offer you a half price coupon. Would you like to use it?
+		</group_content>
+		<question>
+			<cau>30</cau>
+			<content>Who most likely is the man?</content>
+			<optiona>An information desk clerk</optiona>
+			<optionb>A gift shop owner</optionb>
+			<optionc>A parking attendant</optionc>
+			<optiond>A supermarket cashier</optiond>
+			<key>a</key>
+			
+		</question>
+		<question>
+			<cau>31</cau>
+			<content>Where is the woman going?</content>
+			<optiona>To meet with a boutique owner</optiona>
+			<optionb>To visit an art gallery</optionb>
+			<optionc>To check her order</optionc>
+			<optiond>To walk around a shopping mall </optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>32</cau>
+			<content>How does the man suggest lowering the admission price?</content>
+			<optiona>Returning another day</optiona>
+			<optionb>Calling the shop owner</optionb>
+			<optionc>Using a discount coupon</optionc>
+			<optiond>Charging her the senior’s rate</optiond>
+			<key>c</key>
+			
+		</question>
+	</group>
+	
+	<group>
+		<id>33</id>
+		<audio>de1_cau33.mp3</audio>
+		<group_content>
+		M: I’m here with a delivery. Some office supplies, a filing cabinet, and a bookshelf, I believe. I’m going to have to get someone to sign for them. Is there a manager available?
+
+		W: She’s out of the office this afternoon. I’m her assistant, I can sign for them.
+
+		M: Thank you, that’s great. Where should I leave the supplies?
+
+		W: The filing cabinet can go in the conference room and the bookshelf and the boxes of supplies can be left right here.
+		</group_content>
+		<question>
+			<cau>33</cau>
+			<content>Where is the conversation most likely taking place?</content>
+			<optiona>At a shipping company</optiona>
+			<optionb>At an office building</optionb>
+			<optionc>At an office supplies store</optionc>
+			<optiond>At a library </optiond>
+			<key>b</key>
+			
+		</question>
+		<question>
+			<cau>34</cau>
+			<content>What does the assistant offer to do?</content>
+			<optiona>Help move the supplies </optiona>
+			<optionb>Phone his manager </optionb>
+			<optionc>Sign the form</optionc>
+			<optiond>Open the conference room </optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>35</cau>
+			<content>What will be delivered to the conference room?</content>
+			<optiona>A bookshelf</optiona>
+			<optionb>A filing cabinet</optionb>
+			<optionc>Office supplies</optionc>
+			<optiond>Meeting tables</optiond>
+			<key>b</key>
+		
+		</question>
+	</group>
+
+</short_con>
+
+<short_talk>
+	<group>
+		<id>36</id>
+		<group_content>
+		Hello. My name is Claudia and I am happy to be your host and guide this afternoon.
+		It’s currently 12:30 and we will begin our tour of the facilities at 1:00. 
+		But before we get started, I do have a few announcements to make. 
+		Unfortunately, we do not allow any visitors to photograph the equipment or video the baking process. 
+		The first part of the tour will finish at 2 p. m. 
+		However, you will have a couple of unguided hours to visit our labs and tasting rooms before you leave the premises. 
+		Feel free to ask any questions that you may have at anytime throughout the tour. I do hope that you enjoy your visit. 
+		</group_content>
+		<audio>de1_cau36.mp3</audio>
+		<question>
+			<cau>36</cau>
+			<content>Who most likely are the visitors?</content>
+			<optiona>A semi-conductor plant</optiona>
+			<optionb>A famous museum</optionb>
+			<optionc>A large bakery’s facilities</optionc>
+			<optiond>A supermarket</optiond>
+			<key>c</key>
+		</question>
+		
+		<question>
+			<cau>37</cau>
+			<content>What will happen at 2:00?</content>
+			<optiona>The visitors will ask question</optiona>
+			<optionb>The guided part of the tour will end</optionb>
+			<optionc>The tasting rooms will close</optionc>
+			<optiond>The visitors can take photograph</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>38</cau>
+			<content>How long will the visitors be on their own?</content>
+			<optiona>30 minutes</optiona>
+			<optionb>One hour</optionb>
+			<optionc>Two hours</optionc>
+			<optiond>Three hours</optiond>
+			<key>c</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>39</id>
+		<group_content>
+		I am pleased announce the grand opening of Atlas Steels Corporation here in Hamilton.
+		As directed operations, I can only try to express how proud I am.
+		We will open the plant doors in early July and will look at hiring an additional 100 staff members, 
+		and then closer to the end of the year we will most likely bring on another 75 people. 
+		We’ve expanded quite a bit since our first production facility in Milton, 
+		to our present day plants in Portland, Rochester, St. Louis, and now here in Hamilton. 
+		We are looking forward to joining the community.
+		</group_content>
+		<audio>de1_cau39.mp3</audio>
+		<question>
+			<cau>39</cau>
+			<content>Who most likely is the speaker?</content>
+			<optiona>A construction crew member</optiona>
+			<optionb>A steel engineer</optionb>
+			<optionc>A plant supervisor</optionc>
+			<optiond>A company’s director</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>40</cau>
+			<content>How many staff will the company employ when it opens?</content>
+			<optiona>50</optiona>
+			<optionb>75</optionb>
+			<optionc>100</optionc>
+			<optiond>125</optiond>
+			<key>c</key>
+		</question>
+		
+		<question>
+			<cau>41</cau>
+			<content>Where was the first facility?</content>
+			<optiona>Milton</optiona>
+			<optionb>Portland</optionb>
+			<optionc>St. Louis</optionc>
+			<optiond>Rochester</optiond>
+			<key>a</key>
+		</question>
+	</group>
+		
+	<group>
+		<id>42</id>
+		<group_content>
+		Hello, this is Katie Burke calling from Cogeco Internet Services Mr. Clifford, 
+		the reason I’m calling is we haven’t received your payment for the installation of the modem and cable. 
+		We need your payment in order to activate your service. 
+		Please contact us at 1-800-222-4503, between 8 a.m. and 6 p.m., Monday through Saturday. 
+		Thank you. We look forward to hearing from you at your earliest convenience. 
+		</group_content>
+		<audio>de1_cau42.mp3</audio>
+		<question>
+			<cau>42</cau>
+			<content>What is the reason for the call?</content>
+			<optiona>To get Mr. Clifford’s contact information</optiona>
+			<optionb>To set up an installation</optionb>
+			<optionc>To discuss available Internet packages</optionc>
+			<optiond>To receive payment for a service</optiond>
+			<key>d</key>
+		</question>
+		
+		<question>
+			<cau>43</cau>
+			<content>What is Mr. Clifford asked to do?</content>
+			<optiona>Send an e-mail</optiona>
+			<optionb>Call the company</optionb>
+			<optionc>Drop by the office</optionc>
+			<optiond>Register for services</optiond>
+			<key>b</key>
+		</question>
+		
+		<question>
+			<cau>44</cau>
+			<content>When does Katie expect to hear from Mr. Clifford?</content>
+			<optiona>On Monday, between 8 and 6 o’clock</optiona>
+			<optionb>As soon as possible</optionb>
+			<optionc>Before the installation date</optionc>
+			<optiond>After the payment due date</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<!--end practice 1 begin 2-->
+	<group>
+		<id>45</id>
+		<group_content>
+		Good afternoon. I need to remind you of an upcoming event prior to the beginning of our meeting. 
+		Newport Painters are arriving on Tuesday to paint the offices in the west wing of our building.
+		The painters should be here for three days. If you have an office in the west wing,
+		be sure to contact Ms. Peters in human resources to find out where you will be relocated to. 
+		Furthermore, remove all confidential files by the end of business on Monday. 
+		If you have any further questions, speak to Ms. Peters.
+		</group_content>
+		<audio>de1_cau45.mp3</audio>
+		<question>
+			<cau>45</cau>
+			<content>What is the announcement about?</content>
+			<optiona>Employment opportunities with human resources</optiona>
+			<optionb>Information regarding interior decorating</optionb>
+			<optionc>Changes in the meeting schedules</optionc>
+			<optiond>Preparations for the board meeting</optiond>
+			<key>b</key>
+		</question>
+		
+		<question>
+			<cau>46</cau>
+			<content>How can employees find out the location of their new offices?</content>
+			<optiona>By phoning the human resources department</optiona>
+			<optionb>By speaking to their manager</optionb>
+			<optionc>By visiting the lobby of the building</optionc>
+			<optiond>By contacting Newport Painters</optiond>
+			<key>a</key>
+		</question>
+		
+		<question>
+			<cau>47</cau>
+			<content>What are staff asked to do on Monday before they leave?</content>
+			<optiona>Clean up their workspace</optiona>
+			<optionb>Turn off their computers</optionb>
+			<optionc>Contact the human resources department</optionc>
+			<optiond>Put away confidential files</optiond>
+			<key>d</key>
+		</question>
+	</group>
+	
+	<group>
+		<id>48</id>
+		<group_content>
+		Do you like French food? If so, you will love Chateau Francois, on the corner of John Street and Richardson Avenue. 
+		Stop by for dinner to enjoy traditional French cuisine: escargot, homemade bread, and fine wines. 
+		For dessert, why don’t you try pastries with fresh fruit and rich dark chocolate? 
+		The thing that makes Chateau Francois truly unique is the restaurant’s location. 
+		Our newly-designed chef’s deck overlooks our estate vineyards and the beautiful Potemac  River.
+		Enjoy the view as you relax over a glass of wine. We look forward to seeing you for dinner.
+		</group_content>
+		<audio>de1_cau48.mp3</audio>
+		<question>
+ 
+			<cau>48</cau>
+			<content>What is being advertised?</content>
+			<optiona>A trip to France</optiona>
+			<optionb>A restaurant</optionb>
+			<optionc>A hotel</optionc>
+			<optiond>A food market</optiond>
+			<key>b</key>
+		</question>
+	
+		<question>
+			<cau>49</cau>
+			<content>What is provided for dessert?</content>
+			<optiona>Fruit juice</optiona>
+			<optionb>Fresh fish</optionb>
+			<optionc>Pastries</optionc>
+			<optiond>A glass of wine</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>50</cau>
+			<content>What does the speaker say about Chateau Francois?</content>
+			<optiona>The chef is world-renowned</optiona>
+			<optionb>It is open on weekends</optionb>
+			<optionc>The view from the deck is impressive</optionc>
+			<optiond>The lunch specials are inexpensive</optiond>
+			<key>c</key>
+		</question>
+	</group>
+</short_talk>
+
+<incom>
+	<question>
+			<cau>51</cau>
+			<content>They were heard ……… goodbye to their friends</content>	
+			<key>b</key>
+			<optiona>Say </optiona>
+			<optionb>Saying</optionb>
+			<optionc>Said</optionc>
+			<optiond>Be saying</optiond>
+	</question>
+	<question>
+			<cau>52</cau>
+			<content>My son is not very good at ……… yet.</content>
+			<key>c</key>
+			<optiona>Drive</optiona>
+			<optionb>To drive</optionb>
+			<optionc>Driving</optionc>
+			<optiond>Will drive</optiond>			
+	</question>
+	<question>
+			<cau>53</cau>
+			<content>We think ……… him to have access to the Internet is a bad idea</content>
+			<key>c</key>
+			<optiona>Allow</optiona>
+			<optionb>To allow</optionb>
+			<optionc>Allowing</optionc>
+			<optiond>Allowance</optiond>				
+	</question>
+	<question>
+			<cau>54</cau>
+			<content>Since we live by an airport, we can easily watch the airplanes ……… off</content>
+			<key>a</key>
+			<optiona>Take</optiona>
+			<optionb>To take</optionb>
+			<optionc>Be taking</optionc>
+			<optiond>Will take</optiond>			
+	</question>
+	<question>
+			<cau>55</cau>
+			<content>They politely asked me ……… in another place</content>
+			<key>b</key>
+			<optiona>Stand</optiona>
+			<optionb>To stand</optionb>
+			<optionc>Standing</optionc>
+			<optiond>Stood</optiond>
+	</question>
+	<question>
+			<cau>56</cau>
+			<content>I seldom forget ……… my teeth before going to bed</content>
+			<key>b</key>
+			<optiona>Brush</optiona>
+			<optionb>To brush </optionb>
+			<optionc>Brushing</optionc>
+			<optiond>Brushed</optiond>
+			
+	</question>
+	<question>
+			<cau>57</cau>
+			<content>I would like ……… by your office on my way home</content>
+			<key>b</key>
+			<optiona>Drop</optiona>
+			<optionb>To drop </optionb>
+			<optionc>Dropping</optionc>
+			<optiond>Will drop</optiond>			
+	</question>
+	<question>
+			<cau>58</cau>
+			<content>They are considering ……… to Atlana</content>
+			<key>c</key>
+			<optiona>Move</optiona>
+			<optionb>To move</optionb>
+			<optionc>Moving</optionc>
+			<optiond>Will move </optiond>			
+	</question>
+	<question>
+			<cau>59</cau>
+			<content>I can’t afford……… a new car</content>
+			<key>b</key>
+			<optiona>Buy</optiona>
+			<optionb>To buy</optionb>
+			<optionc>Buying</optionc>
+			<optiond>Bought</optiond>			
+	</question>
+	<question>
+			<cau>60</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	<question>
+			<cau>61</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>	
+	</question>
+	<question>
+			<cau>62</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	<question>
+			<cau>63</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	<question>
+			<cau>64</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	<question>
+			<cau>65</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	<question>
+			<cau>66</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	<question>
+			<cau>67</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	<question>
+			<cau>68</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	<question>
+			<cau>69</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	<question>
+			<cau>70</cau>
+			<content>Who does she ……… to take care of her?</content>
+			<key>b</key>
+			<optiona>Want</optiona>
+			<optionb>Wants</optionb>
+			<optionc>To want</optionc>
+			<optiond>Will want </optiond>			
+	</question>	
+	
+</incom>
+
+<text_complextion>
+	<group>
+		<id>71</id>
+		<group_content><![CDATA[Dear Ms. Harwood,<br/><br/>
+		I am writing to let you know of the exemplary care and service I received form (1)……… staff during my stay at the Tinkum Square Hotel last July. From the moment of my arrival until the day I (2)………, I received nothing but courteous and efficient service from all members of the hotel staff.<br/><br/>
+
+I especially want to bring to your attention two staff members who provided me with assistance above and beyond the call of duty. On my way to the airport after a pleasant week at Tinkum Square, I discovered that I had left my computer behind. I immediately called the manager on duty, Robert Dunstan who supervised an emergency search for my computer. After it was discovered in the hotel restaurant, Mr. Dunstan’s assistant, Martha Jones, got into a taxi and personally delivered the computer to me at the airport. It was all done so (3)……… that I had my computer in hand well before I had to board the plane.<br/><br/>
+
+I know that you would want to hear about this example of the loyalty and professionalism of Mr. Dunstan and Ms. Jones. I look forward to meeting at Tinkum Square during my next business trip to Portsmouth.<br/><br/>
+
+Sincerely,<br/>
+James L.Keeman<br/>]]>
+		</group_content>
+		<question>
+			<cau>71</cau>
+			<optiona>My</optiona>
+			<optionb>Our</optionb>
+			<optionc>Your</optionc>
+			<optiond>Their</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>72</cau>
+			<optiona>Retired</optiona>
+			<optionb>Resigned</optionb>
+			<optionc>Departed</optionc>
+			<optiond>Graduated</optiond>
+			<key>c</key>
+		</question>
+		
+		<question>
+			<cau>73</cau>
+			<optiona>Speedy</optiona>
+			<optionb>Speeded</optionb>
+			<optionc>Speeding</optionc>
+			<optiond>Speedily</optiond>
+			<key>d</key>
+		</question>
+		
+	</group>
+		
+		
+	<group>
+		<id>74</id>
+		<group_content><![CDATA[Profit Up In (1)……… Sector<br/><br/>
+
+Galaxy Systems reported a fourth quarter profit of $250,000, compared (2)……… a loss of nearly $2 million during the same period last year. This was the first quarter with a profit for the computer company, which began operations five years ago.<br/><br/>
+According to the year-end report form Goldboro, Inc., the company’s profit rose 20%. The rise in profits is attributed to the introduction of a new software system for personal finance accounting. The company hopes to further increase its (3)……… next year by expanding its markets overseas.<br/><br/>
+ Providence has been losing a significant portion of its market share to competitors, but the company is optimistic about the future. “We’re confident that our plans for bringing more efficient and less Transportation wireless service to our customer will result in increased market share and greater profits than the company has ever enjoyed in the past” said Thomas P. Witherspoon, CEO.<br/><br/>]]>
+
+		</group_content>
+		<question>
+			<cau>74</cau>
+			<optiona>Transportation</optiona>
+			<optionb>Agriculture</optionb>
+			<optionc>Your</optionc>
+			<optiond>Finance</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>75</cau>
+			<optiona>To</optiona>
+			<optionb>Of</optionb>
+			<optionc>By</optionc>
+			<optiond>At</optiond>
+			<key>a</key>
+		</question>
+		<question>
+			<cau>76</cau>
+			<optiona>Debts</optiona>
+			<optionb>Products</optionb>
+			<optionc>Factories</optionc>
+			<optiond>Earnings</optiond>
+			<key>d</key>
+		</question>
+		
+	</group>
+</text_complextion>
+
+<reading_comprehen>
+	<group>
+		<id>77</id>
+		<group_content><![CDATA[
+		Those old Movie Goer magazines in the basement may be worth more than you would imagine. A 152 copy featuring Clark Gable can be worth over $750 and an old Lucille Ball is valued at $900. But it’s not just the oldies that are worth so much money. A collection of twenty-five Lost in Space covers form June, 2001 sells for more than $450 online. “The internet has been great for collecting and has made it a lot easier to find things”, says George Boulis, 58, a Boston based collector who has all the Movie Goer Magazine covers. They’re worth about $28000. And what do you think is the most valuable issue? The first one, of course: a mint-condition copy goes for more than $1850.
+		]]>
+		</group_content>
+		<question>
+			<cau>77</cau>
+			<content>What is this article about?</content>
+			<optiona>The literary value of Movie Goer Magazine</optiona>
+			<optionb>How George Boulis became a very rich man</optionb>
+			<optionc>The monetary value of old issues of Movie Goer Magazine</optionc>
+			<optiond>The monetary value of old covers of Movie Goer Magazine</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>78</cau>
+			<content>Where does the writer assume the readers may have old issues of this magazine?</content>
+			<optiona>In the attic</optiona>
+			<optionb>In the basement</optionb>
+			<optionc>Under their beds</optionc>
+			<optiond>In their garages</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>79</cau>
+			<content>Which is the most valuable issue of this magazine?</content>
+			<optiona>The premier issue</optiona>
+			<optionb>The ultimate issue</optionb>
+			<optionc>The one with Lucille Ball</optionc>
+			<optiond>The one with Clark Cable</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	<group>
+		<id>80</id>
+		<group_content><![CDATA[
+		<b>Miami-Dade County Transit Authority<br/>
+LANE CLOSURES</b><br/><br/>
+
+Due to continued construction on Interstate 95, the two left lanes on the north side will be closed from NE 78th St. to NE 135th St between the hours of midnight and 6:00 A.M. Monday to Friday, and 10:00 P.M. to 7 A.M. weekends.<br/><br/>
+
+Lane closures are scheduled to begin on October 16 and continue until November 6.<br/>
+We regret any inconvenience to motorists.]]>
+		</group_content>
+		<question>
+			<cau>80</cau>
+			<content>Which part of the highway will have lane closures?</content>
+			<optiona>All north side lanes</optiona>
+			<optionb>One lane on each side</optionb>
+			<optionc>The two left lanes on each side</optionc>
+			<optiond>The two left lanes on the north side</optiond>
+			<key>d</key>
+		</question>
+		<question>
+			<cau>81</cau>
+			<content>Who is authorizing the lane closures?</content>
+			<optiona>The city</optiona>
+			<optionb>The county</optionb>
+			<optionc>The state</optionc>
+			<optiond>The district</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>82</cau>
+			<content>Which of the following exits will NOT be in the affected area?</content>
+			<optiona>NE 125th Street</optiona>
+			<optionb>NE 95th Street</optionb>
+			<optionc>NE 151st Street</optionc>
+			<optiond>NE 82nd Street</optiond>
+			<key>b</key>
+		</question>
+	</group>
+	<group>
+		<id>83</id>
+		<group_content><![CDATA[
+		<b>MEMORANDUM</b><br/><br/>
+
+To: All Atlantis Corporation Employees<br/>
+From: Myrtle Sternbridge, Chief Financial Officer<br/>
+Re: Two-day unpaid leave<br/>
+Date: June 3<br/><br/>
+
+It is my unhappy duty to inform you that the Board of Directors has voted to impose a two-day layoff for all employees in order to avoid an operating budget shortfall.<br/><br/>
+
+The company is facing a serious crisis due to poor profits over the past two quarters. The budget is short by about $13 million and according to our bylaw, the budget must be balanced by June 30, the end of this fiscal year.<br/><br/>
+
+It is necessary for all employees to give up  two days’ pay in order to put an end to the budget crisis. Employees are to speak to their supervisors regarding scheduling the two days that they are not to report to work.<br/><br/>
+
+According to the agreement reached between Atlantis Corp. and the union, employees will be reimbursed for the days they lose during the first six months of the next fiscal year if profits improve.<br/><br/>
+
+I sincerely regret the need to take such drastic measures to end the current budget crisis, but with your cooperation, we can see this through.]]>
+		</group_content>
+		<question>
+			<cau>83</cau>
+			<content>Why must employees give up two days’ pay at this time?</content>
+			<optiona>To pay back money they were overpaid</optiona>
+			<optionb>To contribute to company charity</optionb>
+			<optionc>To end a budget crisis in this fiscal year</optionc>
+			<optiond>The bylaws state they have to</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>84</cau>
+			<content>What is causing this budget crisis?</content>
+			<optiona>There is a surplus of $13 million</optiona>
+			<optionb>There is a shortage of $13 million</optionb>
+			<optionc>The CFO did not plan out the operating budget properly</optionc>
+			<optiond>Nobody can pinpoint the reasons for this budget crisis.</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>85</cau>
+			<content>How will the days be taken off?</content>
+			<optiona>Employees will arrange days off with their supervisor</optiona>
+			<optionb>All employees are to stay home starting June 30</optionb>
+			<optionc>A specific plan has not been worked out yet</optionc>
+			<optiond>Employees can arrange to take two days off this or next fiscal year</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	<group>
+		<id>86</id>
+		<group_content><![CDATA[
+		<b>MEMORANDUM</b><br/><br/>
+
+To: All Atlantis Corporation Employees<br/>
+From: Myrtle Sternbridge, Chief Financial Officer<br/>
+Re: Two-day unpaid leave<br/>
+Date: June 3<br/><br/>
+
+It is my unhappy duty to inform you that the Board of Directors has voted to impose a two-day layoff for all employees in order to avoid an operating budget shortfall.<br/><br/>
+
+The company is facing a serious crisis due to poor profits over the past two quarters. The budget is short by about $13 million and according to our bylaw, the budget must be balanced by June 30, the end of this fiscal year.<br/><br/>
+
+It is necessary for all employees to give up  two days’ pay in order to put an end to the budget crisis. Employees are to speak to their supervisors regarding scheduling the two days that they are not to report to work.<br/><br/>
+
+According to the agreement reached between Atlantis Corp. and the union, employees will be reimbursed for the days they lose during the first six months of the next fiscal year if profits improve.<br/><br/>
+
+I sincerely regret the need to take such drastic measures to end the current budget crisis, but with your cooperation, we can see this through.]]>
+		</group_content>
+		<question>
+			<cau>86</cau>
+			<content>Why must employees give up two days’ pay at this time?</content>
+			<optiona>To pay back money they were overpaid</optiona>
+			<optionb>To contribute to company charity</optionb>
+			<optionc>To end a budget crisis in this fiscal year</optionc>
+			<optiond>The bylaws state they have to</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>87</cau>
+			<content>What is causing this budget crisis?</content>
+			<optiona>There is a surplus of $13 million</optiona>
+			<optionb>There is a shortage of $13 million</optionb>
+			<optionc>The CFO did not plan out the operating budget properly</optionc>
+			<optiond>Nobody can pinpoint the reasons for this budget crisis.</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>88</cau>
+			<content>How will the days be taken off?</content>
+			<optiona>Employees will arrange days off with their supervisor</optiona>
+			<optionb>All employees are to stay home starting June 30</optionb>
+			<optionc>A specific plan has not been worked out yet</optionc>
+			<optiond>Employees can arrange to take two days off this or next fiscal year</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	<group>
+		<id>89</id>
+		<group_content><![CDATA[
+		<b>MEMORANDUM</b><br/><br/>
+
+To: All Atlantis Corporation Employees<br/>
+From: Myrtle Sternbridge, Chief Financial Officer<br/>
+Re: Two-day unpaid leave<br/>
+Date: June 3<br/><br/>
+
+It is my unhappy duty to inform you that the Board of Directors has voted to impose a two-day layoff for all employees in order to avoid an operating budget shortfall.<br/><br/>
+
+The company is facing a serious crisis due to poor profits over the past two quarters. The budget is short by about $13 million and according to our bylaw, the budget must be balanced by June 30, the end of this fiscal year.<br/><br/>
+
+It is necessary for all employees to give up  two days’ pay in order to put an end to the budget crisis. Employees are to speak to their supervisors regarding scheduling the two days that they are not to report to work.<br/><br/>
+
+According to the agreement reached between Atlantis Corp. and the union, employees will be reimbursed for the days they lose during the first six months of the next fiscal year if profits improve.<br/><br/>
+
+I sincerely regret the need to take such drastic measures to end the current budget crisis, but with your cooperation, we can see this through.]]>
+		</group_content>
+		<question>
+			<cau>89</cau>
+			<content>Why must employees give up two days’ pay at this time?</content>
+			<optiona>To pay back money they were overpaid</optiona>
+			<optionb>To contribute to company charity</optionb>
+			<optionc>To end a budget crisis in this fiscal year</optionc>
+			<optiond>The bylaws state they have to</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>90</cau>
+			<content>What is causing this budget crisis?</content>
+			<optiona>There is a surplus of $13 million</optiona>
+			<optionb>There is a shortage of $13 million</optionb>
+			<optionc>The CFO did not plan out the operating budget properly</optionc>
+			<optiond>Nobody can pinpoint the reasons for this budget crisis.</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>91</cau>
+			<content>How will the days be taken off?</content>
+			<optiona>Employees will arrange days off with their supervisor</optiona>
+			<optionb>All employees are to stay home starting June 30</optionb>
+			<optionc>A specific plan has not been worked out yet</optionc>
+			<optiond>Employees can arrange to take two days off this or next fiscal year</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	<group>
+		<id>92</id>
+		<group_content><![CDATA[
+		<b>MEMORANDUM</b><br/><br/>
+
+To: All Atlantis Corporation Employees<br/>
+From: Myrtle Sternbridge, Chief Financial Officer<br/>
+Re: Two-day unpaid leave<br/>
+Date: June 3<br/><br/>
+
+It is my unhappy duty to inform you that the Board of Directors has voted to impose a two-day layoff for all employees in order to avoid an operating budget shortfall.<br/><br/>
+
+The company is facing a serious crisis due to poor profits over the past two quarters. The budget is short by about $13 million and according to our bylaw, the budget must be balanced by June 30, the end of this fiscal year.<br/><br/>
+
+It is necessary for all employees to give up  two days’ pay in order to put an end to the budget crisis. Employees are to speak to their supervisors regarding scheduling the two days that they are not to report to work.<br/><br/>
+
+According to the agreement reached between Atlantis Corp. and the union, employees will be reimbursed for the days they lose during the first six months of the next fiscal year if profits improve.<br/><br/>
+
+I sincerely regret the need to take such drastic measures to end the current budget crisis, but with your cooperation, we can see this through.]]>
+		</group_content>
+		<question>
+			<cau>92</cau>
+			<content>Why must employees give up two days’ pay at this time?</content>
+			<optiona>To pay back money they were overpaid</optiona>
+			<optionb>To contribute to company charity</optionb>
+			<optionc>To end a budget crisis in this fiscal year</optionc>
+			<optiond>The bylaws state they have to</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>93</cau>
+			<content>What is causing this budget crisis?</content>
+			<optiona>There is a surplus of $13 million</optiona>
+			<optionb>There is a shortage of $13 million</optionb>
+			<optionc>The CFO did not plan out the operating budget properly</optionc>
+			<optiond>Nobody can pinpoint the reasons for this budget crisis.</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>94</cau>
+			<content>How will the days be taken off?</content>
+			<optiona>Employees will arrange days off with their supervisor</optiona>
+			<optionb>All employees are to stay home starting June 30</optionb>
+			<optionc>A specific plan has not been worked out yet</optionc>
+			<optiond>Employees can arrange to take two days off this or next fiscal year</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	<group>
+		<id>95</id>
+		<group_content><![CDATA[
+		<b>MEMORANDUM</b><br/><br/>
+
+To: All Atlantis Corporation Employees<br/>
+From: Myrtle Sternbridge, Chief Financial Officer<br/>
+Re: Two-day unpaid leave<br/>
+Date: June 3<br/><br/>
+
+It is my unhappy duty to inform you that the Board of Directors has voted to impose a two-day layoff for all employees in order to avoid an operating budget shortfall.<br/><br/>
+
+The company is facing a serious crisis due to poor profits over the past two quarters. The budget is short by about $13 million and according to our bylaw, the budget must be balanced by June 30, the end of this fiscal year.<br/><br/>
+
+It is necessary for all employees to give up  two days’ pay in order to put an end to the budget crisis. Employees are to speak to their supervisors regarding scheduling the two days that they are not to report to work.<br/><br/>
+
+According to the agreement reached between Atlantis Corp. and the union, employees will be reimbursed for the days they lose during the first six months of the next fiscal year if profits improve.<br/><br/>
+
+I sincerely regret the need to take such drastic measures to end the current budget crisis, but with your cooperation, we can see this through.]]>
+		</group_content>
+		<question>
+			<cau>95</cau>
+			<content>Why must employees give up two days’ pay at this time?</content>
+			<optiona>To pay back money they were overpaid</optiona>
+			<optionb>To contribute to company charity</optionb>
+			<optionc>To end a budget crisis in this fiscal year</optionc>
+			<optiond>The bylaws state they have to</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>96</cau>
+			<content>What is causing this budget crisis?</content>
+			<optiona>There is a surplus of $13 million</optiona>
+			<optionb>There is a shortage of $13 million</optionb>
+			<optionc>The CFO did not plan out the operating budget properly</optionc>
+			<optiond>Nobody can pinpoint the reasons for this budget crisis.</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>97</cau>
+			<content>How will the days be taken off?</content>
+			<optiona>Employees will arrange days off with their supervisor</optiona>
+			<optionb>All employees are to stay home starting June 30</optionb>
+			<optionc>A specific plan has not been worked out yet</optionc>
+			<optiond>Employees can arrange to take two days off this or next fiscal year</optiond>
+			<key>a</key>
+		</question>
+	</group>
+	<group>
+		<id>98</id>
+		<group_content><![CDATA[
+		<b>MEMORANDUM</b><br/><br/>
+
+To: All Atlantis Corporation Employees<br/>
+From: Myrtle Sternbridge, Chief Financial Officer<br/>
+Re: Two-day unpaid leave<br/>
+Date: June 3<br/><br/>
+
+It is my unhappy duty to inform you that the Board of Directors has voted to impose a two-day layoff for all employees in order to avoid an operating budget shortfall.<br/><br/>
+
+The company is facing a serious crisis due to poor profits over the past two quarters. The budget is short by about $13 million and according to our bylaw, the budget must be balanced by June 30, the end of this fiscal year.<br/><br/>
+
+It is necessary for all employees to give up  two days’ pay in order to put an end to the budget crisis. Employees are to speak to their supervisors regarding scheduling the two days that they are not to report to work.<br/><br/>
+
+According to the agreement reached between Atlantis Corp. and the union, employees will be reimbursed for the days they lose during the first six months of the next fiscal year if profits improve.<br/><br/>
+
+I sincerely regret the need to take such drastic measures to end the current budget crisis, but with your cooperation, we can see this through.]]>
+		</group_content>
+		<question>
+			<cau>98</cau>
+			<content>Why must employees give up two days’ pay at this time?</content>
+			<optiona>To pay back money they were overpaid</optiona>
+			<optionb>To contribute to company charity</optionb>
+			<optionc>To end a budget crisis in this fiscal year</optionc>
+			<optiond>The bylaws state they have to</optiond>
+			<key>c</key>
+		</question>
+		<question>
+			<cau>99</cau>
+			<content>What is causing this budget crisis?</content>
+			<optiona>There is a surplus of $13 million</optiona>
+			<optionb>There is a shortage of $13 million</optionb>
+			<optionc>The CFO did not plan out the operating budget properly</optionc>
+			<optiond>Nobody can pinpoint the reasons for this budget crisis.</optiond>
+			<key>b</key>
+		</question>
+		<question>
+			<cau>100</cau>
+			<content>How will the days be taken off?</content>
+			<optiona>Employees will arrange days off with their supervisor</optiona>
+			<optionb>All employees are to stay home starting June 30</optionb>
+			<optionc>A specific plan has not been worked out yet</optionc>
+			<optiond>Employees can arrange to take two days off this or next fiscal year</optiond>
+			<key>a</key>
+		</question>
+	</group>
+</reading_comprehen>
+</de1>

@@ -11,7 +11,7 @@ $(document).ready(function(){
    var numread =0;
    var lis_score= ["15","20","25","30","35","40","45","50","55","60","65","70","75","80","85","90","95","100","105","110","115","120","125","130","135","140","145","150","155","160","165","170","175","180","185","190","195","200","205","210","215","220","225","230","235","240","245","250","255","260","265","270","275","280","285","290","295","300","305","310","315","320","325","330","335","340","345","350","355","360","365","370","375","380","385","390","395","400","405","410","415","420","425","430","435","440","445","450","455","460","465","470","475","480","485","490","495","495","495","495"];
    var read_score=["10","10","10","15","20","25","30","35","40","45","50","55","60","65","70","75","80","85","90","95","100","105","110","115","120","125","130","135","140","145","150","155","160","165","170","175","180","185","190","195","200","205","210","215","220","225","230","235","240","245","250","255","260","265","270","275","280","285","290","295","300","305","310","315","320","325","330","335","340","345","350","355","360","365","370","375","380","385","390","395","400","405","410","415","420","425","430","435","440","445","450","455","460","465","470","475","480","485","490","495"];
-   var time = 7200;
+   var time = 3600;
 
    var refreshId = setInterval(function()
     {
@@ -45,7 +45,7 @@ $(document).ready(function(){
 
       if(ans == user_ans)
       {
-        if(stt<=100)
+        if(stt<=50)
         {
           numlis =numlis+1;
         }
@@ -81,7 +81,7 @@ $(document).ready(function(){
     else
     read_result=read_score[numlis-1];
     var total=parseInt(list_result)+parseInt(read_result);
-    alert("Kết quả bài thi:\n Bạn được:\n"+list_result+" điểm phần listening.\n"+read_result+" điểm phần reading.\nTổng cộng: "+total+" điểm.\nHệ thống sẽ ghi nhận số điểm của bạn");
+    alert("Kết quả bài thi:\n Bạn đúng:\n"+numlis+" câu phần listening.\n"+numread+" câu phần reading.\nTổng cộng: "+result+" câu/100 câu.");
     $("#btnanswer").hide();
     return total;
    }
@@ -136,25 +136,10 @@ $(document).ready(function(){
   {
     var total=chamdiem();
     var username = $("#cur_user").html();
-    $.ajax({
-        url:base_url + 'index.php/main/rank',
-        type: 'POST',
-        data: {username: username, score: total},
-        success: function(data){
-        },
-        error: function(err){
-          alert(err);
-        }
-    });
+    s
   });
    $(document.body).on("click", "#btnagain", function(event)
     {
-      numread=0;
-      numlis=0;
-      result=0;
-      total=0;
-      read_result=0;
-      list_result=0;
       $('.aaa').hide();
       $('.aaa.1').show();
       $('.option_ans').removeClass("show");

@@ -9,15 +9,22 @@
 
 						<div id="content" class="col-xs-6 col-md-9">
 							<?php 
-							foreach($fulltest_id as $a)
+							if($this->session->userdata('username'))
 							{
+							foreach($fulltest_id as $a)
+								{
 						?>
 							<div class="fulltest_order">
 								<a href="<?php echo base_url(); ?>index.php/main/show_fulltest/<?php echo $a['id'];?>"><?php echo 'Đề luyện tập số '.$a['id']?></a>
 							</div>
 
 						<?php
+								}
 							}
+							else
+								{
+									echo "<div class='noti'>Bạn cần đăng nhập để có thể làm bài test.</div>";
+								}
 						?>
 						</div>
 					</div>

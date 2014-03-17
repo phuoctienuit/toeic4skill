@@ -21,6 +21,7 @@ $(document).ready(function(){
                 var signup = li.prev("li").find('a');
                 signup.attr('id', 'currentuser');
                 signup.html("Hello, "+ username);
+                location.reload();
             }
             else if(data=="admin"){
                 window.location.assign(base_url+"index.php/main/indexadmin")
@@ -49,6 +50,7 @@ $(document).ready(function(){
                 var signup = li.prev("li").find('a');
                 signup.attr('id', 'signup');
                 signup.html("Sign Up");
+                window.location.assign(base_url+"index.php/main/index")
 
         },
         error: function(e) {

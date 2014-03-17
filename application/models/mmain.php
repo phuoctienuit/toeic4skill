@@ -323,6 +323,13 @@ class Mmain extends CI_Model{
 		$query=$this->db->get("minitest");
 		return $query->result_array();
 	}
+	function get_minitest_pathxml($id){
+		$this->db->select("path");
+		$this->db->where("id",$id);
+		$query=$this->db->get("minitest");
+		return $query->row()->path;
+
+	}
 	function topscore(){
 		$this->db->select("*");
 		$this->db->order_by("score","DESC");

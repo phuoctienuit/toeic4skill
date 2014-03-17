@@ -21,6 +21,7 @@
 }
 .question.odd .option, .question.even .option{
 	margin-left:30px;
+	min-height:100px;
 }
 
 div.option div{
@@ -33,7 +34,7 @@ div.option div.status{
 	margin-top: -2px;
 }
 
-.incom_test, .text_complextion_test, .reading_comprehen_test
+.incom_test, .text_complextion_test, .reading_comprehen_test, .fulltest_order, .minitest_order
 {
 	margin:10px;
 	color: red;
@@ -79,7 +80,7 @@ div.option div.status{
 	float: left;
 }
 .option .letter{
-	//float: left;
+	float: left;
 	margin-left:10px;
 }
 .request{
@@ -104,4 +105,9 @@ div.option div.status{
 	background-color: #339966;
 	width: 420px;
 	height: auto;
+}
+.noti{
+	color: red;
+	font-size: 150%;
+	margin: 30px 50px;
 }
