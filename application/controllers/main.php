@@ -37,10 +37,26 @@ class Main extends CI_Controller{
 		$data['topscore'] = $this->mmain->topscore();
 		$this-> load-> view("listening",$data);
 	}/*mo trang listening*/
-	public function speaking(){
+	public function readaloud(){
+		$data['readaloud_id']=$this->mmain->get_id_name_readaloud();
 		$data['topscore'] = $this->mmain->topscore();
-		$this-> load-> view("speaking",$data);
+		$this-> load-> view("/speaking/readaloud",$data);
 	}/*mo trang speaking*/
+	public function show_readaloud_detail($id){
+		$data['readaloud_content']=$this->mmain->get_readaloud_content($id);
+		$data['topscore'] = $this->mmain->topscore();
+		$this->load->view('/speaking/show_readaloud_detail',$data);
+	}
+	public function descri_pic(){
+		$data['descri_pic_id']=$this->mmain->get_id_name_descri_pic();
+		$data['topscore'] = $this->mmain->topscore();
+		$this-> load-> view("/speaking/descri_pic",$data);
+	}/*mo trang speaking*/
+	public function show_descri_pic_detail($id){
+		$data['descri_pic_content']=$this->mmain->get_descri_pic_content($id);
+		$data['topscore'] = $this->mmain->topscore();
+		$this->load->view('/speaking/show_descri_pic_detail',$data);
+	}
 	public function reading(){
 		$data['topscore'] = $this->mmain->topscore();
 		$this-> load-> view("reading",$data);

@@ -61,7 +61,7 @@
 									<a href="<?php echo base_url(); ?>index.php/main/reading">Reading</a>
 								</li>
 								<li>
-									<a href="<?php echo base_url(); ?>index.php/main/speaking">Speaking</a>
+									<a href="<?php echo base_url(); ?>index.php/main/readaloud">Speaking</a>
 								</li>
 								<li>
 									<a href="<?php echo base_url(); ?>index.php/main/writting">Writting</a>

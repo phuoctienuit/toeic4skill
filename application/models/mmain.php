@@ -342,5 +342,27 @@ class Mmain extends CI_Model{
 		echo "INSERT INTO  score (user, score) VALUES ('$username', $score)";
     	$this->db->query($sql);
 	}
+	function get_id_name_readaloud(){
+		$this->db->select("id");
+		$query=$this->db->get("read_aloud");
+		return $query->result_array();
+	}
+	function get_readaloud_content($id){
+		$this->db->select("content, path_model");
+		$this->db->where("id",$id);
+		$query=$this->db->get("read_aloud");
+		return $query->result_array();
+	}
+	function get_id_name_descri_pic(){
+		$this->db->select("id");
+		$query=$this->db->get("descri_pic");
+		return $query->result_array();
+	}
+	function get_descri_pic_content($id){
+		$this->db->select("pic,ans_model, path_model");
+		$this->db->where("id",$id);
+		$query=$this->db->get("descri_pic");
+		return $query->result_array();
+	}
 }
 ?>

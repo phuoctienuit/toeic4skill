@@ -24,7 +24,13 @@
 									echo "<div class='w_request'>";
 										echo $request;
 									echo "</div>";
-									
+									?>
+									<div class="timer">
+										<span class="minute"><span id="mm">00</span> Minutes</span>
+										<span class="second"><span id="ss">00</span> Seconds</span>
+									</div>
+									<?php
+									echo "<div class='limitessay'>";
 									echo "<div class='textarea'>";
 										echo "<textarea rows='20' cols='63' id='output'></textarea>";
 									echo "</div>";
@@ -32,6 +38,8 @@
 										echo "<div class='hidden_key'>";
 											echo $key;
 										echo "</div>";
+									echo "</div>";
+									echo "<div class='wordcount'>300 words left</div>";
 									echo "</div>";
 								echo "</div>";
 							}

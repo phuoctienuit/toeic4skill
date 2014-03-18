@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/main.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/reading.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/writting.css">
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			var base_url = "<?php echo base_url(); ?>";
@@ -18,6 +19,7 @@
 		<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/login/animate.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/login/styles.css">
 		<script src="<?php echo base_url(); ?>application/template/js/main.js"></script>
+		
 		<script>
 			$(document).ready(function(){
 				var base_url = "<?php echo base_url(); ?>";
@@ -55,7 +57,7 @@
 									<a href="<?php echo base_url(); ?>index.php/main/list_sharing_reading/500">Reading</a>
 								</li>
 								<li>
-									<a href="<?php echo base_url(); ?>index.php/main/speaking">Speaking</a>
+									<a href="<?php echo base_url(); ?>index.php/main/readaloud">Speaking</a>
 								</li>
 								<li>
 									<a href="<?php echo base_url(); ?>index.php/main/list_w_sentence">Writting</a>

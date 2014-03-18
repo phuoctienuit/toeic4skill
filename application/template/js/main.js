@@ -97,5 +97,9 @@ $(document).ready(function(){
     $(".signup").hide();
     $(".popup").hide();
   });
+  $(document.body).on("click", "#btnmodelans", function(event)
+  {
+    $(".ans_script").toggle();
+  });
 
 });

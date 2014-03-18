@@ -35,7 +35,7 @@
 								echo "</div>";
 							}
 								echo "<div class='same_question'>";
-								echo "<div class='link_pag'>";	
+								echo "<div class='link_page'>";	
 								echo $this->pagination->create_links(); // tạo link phân trang 
 								echo "</div>";	
 						?>

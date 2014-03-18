@@ -1,7 +1,7 @@
 <ul class="nav nav-list">
 								<li class="active"><a href="#">Chia sẻ kinh nghiệm</a>
 									<ul class="nav">
-										<li><a href="<?php echo base_url()?>index.php/main/sharing_writing/1">Các mô tả tranh</a></li>
+										<li><a href="<?php echo base_url()?>index.php/main/sharing_writing/1">Cách mô tả tranh</a></li>
 										<li><a href="<?php echo base_url()?>index.php/main/sharing_writing/2">Các viết một bài essay</a></li>
 										<li><a href="<?php echo base_url()?>index.php/main/sharing_writing/3">Khác</a></li>
 									</ul>
