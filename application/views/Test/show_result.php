@@ -9,7 +9,7 @@
 			var ma_de = <?php echo $made; ?>;
 		</script>
 		<script src="<?php echo base_url(); ?>application/template/js/jquery-1.10.2.min.js"></script>
-		<script src="<?php echo base_url(); ?>application/template/js/fulltest.js"></script>
+		<script src="<?php echo base_url(); ?>application/template/js/show_result.js"></script>
 		<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/main.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/fulltest.css">
@@ -32,6 +32,9 @@
 	</head>
 
 	<body>
+		<?php
+			$myKey = array();
+		?>
 		<div class="container">
 			<div class="col-md-12" id="header">
 				
@@ -71,7 +74,6 @@
 									<ul class="dropdown-menu">
 										<li><a href="<?php echo base_url(); ?>index.php/main/list_minitest">Mini Test</a></li>
 										<li><a href="<?php echo base_url(); ?>index.php/main/list_fulltest">Full Test</a></li>
-										<li><a href="<?php echo base_url(); ?>index.php/main/my_result">My result</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -151,11 +153,6 @@
 						</div>
 
 						<div id="content" class="col-xs-6 col-md-9">
-							<div class="timer">
-								<span class="hour"><span id="hh">02</span> Hours</span>
-								<span class="minute"><span id="mm">00</span> Minutes</span>
-								<span class="second"><span id="ss">00</span> Seconds</span>
-							</div>
 							<div class="fulltest">
 								<div class="test_content">
 									<div class='part' id="part1">
@@ -172,7 +169,8 @@
 												$optionb=$question->optionb;
 												$optionc=$question->optionc;
 												$optiond=$question->optiond;
-												$answer = $question->key;											
+												$answer = $question->key;
+												$myKey["$cau"] = $answer;
 												echo "<div class='content_question $i aaa'><b><p>Look at the picture and listen to the sentences. Choose the sentence that best describes the picture:</p>$cau.</b>";
 
 													echo "<div class='audio_question'>";
@@ -184,7 +182,7 @@
 													echo "</br>";
 													echo "<input type='hidden' class='key' value=$answer>";
 													?>
-													<div class="ans_full12" style="display:none;">
+													<div class="ans_full12">
 														<p>A. <?php echo $optiona;?></p>
 														<p>B. <?php echo $optionb;?></p>
 														<p>C. <?php echo $optionc;?></p>
@@ -207,7 +205,8 @@
 												$optionb=$question->optionb;
 												$optionc=$question->optionc;
 												$optiond=$question->optiond;
-												$answer = $question->key;											
+												$answer = $question->key;		
+												$myKey["$cau"] = $answer;
 												echo "<div class='content_question $i aaa'><b><p>Listen to the question and the three responses. Choose the response that best answers the question:</p>$cau.</b>";
 													echo "<div class='audio_question'>";
 														echo "<audio controls>";
@@ -216,7 +215,7 @@
 													echo "</div>";
 													echo "<input type='hidden' class='key' value=$answer>";
 													?>
-													<div class="ans_full12" style="display:none;">
+													<div class="ans_full12" >
 														<p>A. <?php echo $optiona;?></p>
 														<p>B. <?php echo $optionb;?></p>
 														<p>C. <?php echo $optionc;?></p>
@@ -242,7 +241,7 @@
 													<source src="<?php echo $link_audio.$audio; ?>" type='audio/mpeg'>
 												</audio>
 											</div>
-											<div class='group_content ans_full34' style="display:none;">
+											<div class='group_content ans_full34' >
 												<?php echo $group_content; ?>
 											</div>
 											<?php
@@ -255,6 +254,7 @@
 													$optionc=$question->optionc;
 													$optiond=$question->optiond;
 													$answer = $question->key;
+													$myKey["$cau"] = $answer;
 												
 													echo "<div class='question_sen'>";
 													echo "<div class='content_question'><b>$cau. $content</b></div>";
@@ -297,7 +297,7 @@
 													<source src="<?php echo $link_audio.$audio; ?>" type='audio/mpeg'>
 												</audio>
 											</div>
-											<div class='group_content ans_full34' style="display:none;">
+											<div class='group_content ans_full34' >
 												<?php echo $group_content; ?>
 											</div>
 											<?php
@@ -310,6 +310,7 @@
 													$optionc=$question->optionc;
 													$optiond=$question->optiond;
 													$answer = $question->key;
+													$myKey["$cau"] = $answer;
 												
 													echo "<div class='question_sen'>";
 													echo "<div class='content_question'><b>$cau. $content</b></div>";
@@ -347,6 +348,7 @@
 													$optionc=$question->optionc;
 													$optiond=$question->optiond;
 													$answer = $question->key;
+													$myKey["$cau"] = $answer;
 													echo "<div id='' class='question_sen $i aaa'>";
 														echo "<div class='content_question $cau'><b><p>Choose the word that best completes the sentence:</p>$cau.</b> $content</div>";
 										?>
@@ -394,6 +396,7 @@
 													$optionc=$question->optionc;
 													$optiond=$question->optiond;
 													$answer = $question->key;
+													$myKey["$cau"] = $answer;
 													echo "<div id='' class='question_sen'>";
 													echo "<div class='content_question'><b>$cau.</b> $content</div>";
 												?>
@@ -442,6 +445,7 @@
 												$optionc=$question->optionc;
 												$optiond=$question->optiond;
 												$answer = $question->key;
+												$myKey["$cau"] = $answer;
 												echo "<div id='' class='question_sen'>";
 												echo "<div class='content_question'><b>$cau. $content</b></div>";
 											?>
@@ -469,7 +473,7 @@
 									</div>
 									
 								</div>
-								<div class="test_answer">
+								<div class="test_answer" style="background:#FFFFD4;">
 									<?php
 									$tc = 0;
 									for($i=1; $i<=10; $i++)
@@ -481,20 +485,47 @@
 												<div class="order"><?php echo $i;?>.</div>
 												<div class="option_ans" id="<?php echo $i;?>">
 													<div>
-														<div class="status a"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="a"/><span> A </span>
+														<div class="status a">
+															<?php 
+															if($myKey[$i] == "a")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "a"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="a")||(isset($causai[$i])&&$causai[$i]=="a")) echo "checked='checked'"; ?> value="a"/><span> A </span>
 													</div>
 													<div>
-														<div class="status b"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="b"/><span> B </span>
+														<div class="status b">
+															<?php 
+															if($myKey[$i] == "b")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "b"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?></div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="b")||(isset($causai[$i])&&$causai[$i]=="b")) echo "checked='checked'"; ?> value="b"/><span> B </span>
 													</div>
 													<div>
-														<div class="status c"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="c"/><span> C </span>
+														<div class="status c">
+															<?php 
+															if($myKey[$i] == "c")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "c"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="c")||(isset($causai[$i])&&$causai[$i]=="c")) echo "checked='checked'"; ?> value="c"/><span> C </span>
 													</div>
 													<div>
-														<div class="status d"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="d"/><span> D </span>
+														<div class="status d">
+															<?php 
+															if($myKey[$i] == "d")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "d"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="d")||(isset($causai[$i])&&$causai[$i]=="d")) echo "checked='checked'"; ?> value="d"/><span> D </span>
 													</div>
 												</div>
 											</div>
@@ -512,16 +543,37 @@
 												<div class="order"><?php echo $i;?>.</div>
 												<div class="option_ans" id="<?php echo $i;?>">
 													<div>
-														<div class="status a"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="a"/><span> A </span>
+														<div class="status a">
+															<?php 
+															if($myKey[$i] == "a")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "a"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="a")||(isset($causai[$i])&&$causai[$i]=="a")) echo "checked='checked'"; ?> value="a"/><span> A </span>
 													</div>
 													<div>
-														<div class="status b"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="b"/><span> B </span>
+														<div class="status b">
+															<?php 
+															if($myKey[$i] == "b")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "b"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="b")||(isset($causai[$i])&&$causai[$i]=="b")) echo "checked='checked'"; ?> value="b"/><span> B </span>
 													</div>
 													<div>
-														<div class="status c"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="c"/><span> C </span>
+														<div class="status c">
+															<?php 
+															if($myKey[$i] == "c")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "c"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="c")||(isset($causai[$i])&&$causai[$i]=="c")) echo "checked='checked'"; ?> value="c"/><span> C </span>
 													</div>
 												</div>
 											</div>
@@ -542,20 +594,48 @@
 											<div class="order"><?php echo $i;?>.</div>
 											<div class="option_ans" id="<?php echo $i;?>">
 												<div>
-													<div class="status a"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="a"/><span> A </span>
+													<div class="status a">
+															<?php 
+															if($myKey[$i] == "a")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "a"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="a")||(isset($causai[$i])&&$causai[$i]=="a")) echo "checked='checked'"; ?> value="a"/><span> A </span>
 												</div>
 												<div>
-													<div class="status b"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="b"/><span> B </span>
+													<div class="status b">
+															<?php 
+															if($myKey[$i] == "b")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "b"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="b")||(isset($causai[$i])&&$causai[$i]=="b")) echo "checked='checked'"; ?> value="b"/><span> B </span>
 												</div>
 												<div>
-													<div class="status c"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="c"/><span> C </span>
+													<div class="status c">
+															<?php 
+															if($myKey[$i] == "c")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "c"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="c")||(isset($causai[$i])&&$causai[$i]=="c")) echo "checked='checked'"; ?> value="c"/><span> C </span>
 												</div>
 												<div>
-													<div class="status d"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="d"/><span> D </span>
+													<div class="status d">
+															<?php 
+															if($myKey[$i] == "d")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "d"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="d")||(isset($causai[$i])&&$causai[$i]=="d")) echo "checked='checked'"; ?> value="d"/><span> D </span>
 												</div>
 
 											</div>
@@ -573,20 +653,48 @@
 												<div class="order"><?php echo $i;?>.</div>
 												<div class="option_ans" id="<?php echo $i;?>">
 													<div>
-														<div class="status a"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="a"/><span> A </span>
+														<div class="status a">
+															<?php 
+															if($myKey[$i] == "a")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "a"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="a")||(isset($causai[$i])&&$causai[$i]=="a")) echo "checked='checked'"; ?> value="a"/><span> A </span>
 													</div>
 													<div>
-														<div class="status b"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="b"/><span> B </span>
+														<div class="status b">
+															<?php 
+															if($myKey[$i] == "b")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "b"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="b")||(isset($causai[$i])&&$causai[$i]=="b")) echo "checked='checked'"; ?> value="b"/><span> B </span>
 													</div>
 													<div>
-														<div class="status c"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="c"/><span> C </span>
+														<div class="status c">
+															<?php 
+															if($myKey[$i] == "c")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "c"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="c")||(isset($causai[$i])&&$causai[$i]=="c")) echo "checked='checked'"; ?> value="c"/><span> C </span>
 													</div>
 													<div>
-														<div class="status d"></div>
-														<input type="radio" name="radioquestion<?php echo $i;?>" value="d"/><span> D </span>
+														<div class="status d">
+															<?php 
+															if($myKey[$i] == "d")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "d"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+														</div>
+														<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="d")||(isset($causai[$i])&&$causai[$i]=="d")) echo "checked='checked'"; ?> value="d"/><span> D </span>
 													</div>
 
 												</div>
@@ -610,20 +718,48 @@
 											<div class="order"><?php echo $i;?>.</div>
 											<div class="option_ans" id="<?php echo $i;?>">
 												<div>
-													<div class="status a"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="a"/><span> A </span>
+													<div class="status a">
+															<?php 
+															if($myKey[$i] == "a")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "a"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="a")||(isset($causai[$i])&&$causai[$i]=="a")) echo "checked='checked'"; ?> value="a"/><span> A </span>
 												</div>
 												<div>
-													<div class="status b"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="b"/><span> B </span>
+													<div class="status b">
+															<?php 
+															if($myKey[$i] == "b")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "b"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="b")||(isset($causai[$i])&&$causai[$i]=="b")) echo "checked='checked'"; ?> value="b"/><span> B </span>
 												</div>
 												<div>
-													<div class="status c"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="c"/><span> C </span>
+													<div class="status c">
+															<?php 
+															if($myKey[$i] == "c")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "c"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="c")||(isset($causai[$i])&&$causai[$i]=="c")) echo "checked='checked'"; ?> value="c"/><span> C </span>
 												</div>
 												<div>
-													<div class="status d"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="d"/><span> D </span>
+													<div class="status d">
+															<?php 
+															if($myKey[$i] == "d")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "d"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="d")||(isset($causai[$i])&&$causai[$i]=="d")) echo "checked='checked'"; ?> value="d"/><span> D </span>
 												</div>
 
 											</div>
@@ -654,20 +790,48 @@
 											<div class="order"><?php echo $i;?>.</div>
 											<div class="option_ans" id="<?php echo $i;?>">
 												<div>
-													<div class="status a"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="a"/><span> A </span>
+													<div class="status a">
+															<?php 
+															if($myKey[$i] == "a")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "a"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="a")||(isset($causai[$i])&&$causai[$i]=="a")) echo "checked='checked'"; ?> value="a"/><span> A </span>
 												</div>
 												<div>
-													<div class="status b"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="b"/><span> B </span>
+													<div class="status b">
+															<?php 
+															if($myKey[$i] == "b")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "b"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="b")||(isset($causai[$i])&&$causai[$i]=="b")) echo "checked='checked'"; ?> value="b"/><span> B </span>
 												</div>
 												<div>
-													<div class="status c"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="c"/><span> C </span>
+													<div class="status c">
+															<?php 
+															if($myKey[$i] == "c")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "c"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="c")||(isset($causai[$i])&&$causai[$i]=="c")) echo "checked='checked'"; ?> value="c"/><span> C </span>
 												</div>
 												<div>
-													<div class="status d"></div>
-													<input type="radio" name="radioquestion<?php echo $i;?>" value="d"/><span> D </span>
+													<div class="status d">
+															<?php 
+															if($myKey[$i] == "d")
+																echo "<img class='true' src='".base_url()."application/template/image/icon_true.jpg' />";
+															if(isset($causai[$i]) && "d"==$causai[$i])
+																echo "<img class='false' src='".base_url()."application/template/image/icon_false.jpg' />";
+															?>
+													</div>
+													<input type="radio" name="radioquestion<?php echo $i;?>" <?php if((!isset($causai[$i]) && $myKey[$i]=="d")||(isset($causai[$i])&&$causai[$i]=="d")) echo "checked='checked'"; ?> value="d"/><span> D </span>
 												</div>
 
 											</div>
@@ -689,8 +853,7 @@
 									<button type="button" class="btn btn-primary" id="btnnext">NEXT</button>
 								</div>
 								<div class="ans_score">
-									<center><p>Result: <span id="result">0</span> /200</p></center>
-									<button type="button" class="btn btn-primary" id="btnanswer">SCORE</button>
+									<center><p>Score: <span id="result"><?php echo $myScore; ?></span> /990</p></center>
 									<button type="button" class="btn btn-primary" id="btnagain">AGAIN</button>
 								</div>
 							</div>

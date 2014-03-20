@@ -13,7 +13,7 @@
 								<img src="<?php echo base_url(); ?>application/template/image/toeicimg.jpg" alt="" class="img-rounded">
 							</div>
 							<div class="toeicintro col-md-9">
-								"TOEIC" là chữ viết tắt của Test of English for International communication - Trắc nghiệm tiếng Anh trong Giao tiếp Quốc Tế. Bài thi TOEIC là một bài thi kiểm tra trình độ tiếng Anh dành cho những học viên có tiếng mẹ đẻ không phải là Anh ngữ.Thông tin về kỳ thi IELTSĐiểm thi TOEIC thể hiện năng lực giao tiếp bằng tiếng Anh trong môi trường làm việc của thí sinh. Kỳ thi này không đòi hỏi vốn kiến thức hay từ vựng chuyên biệt, mà chỉ nhằm đánh giá năng lực tiếng Anh trong hoạt động hàng ngày. Kỳ thi TOEIC là kỳ thi hàng đầu trên thế giới trong lĩnh vực kiểm tra năng lực tiếng Anh trong môi trường làm việc. Hơn 4000 công ty trên khắp thế giới dùng kỳ thi TOEIC, và hằng năm có trên 2 triệu người đăng ký dự thi.
+								"TOEIC" là chữ viết tắt của Test of English for International communication - Trắc nghiệm tiếng Anh trong Giao tiếp Quốc Tế. Bài thi TOEIC là một bài thi kiểm tra trình độ tiếng Anh dành cho những học viên có tiếng mẹ đẻ không phải là Anh ngữ. Điểm thi TOEIC thể hiện năng lực giao tiếp bằng tiếng Anh trong môi trường làm việc của thí sinh. Kỳ thi này không đòi hỏi vốn kiến thức hay từ vựng chuyên biệt, mà chỉ nhằm đánh giá năng lực tiếng Anh trong hoạt động hàng ngày. Kỳ thi TOEIC là kỳ thi hàng đầu trên thế giới trong lĩnh vực kiểm tra năng lực tiếng Anh trong môi trường làm việc. Hơn 4000 công ty trên khắp thế giới dùng kỳ thi TOEIC, và hằng năm có trên 2 triệu người đăng ký dự thi.
 							</div>
 							<div class="intropic">
 								<img src="<?php echo base_url(); ?>application/template/image/toeicintro.jpg" alt="" class="img-rounded">

@@ -8,6 +8,50 @@ class Main extends CI_Controller{
 		$this->load->view("main_view",$data);
 		
 	}
+	public function ghidiem()
+	{
+		if($this->session->userdata('username')) 
+		{
+			$user = $this->session->userdata('username');
+		}
+		else
+			return;
+		$causai = $_POST['causai'];
+		$score = $_POST['score'];
+		$ma_de = $_POST['ma_de'];
+		date_default_timezone_set("Asia/Saigon"); 
+		$time = time();
+		$this->mmain->ghi_diem($user, $score, $causai, $ma_de, $time);
+
+		//var_dump(date('r', $time));
+		//var_dump($user);
+		//var_dump($causai);
+	}
+	public function show_result($id)
+	{
+		$data['causai'] = $this->mmain->get_causai($id);
+		$data['myScore'] = $this->mmain->get_score($id);
+		$ma_de = $this->mmain->get_ma_de($id);
+		$data['fulltest_path']=$this->mmain->get_fulltest_pathxml($ma_de);
+		$data['link_image']=base_url().'application/data_test/fulltest/picture/';
+		$data['link_audio']=base_url().'application/data_test/fulltest/audio/';
+		$data['topscore'] = $this->mmain->topscore();
+		$data['made'] = $ma_de;
+		$this->load->view('test/show_result',$data);
+	}
+	public function my_result()
+	{
+		if($this->session->userdata('username')) 
+		{
+			$user = $this->session->userdata('username');
+		}
+		else
+			return;
+		$data['topscore'] = $this->mmain->topscore();
+		$data['history'] = $this->mmain->getHistory($user);
+		$this->load->view('test/history',$data);
+	}
+
 	public function indexadmin(){
 		if(!$this->session->userdata('username')||$this->session->userdata('username')!="admin"){
 			header('Location: ' .base_url().'index.php/main/index');
@@ -71,7 +115,15 @@ class Main extends CI_Controller{
 	}
 	public function funny_english(){
 		$data['topscore'] = $this->mmain->topscore();
+        $data['paras'] = $this->mmain->get_all_paragraph();
 		$this->load->view('funny_english',$data);
+	}
+	public function paragraph($id){
+		$data['topscore'] = $this->mmain->topscore();
+                $data['content'] = $this->mmain->get_paragraph_content($id);
+                $data['video'] = $this->mmain->get_paragraph_video($id);
+                $data['missing'] = $this->mmain->get_paragraph_missing($id);
+		$this->load->view('paragraph',$data);
 	}
 	public function contact(){
 		$data['topscore'] = $this->mmain->topscore();
@@ -447,6 +499,7 @@ class Main extends CI_Controller{
 		$data['link_image']=base_url().'application/data_test/fulltest/picture/';
 		$data['link_audio']=base_url().'application/data_test/fulltest/audio/';
 		$data['topscore'] = $this->mmain->topscore();
+		$data['made'] = $id;
 		$this->load->view('test/show_fulltest',$data);
 	}
 	public function list_minitest(){

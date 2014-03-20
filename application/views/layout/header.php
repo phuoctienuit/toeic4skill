@@ -66,6 +66,13 @@
 									<ul class="dropdown-menu">
 										<li><a href="<?php echo base_url(); ?>index.php/main/list_minitest">Mini Test</a></li>
 										<li><a href="<?php echo base_url(); ?>index.php/main/list_fulltest">Full Test</a></li>
+										<?php
+										if($this->session->userdata('username')) {
+										?>
+										<li><a href="<?php echo base_url(); ?>index.php/main/my_result">My result</a></li>
+										<?php
+										}
+										?>
 									</ul>
 								</li>
 								

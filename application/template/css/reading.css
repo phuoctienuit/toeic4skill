@@ -154,3 +154,15 @@ div.option div.status{
 	margin-bottom:10px;
 	font-size: 150%;
 }
+.history{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 150%;
+	color: red;
+}
+#tbhis tr:first-child{
+	font-weight: bold;
+}
+#tbhis{
+	font-size: 130%;
+}
