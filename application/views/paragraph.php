@@ -1,6 +1,5 @@
 <?php $this->load->view('layout/header');?>
 <link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/paragrap.css">
-
     <div id="main">
         <div class="container">
             <div class="row">
@@ -8,6 +7,7 @@
                     <?php $this->load->view('layout/left_home');?>
                 </div>
                 <div id="content" class="col-xs-6 col-md-9">
+                    <div class="name_video"><?php echo $paras->name;?></div>
                     <script type="text/javascript" src="<?php echo base_url(); ?>application/template/js/swfobject.js"></script>    
                     <div id="ytapiplayer">
                         You need Flash player 8+ and JavaScript enabled to view this video.
@@ -27,7 +27,7 @@
                         });
                      </script>
                       <script type="text/javascript">
-
+                            var i = 0;
                             var params = { allowScriptAccess: "always" };
                             var atts = { id: "myytplayer" };
                                 var videoID = "<?php echo $video; ?>";
@@ -59,7 +59,7 @@
                                     return;
                                 }
                                 var n = miss.length;
-                                var i = 0;
+                                i = 0;
                                 while(i<n-1 && a > miss[i].tg)
                                     i++;
                                 $("input.ans:eq("+i+")").focus();
@@ -77,7 +77,15 @@
                                         $("input.ans:eq("+index+")").css({"background":"#DF283C","color":"white","font-weight":"bold","text-decoration":"line-through"});
                                 });
                             }
-                                var myVar=setInterval(function(){kt()},2000);
+                            var myVar=setInterval(function(){kt()},2000);
+                            $(document).ready(function()
+                            {
+                                $(document.body).on("click", ".goiy div", function(event)
+                                {
+                                    var val = $(this).html();
+                                    $("input.ans:eq("+i+")").val(val);
+                                });
+                            });
                       </script>
                 </div>
             </div>

@@ -8,10 +8,16 @@ class Madmin extends CI_Model {
       return $query->result_array();
    }
 
-   public function add_xml_to_mysql($link){
-      $data=array('pathxml'=>$link,'level'=>'500');
-      $this->db->insert('photo',$data);
-      return true;
+   public function add_xml_photo_to_mysql($level){ 
+      $this->db->select("count(id) as quantity");
+      $this->db->where("level",$level);
+      $query=$this->db->get("photo");
+      
+      $quantity = $query->first_row()->quantity;
+      
+      $sql = "INSERT INTO photo(pathxml, level) VALUES ('http://localhost/toeic4skill/application/data_test/photo/$level/practice_photo_de".$quantity."_500.xml',$level)";
+      $this->db->query($sql);
+      return $quantity;
    }
     public function get_link_video($id){
       $this->db->select("id,link,title");

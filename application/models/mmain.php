@@ -47,9 +47,16 @@ class Mmain extends CI_Model{
     }
         function get_all_paragraph()
         {
-            $this->db->select("id");
+            $this->db->select("id,name");
             $query=$this->db->get("paragraph");
             return $query->result_array();
+        }
+        function get_paragraph($id)
+        {
+            $this->db->select("id,name");
+            $query=$this->db->get("paragraph");
+            $this->db->where("id",$id);
+            return $query->first_row();
         }
         function get_paragraph_content($id)
         {

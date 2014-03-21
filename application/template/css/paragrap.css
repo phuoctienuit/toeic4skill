@@ -12,8 +12,20 @@
     margin-top:20px;
     margin-left: 20px;
     width: 200px;
-    background: #FFFFD4;
+    font-size:150%;
 }
+.goiy div{
+    margin-left:10px;
+    padding: 0px 10px;
+    display:inline;
+    border: 3px solid green;
+    border-radius:10px;box-shadow: 0px 0px 10px #AAD4FF;
+    background-color:white;
+}
+.goiy div:hover{
+    cursor:pointer;
+    background:#ddd;
+}    
 #myytplayer{
     margin-left: 200px;
     margin-top: 30px;
@@ -34,4 +46,11 @@
     margin-top: 20px;
     margin-left: 20px;
     width: 100px;
+}
+
+.name_video{
+  color: red;
+  font-size: 200%;
+  margin-top: 10px;
+  margin-left: 10px;
 }

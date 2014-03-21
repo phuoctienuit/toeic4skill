@@ -34,7 +34,7 @@ div.option div.status{
 	margin-top: -2px;
 }
 
-.incom_test, .text_complextion_test, .reading_comprehen_test, .fulltest_order, .minitest_order, .readaloud_test, .descri_pic_test
+.incom_test, .text_complextion_test, .reading_comprehen_test, .fulltest_order, .minitest_order, .funny_english,.readaloud_test, .descri_pic_test
 {
 	margin:10px;
 	color: red;
@@ -165,4 +165,10 @@ div.option div.status{
 }
 #tbhis{
 	font-size: 130%;
+}
+.name_video{
+	color: red;
+	font-size: 150%;
+	margin-top: 10px;
+	margin-left: 10px;
 }

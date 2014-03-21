@@ -1,0 +1,15 @@
+/* 
+    Document   : createphoto
+    Created on : Mar 20, 2014, 9:00:08 PM
+    Author     : TienLu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.cauhoi { 
+    border: 1px solid;
+    border-radius:7px;
+    padding:10px 10px;
+    background-color:#eee;
+}
+

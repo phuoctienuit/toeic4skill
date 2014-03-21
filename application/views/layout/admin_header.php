@@ -1,9 +1,11 @@
-<html><head>
+<html>
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>TOEIC 4 SKILL</title>
 
 <link href="<?php echo base_url();?>application/template/css/styles.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="<?php echo base_url(); ?>application/template/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="<?php echo base_url(); ?>application/template/css/createphoto.css">
 
 <script src="<?php echo base_url(); ?>application/template/js/admin.js"></script>
 

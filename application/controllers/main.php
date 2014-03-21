@@ -120,9 +120,10 @@ class Main extends CI_Controller{
 	}
 	public function paragraph($id){
 		$data['topscore'] = $this->mmain->topscore();
-                $data['content'] = $this->mmain->get_paragraph_content($id);
-                $data['video'] = $this->mmain->get_paragraph_video($id);
-                $data['missing'] = $this->mmain->get_paragraph_missing($id);
+        $data['content'] = $this->mmain->get_paragraph_content($id);
+        $data['video'] = $this->mmain->get_paragraph_video($id);
+        $data['missing'] = $this->mmain->get_paragraph_missing($id);
+        $data['paras'] = $this->mmain->get_paragraph($id);
 		$this->load->view('paragraph',$data);
 	}
 	public function contact(){

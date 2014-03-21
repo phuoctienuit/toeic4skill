@@ -873,22 +873,60 @@ public function list_file_short_con()
 
 
     
-    public function add_content_xml(){
-    	$cau=$this->input->post("cau");
-    	$noidung=$this->input->post("noidung");
-    	$a=$this->input->post("optiona");
-    	$b=$this->input->post("optionb");
-    	$c=$this->input->post("optionc");
-    	$d=$this->input->post("optiond");
-    	$key=$this->input->post("dapan");
+    public function add_content_xml()
+    {
+        var_dump($_FILES);
+        exit();
+        $level = $_POST['level'];
+        //Ghi vào CSDL
+        $quantity = add_xml_photo_to_mysql($level);
+        
+        //Ghi vào XML
+        $xml = new DOMDocument();
+        $part_picture = $xml->createElement("part_picture");
+        
+        for($i=1;$i<11;$i++)
+        {
+            $question = $xml->createElement("question");
+            $cau = $xml->createElement("cau");
+            $cau->nodeValue = $i;
+            $picture = $xml->createElement("picture");
+            $picture->nodeValue = "de".$quantity."1_".$level."_cau$i.jpg";
+            $audio = $xml->createElement("audio");
+            $audio->nodeValue = "de".$quantity."1_".$level."_cau$i.mp3";
+            $optiona = $xml->createElement("optiona");
+            $optiona->nodeValue = $this->input->post("optiona$i");
+            $optionb = $xml->createElement("optionb");
+            $optionb->nodeValue = $this->input->post("optionb$i");
+            $optionc = $xml->createElement("optionc");
+            $optionc->nodeValue = $this->input->post("optionc$i");
+            $optiond = $xml->createElement("optiond");
+            $optiond->nodeValue = $this->input->post("optiond$i");
+            $key = $xml->createElement("key");
+            $key->nodeValue = $this->input->post("key$i");
+            
+            $question->appendChild($cau);
+            $question->appendChild($picture);
+            $question->appendChild($audio);
+            $question->appendChild($optiona);
+            $question->appendChild($optionb);
+            $question->appendChild($optionc);
+            $question->appendChild($optiond);
+            $question->appendChild($key);
+            
+            $part_picture->appendChild($question);
+        }
+        
+        $xml->appendChild($part_picture);
 
+        $xml->save(base_url()."application/data_test/photo500/practice_photo_de".$quantity."_$level.xml");
     	
     	$file_ary = array();
-	    $file_count = count($_FILES["file"]['name']);
-	    $file_keys = array_keys($_FILES["file"]);
+        $file_count = count($_FILES["file"]['name']);
+	$file_keys = array_keys($_FILES["file"]);
 
-	    if($file_count==2)
-	    {
+	if($file_count==2)
+	{
 
 	    	for ($i=0; $i<$file_count; $i++) {
 	
@@ -956,28 +994,31 @@ public function list_file_short_con()
        		 }
 
 	    }
-	    else
-	    {
-	    	echo "Số lượng file không đúng!";
-	    }
+	else
+	{
+            echo "Số lượng file không đúng!";
+	}
 
-	    
-    $xml = simplexml_load_file('application/data_test/photo/500/demo.xml');
+	
+        
+        
+        
+        $xml = simplexml_load_file('application/data_test/photo/500/demo.xml');
     
     
-    	if($cau==1)
+    	
     		$this->madmin->add_xml_to_mysql("http://localhost/toeic4skill/application/data_test/photo/500/demo.xml");
-		$question = $xml->addChild('question');
-		$question->addChild('cau', $cau);
-		$question->addChild('picture',$file_pic);
-		$question->addChild('audio', $file_mp3);
-		$question->addChild('optiona',$a);
-		$question->addChild('optionb',$b);
-		$question->addChild('optionc',$c);
-		$question->addChild('optiond',$d);
-		$question->addChild('key',$key);
+	$question = $xml->addChild('question');
+	$question->addChild('cau', $cau);
+	$question->addChild('picture',$file_pic);
+	$question->addChild('audio', $file_mp3);
+	$question->addChild('optiona',$a);
+	$question->addChild('optionb',$b);
+	$question->addChild('optionc',$c);
+	$question->addChild('optiond',$d);
+	$question->addChild('key',$key);
 
-		file_put_contents('application/data_test/photo/500/demo.xml', $xml->asXML());
+        file_put_contents('application/data_test/photo/500/demo.xml', $xml->asXML());
 	
     }
 	public function upload_file_photo(){
